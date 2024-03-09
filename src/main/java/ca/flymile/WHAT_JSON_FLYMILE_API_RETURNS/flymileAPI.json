@@ -1,0 +1,5886 @@
+[
+  [
+    {
+      "duration": 1140,
+      "arrivalDateTime": "2024-06-14T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-14T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 555,
+          "departureDateTime": "2024-06-14T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-14T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1235,
+      "arrivalDateTime": "2024-06-14T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-14T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 650,
+          "departureDateTime": "2024-06-14T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-14T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1060,
+      "arrivalDateTime": "2024-06-14T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-14T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 475,
+          "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-14T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1155,
+      "arrivalDateTime": "2024-06-14T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-14T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 570,
+          "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-14T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 660,
+      "arrivalDateTime": "2024-06-14T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 75,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-14T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-14T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-14T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1260,
+      "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 675,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "105",
+          "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1260,
+      "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 675,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "105",
+          "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 850,
+      "arrivalDateTime": "2024-06-15T08:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 265,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "107",
+          "arrivalDateTime": "2024-06-15T08:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T02:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1165,
+      "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 580,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1220,
+      "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 635,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 690,
+      "arrivalDateTime": "2024-06-15T08:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-9",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-15T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 105,
+          "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "107",
+          "arrivalDateTime": "2024-06-15T08:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T02:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1005,
+      "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-9",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-15T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 420,
+          "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1060,
+      "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-9",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-15T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 475,
+          "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1660,
+      "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-14T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 1075,
+          "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "105",
+          "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1660,
+      "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-14T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 1075,
+          "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-15T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1355,
+      "arrivalDateTime": "2024-06-15T08:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 770,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "107",
+          "arrivalDateTime": "2024-06-15T08:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T02:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1670,
+      "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 1085,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1725,
+      "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 1140,
+          "departureDateTime": "2024-06-14T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1595,
+      "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 1010,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1690,
+      "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-300",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-14T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 1105,
+          "departureDateTime": "2024-06-14T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1435,
+      "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-9",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-15T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 850,
+          "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1530,
+      "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-9",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-15T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 945,
+          "departureDateTime": "2024-06-14T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1445,
+      "arrivalDateTime": "2024-06-15T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T13:55:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "703",
+          "arrivalDateTime": "2024-06-14T16:05:00.000+03:00",
+          "connectionTimeInMinutes": 970,
+          "departureDateTime": "2024-06-14T13:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-15T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 1050,
+      "arrivalDateTime": "2024-06-15T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-14T20:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "707",
+          "arrivalDateTime": "2024-06-14T22:40:00.000+03:00",
+          "connectionTimeInMinutes": 575,
+          "departureDateTime": "2024-06-14T20:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-15T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 555,
+      "arrivalDateTime": "2024-06-14T12:05:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 80,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-14T12:05:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T08:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 950,
+      "arrivalDateTime": "2024-06-14T18:40:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 225,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-14T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 115,
+          "departureDateTime": "2024-06-14T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3174",
+          "arrivalDateTime": "2024-06-14T18:40:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T17:20:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 140,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 990,
+      "arrivalDateTime": "2024-06-14T19:20:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 225,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-14T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 150,
+          "departureDateTime": "2024-06-14T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3164",
+          "arrivalDateTime": "2024-06-14T19:20:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T17:55:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 145,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 1115,
+      "arrivalDateTime": "2024-06-14T21:25:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 97.01,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 62500,
+          "cashPrice": 97.01,
+          "productType": "FIRST",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 275,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "503",
+          "arrivalDateTime": "2024-06-14T13:05:00.000+03:00",
+          "connectionTimeInMinutes": 305,
+          "departureDateTime": "2024-06-14T11:35:00.000+03:00",
+          "lieFlat": false,
+          "destination": "CAI",
+          "durationInMinutes": 90,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A321neo",
+          "carrierCode": "BA",
+          "flightNumber": "385",
+          "arrivalDateTime": "2024-06-14T21:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T18:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 315,
+          "origin": "CAI"
+        }
+      ]
+    },
+    {
+      "duration": 1070,
+      "arrivalDateTime": "2024-06-14T20:40:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 113.43,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 121.43,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 285,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "103",
+          "arrivalDateTime": "2024-06-14T15:15:00.000+02:00",
+          "connectionTimeInMinutes": 260,
+          "departureDateTime": "2024-06-14T11:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MXP",
+          "durationInMinutes": 270,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A321neo",
+          "carrierCode": "BA",
+          "flightNumber": "567",
+          "arrivalDateTime": "2024-06-14T20:40:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T19:35:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 125,
+          "origin": "MXP"
+        }
+      ]
+    },
+    {
+      "duration": 905,
+      "arrivalDateTime": "2024-06-14T17:55:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 62500,
+          "cashPrice": 114.13,
+          "productType": "BUSINESS",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 285,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "101",
+          "arrivalDateTime": "2024-06-14T14:40:00.000+02:00",
+          "connectionTimeInMinutes": 95,
+          "departureDateTime": "2024-06-14T11:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "FCO",
+          "durationInMinutes": 235,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "559",
+          "arrivalDateTime": "2024-06-14T17:55:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T16:15:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 160,
+          "origin": "FCO"
+        }
+      ]
+    },
+    {
+      "duration": 1010,
+      "arrivalDateTime": "2024-06-14T19:40:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 62500,
+          "cashPrice": 114.83,
+          "productType": "FIRST",
+          "seatsRemaining": 1
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-14T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 200,
+          "departureDateTime": "2024-06-14T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Embraer 195",
+          "carrierCode": "RJ",
+          "flightNumber": "131",
+          "arrivalDateTime": "2024-06-14T12:50:00.000+03:00",
+          "connectionTimeInMinutes": 295,
+          "departureDateTime": "2024-06-14T10:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "ATH",
+          "durationInMinutes": 150,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "637",
+          "arrivalDateTime": "2024-06-14T19:40:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T17:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 235,
+          "origin": "ATH"
+        }
+      ]
+    },
+    {
+      "duration": 850,
+      "arrivalDateTime": "2024-06-14T16:55:00.000+01:00",
+      "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 131.63,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-14T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 70,
+          "departureDateTime": "2024-06-14T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 787-9",
+          "carrierCode": "QR",
+          "flightNumber": "85",
+          "arrivalDateTime": "2024-06-14T13:55:00.000+02:00",
+          "connectionTimeInMinutes": 155,
+          "departureDateTime": "2024-06-14T08:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DUS",
+          "durationInMinutes": 390,
+          "origin": "DOH"
+        },
+        {
+          "aircraft": "Airbus A320 (Sharklets)",
+          "carrierCode": "BA",
+          "flightNumber": "941",
+          "arrivalDateTime": "2024-06-14T16:55:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-14T16:30:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 85,
+          "origin": "DUS"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "duration": 1690,
+      "arrivalDateTime": "2024-06-16T16:50:00.000+01:00",
+      "departureDateTime": "2024-06-15T14:40:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 56.43,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 42500,
+          "cashPrice": 56.43,
+          "productType": "BUSINESS",
+          "seatsRemaining": 1
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A340-300",
+          "carrierCode": "AT",
+          "flightNumber": "255",
+          "arrivalDateTime": "2024-06-15T19:40:00.000+01:00",
+          "connectionTimeInMinutes": 1085,
+          "departureDateTime": "2024-06-15T14:40:00.000+03:00",
+          "lieFlat": false,
+          "destination": "CMN",
+          "durationInMinutes": 420,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "AT",
+          "flightNumber": "800",
+          "arrivalDateTime": "2024-06-16T16:50:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T13:45:00.000+01:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 185,
+          "origin": "CMN"
+        }
+      ]
+    },
+    {
+      "duration": 710,
+      "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-15T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 125,
+          "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 765,
+      "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-15T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 180,
+          "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1140,
+      "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-15T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 555,
+          "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1235,
+      "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-15T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 650,
+          "departureDateTime": "2024-06-15T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 630,
+      "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-15T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 45,
+          "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-15T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 685,
+      "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-15T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 100,
+          "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-15T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1060,
+      "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-15T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 475,
+          "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1155,
+      "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-15T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 570,
+          "departureDateTime": "2024-06-15T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 660,
+      "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-15T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 75,
+          "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-15T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-15T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1260,
+      "arrivalDateTime": "2024-06-16T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-15T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 675,
+          "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-16T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-16T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-15T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-16T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1165,
+      "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-15T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 580,
+          "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1220,
+      "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-15T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 635,
+          "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1005,
+      "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-16T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 420,
+          "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1060,
+      "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-16T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 475,
+          "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1290,
+      "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-16T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 705,
+          "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1",
+          "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T12:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1670,
+      "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-15T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 1085,
+          "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1725,
+      "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-15T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 1140,
+          "departureDateTime": "2024-06-15T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1450,
+      "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-15T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 865,
+          "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1",
+          "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T12:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1595,
+      "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-15T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 1010,
+          "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1690,
+      "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A330-200",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-15T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 1105,
+          "departureDateTime": "2024-06-15T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1435,
+      "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-16T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 850,
+          "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1530,
+      "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-16T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 945,
+          "departureDateTime": "2024-06-15T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 550,
+      "arrivalDateTime": "2024-06-15T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-15T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 75,
+          "departureDateTime": "2024-06-15T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-15T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 1840,
+      "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 1375,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 1445,
+      "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T13:55:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "703",
+          "arrivalDateTime": "2024-06-15T16:05:00.000+03:00",
+          "connectionTimeInMinutes": 970,
+          "departureDateTime": "2024-06-15T13:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 1050,
+      "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-15T20:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "707",
+          "arrivalDateTime": "2024-06-15T22:40:00.000+03:00",
+          "connectionTimeInMinutes": 575,
+          "departureDateTime": "2024-06-15T20:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 955,
+      "arrivalDateTime": "2024-06-15T18:45:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 66.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-15T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 225,
+          "departureDateTime": "2024-06-15T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-15T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 120,
+          "departureDateTime": "2024-06-15T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3174",
+          "arrivalDateTime": "2024-06-15T18:45:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T17:25:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 140,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 990,
+      "arrivalDateTime": "2024-06-15T19:20:00.000+01:00",
+      "departureDateTime": "2024-06-15T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 66.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-15T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 225,
+          "departureDateTime": "2024-06-15T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-15T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 150,
+          "departureDateTime": "2024-06-15T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3164",
+          "arrivalDateTime": "2024-06-15T19:20:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T17:55:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 145,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 805,
+      "arrivalDateTime": "2024-06-15T18:45:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 66.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 85,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-15T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 120,
+          "departureDateTime": "2024-06-15T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3174",
+          "arrivalDateTime": "2024-06-15T18:45:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T17:25:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 140,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 840,
+      "arrivalDateTime": "2024-06-15T19:20:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 66.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 85,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-15T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 150,
+          "departureDateTime": "2024-06-15T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3164",
+          "arrivalDateTime": "2024-06-15T19:20:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T17:55:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 145,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 900,
+      "arrivalDateTime": "2024-06-16T09:30:00.000+01:00",
+      "departureDateTime": "2024-06-15T20:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "707",
+          "arrivalDateTime": "2024-06-15T22:40:00.000+03:00",
+          "connectionTimeInMinutes": 200,
+          "departureDateTime": "2024-06-15T20:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "105",
+          "arrivalDateTime": "2024-06-16T06:40:00.000+02:00",
+          "connectionTimeInMinutes": 80,
+          "departureDateTime": "2024-06-16T02:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A330",
+          "carrierCode": "IB",
+          "flightNumber": "3162",
+          "arrivalDateTime": "2024-06-16T09:30:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:00:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 150,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 905,
+      "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 96.83,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 104.83,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 85,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-15T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 220,
+          "departureDateTime": "2024-06-15T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A321neo",
+          "carrierCode": "BA",
+          "flightNumber": "463",
+          "arrivalDateTime": "2024-06-15T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T19:05:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 140,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 765,
+      "arrivalDateTime": "2024-06-15T18:05:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 109.83,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 117.83,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 95,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A319",
+          "carrierCode": "RJ",
+          "flightNumber": "129",
+          "arrivalDateTime": "2024-06-15T15:00:00.000+02:00",
+          "connectionTimeInMinutes": 160,
+          "departureDateTime": "2024-06-15T10:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DUS",
+          "durationInMinutes": 305,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A319",
+          "carrierCode": "BA",
+          "flightNumber": "941",
+          "arrivalDateTime": "2024-06-15T18:05:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T17:40:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 85,
+          "origin": "DUS"
+        }
+      ]
+    },
+    {
+      "duration": 860,
+      "arrivalDateTime": "2024-06-15T19:40:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 114.63,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 65,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "151",
+          "arrivalDateTime": "2024-06-15T14:45:00.000+02:00",
+          "connectionTimeInMinutes": 280,
+          "departureDateTime": "2024-06-15T10:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMS",
+          "durationInMinutes": 320,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "441",
+          "arrivalDateTime": "2024-06-15T19:40:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T19:25:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 75,
+          "origin": "AMS"
+        }
+      ]
+    },
+    {
+      "duration": 750,
+      "arrivalDateTime": "2024-06-15T17:50:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 122.63,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 100,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "115",
+          "arrivalDateTime": "2024-06-15T14:35:00.000+01:00",
+          "connectionTimeInMinutes": 135,
+          "departureDateTime": "2024-06-15T11:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAN",
+          "durationInMinutes": 335,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A319",
+          "carrierCode": "BA",
+          "flightNumber": "1399",
+          "arrivalDateTime": "2024-06-15T17:50:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T16:50:00.000+01:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 60,
+          "origin": "MAN"
+        }
+      ]
+    },
+    {
+      "duration": 865,
+      "arrivalDateTime": "2024-06-15T19:45:00.000+01:00",
+      "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 122.63,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 122.63,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "709",
+          "arrivalDateTime": "2024-06-15T09:20:00.000+03:00",
+          "connectionTimeInMinutes": 100,
+          "departureDateTime": "2024-06-15T07:20:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 120,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "115",
+          "arrivalDateTime": "2024-06-15T14:35:00.000+01:00",
+          "connectionTimeInMinutes": 250,
+          "departureDateTime": "2024-06-15T11:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAN",
+          "durationInMinutes": 335,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320 (Sharklets)",
+          "carrierCode": "BA",
+          "flightNumber": "1397",
+          "arrivalDateTime": "2024-06-15T19:45:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-15T18:45:00.000+01:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 60,
+          "origin": "MAN"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "duration": 710,
+      "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-16T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 125,
+          "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 765,
+      "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-16T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 180,
+          "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 995,
+      "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-16T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 410,
+          "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1",
+          "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T12:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1140,
+      "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-16T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 555,
+          "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1235,
+      "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-16T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 650,
+          "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 630,
+      "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-16T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 45,
+          "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-16T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 685,
+      "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-16T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 100,
+          "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-16T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 915,
+      "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-16T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 330,
+          "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1",
+          "arrivalDateTime": "2024-06-16T18:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T12:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1060,
+      "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-16T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 475,
+          "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1155,
+      "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-16T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 570,
+          "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 660,
+      "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-16T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 75,
+          "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-16T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-16T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-16T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1260,
+      "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-16T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 675,
+          "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1260,
+      "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-16T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 675,
+          "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "105",
+          "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "11",
+          "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 755,
+      "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 170,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "105",
+          "arrivalDateTime": "2024-06-17T06:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T01:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1165,
+      "arrivalDateTime": "2024-06-17T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 580,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-17T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1220,
+      "arrivalDateTime": "2024-06-17T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 635,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-17T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1005,
+      "arrivalDateTime": "2024-06-17T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-17T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 420,
+          "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-17T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1060,
+      "arrivalDateTime": "2024-06-17T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-17T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 475,
+          "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-17T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1290,
+      "arrivalDateTime": "2024-06-17T18:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 75.33,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-17T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 705,
+          "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-1000",
+          "carrierCode": "QR",
+          "flightNumber": "1",
+          "arrivalDateTime": "2024-06-17T18:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T12:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1670,
+      "arrivalDateTime": "2024-06-17T13:15:00.000+01:00",
+      "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-16T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 1085,
+          "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A380-800 Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "3",
+          "arrivalDateTime": "2024-06-17T13:15:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:00:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1725,
+      "arrivalDateTime": "2024-06-17T14:10:00.000+01:00",
+      "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1191",
+          "arrivalDateTime": "2024-06-16T13:55:00.000+03:00",
+          "connectionTimeInMinutes": 1140,
+          "departureDateTime": "2024-06-16T11:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "7",
+          "arrivalDateTime": "2024-06-17T14:10:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1450,
+      "arrivalDateTime": "2024-06-17T18:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 865,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-1000",
+          "carrierCode": "QR",
+          "flightNumber": "1",
+          "arrivalDateTime": "2024-06-17T18:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T12:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1595,
+      "arrivalDateTime": "2024-06-17T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 1010,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-17T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1690,
+      "arrivalDateTime": "2024-06-17T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1187",
+          "arrivalDateTime": "2024-06-16T22:20:00.000+03:00",
+          "connectionTimeInMinutes": 1105,
+          "departureDateTime": "2024-06-16T19:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-17T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1435,
+      "arrivalDateTime": "2024-06-17T20:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-17T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 850,
+          "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "15",
+          "arrivalDateTime": "2024-06-17T20:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T15:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 1530,
+      "arrivalDateTime": "2024-06-17T22:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 77.93,
+          "productType": "COACH",
+          "seatsRemaining": 3
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 777-300ER Passenger",
+          "carrierCode": "QR",
+          "flightNumber": "1189",
+          "arrivalDateTime": "2024-06-17T01:00:00.000+03:00",
+          "connectionTimeInMinutes": 945,
+          "departureDateTime": "2024-06-16T22:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A350-900",
+          "carrierCode": "QR",
+          "flightNumber": "5",
+          "arrivalDateTime": "2024-06-17T22:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T16:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 435,
+          "origin": "DOH"
+        }
+      ]
+    },
+    {
+      "duration": 550,
+      "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-16T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 75,
+          "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-16T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 1445,
+      "arrivalDateTime": "2024-06-17T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T13:55:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "703",
+          "arrivalDateTime": "2024-06-16T16:05:00.000+03:00",
+          "connectionTimeInMinutes": 970,
+          "departureDateTime": "2024-06-16T13:55:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-17T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 1050,
+      "arrivalDateTime": "2024-06-17T12:00:00.000+01:00",
+      "departureDateTime": "2024-06-16T20:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 81.53,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 89.53,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "707",
+          "arrivalDateTime": "2024-06-16T22:40:00.000+03:00",
+          "connectionTimeInMinutes": 575,
+          "departureDateTime": "2024-06-16T20:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "313",
+          "arrivalDateTime": "2024-06-17T12:00:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 345,
+          "origin": "AMM"
+        }
+      ]
+    },
+    {
+      "duration": 990,
+      "arrivalDateTime": "2024-06-16T19:20:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 77.23,
+          "productType": "BUSINESS",
+          "seatsRemaining": 1
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-16T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 225,
+          "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A321",
+          "carrierCode": "RJ",
+          "flightNumber": "109",
+          "arrivalDateTime": "2024-06-16T15:25:00.000+02:00",
+          "connectionTimeInMinutes": 150,
+          "departureDateTime": "2024-06-16T10:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "MAD",
+          "durationInMinutes": 340,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "IB",
+          "flightNumber": "3164",
+          "arrivalDateTime": "2024-06-16T19:20:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T17:55:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 145,
+          "origin": "MAD"
+        }
+      ]
+    },
+    {
+      "duration": 1115,
+      "arrivalDateTime": "2024-06-16T21:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 20000,
+          "cashPrice": 89.01,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 97.01,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-16T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 275,
+          "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Embraer 175",
+          "carrierCode": "RJ",
+          "flightNumber": "503",
+          "arrivalDateTime": "2024-06-16T13:05:00.000+03:00",
+          "connectionTimeInMinutes": 310,
+          "departureDateTime": "2024-06-16T11:35:00.000+03:00",
+          "lieFlat": false,
+          "destination": "CAI",
+          "durationInMinutes": 90,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A321neo",
+          "carrierCode": "BA",
+          "flightNumber": "385",
+          "arrivalDateTime": "2024-06-16T21:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T18:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 310,
+          "origin": "CAI"
+        }
+      ]
+    },
+    {
+      "duration": 1020,
+      "arrivalDateTime": "2024-06-17T11:30:00.000+01:00",
+      "departureDateTime": "2024-06-16T20:30:00.000+03:00",
+      "arrivesNextDay": 1,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 97.01,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "707",
+          "arrivalDateTime": "2024-06-16T22:40:00.000+03:00",
+          "connectionTimeInMinutes": 81,
+          "departureDateTime": "2024-06-16T20:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A319",
+          "carrierCode": "RJ",
+          "flightNumber": "507",
+          "arrivalDateTime": "2024-06-17T01:30:00.000+03:00",
+          "connectionTimeInMinutes": 400,
+          "departureDateTime": "2024-06-17T00:01:00.000+03:00",
+          "lieFlat": false,
+          "destination": "CAI",
+          "durationInMinutes": 89,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A321neo",
+          "carrierCode": "BA",
+          "flightNumber": "401",
+          "arrivalDateTime": "2024-06-17T11:30:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-17T08:10:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 320,
+          "origin": "CAI"
+        }
+      ]
+    },
+    {
+      "duration": 965,
+      "arrivalDateTime": "2024-06-16T18:55:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 111.03,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-16T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 210,
+          "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "117",
+          "arrivalDateTime": "2024-06-16T14:50:00.000+02:00",
+          "connectionTimeInMinutes": 230,
+          "departureDateTime": "2024-06-16T10:30:00.000+03:00",
+          "lieFlat": false,
+          "destination": "CDG",
+          "durationInMinutes": 320,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "BA",
+          "flightNumber": "323",
+          "arrivalDateTime": "2024-06-16T18:55:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T18:40:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 75,
+          "origin": "CDG"
+        }
+      ]
+    },
+    {
+      "duration": 1115,
+      "arrivalDateTime": "2024-06-16T21:25:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 42500,
+          "cashPrice": 114.63,
+          "productType": "BUSINESS",
+          "seatsRemaining": 2
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "FIRST",
+          "seatsRemaining": 0
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "RJ",
+          "flightNumber": "705",
+          "arrivalDateTime": "2024-06-16T07:00:00.000+03:00",
+          "connectionTimeInMinutes": 205,
+          "departureDateTime": "2024-06-16T04:50:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMM",
+          "durationInMinutes": 130,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Embraer 195 E2",
+          "carrierCode": "RJ",
+          "flightNumber": "151",
+          "arrivalDateTime": "2024-06-16T14:45:00.000+02:00",
+          "connectionTimeInMinutes": 385,
+          "departureDateTime": "2024-06-16T10:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "AMS",
+          "durationInMinutes": 320,
+          "origin": "AMM"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "BA",
+          "flightNumber": "443",
+          "arrivalDateTime": "2024-06-16T21:25:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T21:10:00.000+02:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 75,
+          "origin": "AMS"
+        }
+      ]
+    },
+    {
+      "duration": 970,
+      "arrivalDateTime": "2024-06-16T17:35:00.000+01:00",
+      "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 62500,
+          "cashPrice": 128.83,
+          "productType": "FIRST",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1183",
+          "arrivalDateTime": "2024-06-16T05:55:00.000+03:00",
+          "connectionTimeInMinutes": 140,
+          "departureDateTime": "2024-06-16T03:25:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "QR",
+          "flightNumber": "265",
+          "arrivalDateTime": "2024-06-16T12:05:00.000+03:00",
+          "connectionTimeInMinutes": 150,
+          "departureDateTime": "2024-06-16T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LCA",
+          "durationInMinutes": 230,
+          "origin": "DOH"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "665",
+          "arrivalDateTime": "2024-06-16T17:35:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T14:35:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 300,
+          "origin": "LCA"
+        }
+      ]
+    },
+    {
+      "duration": 890,
+      "arrivalDateTime": "2024-06-16T17:35:00.000+01:00",
+      "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+      "arrivesNextDay": 0,
+      "pricingDetail": [
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "COACH",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 0,
+          "cashPrice": 0.0,
+          "productType": "BUSINESS",
+          "seatsRemaining": 0
+        },
+        {
+          "points": 62500,
+          "cashPrice": 128.83,
+          "productType": "FIRST",
+          "seatsRemaining": 2
+        }
+      ],
+      "legs": [
+        {
+          "aircraft": "Boeing 787-8",
+          "carrierCode": "QR",
+          "flightNumber": "1185",
+          "arrivalDateTime": "2024-06-16T07:15:00.000+03:00",
+          "connectionTimeInMinutes": 60,
+          "departureDateTime": "2024-06-16T04:45:00.000+03:00",
+          "lieFlat": false,
+          "destination": "DOH",
+          "durationInMinutes": 150,
+          "origin": "JED"
+        },
+        {
+          "aircraft": "Airbus A320",
+          "carrierCode": "QR",
+          "flightNumber": "265",
+          "arrivalDateTime": "2024-06-16T12:05:00.000+03:00",
+          "connectionTimeInMinutes": 150,
+          "departureDateTime": "2024-06-16T08:15:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LCA",
+          "durationInMinutes": 230,
+          "origin": "DOH"
+        },
+        {
+          "aircraft": "Airbus A320neo",
+          "carrierCode": "BA",
+          "flightNumber": "665",
+          "arrivalDateTime": "2024-06-16T17:35:00.000+01:00",
+          "connectionTimeInMinutes": 0,
+          "departureDateTime": "2024-06-16T14:35:00.000+03:00",
+          "lieFlat": false,
+          "destination": "LHR",
+          "durationInMinutes": 300,
+          "origin": "LCA"
+        }
+      ]
+    }
+  ]
+]

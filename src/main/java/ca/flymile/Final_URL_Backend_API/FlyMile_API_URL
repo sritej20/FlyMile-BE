@@ -1,0 +1,38 @@
+/**
+ * Constructs a URL to fetch flight data based on the provided parameters.
+ * 
+ * @param origin                The origin airport code.
+ * @param destination           The destination airport code.
+ * @param startDate             The start date of the flight search in YYYY-MM-DD format.
+ * @param endDate               The end date of the flight search in YYYY-MM-DD format.
+ * @param numPassengers         The number of passengers for the flight.
+ * @param upperCabin            A boolean indicating whether only upper cabin flights.
+ * @return The constructed URL for fetching flight data.
+ * 
+ * Example Usage:
+ * 
+ * Assuming origin = "YUL", destination = "DOH", startDate = "2024-06-14",
+ * endDate = "2024-06-16", numPassengers = 1, upperCabin = false, the resulting URL would be:
+ *
+    http://localhost:8082/flights?departure=YUL&arrival=DOH&startDate=2024-06-14&endDate=2024-06-14&numPassengers=1&upperCabin=false
+
+
+
+
+
+
+ URL template
+
+
+  http://localhost:8082/flights?departure=${origin}&arrival=${destination}&startDate=${startDate}&endDate=${endDate}&numPassengers=${numPassengers}&upperCabin=${upperCabin}
+
+
+
+
+
+
+
+ *
+ */
+
+

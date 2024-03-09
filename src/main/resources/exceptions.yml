@@ -1,0 +1,8 @@
+exception:
+  messages:
+    dateFormatInvalid: "Invalid date format, expected yyyy-MM-dd."
+    startDateRangeInvalid: "Start date must be from today to 330 days in the future."
+    originDestinationRequired: "Origin and destination must be provided."
+    originDestinationSame: "Origin and destination must be different."
+    passengersNumberInvalid: "Number of passengers must be between 1 and 9."
+    endDateRangeInvalid: "End date must be up to 7 days after start date and fall within 330 days from today."
