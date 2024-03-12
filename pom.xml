@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>FlyMile</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>FlyMile</name>
 	<description>FlyMiles is an innovative web platform designed to revolutionize the way travelers utilize their credit card points. It bridges the gap between reward programs and flight booking systems, offering users the ability to book flights using points accumulated from their credit card purchases. FlyMiles caters to the savvy traveler who seeks to maximize the value of their rewards by converting them into convenient travel opportunities.</description>
 	<properties>
@@ -81,6 +81,14 @@
 	</dependencies>
 
 	<build>
+	    <resources>
+        <resource>
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>*.json</include>
+            </includes>
+        </resource>
+    </resources>
 		<finalName>flymile</finalName>
 		<plugins>
 			<plugin>

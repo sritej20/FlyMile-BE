@@ -5,9 +5,9 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.FileReader;
-import java.io.Reader;
+import java.io.InputStreamReader;
 import java.lang.reflect.Type;
-import java.nio.file.Paths;
+import java.net.URL;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -39,7 +39,7 @@ public class AirportData {
 
     // Static initializer block
     static {
-        String filePath = "src/main/java/ca/flymile/FlyMileAirportData/flymileAirportData.json";
+        String filePath = "https://drive.google.com/uc?export=download&id=1vGJDClEx26MSAWQ9HSYyK0_85uzrZcs1";
         loadAirportData(filePath);
         airportSet = Collections.unmodifiableSet(tempSet);
     }
@@ -55,7 +55,7 @@ public class AirportData {
      * @param filePath The file path to the JSON file containing airport data.
      */
     private static void loadAirportData(String filePath) {
-        try (Reader reader = new FileReader(filePath)) {
+        try (InputStreamReader reader = new InputStreamReader(new URL(filePath).openStream())) {
             Type listType = new TypeToken<List<Airport>>(){}.getType();
             List<Airport> airports = new Gson().fromJson(reader, listType);
             for (Airport airport : airports) {
