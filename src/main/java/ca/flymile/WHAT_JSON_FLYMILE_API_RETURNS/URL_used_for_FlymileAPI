@@ -1,1 +1,0 @@
-http://localhost:8082/flights?departure=JFK&arrival=LHR&startDate=2024-06-14&endDate=2024-06-19&numPassengers=1&upperCabin=false

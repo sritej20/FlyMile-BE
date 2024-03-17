@@ -3,8 +3,13 @@ package ca.flymile.InputValidation;
 import ca.flymile.APIExceptions.*;
 
 import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeParseException;
+import java.time.temporal.ChronoUnit;
+
 import static ca.flymile.FlyMileAirportData.AirportData.airportSet;
+import static ca.flymile.FlyMileAirportData.AirportTimeZoneMap.AIRPORT_TIMEZONE_MAP;
 
 /**
  * Provides static methods for validating flight search parameters to ensure they meet
@@ -13,8 +18,7 @@ import static ca.flymile.FlyMileAirportData.AirportData.airportSet;
 public class InputValidation {
 
     /**
-     * Validates the provided flight search parameters against a set of predefined rules.
-     *
+     * Validates the provided flight search parameters against a set of predefined rules.*
      * - Validates date formats for start and end dates.
      * - Checks if the origin and destination airports are valid and within the known airport set.
      * - Ensures the start date is not before today and within 331 days from today.
@@ -38,30 +42,31 @@ public class InputValidation {
      */
     public static void validateFlightSearchParams(String origin, String destination, String startDate, String endDate, int numPassengers) {
         validateAirports(origin, destination);
-        LocalDate start = parseAndValidateStartDate(startDate);
-        LocalDate end = parseAndValidateEndDate(endDate, start);
+        ZoneId originZoneId = getZoneIdForAirport(origin);
+        LocalDate start = parseAndValidateStartDate(startDate, originZoneId);
+        parseAndValidateEndDate(endDate, start, originZoneId);
         validateNumPassengers(numPassengers);
     }
-
-    private static void validateAirports(String origin, String destination) {
-        if (origin == null || origin.trim().isEmpty() || destination == null || destination.trim().isEmpty()) {
-            throw new OriginDestinationRequiredException();
-        }
-
-        if (!airportSet.contains(origin.toUpperCase())) {
-            throw new OriginAirportInvalidException();
-        }
-
-        if (!airportSet.contains(destination.toUpperCase())) {
-            throw new DestinationAirportInvalidException();
-        }
-
-        if (origin.equalsIgnoreCase(destination)) {
-            throw new OriginDestinationSameException();
-        }
+    /**
+     * Validates flight search parameters for Alaska Airlines 30-day search feature, focusing on airport codes and start date.
+     *
+     * @param origin The IATA airport code for the flight's origin.
+     * @param destination The IATA airport code for the flight's destination.
+     * @param startDate The start date of the search period, in YYYY-MM-DD format.
+     */
+    public static void validateFlightSearchParamsForAlaska30Days(String origin, String destination, String startDate) {
+        validateAirports(origin, destination);
+        parseAndValidateStartDateWithoutZone(startDate);
     }
-
-    private static LocalDate parseAndValidateStartDate(String startDate) {
+    /**
+     * Parses and validates a start date string, ensuring it is in a valid format and within an acceptable date range.
+     * This method does not account for time zones in its validation, treating the start date as a local date.
+     *
+     * @param startDate The start date string to be parsed and validated, in the format of "YYYY-MM-DD".
+     * @throws InvalidDateFormatException If the start date does not conform to the expected date format.
+     * @throws StartDateOutsideRangeException If the start date is before today or more than 331 days in the future.
+     */
+    private static void parseAndValidateStartDateWithoutZone(String startDate) {
         LocalDate start;
         try {
             start = LocalDate.parse(startDate);
@@ -73,29 +78,77 @@ public class InputValidation {
         if (start.isBefore(today) || start.isAfter(today.plusDays(331))) {
             throw new StartDateOutsideRangeException();
         }
-
-        return start;
     }
 
-    private static LocalDate parseAndValidateEndDate(String endDate, LocalDate start) {
-        LocalDate end;
-        try {
-            end = LocalDate.parse(endDate);
-        } catch (DateTimeParseException e) {
-            throw new InvalidDateFormatException();
+    private static void validateAirports(String origin, String destination) {
+        if (origin == null || origin.trim().isEmpty() || destination == null || destination.trim().isEmpty()) {
+            throw new OriginDestinationRequiredException();
         }
 
-        LocalDate today = LocalDate.now();
-        if (end.isBefore(start) || end.isAfter(start.plusDays(7)) || end.isAfter(today.plusDays(331))) {
-            throw new EndDateOutsideRangeException();
+        if (!airportSet.contains(origin)) {
+            throw new OriginAirportInvalidException();
         }
 
-        return end;
+        if (!airportSet.contains(destination)) {
+            throw new DestinationAirportInvalidException();
+        }
+
+        if (origin.equalsIgnoreCase(destination)) {
+            throw new OriginDestinationSameException();
+        }
     }
 
     private static void validateNumPassengers(int numPassengers) {
         if (numPassengers < 1 || numPassengers > 9) {
             throw new PassengersNumberInvalidException();
         }
+    }
+    private static ZoneId getZoneIdForAirport(String airportCode) {
+        String timeZone = getAirportTimeZone(airportCode);
+        if (timeZone == null) {
+            timeZone = "Europe/London";   //Should not happen
+        }
+        return ZoneId.of(timeZone);
+    }
+
+    private static LocalDate parseAndValidateStartDate(String startDate, ZoneId zoneId) {
+        LocalDate start;
+        try {
+            start = LocalDate.parse(startDate);
+            // Convert start date to ZonedDateTime at the start of the day in the specified zone
+            ZonedDateTime startDateTime = start.atStartOfDay(zoneId);
+            // Get the current date and time, then truncate to the start of the day for an accurate comparison
+            ZonedDateTime today = ZonedDateTime.now(zoneId).truncatedTo(ChronoUnit.DAYS);
+
+
+            // Check if the start date is before today or more than 331 days ahead
+            if (startDateTime.isBefore(today) || startDateTime.isAfter(today.plusDays(331))) {
+                throw new StartDateOutsideRangeException();
+            }
+        } catch (DateTimeParseException e) {
+            throw new InvalidDateFormatException();
+        }
+        return start;
+    }
+
+
+    private static void parseAndValidateEndDate(String endDate, LocalDate start, ZoneId zoneId) {
+        LocalDate end;
+        try {
+            end = LocalDate.parse(endDate);
+            ZonedDateTime endDateTime = end.atStartOfDay(zoneId);
+            ZonedDateTime startDateTime = start.atStartOfDay(zoneId);
+            LocalDate todayNewYork = LocalDate.now(); //Montreal and New York are in same timezone
+            //AMERICAN RELEASE NEW SEATS AT 12.01 AM, FROM 331 DAYS TODAY
+            if (endDateTime.isBefore(startDateTime) || endDateTime.isAfter(startDateTime.plusDays(7)) || end.isAfter(todayNewYork.plusDays(331))) {
+                throw new EndDateOutsideRangeException();
+            }
+        } catch (DateTimeParseException e) {
+            throw new InvalidDateFormatException();
+        }
+    }
+    private static String getAirportTimeZone(String airportCode)
+    {
+        return AIRPORT_TIMEZONE_MAP.get(airportCode);
     }
 }

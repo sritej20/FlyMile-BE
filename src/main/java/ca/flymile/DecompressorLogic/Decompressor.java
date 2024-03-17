@@ -46,7 +46,6 @@ public class Decompressor {
         try (ByteArrayInputStream bis = new ByteArrayInputStream(compressedData);
              GZIPInputStream gis = new GZIPInputStream(bis);
              ByteArrayOutputStream bos = new ByteArrayOutputStream()) {
-
             byte[] buffer = new byte[1024];
             int len;
             while ((len = gis.read(buffer)) > 0) {
@@ -69,7 +68,6 @@ public class Decompressor {
         try (ByteArrayInputStream bis = new ByteArrayInputStream(compressedData);
              InflaterInputStream iis = new InflaterInputStream(bis);
              ByteArrayOutputStream bos = new ByteArrayOutputStream()) {
-
             byte[] buffer = new byte[1024];
             int len;
             while ((len = iis.read(buffer)) > 0) {

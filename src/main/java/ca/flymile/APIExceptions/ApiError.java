@@ -1,5 +1,7 @@
 package ca.flymile.APIExceptions;
 
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.http.HttpStatus;
 
 /**
@@ -9,9 +11,31 @@ import org.springframework.http.HttpStatus;
  * Found reputable data from DELTA AIR LINES, need to process it. Will make HashMap of airport code, then will look for
  * both origin and destination being present, if not throw 2 new exceptions , InvalidOrigin / InvalidDestination
  */
+@Setter
+@Getter
 public class ApiError {
 
+    /**
+     * -- GETTER --
+     *  Retrieves the HTTP status code associated with the error.
+     * -- SETTER --
+     *  Sets the HTTP status code associated with the error.
+     *
+     * @param status The HTTP status code to set.
+
+
+     */
     private HttpStatus status; // The HTTP status code associated with the error.
+    /**
+     * -- GETTER --
+     *  Retrieves the message describing the error.
+     *
+     * -- SETTER --
+     *  Sets the message describing the error.
+     *
+     * @param message The error message to set.
+
+     */
     private String message;    // A message describing the error.
 
     /**
@@ -25,39 +49,4 @@ public class ApiError {
         this.message = message;
     }
 
-    /**
-     * Retrieves the HTTP status code associated with the error.
-     *
-     * @return The HTTP status code.
-     */
-    public HttpStatus getStatus() {
-        return status;
-    }
-
-    /**
-     * Sets the HTTP status code associated with the error.
-     *
-     * @param status The HTTP status code to set.
-     */
-    public void setStatus(HttpStatus status) {
-        this.status = status;
-    }
-
-    /**
-     * Retrieves the message describing the error.
-     *
-     * @return The error message.
-     */
-    public String getMessage() {
-        return message;
-    }
-
-    /**
-     * Sets the message describing the error.
-     *
-     * @param message The error message to set.
-     */
-    public void setMessage(String message) {
-        this.message = message;
-    }
 }

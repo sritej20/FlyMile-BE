@@ -1,0 +1,8137 @@
+[
+    {
+        "airportCode": "BER",
+        "cityName": "Berlin",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "BEL",
+        "cityName": "Belem",
+        "timezone": "America/Belem"
+    },
+    {
+        "airportCode": "BEJ",
+        "cityName": "Tanjung Redeb",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "SGU",
+        "cityName": "St. George",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "BEG",
+        "cityName": "Belgrade",
+        "timezone": "Europe/Belgrade"
+    },
+    {
+        "airportCode": "SGN",
+        "cityName": "Ho Chi Minh City",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "SGF",
+        "cityName": "Springfield",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "FMA",
+        "cityName": "Formosa",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "JUL",
+        "cityName": "Juliaca",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "SGC",
+        "cityName": "Surgut",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "BDS",
+        "cityName": "Brindisi",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "JUJ",
+        "cityName": "Jujuy",
+        "timezone": "America/Argentina/Jujuy"
+    },
+    {
+        "airportCode": "BDQ",
+        "cityName": "Vadodara",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "JUH",
+        "cityName": "Chizhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BDO",
+        "cityName": "Bandung",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "FLZ",
+        "cityName": "Sibolga",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "BDL",
+        "cityName": "Hartford/Springfield",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "JUB",
+        "cityName": "Juba",
+        "timezone": "Africa/Juba"
+    },
+    {
+        "airportCode": "BDJ",
+        "cityName": "Banjarmasin",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "FLR",
+        "cityName": "Florence",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "FLN",
+        "cityName": "Florianopolis",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "JTY",
+        "cityName": "Astypalaia Island",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "WNZ",
+        "cityName": "Wenzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BDB",
+        "cityName": "Bundaberg",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "SFO",
+        "cityName": "San Francisco",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "BDA",
+        "cityName": "Bermuda",
+        "timezone": "Atlantic/Bermuda"
+    },
+    {
+        "airportCode": "FLL",
+        "cityName": "Fort Lauderdale",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SFN",
+        "cityName": "Santa Fe",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "JTR",
+        "cityName": "Santorini",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "WNH",
+        "cityName": "Wenshan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BCN",
+        "cityName": "Barcelona",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "SEZ",
+        "cityName": "Mahe Island",
+        "timezone": "Indian/Mahe"
+    },
+    {
+        "airportCode": "JTC",
+        "cityName": "Arealva",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "JSY",
+        "cityName": "Dimitrios Vikelas",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "SEL",
+        "cityName": "Seoul Area Airports",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "SEA",
+        "cityName": "Seattle",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "JSI",
+        "cityName": "Alexandros Papadiamandis",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "SDY",
+        "cityName": "Sidney",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "BBK",
+        "cityName": "Kasane",
+        "timezone": "Africa/Gaborone"
+    },
+    {
+        "airportCode": "SDW",
+        "cityName": "Sindhudurg",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "SDU",
+        "cityName": "Rio de Janeiro",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "SDQ",
+        "cityName": "Santo Domingo",
+        "timezone": "America/Santo_Domingo"
+    },
+    {
+        "airportCode": "SDP",
+        "cityName": "Sand Point",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "BBA",
+        "cityName": "Balmaceda",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "SDJ",
+        "cityName": "Natori",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "BAY",
+        "cityName": "Maramures",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "BAX",
+        "cityName": "Barnaul",
+        "timezone": "Asia/Barnaul"
+    },
+    {
+        "airportCode": "JRO",
+        "cityName": "Kilimanjaro",
+        "timezone": "Africa/Dar_es_Salaam"
+    },
+    {
+        "airportCode": "SDF",
+        "cityName": "Louisville",
+        "timezone": "America/Kentucky/Louisville"
+    },
+    {
+        "airportCode": "SDE",
+        "cityName": "Santiago del Estero",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "BAV",
+        "cityName": "Baotou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BAT",
+        "cityName": "Barretos",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "BAQ",
+        "cityName": "Barranquilla",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "WLG",
+        "cityName": "Wellington",
+        "timezone": "Pacific/Auckland"
+    },
+    {
+        "airportCode": "SCY",
+        "cityName": "San Cristobal island",
+        "timezone": "Pacific/Galapagos"
+    },
+    {
+        "airportCode": "SCW",
+        "cityName": "Syktyvkar",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "SCV",
+        "cityName": "Suceava",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "BAH",
+        "cityName": "Bahrain",
+        "timezone": "Asia/Bahrain"
+    },
+    {
+        "airportCode": "FIR",
+        "cityName": "Florence Campo Marte Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "NZH",
+        "cityName": "Manzhouli",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "SCQ",
+        "cityName": "Santiago",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "SCL",
+        "cityName": "Santiago",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "FIH",
+        "cityName": "Kinshasa",
+        "timezone": "Africa/Kinshasa"
+    },
+    {
+        "airportCode": "SCE",
+        "cityName": "State College",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "NYT",
+        "cityName": "Naypyidaw",
+        "timezone": "Asia/Yangon"
+    },
+    {
+        "airportCode": "SBZ",
+        "cityName": "Sibiu",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "NYC",
+        "cityName": "New York City Area Airports",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SBN",
+        "cityName": "South Bend",
+        "timezone": "America/Indiana/Indianapolis"
+    },
+    {
+        "airportCode": "WJU",
+        "cityName": "Wonju",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "SBA",
+        "cityName": "Santa Barbara",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "JPA",
+        "cityName": "Joao Pessoa",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "SAW",
+        "cityName": "Istanbul - Sabiha Gokcen",
+        "timezone": "Europe/Istanbul"
+    },
+    {
+        "airportCode": "SAV",
+        "cityName": "Savannah",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SAT",
+        "cityName": "San Antonio",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SAP",
+        "cityName": "San Pedro Sula",
+        "timezone": "America/Tegucigalpa"
+    },
+    {
+        "airportCode": "SAO",
+        "cityName": "Sao Paulo Area Airports",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "SAN",
+        "cityName": "San Diego",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "SAL",
+        "cityName": "San Salvador",
+        "timezone": "America/El_Salvador"
+    },
+    {
+        "airportCode": "SAH",
+        "cityName": "Sanaa",
+        "timezone": "Asia/Aden"
+    },
+    {
+        "airportCode": "JOI",
+        "cityName": "Joinville",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "JOG",
+        "cityName": "Yogyakarta",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "NWI",
+        "cityName": "Norwich",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "JNZ",
+        "cityName": "Jinzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "JNX",
+        "cityName": "Naxos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "JNU",
+        "cityName": "Juneau",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "NVT",
+        "cityName": "Navegantes",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "JNG",
+        "cityName": "Jining",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "JNB",
+        "cityName": "Johannesburg",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "FEN",
+        "cityName": "Fernando de Noronha",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "JMU",
+        "cityName": "Jiamusi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "NVA",
+        "cityName": "Neiva",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "NUX",
+        "cityName": "Novy Urengoy",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "JMK",
+        "cityName": "Mykonos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "WGA",
+        "cityName": "Wagga Wagga",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "NUE",
+        "cityName": "Nuremberg",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "FDF",
+        "cityName": "Fort de France",
+        "timezone": "America/Martinique"
+    },
+    {
+        "airportCode": "AZO",
+        "cityName": "Kalamazoo",
+        "timezone": "America/Detroit"
+    },
+    {
+        "airportCode": "NTL",
+        "cityName": "Newcastle",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "NTG",
+        "cityName": "Nantong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "AZD",
+        "cityName": "Yazd",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "FCO",
+        "cityName": "Rome",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "NTE",
+        "cityName": "Nantes",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "FCA",
+        "cityName": "Kalispell",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "JKL",
+        "cityName": "Kalymnos Island",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "AYT",
+        "cityName": "Antalya",
+        "timezone": "Europe/Istanbul"
+    },
+    {
+        "airportCode": "AYQ",
+        "cityName": "Ayers Rock",
+        "timezone": "Australia/Darwin"
+    },
+    {
+        "airportCode": "JKH",
+        "cityName": "Chios",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "AYP",
+        "cityName": "Ayacucho",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "WEH",
+        "cityName": "Weihai",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "NSI",
+        "cityName": "Yaounde",
+        "timezone": "Africa/Douala"
+    },
+    {
+        "airportCode": "FBM",
+        "cityName": "Lubumbashi",
+        "timezone": "Africa/Lubumbashi"
+    },
+    {
+        "airportCode": "JJN",
+        "cityName": "Quanzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "AXT",
+        "cityName": "Akita",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "NRT",
+        "cityName": "Tokyo-Narita",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "JJG",
+        "cityName": "Jaguaruna",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "WDH",
+        "cityName": "Windhoek",
+        "timezone": "Africa/Windhoek"
+    },
+    {
+        "airportCode": "FAY",
+        "cityName": "Fayetteville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "AXM",
+        "cityName": "Armenia",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "JJD",
+        "cityName": "Jijoca de Jericoacoara",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "FAV",
+        "cityName": "Fakarava",
+        "timezone": "Pacific/Tahiti"
+    },
+    {
+        "airportCode": "FAT",
+        "cityName": "Fresno",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "FAR",
+        "cityName": "Fargo",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "AXD",
+        "cityName": "Dimokritos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "FAO",
+        "cityName": "Faro",
+        "timezone": "Europe/Lisbon"
+    },
+    {
+        "airportCode": "AXA",
+        "cityName": "Anguilla",
+        "timezone": "America/Anguilla"
+    },
+    {
+        "airportCode": "NRA",
+        "cityName": "Narrandera",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "FAI",
+        "cityName": "Fairbanks",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "AWZ",
+        "cityName": "Ahwaz",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "JIQ",
+        "cityName": "Qianjiang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "JIK",
+        "cityName": "Ikaros",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "NQN",
+        "cityName": "Neuquen",
+        "timezone": "America/Argentina/Salta"
+    },
+    {
+        "airportCode": "JIB",
+        "cityName": "Djibouti",
+        "timezone": "Africa/Djibouti"
+    },
+    {
+        "airportCode": "JHM",
+        "cityName": "Kapalua",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "AVP",
+        "cityName": "Wilkes-Barre/Scranton",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "JHG",
+        "cityName": "Jinghong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "AVL",
+        "cityName": "Asheville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "JHB",
+        "cityName": "Johore Bharu",
+        "timezone": "Asia/Kuala_Lumpur"
+    },
+    {
+        "airportCode": "AVA",
+        "cityName": "Anshun",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "WAW",
+        "cityName": "Warsaw",
+        "timezone": "Europe/Warsaw"
+    },
+    {
+        "airportCode": "JGS",
+        "cityName": "Jian",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "WAS",
+        "cityName": "Washington Area Airports",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "NOZ",
+        "cityName": "Novokuznetsk",
+        "timezone": "Asia/Krasnoyarsk"
+    },
+    {
+        "airportCode": "JGN",
+        "cityName": "Jiayuguan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "AUS",
+        "cityName": "Austin",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "AUR",
+        "cityName": "Aurillac",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "JGD",
+        "cityName": "Jiagedaqi",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "WAE",
+        "cityName": "Wadi al-Dawasir",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "AUH",
+        "cityName": "Abu Dhabi",
+        "timezone": "Asia/Dubai"
+    },
+    {
+        "airportCode": "AUG",
+        "cityName": "Augusta",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "AUA",
+        "cityName": "Aruba",
+        "timezone": "America/Aruba"
+    },
+    {
+        "airportCode": "ATY",
+        "cityName": "Watertown",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ATW",
+        "cityName": "Appleton",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "NNY",
+        "cityName": "Nanyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "JFK",
+        "cityName": "New York-Kennedy",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ATQ",
+        "cityName": "Amritsar",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "ATM",
+        "cityName": "Altamira",
+        "timezone": "America/Santarem"
+    },
+    {
+        "airportCode": "ATL",
+        "cityName": "Atlanta",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "NNM",
+        "cityName": "Naryan-Mar",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "ATH",
+        "cityName": "Athens",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "NNG",
+        "cityName": "Nanning",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "RVN",
+        "cityName": "Rovaniemi",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "JER",
+        "cityName": "Jersey",
+        "timezone": "Europe/Jersey"
+    },
+    {
+        "airportCode": "ASU",
+        "cityName": "Asuncion",
+        "timezone": "America/Asuncion"
+    },
+    {
+        "airportCode": "ASP",
+        "cityName": "Alice Springs",
+        "timezone": "Australia/Darwin"
+    },
+    {
+        "airportCode": "JED",
+        "cityName": "Jeddah",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "ASJ",
+        "cityName": "Amami",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "RUT",
+        "cityName": "Rutland",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ASF",
+        "cityName": "Astrakhan",
+        "timezone": "Europe/Astrakhan"
+    },
+    {
+        "airportCode": "ASE",
+        "cityName": "Aspen",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "ASB",
+        "cityName": "Ashgabat",
+        "timezone": "Asia/Ashgabat"
+    },
+    {
+        "airportCode": "RUN",
+        "cityName": "St Denis De La Reunion",
+        "timezone": "Indian/Reunion"
+    },
+    {
+        "airportCode": "RUH",
+        "cityName": "Riyadh",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "JDO",
+        "cityName": "Juazeiro Do Norte",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "NLU",
+        "cityName": "Mexico City-Felipe Angeles",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "NLT",
+        "cityName": "Nalati",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "ARN",
+        "cityName": "Stockholm",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "ARM",
+        "cityName": "Armidale",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "ARI",
+        "cityName": "Arica",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "ARH",
+        "cityName": "Arkhangelsk",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "NLD",
+        "cityName": "Nuevo Laredo",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "RTM",
+        "cityName": "Rotterdam",
+        "timezone": "Europe/Amsterdam"
+    },
+    {
+        "airportCode": "NLA",
+        "cityName": "Ndola",
+        "timezone": "Africa/Lusaka"
+    },
+    {
+        "airportCode": "EZE",
+        "cityName": "Buenos Aires",
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+    {
+        "airportCode": "RTB",
+        "cityName": "Roatan",
+        "timezone": "America/Tegucigalpa"
+    },
+    {
+        "airportCode": "AQP",
+        "cityName": "Arequipa",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "EYW",
+        "cityName": "Key West",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "RSW",
+        "cityName": "Fort Myers",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "AQI",
+        "cityName": "Qaisumah",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "RSU",
+        "cityName": "Yeosu",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "AQG",
+        "cityName": "Anqing",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "RST",
+        "cityName": "Rochester",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "EYP",
+        "cityName": "El Yopal",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "NKG",
+        "cityName": "Nanking/Nanjing",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "NKC",
+        "cityName": "Nouakchott",
+        "timezone": "Africa/Nouakchott"
+    },
+    {
+        "airportCode": "APW",
+        "cityName": "Apia",
+        "timezone": "Pacific/Apia"
+    },
+    {
+        "airportCode": "RSA",
+        "cityName": "Santa Rosa",
+        "timezone": "America/Argentina/Salta"
+    },
+    {
+        "airportCode": "APN",
+        "cityName": "Alpena",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "APL",
+        "cityName": "Nampula",
+        "timezone": "Africa/Maputo"
+    },
+    {
+        "airportCode": "JBB",
+        "cityName": "Jember",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "EXT",
+        "cityName": "Exeter",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "NJF",
+        "cityName": "Najaf",
+        "timezone": "Asia/Baghdad"
+    },
+    {
+        "airportCode": "JAX",
+        "cityName": "Jacksonville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "NJC",
+        "cityName": "Nizhnevartovsk",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "JAU",
+        "cityName": "Jauja",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "JAN",
+        "cityName": "Jackson",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "JAI",
+        "cityName": "Jaipur",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "JAE",
+        "cityName": "Jahrom",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "JAC",
+        "cityName": "Jackson Hole",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "AOK",
+        "cityName": "Karpathos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "NIM",
+        "cityName": "Niamey",
+        "timezone": "Africa/Niamey"
+    },
+    {
+        "airportCode": "AOJ",
+        "cityName": "Aomori",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "AOI",
+        "cityName": "Ancona",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "AOG",
+        "cityName": "Anshan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "EWR",
+        "cityName": "Newark",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "EWN",
+        "cityName": "New Bern",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "EWB",
+        "cityName": "New Bedford",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ANU",
+        "cityName": "Antigua",
+        "timezone": "America/Antigua"
+    },
+    {
+        "airportCode": "ANR",
+        "cityName": "Antwerp",
+        "timezone": "Europe/Brussels"
+    },
+    {
+        "airportCode": "ANM",
+        "cityName": "Antalaha",
+        "timezone": "Indian/Antananarivo"
+    },
+    {
+        "airportCode": "EVV",
+        "cityName": "Evansville",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ANI",
+        "cityName": "Aniak",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "ANF",
+        "cityName": "Antofagasta",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "EVN",
+        "cityName": "Yerevan",
+        "timezone": "Asia/Yerevan"
+    },
+    {
+        "airportCode": "ANC",
+        "cityName": "Anchorage",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "VXO",
+        "cityName": "Vaxjo",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "AMS",
+        "cityName": "Amsterdam",
+        "timezone": "Europe/Amsterdam"
+    },
+    {
+        "airportCode": "AMQ",
+        "cityName": "Ambon",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "NGS",
+        "cityName": "Nagasaki",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "AMM",
+        "cityName": "Amman",
+        "timezone": "Asia/Amman"
+    },
+    {
+        "airportCode": "NGO",
+        "cityName": "Nagoya",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "ROV",
+        "cityName": "Rostov",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "ROS",
+        "cityName": "Rosario",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "ROR",
+        "cityName": "Palau-Koror",
+        "timezone": "Pacific/Palau"
+    },
+    {
+        "airportCode": "AMD",
+        "cityName": "Ahmedabad",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "NGB",
+        "cityName": "Ningbo",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "ROK",
+        "cityName": "Rockhampton",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "EUG",
+        "cityName": "Eugene",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "ALW",
+        "cityName": "Walla Walla",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "ROC",
+        "cityName": "Rochester",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ROB",
+        "cityName": "Monrovia",
+        "timezone": "Africa/Monrovia"
+    },
+    {
+        "airportCode": "ALS",
+        "cityName": "Alamosa",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "ROA",
+        "cityName": "Roanoke",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ALP",
+        "cityName": "Aleppo Intl",
+        "timezone": "Asia/Damascus"
+    },
+    {
+        "airportCode": "ETZ",
+        "cityName": "Metz",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "ALH",
+        "cityName": "Albany",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "ALG",
+        "cityName": "Algiers",
+        "timezone": "Africa/Algiers"
+    },
+    {
+        "airportCode": "ETR",
+        "cityName": "Machala",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "RNS",
+        "cityName": "Rennes",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "ALC",
+        "cityName": "Alicante",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "ALB",
+        "cityName": "Albany",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "RNO",
+        "cityName": "Reno",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "ALA",
+        "cityName": "Almaty",
+        "timezone": "Asia/Almaty"
+    },
+    {
+        "airportCode": "VVO",
+        "cityName": "Vladivostok",
+        "timezone": "Asia/Vladivostok"
+    },
+    {
+        "airportCode": "AKU",
+        "cityName": "Aksu",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "NEV",
+        "cityName": "Nevis",
+        "timezone": "America/St_Kitts"
+    },
+    {
+        "airportCode": "VVI",
+        "cityName": "Santa Cruz",
+        "timezone": "America/La_Paz"
+    },
+    {
+        "airportCode": "AKN",
+        "cityName": "King Salmon",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "AKL",
+        "cityName": "Auckland",
+        "timezone": "Pacific/Auckland"
+    },
+    {
+        "airportCode": "AKJ",
+        "cityName": "Asahikawa",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "RMQ",
+        "cityName": "Taichung",
+        "timezone": "Asia/Taipei"
+    },
+    {
+        "airportCode": "RMO",
+        "cityName": "Chisinau",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "RMI",
+        "cityName": "Rimini Mil",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "ESC",
+        "cityName": "Escanaba",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "VUP",
+        "cityName": "Valledupar",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "ESB",
+        "cityName": "Esenboga",
+        "timezone": "Europe/Istanbul"
+    },
+    {
+        "airportCode": "AJU",
+        "cityName": "Aracaju",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "NDJ",
+        "cityName": "Ndjamena",
+        "timezone": "Africa/Ndjamena"
+    },
+    {
+        "airportCode": "AJF",
+        "cityName": "Al-Jawf",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "NDG",
+        "cityName": "Qiqihar",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "AJA",
+        "cityName": "Ajaccio",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "ERI",
+        "cityName": "Erie",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "AIY",
+        "cityName": "Atlantic City",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "IZO",
+        "cityName": "Izumo",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "VTE",
+        "cityName": "Vientiane",
+        "timezone": "Asia/Vientiane"
+    },
+    {
+        "airportCode": "IZA",
+        "cityName": "Juiz de Fora",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "NCL",
+        "cityName": "Newcastle",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "EQS",
+        "cityName": "Esquel",
+        "timezone": "America/Argentina/Catamarca"
+    },
+    {
+        "airportCode": "NCE",
+        "cityName": "Nice",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "AIA",
+        "cityName": "Alliance",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "RKD",
+        "cityName": "Rockland",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "NBS",
+        "cityName": "Baishan",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "AHO",
+        "cityName": "Alghero",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "NBO",
+        "cityName": "Nairobi",
+        "timezone": "Africa/Nairobi"
+    },
+    {
+        "airportCode": "VSA",
+        "cityName": "Villahermosa",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "EPR",
+        "cityName": "Esperance",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "AHB",
+        "cityName": "Abha",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "NBC",
+        "cityName": "Nizhnekamsk",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "AGU",
+        "cityName": "Aguascalientes",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "VRN",
+        "cityName": "Verona",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "AGS",
+        "cityName": "Augusta",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "NAT",
+        "cityName": "Natal",
+        "timezone": "America/Recife"
+    },
+    {
+        "airportCode": "NAS",
+        "cityName": "Nassau",
+        "timezone": "America/Nassau"
+    },
+    {
+        "airportCode": "AGP",
+        "cityName": "Malaga",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "IXE",
+        "cityName": "Mangalore",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "NAP",
+        "cityName": "Naples",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "NAO",
+        "cityName": "Nanchong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "NAN",
+        "cityName": "Nadi",
+        "timezone": "Pacific/Fiji"
+    },
+    {
+        "airportCode": "RIX",
+        "cityName": "Riga",
+        "timezone": "Europe/Riga"
+    },
+    {
+        "airportCode": "RIO",
+        "cityName": "Rio de Janeiro Area Airports",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "AGA",
+        "cityName": "Agadir",
+        "timezone": "Africa/Casablanca"
+    },
+    {
+        "airportCode": "VQS",
+        "cityName": "Vieques",
+        "timezone": "America/Puerto_Rico"
+    },
+    {
+        "airportCode": "RIC",
+        "cityName": "Richmond",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "IWK",
+        "cityName": "Iwakuni",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "ENY",
+        "cityName": "Yanan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "ZYR",
+        "cityName": "Brussels-Midi Railway Station",
+        "timezone": "Europe/Brussels"
+    },
+    {
+        "airportCode": "IWD",
+        "cityName": "Ironwood",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ZYI",
+        "cityName": "Zunyi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "RHO",
+        "cityName": "Rhodes",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "AFA",
+        "cityName": "San Rafael",
+        "timezone": "America/Argentina/Mendoza"
+    },
+    {
+        "airportCode": "ENH",
+        "cityName": "Enshi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "RHI",
+        "cityName": "Rhinelander",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "VPS",
+        "cityName": "Destin-Fort Walton Beach",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ENE",
+        "cityName": "Ende",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "AEX",
+        "cityName": "Alexandria",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "RHD",
+        "cityName": "Termas de Rio Hondo",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "ENA",
+        "cityName": "Kenai",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "IVL",
+        "cityName": "Ivalo",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "AES",
+        "cityName": "Alesund",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "AER",
+        "cityName": "Sochi",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "AEP",
+        "cityName": "Buenos Aires",
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+    {
+        "airportCode": "AEB",
+        "cityName": "Baise",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "VOZ",
+        "cityName": "Voronezh",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "RGN",
+        "cityName": "Yangon",
+        "timezone": "Asia/Yangon"
+    },
+    {
+        "airportCode": "ZXE",
+        "cityName": "Edinburgh Waverly Train Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "RGL",
+        "cityName": "Rio Gallegos",
+        "timezone": "America/Argentina/Rio_Gallegos"
+    },
+    {
+        "airportCode": "ADZ",
+        "cityName": "San Andr\u00e9s Island",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "EMD",
+        "cityName": "Emerald",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "RGA",
+        "cityName": "Rio Grande",
+        "timezone": "America/Argentina/Ushuaia"
+    },
+    {
+        "airportCode": "ADQ",
+        "cityName": "Kodiak",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "VOG",
+        "cityName": "Volgograd",
+        "timezone": "Europe/Volgograd"
+    },
+    {
+        "airportCode": "ADL",
+        "cityName": "Adelaide",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "airportCode": "ELS",
+        "cityName": "East London",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "ELQ",
+        "cityName": "Gassim",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "ADE",
+        "cityName": "Aden",
+        "timezone": "Asia/Aden"
+    },
+    {
+        "airportCode": "ELP",
+        "cityName": "El Paso",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "ADD",
+        "cityName": "Addis Ababa",
+        "timezone": "Africa/Addis_Ababa"
+    },
+    {
+        "airportCode": "ELM",
+        "cityName": "Elmira",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ZWE",
+        "cityName": "Antwerp Central Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "VNX",
+        "cityName": "Vilankulo",
+        "timezone": "Africa/Maputo"
+    },
+    {
+        "airportCode": "ELH",
+        "cityName": "North Eleuthera",
+        "timezone": "America/Nassau"
+    },
+    {
+        "airportCode": "ACX",
+        "cityName": "Xingyi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "ITO",
+        "cityName": "Hilo",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "ITM",
+        "cityName": "Osaka-Itami",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "VNO",
+        "cityName": "Vilnius",
+        "timezone": "Europe/Vilnius"
+    },
+    {
+        "airportCode": "ACT",
+        "cityName": "Waco Regl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ITH",
+        "cityName": "Ithaca",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ACK",
+        "cityName": "Nantucket",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "REX",
+        "cityName": "Reynosa",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "RES",
+        "cityName": "Resistencia",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "ACE",
+        "cityName": "Lanzarote",
+        "timezone": "Atlantic/Canary"
+    },
+    {
+        "airportCode": "EKO",
+        "cityName": "Elko",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "ACC",
+        "cityName": "Accra",
+        "timezone": "Africa/Accra"
+    },
+    {
+        "airportCode": "REP",
+        "cityName": "Siem Reap",
+        "timezone": "Asia/Phnom_Penh"
+    },
+    {
+        "airportCode": "ACA",
+        "cityName": "Acapulco",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "REN",
+        "cityName": "Orenburg",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "ISU",
+        "cityName": "Sulaimaniyah",
+        "timezone": "Asia/Baghdad"
+    },
+    {
+        "airportCode": "REL",
+        "cityName": "Trelew",
+        "timezone": "America/Argentina/Catamarca"
+    },
+    {
+        "airportCode": "IST",
+        "cityName": "Istanbul",
+        "timezone": "Europe/Istanbul"
+    },
+    {
+        "airportCode": "ABZ",
+        "cityName": "Aberdeen",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ABY",
+        "cityName": "Albany",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "REG",
+        "cityName": "Reggio di Calabria",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "ABX",
+        "cityName": "Albury",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "ABV",
+        "cityName": "Abuja",
+        "timezone": "Africa/Lagos"
+    },
+    {
+        "airportCode": "ISL",
+        "cityName": "Istanbul - Ataturk",
+        "timezone": "Europe/Istanbul"
+    },
+    {
+        "airportCode": "REC",
+        "cityName": "Recife",
+        "timezone": "America/Recife"
+    },
+    {
+        "airportCode": "ABT",
+        "cityName": "Al-Baha",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "ABR",
+        "cityName": "Aberdeen",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ABQ",
+        "cityName": "Albuquerque",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "ISG",
+        "cityName": "Ishigaki",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "ISB",
+        "cityName": "Islamabad",
+        "timezone": "Asia/Karachi"
+    },
+    {
+        "airportCode": "ABJ",
+        "cityName": "Abidjan",
+        "timezone": "Africa/Abidjan"
+    },
+    {
+        "airportCode": "ISA",
+        "cityName": "Mount Isa",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "RDU",
+        "cityName": "Raleigh/Durham",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ABE",
+        "cityName": "Allentown",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ZUH",
+        "cityName": "Zhuhai",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "ABA",
+        "cityName": "Abakan",
+        "timezone": "Asia/Krasnoyarsk"
+    },
+    {
+        "airportCode": "RDM",
+        "cityName": "Redmond",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "EJH",
+        "cityName": "Al Wajh",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "EJA",
+        "cityName": "Yariguies",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "VLN",
+        "cityName": "Arturo Michelena Intl",
+        "timezone": "America/Caracas"
+    },
+    {
+        "airportCode": "AAT",
+        "cityName": "Altay",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "IRK",
+        "cityName": "Kirksville",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "IRJ",
+        "cityName": "La Rioja",
+        "timezone": "America/Argentina/La_Rioja"
+    },
+    {
+        "airportCode": "VLL",
+        "cityName": "Villanubla",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "MZT",
+        "cityName": "Mazatlan",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "AAQ",
+        "cityName": "Anapa",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "VLI",
+        "cityName": "Port Vila",
+        "timezone": "Pacific/Efate"
+    },
+    {
+        "airportCode": "AAL",
+        "cityName": "Aalborg",
+        "timezone": "Europe/Copenhagen"
+    },
+    {
+        "airportCode": "VLD",
+        "cityName": "Valdosta",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MZL",
+        "cityName": "Santaguida",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "VLC",
+        "cityName": "Valencia",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "EIS",
+        "cityName": "Beef Island",
+        "timezone": "America/Tortola"
+    },
+    {
+        "airportCode": "ZTH",
+        "cityName": "Zakynthos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "EIN",
+        "cityName": "Eindhoven Ab",
+        "timezone": "Europe/Amsterdam"
+    },
+    {
+        "airportCode": "IQT",
+        "cityName": "Iquitos",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "IQQ",
+        "cityName": "Iquique",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "RCH",
+        "cityName": "Almirante Padilla",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "VKO",
+        "cityName": "Vnukovo",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "RCB",
+        "cityName": "Richards Bay",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "MYR",
+        "cityName": "Myrtle Beach",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "VKG",
+        "cityName": "Rach Gia",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "MYJ",
+        "cityName": "Matsuyama",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "RBR",
+        "cityName": "Rio Branco",
+        "timezone": "America/Rio_Branco"
+    },
+    {
+        "airportCode": "MYD",
+        "cityName": "Malindi",
+        "timezone": "Africa/Nairobi"
+    },
+    {
+        "airportCode": "MYA",
+        "cityName": "Moruya",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "MXZ",
+        "cityName": "Meixian",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MXX",
+        "cityName": "Mora Railway Station",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "RBA",
+        "cityName": "Rabat",
+        "timezone": "Africa/Casablanca"
+    },
+    {
+        "airportCode": "MXP",
+        "cityName": "Milan-Malpensa",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "IPC",
+        "cityName": "Easter Island",
+        "timezone": "Pacific/Easter"
+    },
+    {
+        "airportCode": "MXL",
+        "cityName": "Mexicali",
+        "timezone": "America/Tijuana"
+    },
+    {
+        "airportCode": "RAS",
+        "cityName": "Rasht",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "RAR",
+        "cityName": "Rarotonga",
+        "timezone": "Pacific/Rarotonga"
+    },
+    {
+        "airportCode": "ZRH",
+        "cityName": "Zurich",
+        "timezone": "Europe/Zurich"
+    },
+    {
+        "airportCode": "EGO",
+        "cityName": "Belgorod",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "RAP",
+        "cityName": "Rapid City",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "RAO",
+        "cityName": "Ribeirao Preto",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "VIX",
+        "cityName": "Vitoria",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "RAK",
+        "cityName": "Marrakech",
+        "timezone": "Africa/Casablanca"
+    },
+    {
+        "airportCode": "IOS",
+        "cityName": "Ilheus",
+        "timezone": "America/Bahia"
+    },
+    {
+        "airportCode": "RAH",
+        "cityName": "Rafha",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "EGE",
+        "cityName": "Vail",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "RAE",
+        "cityName": "Arar",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "MWX",
+        "cityName": "Muan",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "VIJ",
+        "cityName": "Virgin Gorda",
+        "timezone": "America/Tortola"
+    },
+    {
+        "airportCode": "VII",
+        "cityName": "Vinh City",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "VIE",
+        "cityName": "Vienna",
+        "timezone": "Europe/Vienna"
+    },
+    {
+        "airportCode": "ZQN",
+        "cityName": "Queenstown",
+        "timezone": "Pacific/Auckland"
+    },
+    {
+        "airportCode": "EFL",
+        "cityName": "Kefallinia",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "INV",
+        "cityName": "Inverness",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MWA",
+        "cityName": "Marion",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "INP",
+        "cityName": "Naples Central Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "INN",
+        "cityName": "Innsbruck",
+        "timezone": "Europe/Vienna"
+    },
+    {
+        "airportCode": "MVY",
+        "cityName": "Marthas Vineyard",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "INL",
+        "cityName": "International Falls",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "IND",
+        "cityName": "Indianapolis",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "INC",
+        "cityName": "Yinchuan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MVD",
+        "cityName": "Montevideo",
+        "timezone": "America/Montevideo"
+    },
+    {
+        "airportCode": "IMT",
+        "cityName": "Iron Mountain",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "IMP",
+        "cityName": "Imperatriz",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "MUX",
+        "cityName": "Multan",
+        "timezone": "Asia/Karachi"
+    },
+    {
+        "airportCode": "VGO",
+        "cityName": "Vigo",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "ZOS",
+        "cityName": "Osorno",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "MUC",
+        "cityName": "Munich",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "MUB",
+        "cityName": "Maun",
+        "timezone": "Africa/Gaborone"
+    },
+    {
+        "airportCode": "EDI",
+        "cityName": "Edinburgh",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ILQ",
+        "cityName": "Ilo",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "MTY",
+        "cityName": "Monterrey",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "ZNZ",
+        "cityName": "Zanzibar",
+        "timezone": "Africa/Dar_es_Salaam"
+    },
+    {
+        "airportCode": "ILM",
+        "cityName": "Wilmington",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MTT",
+        "cityName": "Minatitlan",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "MTR",
+        "cityName": "Monter\u00eda",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "MTJ",
+        "cityName": "Montrose/Telluride",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "VFA",
+        "cityName": "Victoria Falls",
+        "timezone": "Africa/Harare"
+    },
+    {
+        "airportCode": "ECP",
+        "cityName": "Panama City",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ZNE",
+        "cityName": "Newman",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "IKT",
+        "cityName": "Irkutsk",
+        "timezone": "Asia/Irkutsk"
+    },
+    {
+        "airportCode": "VER",
+        "cityName": "Veracruz",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "MSY",
+        "cityName": "New Orleans",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MSU",
+        "cityName": "Maseru",
+        "timezone": "Africa/Maseru"
+    },
+    {
+        "airportCode": "MST",
+        "cityName": "Maastricht",
+        "timezone": "Europe/Amsterdam"
+    },
+    {
+        "airportCode": "MSQ",
+        "cityName": "Minsk",
+        "timezone": "Europe/Minsk"
+    },
+    {
+        "airportCode": "ZMS",
+        "cityName": "Florence Santa Maria Novella Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MSP",
+        "cityName": "Minneapolis/St Paul",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MSO",
+        "cityName": "Missoula",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "MSN",
+        "cityName": "Madison",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "IKA",
+        "cityName": "Tehran",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "MSJ",
+        "cityName": "Misawa",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "VDZ",
+        "cityName": "Valdez",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "EBL",
+        "cityName": "Erbil",
+        "timezone": "Asia/Baghdad"
+    },
+    {
+        "airportCode": "MRY",
+        "cityName": "Monterey",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "EBB",
+        "cityName": "Entebbe",
+        "timezone": "Africa/Kampala"
+    },
+    {
+        "airportCode": "MRV",
+        "cityName": "Mineralnye Vody",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "VDM",
+        "cityName": "Viedma",
+        "timezone": "America/Argentina/Salta"
+    },
+    {
+        "airportCode": "MRU",
+        "cityName": "Mauritius",
+        "timezone": "Indian/Mauritius"
+    },
+    {
+        "airportCode": "MRS",
+        "cityName": "Marseille",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "VDH",
+        "cityName": "Dong Hoi",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "ZLP",
+        "cityName": "Zurich HB Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ZLO",
+        "cityName": "Manzanillo",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "VDC",
+        "cityName": "Vit\u00f3ria da Conquista",
+        "timezone": "America/Bahia"
+    },
+    {
+        "airportCode": "EAT",
+        "cityName": "Wenatchee",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "EAR",
+        "cityName": "Kearney Regional",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "EAM",
+        "cityName": "Najran",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "VCS",
+        "cityName": "Con Dao",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "VCP",
+        "cityName": "Campinas",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "VCL",
+        "cityName": "Chu Lai",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "MQT",
+        "cityName": "Marquette",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MQP",
+        "cityName": "Kruger Mpumalanga",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "VCE",
+        "cityName": "Venice",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "QYX",
+        "cityName": "Uppsala Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MQL",
+        "cityName": "Mildura",
+        "timezone": "Australia/Hobart"
+    },
+    {
+        "airportCode": "QYU",
+        "cityName": "G\u00e4vle Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "VCA",
+        "cityName": "Can Tho",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "MQF",
+        "cityName": "Magnitogorsk",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "MPN",
+        "cityName": "Falkland Islands",
+        "timezone": "Atlantic/Stanley"
+    },
+    {
+        "airportCode": "MPM",
+        "cityName": "Maputo",
+        "timezone": "Africa/Maputo"
+    },
+    {
+        "airportCode": "MPL",
+        "cityName": "Montpellier",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "IGU",
+        "cityName": "Iguazu Falls",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "IGR",
+        "cityName": "Iguazu",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "VAR",
+        "cityName": "Varna",
+        "timezone": "Europe/Sofia"
+    },
+    {
+        "airportCode": "MOV",
+        "cityName": "Moranbah",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "MOT",
+        "cityName": "Minot",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "VAA",
+        "cityName": "Vaasa",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "ZIH",
+        "cityName": "Zihuatanejo",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "MOC",
+        "cityName": "Montes Claros",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "MOB",
+        "cityName": "Mobile",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ZHT",
+        "cityName": "Geneva Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MNL",
+        "cityName": "Manila",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "airportCode": "ZHI",
+        "cityName": "Grenchen Sud Railway Station",
+        "timezone": "Europe/Zurich"
+    },
+    {
+        "airportCode": "IEV",
+        "cityName": "Kyiv-Zhuliany",
+        "timezone": "Europe/Kiev"
+    },
+    {
+        "airportCode": "ZHA",
+        "cityName": "Zhanjiang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MMK",
+        "cityName": "Murmansk",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "MMH",
+        "cityName": "Mammoth Yosemite",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "MME",
+        "cityName": "Durham Tees Valley",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ZGG",
+        "cityName": "Glasgow Central Train Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MMB",
+        "cityName": "Memanbetsu",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "IDR",
+        "cityName": "Indore",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "MLW",
+        "cityName": "Spriggs Payne",
+        "timezone": "Africa/Monrovia"
+    },
+    {
+        "airportCode": "MLU",
+        "cityName": "Monroe",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MLO",
+        "cityName": "Milos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "MLM",
+        "cityName": "Morelia",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "IDA",
+        "cityName": "Idaho Falls",
+        "timezone": "America/Boise"
+    },
+    {
+        "airportCode": "MLI",
+        "cityName": "Moline-Quad Cities",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MLH",
+        "cityName": "Mulhouse",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "MLG",
+        "cityName": "Malang",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "MLE",
+        "cityName": "Male",
+        "timezone": "Indian/Maldives"
+    },
+    {
+        "airportCode": "ZFG",
+        "cityName": "Sheffield Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MLB",
+        "cityName": "Melbourne",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MLA",
+        "cityName": "Malta",
+        "timezone": "Europe/Malta"
+    },
+    {
+        "airportCode": "ICT",
+        "cityName": "Wichita",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ICN",
+        "cityName": "Seoul-Incheon",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "MKY",
+        "cityName": "Mackay",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "DZA",
+        "cityName": "Pamandzi",
+        "timezone": "Indian/Mayotte"
+    },
+    {
+        "airportCode": "MKW",
+        "cityName": "Manokwari",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "MKQ",
+        "cityName": "Merauke",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "DYU",
+        "cityName": "Dushanbe",
+        "timezone": "Asia/Dushanbe"
+    },
+    {
+        "airportCode": "MKG",
+        "cityName": "Muskegon Co",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "QSR",
+        "cityName": "Salerno",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "IBZ",
+        "cityName": "Ibiza",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "MKE",
+        "cityName": "Milwaukee",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "IBT",
+        "cityName": "Bologna Central Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "DYG",
+        "cityName": "Zhangjiajie",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MJU",
+        "cityName": "Mamuju",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "MJT",
+        "cityName": "Odysseas Elytis",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "ZDT",
+        "cityName": "Chur Train Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "IBE",
+        "cityName": "Perales",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "QRZ",
+        "cityName": "Breda Railway Station",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "ZDJ",
+        "cityName": "Bern Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ZDH",
+        "cityName": "Basel SBB Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "QRO",
+        "cityName": "Queretaro",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "IAS",
+        "cityName": "Iasi",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "QRH",
+        "cityName": "Rotterdam Centraal Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "DXB",
+        "cityName": "Dubai",
+        "timezone": "Asia/Dubai"
+    },
+    {
+        "airportCode": "QRC",
+        "cityName": "Rancagua",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "IAH",
+        "cityName": "Houston-Bush Intercontl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "IAD",
+        "cityName": "Washington-Dulles",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "QQY",
+        "cityName": "York Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MIM",
+        "cityName": "Merimbula",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "ZCO",
+        "cityName": "Temuco",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "ZCL",
+        "cityName": "Zacatecas",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "MIG",
+        "cityName": "Mianyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MID",
+        "cityName": "Merida",
+        "timezone": "America/Merida"
+    },
+    {
+        "airportCode": "QQM",
+        "cityName": "Manchester Piccadilly Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MIA",
+        "cityName": "Miami",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "DWD",
+        "cityName": "Dawadmi",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "UYN",
+        "cityName": "Yulin",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MHT",
+        "cityName": "Manchester",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MHH",
+        "cityName": "Marsh Harbour",
+        "timezone": "America/Nassau"
+    },
+    {
+        "airportCode": "MHD",
+        "cityName": "Mashhad",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "MHC",
+        "cityName": "Dalcahue",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "ZAZ",
+        "cityName": "Zaragoza",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "QPA",
+        "cityName": "Padua Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ZAT",
+        "cityName": "Zhaotong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MGM",
+        "cityName": "Montgomery",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "DUT",
+        "cityName": "Dutch Harbor",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "DUS",
+        "cityName": "Dusseldorf",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "ZAL",
+        "cityName": "Valdivia",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "DUR",
+        "cityName": "Durban",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "MGF",
+        "cityName": "Maringa",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "ZAG",
+        "cityName": "Zagreb",
+        "timezone": "Europe/Zagreb"
+    },
+    {
+        "airportCode": "MGA",
+        "cityName": "Managua",
+        "timezone": "America/Managua"
+    },
+    {
+        "airportCode": "DUD",
+        "cityName": "Dunedin",
+        "timezone": "Pacific/Auckland"
+    },
+    {
+        "airportCode": "DUB",
+        "cityName": "Dublin",
+        "timezone": "Europe/Dublin"
+    },
+    {
+        "airportCode": "MFR",
+        "cityName": "Medford",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "DTW",
+        "cityName": "Detroit",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MFM",
+        "cityName": "Macau",
+        "timezone": "Asia/Macau"
+    },
+    {
+        "airportCode": "MFE",
+        "cityName": "McAllen",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MEX",
+        "cityName": "Mexico City",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "MEQ",
+        "cityName": "Meulaboh",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "UVF",
+        "cityName": "St. Lucia",
+        "timezone": "America/St_Lucia"
+    },
+    {
+        "airportCode": "MEM",
+        "cityName": "Memphis",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MEL",
+        "cityName": "Melbourne",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "airportCode": "DSS",
+        "cityName": "Dakar",
+        "timezone": "Africa/Dakar"
+    },
+    {
+        "airportCode": "DSN",
+        "cityName": "Ordos",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DSM",
+        "cityName": "Des Moines",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MED",
+        "cityName": "Madina",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "MEC",
+        "cityName": "Manta",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "UUS",
+        "cityName": "Yuzhno-Sakhalinsk",
+        "timezone": "Asia/Vladivostok"
+    },
+    {
+        "airportCode": "MDZ",
+        "cityName": "Mendoza",
+        "timezone": "America/Argentina/Mendoza"
+    },
+    {
+        "airportCode": "MDW",
+        "cityName": "Chicago-Midway",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "MDT",
+        "cityName": "Harrisburg",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MDQ",
+        "cityName": "Mar del Plata",
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+    {
+        "airportCode": "DRW",
+        "cityName": "Darwin",
+        "timezone": "Australia/Darwin"
+    },
+    {
+        "airportCode": "UUD",
+        "cityName": "Ulan-Ude",
+        "timezone": "Asia/Irkutsk"
+    },
+    {
+        "airportCode": "MDL",
+        "cityName": "Mandalay",
+        "timezone": "Asia/Yangon"
+    },
+    {
+        "airportCode": "DRS",
+        "cityName": "Dresden",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "QLS",
+        "cityName": "Lausanne Train Station",
+        "timezone": "Europe/Zurich"
+    },
+    {
+        "airportCode": "MDG",
+        "cityName": "Mudanjiang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DRO",
+        "cityName": "Durango",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "MDE",
+        "cityName": "Medellin",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "QLP",
+        "cityName": "La Spezia Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MDC",
+        "cityName": "Manado",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "QLJ",
+        "cityName": "Lucerne Train Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "UTT",
+        "cityName": "Mthatha",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "MCZ",
+        "cityName": "Maceio",
+        "timezone": "America/Maceio"
+    },
+    {
+        "airportCode": "MCY",
+        "cityName": "Sunshine Coast",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "UTP",
+        "cityName": "U-taphao Intl",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "UTN",
+        "cityName": "Upington",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "MCT",
+        "cityName": "Muscat",
+        "timezone": "Asia/Muscat"
+    },
+    {
+        "airportCode": "HZH",
+        "cityName": "Liping County",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HZG",
+        "cityName": "Hanzhong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MCP",
+        "cityName": "Macapa",
+        "timezone": "America/Belem"
+    },
+    {
+        "airportCode": "MCO",
+        "cityName": "Orlando",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MCN",
+        "cityName": "Macon",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MCK",
+        "cityName": "McCook",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MCI",
+        "cityName": "Kansas City",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "HYN",
+        "cityName": "Taizhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DQA",
+        "cityName": "Daqing",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "USN",
+        "cityName": "Ulsan",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "MBS",
+        "cityName": "Bay City",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "USH",
+        "cityName": "Ushuaia",
+        "timezone": "America/Argentina/Ushuaia"
+    },
+    {
+        "airportCode": "HYD",
+        "cityName": "Hyderabad",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "QJZ",
+        "cityName": "Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HYA",
+        "cityName": "Hyannis",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "MBL",
+        "cityName": "Manistee",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "DPS",
+        "cityName": "Bali",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "MBJ",
+        "cityName": "Montego Bay",
+        "timezone": "America/Jamaica"
+    },
+    {
+        "airportCode": "URY",
+        "cityName": "Gurayat",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "MBA",
+        "cityName": "Mombasa",
+        "timezone": "Africa/Nairobi"
+    },
+    {
+        "airportCode": "URT",
+        "cityName": "Surat Thani",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "MAZ",
+        "cityName": "Mayaguez",
+        "timezone": "America/Puerto_Rico"
+    },
+    {
+        "airportCode": "URO",
+        "cityName": "Rouen",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "MAR",
+        "cityName": "La Chinita Intl",
+        "timezone": "America/Caracas"
+    },
+    {
+        "airportCode": "DOY",
+        "cityName": "Dongying",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HXD",
+        "cityName": "Delingha",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MAO",
+        "cityName": "Manaus",
+        "timezone": "America/Boa_Vista"
+    },
+    {
+        "airportCode": "MAN",
+        "cityName": "Manchester",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "MAM",
+        "cityName": "Matamoros",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "URC",
+        "cityName": "Urumqi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "MAJ",
+        "cityName": "Marshall Is Intl",
+        "timezone": "Pacific/Majuro"
+    },
+    {
+        "airportCode": "MAH",
+        "cityName": "Menorca",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "MAF",
+        "cityName": "Midland",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "YZF",
+        "cityName": "Yellowknife",
+        "timezone": "America/Edmonton"
+    },
+    {
+        "airportCode": "DOM",
+        "cityName": "Marigot",
+        "timezone": "America/Dominica"
+    },
+    {
+        "airportCode": "MAD",
+        "cityName": "Madrid",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "DOL",
+        "cityName": "Normandy",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "MAB",
+        "cityName": "Maraba",
+        "timezone": "America/Araguaina"
+    },
+    {
+        "airportCode": "MAA",
+        "cityName": "Chennai",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "DOH",
+        "cityName": "Doha",
+        "timezone": "Asia/Qatar"
+    },
+    {
+        "airportCode": "YYZ",
+        "cityName": "Toronto",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "YYT",
+        "cityName": "St. Johns",
+        "timezone": "America/St_Johns"
+    },
+    {
+        "airportCode": "YYJ",
+        "cityName": "Victoria",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "YYG",
+        "cityName": "Charlottetown",
+        "timezone": "America/Halifax"
+    },
+    {
+        "airportCode": "YYF",
+        "cityName": "Penticton",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "YYC",
+        "cityName": "Calgary",
+        "timezone": "America/Edmonton"
+    },
+    {
+        "airportCode": "DNH",
+        "cityName": "Dunhuang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HVR",
+        "cityName": "Havre",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "YXY",
+        "cityName": "Whitehorse",
+        "timezone": "America/Whitehorse"
+    },
+    {
+        "airportCode": "YXX",
+        "cityName": "Abbotsford",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "YXU",
+        "cityName": "London-Ontario",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "YXT",
+        "cityName": "Terrace",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "YXS",
+        "cityName": "Prince George",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "UPG",
+        "cityName": "Makassar",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "HVB",
+        "cityName": "Hervey Bay",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "YXJ",
+        "cityName": "Fort St John",
+        "timezone": "America/Dawson_Creek"
+    },
+    {
+        "airportCode": "HUY",
+        "cityName": "Humberside",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "DMM",
+        "cityName": "Dammam",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "HUX",
+        "cityName": "Huatulco",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "YXE",
+        "cityName": "Saskatoon",
+        "timezone": "America/Regina"
+    },
+    {
+        "airportCode": "HUV",
+        "cityName": "Hudiksvall Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "QGL",
+        "cityName": "St. Gallen train Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HUI",
+        "cityName": "Hue",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "HUH",
+        "cityName": "Huahine",
+        "timezone": "Pacific/Tahiti"
+    },
+    {
+        "airportCode": "DLU",
+        "cityName": "Dali City",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YWG",
+        "cityName": "Winnipeg",
+        "timezone": "America/Winnipeg"
+    },
+    {
+        "airportCode": "DLI",
+        "cityName": "Da Lat",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "DLH",
+        "cityName": "Duluth",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "DLG",
+        "cityName": "Dillingham",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "DLC",
+        "cityName": "Dalian",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HTN",
+        "cityName": "Hotan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DLA",
+        "cityName": "Douala",
+        "timezone": "Africa/Douala"
+    },
+    {
+        "airportCode": "HTI",
+        "cityName": "Hamilton Island",
+        "timezone": "Australia/Lindeman"
+    },
+    {
+        "airportCode": "UNK",
+        "cityName": "Unalakleet",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "YVR",
+        "cityName": "Vancouver",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "HTA",
+        "cityName": "Chita",
+        "timezone": "Asia/Chita"
+    },
+    {
+        "airportCode": "UNA",
+        "cityName": "Una",
+        "timezone": "America/Bahia"
+    },
+    {
+        "airportCode": "HSV",
+        "cityName": "Huntsville",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "HSN",
+        "cityName": "Zhoushan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YUS",
+        "cityName": "Yushu",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YUL",
+        "cityName": "Montreal",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "DJJ",
+        "cityName": "Jayapura",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "DJE",
+        "cityName": "Zarzis",
+        "timezone": "Africa/Tunis"
+    },
+    {
+        "airportCode": "LZY",
+        "cityName": "Nyingchi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DJB",
+        "cityName": "Jambi",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "YTZ",
+        "cityName": "Toronto",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "YTY",
+        "cityName": "Yangzhou",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HRL",
+        "cityName": "Harlingen-South Padre Island",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ULH",
+        "cityName": "Al-Ula",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "YTS",
+        "cityName": "Timmins",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "HRE",
+        "cityName": "Harare",
+        "timezone": "Africa/Harare"
+    },
+    {
+        "airportCode": "LZO",
+        "cityName": "Luzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HRB",
+        "cityName": "Harbin",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LZH",
+        "cityName": "Liuzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DIN",
+        "cityName": "Dien Bien Phu",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "DIG",
+        "cityName": "Deqen",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LYS",
+        "cityName": "Lyon",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "UKB",
+        "cityName": "Kobe",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "LYI",
+        "cityName": "Linyi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LYG",
+        "cityName": "Lianyungang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DHN",
+        "cityName": "Dothan",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "LYA",
+        "cityName": "Luoyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YSB",
+        "cityName": "Sudbury",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "HPN",
+        "cityName": "White Plains",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "HPH",
+        "cityName": "Hai Phong",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "LXS",
+        "cityName": "Limnos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "HPG",
+        "cityName": "Shennongjia",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "DGO",
+        "cityName": "Durango",
+        "timezone": "America/Monterrey"
+    },
+    {
+        "airportCode": "HOU",
+        "cityName": "Houston-Hobby",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "LXA",
+        "cityName": "Lhasa",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HOT",
+        "cityName": "Hot Springs",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "UIP",
+        "cityName": "Quimper",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "HOM",
+        "cityName": "Homer",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "UIO",
+        "cityName": "Quito",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "UIN",
+        "cityName": "Quincy",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "YQY",
+        "cityName": "Sydney",
+        "timezone": "America/Glace_Bay"
+    },
+    {
+        "airportCode": "YQX",
+        "cityName": "Gander",
+        "timezone": "America/St_Johns"
+    },
+    {
+        "airportCode": "LWS",
+        "cityName": "Lewiston",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "YQU",
+        "cityName": "Grande Prarie",
+        "timezone": "America/Edmonton"
+    },
+    {
+        "airportCode": "YQT",
+        "cityName": "Thunder Bay",
+        "timezone": "America/Thunder_Bay"
+    },
+    {
+        "airportCode": "HOF",
+        "cityName": "Hofuf",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "UIH",
+        "cityName": "Qui Nhon",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "YQR",
+        "cityName": "Regina",
+        "timezone": "America/Regina"
+    },
+    {
+        "airportCode": "YQQ",
+        "cityName": "Comox",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "DFW",
+        "cityName": "Dallas-Fort Worth",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "YQM",
+        "cityName": "Moncton",
+        "timezone": "America/Halifax"
+    },
+    {
+        "airportCode": "YQG",
+        "cityName": "Windsor",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "LWB",
+        "cityName": "Greenbrier Valley",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "YQB",
+        "cityName": "Quebec",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "HNL",
+        "cityName": "Honolulu",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "HND",
+        "cityName": "Tokyo-Haneda Airport",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "LVI",
+        "cityName": "Livingstone",
+        "timezone": "Africa/Lusaka"
+    },
+    {
+        "airportCode": "DEN",
+        "cityName": "Denver",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "DEL",
+        "cityName": "Delhi",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "HMO",
+        "cityName": "Hermosillo",
+        "timezone": "America/Hermosillo"
+    },
+    {
+        "airportCode": "LUX",
+        "cityName": "Luxembourg",
+        "timezone": "Europe/Luxembourg"
+    },
+    {
+        "airportCode": "LUW",
+        "cityName": "Luwuk",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "LUV",
+        "cityName": "Langgur",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "YOW",
+        "cityName": "Ottawa",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "HMI",
+        "cityName": "Hami",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LUQ",
+        "cityName": "San Luis",
+        "timezone": "America/Argentina/San_Luis"
+    },
+    {
+        "airportCode": "LUN",
+        "cityName": "Lusaka",
+        "timezone": "Africa/Lusaka"
+    },
+    {
+        "airportCode": "LUM",
+        "cityName": "Mang City",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "UGC",
+        "cityName": "Urgench",
+        "timezone": "Asia/Samarkand"
+    },
+    {
+        "airportCode": "HLZ",
+        "cityName": "Hamilton",
+        "timezone": "Pacific/Auckland"
+    },
+    {
+        "airportCode": "DDG",
+        "cityName": "Dandong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HLN",
+        "cityName": "Helena",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "YNZ",
+        "cityName": "Yancheng",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YNY",
+        "cityName": "Yangyang",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "YNT",
+        "cityName": "Yantai",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DCY",
+        "cityName": "Daocheng",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HLE",
+        "cityName": "Jamestown",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HLD",
+        "cityName": "Hailar",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LTO",
+        "cityName": "Loreto",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "LTN",
+        "cityName": "Luton",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "UFA",
+        "cityName": "Ufa",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "YNJ",
+        "cityName": "Yanji",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DCN",
+        "cityName": "Derby",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "DCM",
+        "cityName": "Labruguiere",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "YNB",
+        "cityName": "Yanbu Al-Bahr",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "HKT",
+        "cityName": "Phuket",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "DCA",
+        "cityName": "Washington-Reagan National",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "LSW",
+        "cityName": "Lhokseumawe",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "LST",
+        "cityName": "Launceston",
+        "timezone": "Australia/Melbourne"
+    },
+    {
+        "airportCode": "HKG",
+        "cityName": "Hong Kong",
+        "timezone": "Asia/Hong_Kong"
+    },
+    {
+        "airportCode": "HKD",
+        "cityName": "Hakodate",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "DBV",
+        "cityName": "Dubrovnik",
+        "timezone": "Europe/Zagreb"
+    },
+    {
+        "airportCode": "YMM",
+        "cityName": "Fort McMurray",
+        "timezone": "America/Edmonton"
+    },
+    {
+        "airportCode": "DBO",
+        "cityName": "Dubbo",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "LSE",
+        "cityName": "La Crosse",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "LSC",
+        "cityName": "La Serena",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "HJJ",
+        "cityName": "Huaihua",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YLW",
+        "cityName": "Kelowna",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "LRT",
+        "cityName": "Lorient",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "UDI",
+        "cityName": "Uberlandia",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "DAY",
+        "cityName": "Dayton",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "DAX",
+        "cityName": "Dazhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LRM",
+        "cityName": "Casa de Campo",
+        "timezone": "America/Santo_Domingo"
+    },
+    {
+        "airportCode": "DAT",
+        "cityName": "Datong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "DAR",
+        "cityName": "Dar es Salaam",
+        "timezone": "Africa/Dar_es_Salaam"
+    },
+    {
+        "airportCode": "LRH",
+        "cityName": "La Rochelle",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "DAM",
+        "cityName": "Damascus",
+        "timezone": "Asia/Damascus"
+    },
+    {
+        "airportCode": "DAL",
+        "cityName": "Dallas-Love Field",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "HIR",
+        "cityName": "Honiara",
+        "timezone": "Pacific/Guadalcanal"
+    },
+    {
+        "airportCode": "DAD",
+        "cityName": "Da Nang",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "DAC",
+        "cityName": "Dhaka",
+        "timezone": "Asia/Dhaka"
+    },
+    {
+        "airportCode": "HIN",
+        "cityName": "Jinju",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "DAB",
+        "cityName": "Daytona Beach",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PZB",
+        "cityName": "Pietermaritzburg",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "HIJ",
+        "cityName": "Hiroshima",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "YKS",
+        "cityName": "Yakutsk",
+        "timezone": "Asia/Yakutsk"
+    },
+    {
+        "airportCode": "HIB",
+        "cityName": "Hibbing",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "HIA",
+        "cityName": "Huaian",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YKM",
+        "cityName": "Yakima",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "YKF",
+        "cityName": "Kitchener",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "YKA",
+        "cityName": "Kamloops",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "UBN",
+        "cityName": "Ulaanbaatar",
+        "timezone": "Asia/Ulaanbaatar"
+    },
+    {
+        "airportCode": "HHH",
+        "cityName": "Hilton Head Island",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "UBJ",
+        "cityName": "Ube",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "LPQ",
+        "cityName": "Luang Prabang",
+        "timezone": "Asia/Vientiane"
+    },
+    {
+        "airportCode": "LPI",
+        "cityName": "Linkoping",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "LPF",
+        "cityName": "Yuezhao",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "LPB",
+        "cityName": "La Paz",
+        "timezone": "America/La_Paz"
+    },
+    {
+        "airportCode": "PXM",
+        "cityName": "Puerto Escondido",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "LPA",
+        "cityName": "Las Palmas",
+        "timezone": "Atlantic/Canary"
+    },
+    {
+        "airportCode": "UAQ",
+        "cityName": "San Juan",
+        "timezone": "America/Argentina/San_Juan"
+    },
+    {
+        "airportCode": "LOV",
+        "cityName": "Monclova Intl",
+        "timezone": "America/Monterrey"
+    },
+    {
+        "airportCode": "YIW",
+        "cityName": "Yiwu",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HGH",
+        "cityName": "Hangzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LOS",
+        "cityName": "Lagos",
+        "timezone": "Africa/Lagos"
+    },
+    {
+        "airportCode": "LOP",
+        "cityName": "Mataram",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "LON",
+        "cityName": "London Area Airports",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "YIN",
+        "cityName": "Yining",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LOH",
+        "cityName": "Loja",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "YIH",
+        "cityName": "Yichang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PWM",
+        "cityName": "Portland",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "LNY",
+        "cityName": "Lanai City",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "YHZ",
+        "cityName": "Halifax",
+        "timezone": "America/Halifax"
+    },
+    {
+        "airportCode": "HFE",
+        "cityName": "Hefei",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LNK",
+        "cityName": "Lincoln",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "YHM",
+        "cityName": "Hamilton",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "LNJ",
+        "cityName": "Lincang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PVR",
+        "cityName": "Puerto Vallarta",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "HET",
+        "cityName": "Hohhot",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HER",
+        "cityName": "Heraklion",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "PVH",
+        "cityName": "Porto Velho",
+        "timezone": "America/Porto_Velho"
+    },
+    {
+        "airportCode": "PVG",
+        "cityName": "Shanghai-Pudong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PVD",
+        "cityName": "Providence",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "HEL",
+        "cityName": "Helsinki",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "PVC",
+        "cityName": "Provincetown",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HEK",
+        "cityName": "Heihe",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LMP",
+        "cityName": "Lampedusa",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "LMM",
+        "cityName": "Los Mochis",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "PUW",
+        "cityName": "Pullman",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "YGJ",
+        "cityName": "Yonago",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "PUS",
+        "cityName": "Busan",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "PUQ",
+        "cityName": "Punta Arenas",
+        "timezone": "America/Punta_Arenas"
+    },
+    {
+        "airportCode": "PUM",
+        "cityName": "Pomala",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "HDS",
+        "cityName": "Hoedspruit",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "PUJ",
+        "cityName": "Punta Cana",
+        "timezone": "America/Santo_Domingo"
+    },
+    {
+        "airportCode": "PUF",
+        "cityName": "Pau",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "HDN",
+        "cityName": "Steamboat Springs",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "LLW",
+        "cityName": "Lilongwe",
+        "timezone": "Africa/Blantyre"
+    },
+    {
+        "airportCode": "LLV",
+        "cityName": "Luliang",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PUB",
+        "cityName": "Pueblo Meml",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "HDG",
+        "cityName": "Handan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CZX",
+        "cityName": "Changzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PTY",
+        "cityName": "Panama City",
+        "timezone": "America/Panama"
+    },
+    {
+        "airportCode": "CZS",
+        "cityName": "Cruzeiro Do Sul",
+        "timezone": "America/Eirunepe"
+    },
+    {
+        "airportCode": "LLF",
+        "cityName": "Yongzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PTP",
+        "cityName": "Pointe a Pitre",
+        "timezone": "America/Guadeloupe"
+    },
+    {
+        "airportCode": "CZM",
+        "cityName": "Cozumel",
+        "timezone": "America/Cancun"
+    },
+    {
+        "airportCode": "CZL",
+        "cityName": "Constantine",
+        "timezone": "Africa/Algiers"
+    },
+    {
+        "airportCode": "LLB",
+        "cityName": "Libo County",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "YFC",
+        "cityName": "Fredericton",
+        "timezone": "America/Moncton"
+    },
+    {
+        "airportCode": "LKO",
+        "cityName": "Lucknow",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "CYS",
+        "cityName": "Cheyenne Regional/ Jerry Olson",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "PSU",
+        "cityName": "Putussibau",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "PSS",
+        "cityName": "Posadas",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "PSR",
+        "cityName": "Pescara",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "PSP",
+        "cityName": "Palm Springs",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "YEG",
+        "cityName": "Edmonton",
+        "timezone": "America/Edmonton"
+    },
+    {
+        "airportCode": "PSO",
+        "cityName": "Antonio Narino",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "PSG",
+        "cityName": "Johnson Petersburg",
+        "timezone": "America/Juneau"
+    },
+    {
+        "airportCode": "PSE",
+        "cityName": "Mercedita",
+        "timezone": "America/Puerto_Rico"
+    },
+    {
+        "airportCode": "PSC",
+        "cityName": "Pasco/Kennewick",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "LJU",
+        "cityName": "Ljubljana",
+        "timezone": "Europe/Ljubljana"
+    },
+    {
+        "airportCode": "PSA",
+        "cityName": "Pisa",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "HBE",
+        "cityName": "Borg El Arab",
+        "timezone": "Africa/Cairo"
+    },
+    {
+        "airportCode": "HBA",
+        "cityName": "Hobart",
+        "timezone": "Australia/Hobart"
+    },
+    {
+        "airportCode": "CXR",
+        "cityName": "Cam Ranh Bay",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "LJG",
+        "cityName": "Lijiang City",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "YDF",
+        "cityName": "Deer Lake",
+        "timezone": "America/St_Johns"
+    },
+    {
+        "airportCode": "PRN",
+        "cityName": "Pristina",
+        "timezone": "Europe/Belgrade"
+    },
+    {
+        "airportCode": "HAV",
+        "cityName": "Havana",
+        "timezone": "America/Havana"
+    },
+    {
+        "airportCode": "CXJ",
+        "cityName": "Caxias Do Sul",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "HAS",
+        "cityName": "Hail",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "PRG",
+        "cityName": "Prague",
+        "timezone": "Europe/Prague"
+    },
+    {
+        "airportCode": "HAN",
+        "cityName": "Hanoi",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "HAM",
+        "cityName": "Hamburg",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "PRC",
+        "cityName": "Love",
+        "timezone": "America/Phoenix"
+    },
+    {
+        "airportCode": "HAK",
+        "cityName": "Haikou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HAJ",
+        "cityName": "Hannover",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "PRA",
+        "cityName": "Parana",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "LIT",
+        "cityName": "Little Rock",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "YCU",
+        "cityName": "Yuncheng",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "HAH",
+        "cityName": "Prince Said Ibrahim",
+        "timezone": "Indian/Comoro"
+    },
+    {
+        "airportCode": "LIS",
+        "cityName": "Lisbon",
+        "timezone": "Europe/Lisbon"
+    },
+    {
+        "airportCode": "LIR",
+        "cityName": "Guanacaste Liberia",
+        "timezone": "America/Costa_Rica"
+    },
+    {
+        "airportCode": "LIN",
+        "cityName": "Milan-Linate",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "LIM",
+        "cityName": "Lima",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "LIL",
+        "cityName": "Lille",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "LIH",
+        "cityName": "Lihue",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "LIG",
+        "cityName": "Limoges",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "PQQ",
+        "cityName": "Port Macquarie",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "CWL",
+        "cityName": "Cardiff",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "YCD",
+        "cityName": "Nanaimo",
+        "timezone": "America/Vancouver"
+    },
+    {
+        "airportCode": "TYS",
+        "cityName": "Knoxville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TYR",
+        "cityName": "Tyler Pounds Rgnl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CWB",
+        "cityName": "Curitiba",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "TYO",
+        "cityName": "Tokyo Area Airports",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "CWA",
+        "cityName": "Wausau",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "LHW",
+        "cityName": "Lanzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PQC",
+        "cityName": "Phu Quoc",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "TYN",
+        "cityName": "Taiyuan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TYL",
+        "cityName": "Talara",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "LHR",
+        "cityName": "London-Heathrow",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "YBP",
+        "cityName": "Yibin",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PPT",
+        "cityName": "Papeete",
+        "timezone": "Pacific/Tahiti"
+    },
+    {
+        "airportCode": "CVN",
+        "cityName": "Clovis",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "LHE",
+        "cityName": "Lahore",
+        "timezone": "Asia/Karachi"
+    },
+    {
+        "airportCode": "PPP",
+        "cityName": "Proserpine",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "CVM",
+        "cityName": "Ciudad Victoria",
+        "timezone": "America/Monterrey"
+    },
+    {
+        "airportCode": "PPN",
+        "cityName": "Guillermo Leon Valencia",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "CVG",
+        "cityName": "Cincinnati",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PPE",
+        "cityName": "Puerto Penasco",
+        "timezone": "America/Hermosillo"
+    },
+    {
+        "airportCode": "LGW",
+        "cityName": "London-Gatwick",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "TXN",
+        "cityName": "Huangshan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PPB",
+        "cityName": "Presidente Prudente",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "TXK",
+        "cityName": "Texarkana Regl-webb",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CUZ",
+        "cityName": "Cusco",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "POZ",
+        "cityName": "Poznan",
+        "timezone": "Europe/Warsaw"
+    },
+    {
+        "airportCode": "CUU",
+        "cityName": "Chihuahua",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "YAM",
+        "cityName": "Sault Ste. Marie",
+        "timezone": "America/Toronto"
+    },
+    {
+        "airportCode": "YAK",
+        "cityName": "Yakutat",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "CUR",
+        "cityName": "Curacao",
+        "timezone": "America/Curacao"
+    },
+    {
+        "airportCode": "CUN",
+        "cityName": "Cancun",
+        "timezone": "America/Cancun"
+    },
+    {
+        "airportCode": "POP",
+        "cityName": "Puerto Plata",
+        "timezone": "America/Santo_Domingo"
+    },
+    {
+        "airportCode": "CUL",
+        "cityName": "Culiacan",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "LGB",
+        "cityName": "Long Beach",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "POM",
+        "cityName": "Port Moresby",
+        "timezone": "Pacific/Port_Moresby"
+    },
+    {
+        "airportCode": "LGA",
+        "cityName": "New York-LaGuardia",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "POL",
+        "cityName": "Pemba",
+        "timezone": "Africa/Maputo"
+    },
+    {
+        "airportCode": "CUE",
+        "cityName": "Cuenca",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "CUC",
+        "cityName": "C\u00facuta",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "LFW",
+        "cityName": "Lome",
+        "timezone": "Africa/Lome"
+    },
+    {
+        "airportCode": "POA",
+        "cityName": "Porto Alegre",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "LFT",
+        "cityName": "Lafayette",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "PNZ",
+        "cityName": "Petrolina",
+        "timezone": "America/Bahia"
+    },
+    {
+        "airportCode": "TWF",
+        "cityName": "Twin Falls",
+        "timezone": "America/Boise"
+    },
+    {
+        "airportCode": "CTU",
+        "cityName": "Chengdu-Shuangliu",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CTS",
+        "cityName": "Sapporo",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "PNT",
+        "cityName": "Puerto Natales",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "PNS",
+        "cityName": "Pensacola",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "PNR",
+        "cityName": "Pointe Noire",
+        "timezone": "Africa/Brazzaville"
+    },
+    {
+        "airportCode": "PNQ",
+        "cityName": "Pune",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "CTM",
+        "cityName": "Chetumal",
+        "timezone": "America/Cancun"
+    },
+    {
+        "airportCode": "PNL",
+        "cityName": "Pantelleria",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "PNK",
+        "cityName": "Pontianak",
+        "timezone": "Asia/Pontianak"
+    },
+    {
+        "airportCode": "CTG",
+        "cityName": "Cartagena",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "PNI",
+        "cityName": "Pohnpei Intl",
+        "timezone": "Pacific/Pohnpei"
+    },
+    {
+        "airportCode": "PNH",
+        "cityName": "Phnom Penh",
+        "timezone": "Asia/Phnom_Penh"
+    },
+    {
+        "airportCode": "TVS",
+        "cityName": "Tangshan",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CTC",
+        "cityName": "Catamarca",
+        "timezone": "America/Argentina/Catamarca"
+    },
+    {
+        "airportCode": "LEX",
+        "cityName": "Lexington",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CTA",
+        "cityName": "Catania",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "LET",
+        "cityName": "Leticia",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "CSX",
+        "cityName": "Changsha",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TVF",
+        "cityName": "Thief River Falls Regl",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PMW",
+        "cityName": "Palmas",
+        "timezone": "America/Araguaina"
+    },
+    {
+        "airportCode": "TVC",
+        "cityName": "Traverse City",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PMV",
+        "cityName": "Del Caribe Intl Gen Santiago M",
+        "timezone": "America/Caracas"
+    },
+    {
+        "airportCode": "LED",
+        "cityName": "St Petersburg",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "PMO",
+        "cityName": "Palermo",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "LEB",
+        "cityName": "Lebanon",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TUU",
+        "cityName": "Tabuk",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "CSG",
+        "cityName": "Columbus",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PMI",
+        "cityName": "Palma de Mallorca/Majorca",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "TUS",
+        "cityName": "Tucson",
+        "timezone": "America/Phoenix"
+    },
+    {
+        "airportCode": "PMF",
+        "cityName": "Parma",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "PMC",
+        "cityName": "Puerto Montt",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "TUN",
+        "cityName": "Tunis",
+        "timezone": "Africa/Tunis"
+    },
+    {
+        "airportCode": "TUL",
+        "cityName": "Tulsa",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "LDS",
+        "cityName": "Yichun",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TUI",
+        "cityName": "Turaif",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "PLZ",
+        "cityName": "Port Elizabeth",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "CRW",
+        "cityName": "Charleston",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PLW",
+        "cityName": "Palu",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "TUC",
+        "cityName": "Tucuman",
+        "timezone": "America/Argentina/Tucuman"
+    },
+    {
+        "airportCode": "PLS",
+        "cityName": "Providenciales",
+        "timezone": "America/Grand_Turk"
+    },
+    {
+        "airportCode": "CRP",
+        "cityName": "Corpus Christi Intl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "PLQ",
+        "cityName": "Palanga",
+        "timezone": "Europe/Vilnius"
+    },
+    {
+        "airportCode": "LDE",
+        "cityName": "Lourdes Tarbes",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "PLN",
+        "cityName": "Pellston",
+        "timezone": "America/Detroit"
+    },
+    {
+        "airportCode": "CRK",
+        "cityName": "Luzon (Greater Manila)",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "airportCode": "LDB",
+        "cityName": "Londrina",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "PLM",
+        "cityName": "Palembang",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "CRD",
+        "cityName": "Salta",
+        "timezone": "America/Argentina/Catamarca"
+    },
+    {
+        "airportCode": "LCY",
+        "cityName": "London City",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PKY",
+        "cityName": "Palangkaraya",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "TTE",
+        "cityName": "Ternate",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "PKX",
+        "cityName": "Beijing-Daxing",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PKU",
+        "cityName": "Pekanbaru",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "LCG",
+        "cityName": "A Coruna",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "LCA",
+        "cityName": "Larnaca",
+        "timezone": "Asia/Nicosia"
+    },
+    {
+        "airportCode": "TSV",
+        "cityName": "Townsville",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "GYS",
+        "cityName": "Guangyuan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TSR",
+        "cityName": "Timisoara",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "GYN",
+        "cityName": "Goiania",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "GYM",
+        "cityName": "Guaymas",
+        "timezone": "America/Hermosillo"
+    },
+    {
+        "airportCode": "PKC",
+        "cityName": "Petropavlovsk-Kamchatsky",
+        "timezone": "Asia/Anadyr"
+    },
+    {
+        "airportCode": "TSN",
+        "cityName": "Tianjin",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "LBV",
+        "cityName": "Libreville",
+        "timezone": "Africa/Libreville"
+    },
+    {
+        "airportCode": "GYE",
+        "cityName": "Guayaquil",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "CPX",
+        "cityName": "Isla de Culebra",
+        "timezone": "America/Puerto_Rico"
+    },
+    {
+        "airportCode": "GYD",
+        "cityName": "Baku",
+        "timezone": "Asia/Baku"
+    },
+    {
+        "airportCode": "TSE",
+        "cityName": "Astana",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CPV",
+        "cityName": "Campina Grande",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "CPT",
+        "cityName": "Cape Town",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "LBJ",
+        "cityName": "Labuan Bajo",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "TSA",
+        "cityName": "Taipei",
+        "timezone": "Asia/Taipei"
+    },
+    {
+        "airportCode": "CPR",
+        "cityName": "Casper",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "CPQ",
+        "cityName": "Campinas",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "CPO",
+        "cityName": "Copiap\u00f3",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "LBD",
+        "cityName": "Khudjand",
+        "timezone": "Asia/Dushanbe"
+    },
+    {
+        "airportCode": "LBA",
+        "cityName": "Leeds",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "TRV",
+        "cityName": "Thiruvananthapuram",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "CPH",
+        "cityName": "Copenhagen",
+        "timezone": "Europe/Copenhagen"
+    },
+    {
+        "airportCode": "TRU",
+        "cityName": "Trujillo",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "TRS",
+        "cityName": "Trieste",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "CPE",
+        "cityName": "Campeche",
+        "timezone": "America/Merida"
+    },
+    {
+        "airportCode": "CPC",
+        "cityName": "San Martin de los Andes",
+        "timezone": "America/Argentina/Salta"
+    },
+    {
+        "airportCode": "LAX",
+        "cityName": "Los Angeles",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "TRN",
+        "cityName": "Turin",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "LAU",
+        "cityName": "Lamu/manda",
+        "timezone": "Africa/Nairobi"
+    },
+    {
+        "airportCode": "TRK",
+        "cityName": "Tarakan",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "LAS",
+        "cityName": "Las Vegas",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "TRI",
+        "cityName": "Tri City",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "LAP",
+        "cityName": "La Paz",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "TRF",
+        "cityName": "Sandefjord",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "LAN",
+        "cityName": "Lansing",
+        "timezone": "America/Detroit"
+    },
+    {
+        "airportCode": "TRD",
+        "cityName": "Trondheim",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "TRC",
+        "cityName": "Torreon",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "COS",
+        "cityName": "Colorado Springs",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "PIU",
+        "cityName": "Piura",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "COR",
+        "cityName": "Cordoba",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "LAI",
+        "cityName": "Lannion",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "PIT",
+        "cityName": "Pittsburgh",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PIR",
+        "cityName": "Pierre Regl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "COO",
+        "cityName": "Cotonou",
+        "timezone": "Africa/Porto-Novo"
+    },
+    {
+        "airportCode": "LAD",
+        "cityName": "Luanda",
+        "timezone": "Africa/Luanda"
+    },
+    {
+        "airportCode": "COK",
+        "cityName": "Kochi",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "PIH",
+        "cityName": "Pocatello",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "COD",
+        "cityName": "Cody",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "TQO",
+        "cityName": "Tulum",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "XYX",
+        "cityName": "Sala Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PIA",
+        "cityName": "Peoria",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CNY",
+        "cityName": "Moab",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CNX",
+        "cityName": "Chiang Mai",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "XYP",
+        "cityName": "Avesta Krylbo Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PHX",
+        "cityName": "Phoenix",
+        "timezone": "America/Phoenix"
+    },
+    {
+        "airportCode": "CNS",
+        "cityName": "Cairns",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "XYK",
+        "cityName": "Norrk\u00f6ping Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CNQ",
+        "cityName": "Corrientes",
+        "timezone": "America/Argentina/Cordoba"
+    },
+    {
+        "airportCode": "XYD",
+        "cityName": "Part-Dieu Railway Stn",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CNJ",
+        "cityName": "Cloncurry",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "PHL",
+        "cityName": "Philadelphia",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "XYB",
+        "cityName": "Borl\u00e4nge Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CNF",
+        "cityName": "Belo Horizonte",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "TPS",
+        "cityName": "Trapani",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "PHF",
+        "cityName": "Newport News",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TPQ",
+        "cityName": "Tepic",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "PHE",
+        "cityName": "Port Hedland",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "TPP",
+        "cityName": "Tarapoto",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "XXZ",
+        "cityName": "Sundsvall Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PHC",
+        "cityName": "Port Harcourt",
+        "timezone": "Africa/Lagos"
+    },
+    {
+        "airportCode": "XXU",
+        "cityName": "Hedemora Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "TPE",
+        "cityName": "Taipei",
+        "timezone": "Asia/Taipei"
+    },
+    {
+        "airportCode": "XXO",
+        "cityName": "Leksand Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "GVA",
+        "cityName": "Geneva",
+        "timezone": "Europe/Zurich"
+    },
+    {
+        "airportCode": "TPA",
+        "cityName": "Tampa",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CMN",
+        "cityName": "Casablanca",
+        "timezone": "Africa/Casablanca"
+    },
+    {
+        "airportCode": "TOY",
+        "cityName": "Toyama",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "PGK",
+        "cityName": "Pangkalpinang",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "CMH",
+        "cityName": "Columbus",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CME",
+        "cityName": "Ciudad Del Carmen",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "PGF",
+        "cityName": "Perpignan",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "CMB",
+        "cityName": "Colombo",
+        "timezone": "Asia/Colombo"
+    },
+    {
+        "airportCode": "GUM",
+        "cityName": "Guam",
+        "timezone": "Pacific/Guam"
+    },
+    {
+        "airportCode": "CLY",
+        "cityName": "Calvi",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "TOF",
+        "cityName": "Tomsk",
+        "timezone": "Asia/Tomsk"
+    },
+    {
+        "airportCode": "CLV",
+        "cityName": "Caldas Novas",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "GUB",
+        "cityName": "Guerrero Negro",
+        "timezone": "America/Tijuana"
+    },
+    {
+        "airportCode": "GUA",
+        "cityName": "Guatemala City",
+        "timezone": "America/Guatemala"
+    },
+    {
+        "airportCode": "CLT",
+        "cityName": "Charlotte",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CLQ",
+        "cityName": "Colima",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "CLO",
+        "cityName": "Cali",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "PFO",
+        "cityName": "Paphos",
+        "timezone": "Asia/Nicosia"
+    },
+    {
+        "airportCode": "XWF",
+        "cityName": "Falun Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CLL",
+        "cityName": "Easterwood",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CLJ",
+        "cityName": "Cluj",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "XWA",
+        "cityName": "Williston",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "GTR",
+        "cityName": "Columbus",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CLE",
+        "cityName": "Cleveland-Hopkins",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TNR",
+        "cityName": "Antananarivo",
+        "timezone": "Indian/Antananarivo"
+    },
+    {
+        "airportCode": "GTO",
+        "cityName": "Gorontalo",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "TNN",
+        "cityName": "Tainan",
+        "timezone": "Asia/Taipei"
+    },
+    {
+        "airportCode": "PFB",
+        "cityName": "Passo Fundo",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "TNJ",
+        "cityName": "Tanjung Pinang",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "GTF",
+        "cityName": "Great Falls",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "TNH",
+        "cityName": "Tonghua",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CKY",
+        "cityName": "Conakry",
+        "timezone": "Africa/Conakry"
+    },
+    {
+        "airportCode": "PEW",
+        "cityName": "Peshawar",
+        "timezone": "Asia/Karachi"
+    },
+    {
+        "airportCode": "CKS",
+        "cityName": "Carajas",
+        "timezone": "America/Araguaina"
+    },
+    {
+        "airportCode": "TNA",
+        "cityName": "Jinan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PER",
+        "cityName": "Perth",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "PEN",
+        "cityName": "Penang",
+        "timezone": "Asia/Kuala_Lumpur"
+    },
+    {
+        "airportCode": "PEM",
+        "cityName": "Puerto Maldonado",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "TMW",
+        "cityName": "Tamworth",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "GST",
+        "cityName": "Gustavus",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "PEK",
+        "cityName": "Beijing-Capital",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CKG",
+        "cityName": "Chongqing",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PEI",
+        "cityName": "Pereira",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "GSP",
+        "cityName": "Greenville/Spartanburg",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PEG",
+        "cityName": "San Egidio",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "GSO",
+        "cityName": "Greensboro",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PEE",
+        "cityName": "Perm",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "TMP",
+        "cityName": "Pirkkala",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "XUZ",
+        "cityName": "Xuzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PDX",
+        "cityName": "Portland",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "CJU",
+        "cityName": "Jeju City",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "TMC",
+        "cityName": "Tambolaka",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "CJS",
+        "cityName": "Ciudad Juarez",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "PDT",
+        "cityName": "Eastern Oreg Regl At Pendleton",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "PDS",
+        "cityName": "Piedras Negras",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "GRZ",
+        "cityName": "Graz",
+        "timezone": "Europe/Vienna"
+    },
+    {
+        "airportCode": "PDP",
+        "cityName": "Punta del Este",
+        "timezone": "America/Montevideo"
+    },
+    {
+        "airportCode": "GRX",
+        "cityName": "Federico Garcia Lorca",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "CJJ",
+        "cityName": "Cheongju",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "GRU",
+        "cityName": "Sao Paulo",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "PDL",
+        "cityName": "Ponta Delgada - Azores",
+        "timezone": "Atlantic/Azores"
+    },
+    {
+        "airportCode": "TLV",
+        "cityName": "Tel Aviv",
+        "timezone": "Asia/Jerusalem"
+    },
+    {
+        "airportCode": "GRR",
+        "cityName": "Grand Rapids",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TLS",
+        "cityName": "Toulouse",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "PDG",
+        "cityName": "Padang",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "GRO",
+        "cityName": "Girona",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "CJC",
+        "cityName": "Calama",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "CJB",
+        "cityName": "Coimbatore",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "CJA",
+        "cityName": "Cajamarca",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "TLN",
+        "cityName": "Toulon",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "GRK",
+        "cityName": "Killeen",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "GRJ",
+        "cityName": "George",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "TLL",
+        "cityName": "Tallinn",
+        "timezone": "Europe/Tallinn"
+    },
+    {
+        "airportCode": "TLH",
+        "cityName": "Tallahassee",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CIY",
+        "cityName": "Comiso",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "CIX",
+        "cityName": "Chiclayo",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "KZN",
+        "cityName": "Kazan",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "GRB",
+        "cityName": "Green Bay",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CIU",
+        "cityName": "Sault Ste Marie",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TLC",
+        "cityName": "Toluca",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "PCL",
+        "cityName": "Pucallpa",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "CIH",
+        "cityName": "Changzhi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TKU",
+        "cityName": "Turku",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "CIF",
+        "cityName": "Chifeng",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TKS",
+        "cityName": "Tokushima",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "CID",
+        "cityName": "Cedar Rapids",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "PCE",
+        "cityName": "Pisa Centrale Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "TKK",
+        "cityName": "Chuuk Intl",
+        "timezone": "Pacific/Chuuk"
+    },
+    {
+        "airportCode": "TKG",
+        "cityName": "Bandar Lampung",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "CHS",
+        "cityName": "Charleston",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CHQ",
+        "cityName": "Chania",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "CHO",
+        "cityName": "Charlottesville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PBO",
+        "cityName": "Paraburdoo",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "PBM",
+        "cityName": "Paramaribo",
+        "timezone": "America/Paramaribo"
+    },
+    {
+        "airportCode": "CHI",
+        "cityName": "Chicago Area Airports",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "GPT",
+        "cityName": "Gulfport",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "GPS",
+        "cityName": "Baltra Island",
+        "timezone": "Pacific/Galapagos"
+    },
+    {
+        "airportCode": "PBI",
+        "cityName": "West Palm Beach",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CHG",
+        "cityName": "Chaoyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "GPP",
+        "cityName": "Genoa Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "TJQ",
+        "cityName": "Tanjung Pandan",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "CHC",
+        "cityName": "Christchurch",
+        "timezone": "Pacific/Auckland"
+    },
+    {
+        "airportCode": "CHA",
+        "cityName": "Chattanooga",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "PBC",
+        "cityName": "Puebla",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "TJM",
+        "cityName": "Tyumen",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "PAZ",
+        "cityName": "Poza Rica",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "CGR",
+        "cityName": "Campo Grande",
+        "timezone": "America/Campo_Grande"
+    },
+    {
+        "airportCode": "CGQ",
+        "cityName": "Changchun",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PAS",
+        "cityName": "Paros",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "XRJ",
+        "cityName": "Roma Termini Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CGP",
+        "cityName": "Chittagong",
+        "timezone": "Asia/Dhaka"
+    },
+    {
+        "airportCode": "PAR",
+        "cityName": "Paris Area Airports",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CGO",
+        "cityName": "Zhengzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PAP",
+        "cityName": "Port-au-Prince",
+        "timezone": "America/Port-au-Prince"
+    },
+    {
+        "airportCode": "CGK",
+        "cityName": "Jakarta",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "CGI",
+        "cityName": "Cape Girardeau Regl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "GOT",
+        "cityName": "Gothenburg",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "TIV",
+        "cityName": "Tivat",
+        "timezone": "Europe/Podgorica"
+    },
+    {
+        "airportCode": "CGH",
+        "cityName": "Sao Paulo",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "GOQ",
+        "cityName": "Golmud",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "PAH",
+        "cityName": "Barkley Regl",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "CGD",
+        "cityName": "Changde",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TIP",
+        "cityName": "Tripoli",
+        "timezone": "Africa/Tripoli"
+    },
+    {
+        "airportCode": "CGB",
+        "cityName": "Cuiaba",
+        "timezone": "America/Cuiaba"
+    },
+    {
+        "airportCode": "TIM",
+        "cityName": "Timika",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "GOJ",
+        "cityName": "Nizhny Novgorod",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "GOI",
+        "cityName": "Goa",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "TIJ",
+        "cityName": "Tijuana",
+        "timezone": "America/Tijuana"
+    },
+    {
+        "airportCode": "TIF",
+        "cityName": "Taif",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "CFU",
+        "cityName": "Corfu",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "GOA",
+        "cityName": "Genoa",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "KWL",
+        "cityName": "Guilin",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CFS",
+        "cityName": "Coffs Harbour",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "KWJ",
+        "cityName": "Gwangju",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "TIA",
+        "cityName": "Tirana",
+        "timezone": "Europe/Tirane"
+    },
+    {
+        "airportCode": "XQL",
+        "cityName": "Lancaster Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CFR",
+        "cityName": "Caen",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "KWI",
+        "cityName": "Kuwait",
+        "timezone": "Asia/Kuwait"
+    },
+    {
+        "airportCode": "KWE",
+        "cityName": "Guiyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "GNV",
+        "cityName": "Gainesville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "KWA",
+        "cityName": "Bucholz Aaf",
+        "timezone": "Pacific/Kwajalein"
+    },
+    {
+        "airportCode": "GNS",
+        "cityName": "Gunung Sitoli",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "CFE",
+        "cityName": "Clermont Ferrand",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "XPT",
+        "cityName": "Preston Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CEZ",
+        "cityName": "Cortez",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "GND",
+        "cityName": "Grenada",
+        "timezone": "America/Grenada"
+    },
+    {
+        "airportCode": "THE",
+        "cityName": "Teresina",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "THD",
+        "cityName": "Thanh Hoa",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "XPL",
+        "cityName": "Tegucigalpa-Palmerola",
+        "timezone": "America/Tegucigalpa"
+    },
+    {
+        "airportCode": "CEN",
+        "cityName": "Ciudad Obregon",
+        "timezone": "America/Hermosillo"
+    },
+    {
+        "airportCode": "TGZ",
+        "cityName": "Tuxtla Gutierrez",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "CEK",
+        "cityName": "Chelyabinsk",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "CEI",
+        "cityName": "Chiang Rai",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "TGU",
+        "cityName": "Tegucigalpa-Toncontin",
+        "timezone": "America/Tegucigalpa"
+    },
+    {
+        "airportCode": "GMP",
+        "cityName": "Seoul-Gimpo",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "CEB",
+        "cityName": "Cebu",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "airportCode": "TGO",
+        "cityName": "Tongliao",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KUV",
+        "cityName": "Gunsan",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "KUO",
+        "cityName": "Kuopio",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "CDV",
+        "cityName": "Cordova-smith",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "TGD",
+        "cityName": "Podgorica",
+        "timezone": "Europe/Podgorica"
+    },
+    {
+        "airportCode": "KUL",
+        "cityName": "Kuala Lumpur",
+        "timezone": "Asia/Kuala_Lumpur"
+    },
+    {
+        "airportCode": "KUH",
+        "cityName": "Kushiro",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "KUF",
+        "cityName": "Samara",
+        "timezone": "Europe/Samara"
+    },
+    {
+        "airportCode": "GLT",
+        "cityName": "Gladstone",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "TFU",
+        "cityName": "Chengdu-Tianfu",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CDG",
+        "cityName": "Paris-De Gaulle",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "TFS",
+        "cityName": "Tenerife",
+        "timezone": "Atlantic/Canary"
+    },
+    {
+        "airportCode": "CDC",
+        "cityName": "Cedar City",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "CDB",
+        "cityName": "Cold Bay",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "TFN",
+        "cityName": "Tenerife - Los Rodeos",
+        "timezone": "Atlantic/Canary"
+    },
+    {
+        "airportCode": "KTN",
+        "cityName": "Ketchikan",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "KTM",
+        "cityName": "Katmandu",
+        "timezone": "Asia/Kathmandu"
+    },
+    {
+        "airportCode": "XNN",
+        "cityName": "Xining",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CCU",
+        "cityName": "Kolkata",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "GLA",
+        "cityName": "Glasgow",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "CCS",
+        "cityName": "Caracas",
+        "timezone": "America/Caracas"
+    },
+    {
+        "airportCode": "CCP",
+        "cityName": "Concepci\u00f3n",
+        "timezone": "America/Santiago"
+    },
+    {
+        "airportCode": "CCK",
+        "cityName": "Cocos Island",
+        "timezone": "Indian/Cocos"
+    },
+    {
+        "airportCode": "TEX",
+        "cityName": "Telluride",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "CCJ",
+        "cityName": "Kozhikode",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "KTA",
+        "cityName": "Karratha",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "XNA",
+        "cityName": "Fayetteville-NW Reg",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "TET",
+        "cityName": "Tete",
+        "timezone": "Africa/Maputo"
+    },
+    {
+        "airportCode": "TEN",
+        "cityName": "Tongren",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "XMN",
+        "cityName": "Xiamen",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CBR",
+        "cityName": "Canberra",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "KSC",
+        "cityName": "Kosice",
+        "timezone": "Europe/Bratislava"
+    },
+    {
+        "airportCode": "KSA",
+        "cityName": "Kosrae",
+        "timezone": "Pacific/Kosrae"
+    },
+    {
+        "airportCode": "GJT",
+        "cityName": "Grand Junction",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "KRY",
+        "cityName": "Karamay",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KRT",
+        "cityName": "Khartoum",
+        "timezone": "Africa/Khartoum"
+    },
+    {
+        "airportCode": "KRS",
+        "cityName": "Kristiansand",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "KRR",
+        "cityName": "Krasnodar",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "CAY",
+        "cityName": "Cayenne",
+        "timezone": "America/Cayenne"
+    },
+    {
+        "airportCode": "KRL",
+        "cityName": "Korla",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KRK",
+        "cityName": "Krakow",
+        "timezone": "Europe/Warsaw"
+    },
+    {
+        "airportCode": "GIZ",
+        "cityName": "Jizan",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "CAN",
+        "cityName": "Guangzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TCZ",
+        "cityName": "Tengchong",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "CAK",
+        "cityName": "Akron",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "CAI",
+        "cityName": "Cairo",
+        "timezone": "Africa/Cairo"
+    },
+    {
+        "airportCode": "CAH",
+        "cityName": "Ca Mau",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "CAG",
+        "cityName": "Cagliari",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "CAE",
+        "cityName": "Columbia",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "TCQ",
+        "cityName": "Tacna",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "CAC",
+        "cityName": "Cascavel",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "CAB",
+        "cityName": "Cabinda",
+        "timezone": "Africa/Luanda"
+    },
+    {
+        "airportCode": "TCO",
+        "cityName": "La Florida",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "GIG",
+        "cityName": "Rio de Janeiro",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "TBZ",
+        "cityName": "Tabriz",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "TBU",
+        "cityName": "Nuku Alofa",
+        "timezone": "Pacific/Tongatapu"
+    },
+    {
+        "airportCode": "TBS",
+        "cityName": "Tbilisi",
+        "timezone": "Asia/Tbilisi"
+    },
+    {
+        "airportCode": "TBP",
+        "cityName": "Tumbes",
+        "timezone": "America/Lima"
+    },
+    {
+        "airportCode": "KPO",
+        "cityName": "Pohang",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "TBB",
+        "cityName": "Tuy Hoa",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "GGW",
+        "cityName": "Glasgow",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "GGT",
+        "cityName": "Georgetown",
+        "timezone": "America/Nassau"
+    },
+    {
+        "airportCode": "TAT",
+        "cityName": "Tatry",
+        "timezone": "Europe/Bratislava"
+    },
+    {
+        "airportCode": "TAS",
+        "cityName": "Tashkent",
+        "timezone": "Asia/Samarkand"
+    },
+    {
+        "airportCode": "TAP",
+        "cityName": "Tapachula",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "TAO",
+        "cityName": "Qingdao",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "XIY",
+        "cityName": "Xianyang - Xian",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KOW",
+        "cityName": "Ganzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "TAM",
+        "cityName": "Tampico",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "TAK",
+        "cityName": "Takamatsu",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "TAE",
+        "cityName": "Daegu",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "TAB",
+        "cityName": "Crown Point",
+        "timezone": "America/Port_of_Spain"
+    },
+    {
+        "airportCode": "XIL",
+        "cityName": "Xilinhot",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KOJ",
+        "cityName": "Kagoshima",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "KOE",
+        "cityName": "Kupang",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "XIC",
+        "cityName": "Xichang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KOA",
+        "cityName": "Kona",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "KNX",
+        "cityName": "Kununurra",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "GFK",
+        "cityName": "Grand Forks",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "OWB",
+        "cityName": "Owensboro",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "GFF",
+        "cityName": "Griffith",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "KNO",
+        "cityName": "Medan",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "GET",
+        "cityName": "Geraldton",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "OVD",
+        "cityName": "Oviedo",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "OVB",
+        "cityName": "Novosibirsk",
+        "timezone": "Asia/Krasnoyarsk"
+    },
+    {
+        "airportCode": "GEG",
+        "cityName": "Spokane",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "KMQ",
+        "cityName": "Komatsu",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "KMJ",
+        "cityName": "Kumamoto",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "KMI",
+        "cityName": "Miyazaki",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "KMG",
+        "cityName": "Kunming",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "GDZ",
+        "cityName": "Gelendzhik",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "GDX",
+        "cityName": "Magadan",
+        "timezone": "Asia/Magadan"
+    },
+    {
+        "airportCode": "GDV",
+        "cityName": "Dawson",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "OUL",
+        "cityName": "Oulu",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "GDN",
+        "cityName": "Gdansk",
+        "timezone": "Europe/Warsaw"
+    },
+    {
+        "airportCode": "GDL",
+        "cityName": "Guadalajara",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "KLV",
+        "cityName": "Karlovy Vary",
+        "timezone": "Europe/Prague"
+    },
+    {
+        "airportCode": "OUA",
+        "cityName": "Ouagadougou",
+        "timezone": "Africa/Ouagadougou"
+    },
+    {
+        "airportCode": "KLO",
+        "cityName": "Kalibo",
+        "timezone": "Asia/Manila"
+    },
+    {
+        "airportCode": "BZV",
+        "cityName": "Brazzaville",
+        "timezone": "Africa/Brazzaville"
+    },
+    {
+        "airportCode": "XFN",
+        "cityName": "Xiangyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BZO",
+        "cityName": "Bolzano",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "BZN",
+        "cityName": "Bozeman/Big Sky",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "OTP",
+        "cityName": "Bucharest",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "BZE",
+        "cityName": "Belize City",
+        "timezone": "America/Belize"
+    },
+    {
+        "airportCode": "GCM",
+        "cityName": "Grand Cayman",
+        "timezone": "America/Cayman"
+    },
+    {
+        "airportCode": "GCI",
+        "cityName": "Guernsey",
+        "timezone": "Europe/Guernsey"
+    },
+    {
+        "airportCode": "GCC",
+        "cityName": "Gillette",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "KKJ",
+        "cityName": "Kitakyushu",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "OSS",
+        "cityName": "Osh",
+        "timezone": "Asia/Bishkek"
+    },
+    {
+        "airportCode": "OSR",
+        "cityName": "Ostrava",
+        "timezone": "Europe/Prague"
+    },
+    {
+        "airportCode": "OSL",
+        "cityName": "Oslo",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "GBT",
+        "cityName": "Gorgan",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "OSD",
+        "cityName": "\u00d6stersund Railway Station",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "OSA",
+        "cityName": "Osaka Area Airports",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "GBE",
+        "cityName": "Gaborone",
+        "timezone": "Africa/Gaborone"
+    },
+    {
+        "airportCode": "ORY",
+        "cityName": "Paris-Orly",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "ORN",
+        "cityName": "Oran",
+        "timezone": "Africa/Algiers"
+    },
+    {
+        "airportCode": "SZX",
+        "cityName": "Shenzhen",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KJA",
+        "cityName": "Krasnoyarsk",
+        "timezone": "Asia/Krasnoyarsk"
+    },
+    {
+        "airportCode": "ORK",
+        "cityName": "Cork",
+        "timezone": "Europe/Dublin"
+    },
+    {
+        "airportCode": "XDB",
+        "cityName": "Europe Railway Station",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "ORH",
+        "cityName": "Worcester",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "ORF",
+        "cityName": "Norfolk",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "KIX",
+        "cityName": "Osaka-Kansai",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "ORD",
+        "cityName": "Chicago-Ohare",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "GAJ",
+        "cityName": "Yamagata",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "KIT",
+        "cityName": "Kithira",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "SZK",
+        "cityName": "Skukuza",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "KIS",
+        "cityName": "Kisumu",
+        "timezone": "Africa/Nairobi"
+    },
+    {
+        "airportCode": "SZG",
+        "cityName": "Salzburg",
+        "timezone": "Europe/Vienna"
+    },
+    {
+        "airportCode": "BWX",
+        "cityName": "Banyuwangi",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "KIN",
+        "cityName": "Kingston",
+        "timezone": "America/Jamaica"
+    },
+    {
+        "airportCode": "KIM",
+        "cityName": "Kimberley",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "KIJ",
+        "cityName": "Niigata",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "XCH",
+        "cityName": "Christmas Island",
+        "timezone": "Indian/Christmas"
+    },
+    {
+        "airportCode": "BWN",
+        "cityName": "Brunei Intl",
+        "timezone": "Asia/Brunei"
+    },
+    {
+        "airportCode": "SYX",
+        "cityName": "Sanya",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BWI",
+        "cityName": "Baltimore",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SYR",
+        "cityName": "Syracuse",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "KHV",
+        "cityName": "Khabarovsk",
+        "timezone": "Asia/Vladivostok"
+    },
+    {
+        "airportCode": "SYM",
+        "cityName": "Puer",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "KHN",
+        "cityName": "Nanchang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "SYD",
+        "cityName": "Sydney",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "KHI",
+        "cityName": "Karachi",
+        "timezone": "Asia/Karachi"
+    },
+    {
+        "airportCode": "KHH",
+        "cityName": "Kaohsiung",
+        "timezone": "Asia/Taipei"
+    },
+    {
+        "airportCode": "OPS",
+        "cityName": "Sinop",
+        "timezone": "America/Campo_Grande"
+    },
+    {
+        "airportCode": "KHG",
+        "cityName": "Kashi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "OPO",
+        "cityName": "Porto",
+        "timezone": "Europe/Lisbon"
+    },
+    {
+        "airportCode": "BVE",
+        "cityName": "Brive-la-Gaillarde",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "BVB",
+        "cityName": "Boa Vista",
+        "timezone": "America/Boa_Vista"
+    },
+    {
+        "airportCode": "SXM",
+        "cityName": "St. Maarten",
+        "timezone": "America/Lower_Princes"
+    },
+    {
+        "airportCode": "KGT",
+        "cityName": "Kangding",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "SXK",
+        "cityName": "Saumlaki",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "KGS",
+        "cityName": "Kos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "BUW",
+        "cityName": "Bau-Bau",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "XAP",
+        "cityName": "Chapeco",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "KGL",
+        "cityName": "Kigali",
+        "timezone": "Africa/Kigali"
+    },
+    {
+        "airportCode": "SXB",
+        "cityName": "Strasbourg",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "BUR",
+        "cityName": "Burbank",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "KGI",
+        "cityName": "Kalgoorlie",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "BUQ",
+        "cityName": "Bulawayo",
+        "timezone": "Africa/Harare"
+    },
+    {
+        "airportCode": "KGF",
+        "cityName": "Karagandy",
+        "timezone": "Asia/Almaty"
+    },
+    {
+        "airportCode": "KGD",
+        "cityName": "Kaliningrad",
+        "timezone": "Europe/Kaliningrad"
+    },
+    {
+        "airportCode": "OOL",
+        "cityName": "Gold Coast",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "BUF",
+        "cityName": "Buffalo",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "BUE",
+        "cityName": "Buenos Aires Area Airports",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "BUD",
+        "cityName": "Budapest",
+        "timezone": "Europe/Budapest"
+    },
+    {
+        "airportCode": "SWQ",
+        "cityName": "Sumbawa",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "SWF",
+        "cityName": "Newburgh",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "BTV",
+        "cityName": "Burlington",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "BTS",
+        "cityName": "Bratislava",
+        "timezone": "Europe/Bratislava"
+    },
+    {
+        "airportCode": "SWA",
+        "cityName": "Shantou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BTR",
+        "cityName": "Baton Rouge",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "ONT",
+        "cityName": "Ontario",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "ONS",
+        "cityName": "Onslow",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "BTM",
+        "cityName": "Butte",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "SVX",
+        "cityName": "Ekaterinburg Koltsovo",
+        "timezone": "Asia/Yekaterinburg"
+    },
+    {
+        "airportCode": "BTJ",
+        "cityName": "Banda Aceh",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "BTH",
+        "cityName": "Batam",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "SVQ",
+        "cityName": "Sevilla",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "SVO",
+        "cityName": "Moscow",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "SVG",
+        "cityName": "Stavanger",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "KEJ",
+        "cityName": "Kemerovo",
+        "timezone": "Asia/Novokuznetsk"
+    },
+    {
+        "airportCode": "BSR",
+        "cityName": "Basrah",
+        "timezone": "Asia/Baghdad"
+    },
+    {
+        "airportCode": "OMS",
+        "cityName": "Omsk",
+        "timezone": "Asia/Omsk"
+    },
+    {
+        "airportCode": "OMR",
+        "cityName": "Oradea",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "KEF",
+        "cityName": "Reykjavik",
+        "timezone": "Atlantic/Reykjavik"
+    },
+    {
+        "airportCode": "BSL",
+        "cityName": "Basel",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "OMH",
+        "cityName": "Urmia",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "BSD",
+        "cityName": "Baoshan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "OME",
+        "cityName": "Nome",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "BSB",
+        "cityName": "Brasilia",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "SUN",
+        "cityName": "Sun Valley",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "OMA",
+        "cityName": "Omaha",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SUJ",
+        "cityName": "Satu Mare",
+        "timezone": "Europe/Bucharest"
+    },
+    {
+        "airportCode": "SUF",
+        "cityName": "Lamezia Terme",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "BRW",
+        "cityName": "Wiley Post-will Rogers Meml",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "BRU",
+        "cityName": "Brussels",
+        "timezone": "Europe/Brussels"
+    },
+    {
+        "airportCode": "SUB",
+        "cityName": "Surabaya",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "BRS",
+        "cityName": "Bristol",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "KDI",
+        "cityName": "Kendari",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "BRQ",
+        "cityName": "Turany",
+        "timezone": "Europe/Prague"
+    },
+    {
+        "airportCode": "KDH",
+        "cityName": "Kandahar",
+        "timezone": "Asia/Kabul"
+    },
+    {
+        "airportCode": "STX",
+        "cityName": "St. Croix",
+        "timezone": "America/St_Thomas"
+    },
+    {
+        "airportCode": "STW",
+        "cityName": "Stavropol",
+        "timezone": "Europe/Moscow"
+    },
+    {
+        "airportCode": "BRI",
+        "cityName": "Bari",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "STT",
+        "cityName": "St. Thomas",
+        "timezone": "America/St_Thomas"
+    },
+    {
+        "airportCode": "STS",
+        "cityName": "Santa Rosa",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "BRE",
+        "cityName": "Bremen",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "STR",
+        "cityName": "Stuttgart",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "OLF",
+        "cityName": "Wolf Point",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "BRD",
+        "cityName": "Brainerd",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "KCZ",
+        "cityName": "Nankoku",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "BRC",
+        "cityName": "San Carlos de Bariloche",
+        "timezone": "America/Argentina/Salta"
+    },
+    {
+        "airportCode": "OLB",
+        "cityName": "Olbia",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "STM",
+        "cityName": "Santarem",
+        "timezone": "America/Belem"
+    },
+    {
+        "airportCode": "STL",
+        "cityName": "St. Louis",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "STI",
+        "cityName": "Santiago",
+        "timezone": "America/Santo_Domingo"
+    },
+    {
+        "airportCode": "BQS",
+        "cityName": "Blagoveshchensk",
+        "timezone": "Asia/Yakutsk"
+    },
+    {
+        "airportCode": "BQK",
+        "cityName": "Brunswick-Golden Isles",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "KCA",
+        "cityName": "Kuqa",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "OKJ",
+        "cityName": "Okayama",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "OKC",
+        "cityName": "Oklahoma City",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "KBV",
+        "cityName": "Krabi",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "FYJ",
+        "cityName": "Fuyuan",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "OKA",
+        "cityName": "Okinawa",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "SSH",
+        "cityName": "Sharm el-Sheikh",
+        "timezone": "Africa/Cairo"
+    },
+    {
+        "airportCode": "KBP",
+        "cityName": "Kyiv-Boryspil",
+        "timezone": "Europe/Kiev"
+    },
+    {
+        "airportCode": "SSG",
+        "cityName": "Malabo",
+        "timezone": "Africa/Malabo"
+    },
+    {
+        "airportCode": "KBL",
+        "cityName": "Kabul",
+        "timezone": "Asia/Kabul"
+    },
+    {
+        "airportCode": "BPS",
+        "cityName": "Porto Seguro",
+        "timezone": "America/Bahia"
+    },
+    {
+        "airportCode": "SSA",
+        "cityName": "Salvador de Bahia",
+        "timezone": "America/Bahia"
+    },
+    {
+        "airportCode": "BPN",
+        "cityName": "Balikpapan",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "SRY",
+        "cityName": "Sary",
+        "timezone": "Asia/Tehran"
+    },
+    {
+        "airportCode": "BPE",
+        "cityName": "Bagan",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "SRQ",
+        "cityName": "Sarasota-Bradenton",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SRG",
+        "cityName": "Semarang",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "KAN",
+        "cityName": "Kano",
+        "timezone": "Africa/Lagos"
+    },
+    {
+        "airportCode": "BOS",
+        "cityName": "Boston",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "KAJ",
+        "cityName": "Kajaani",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "OIT",
+        "cityName": "Oita",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "BON",
+        "cityName": "Bonaire",
+        "timezone": "America/Kralendijk"
+    },
+    {
+        "airportCode": "BOM",
+        "cityName": "Mumbai",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "BOJ",
+        "cityName": "Burgas",
+        "timezone": "Europe/Sofia"
+    },
+    {
+        "airportCode": "BOI",
+        "cityName": "Boise",
+        "timezone": "America/Boise"
+    },
+    {
+        "airportCode": "BOG",
+        "cityName": "Bogota",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "BOD",
+        "cityName": "Bordeaux",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "BOB",
+        "cityName": "Bora Bora",
+        "timezone": "Pacific/Tahiti"
+    },
+    {
+        "airportCode": "WYS",
+        "cityName": "West Yellowstone",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "FWA",
+        "cityName": "Fort Wayne",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "BNK",
+        "cityName": "Ballina",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "SPU",
+        "cityName": "Split",
+        "timezone": "Europe/Zagreb"
+    },
+    {
+        "airportCode": "BNE",
+        "cityName": "Brisbane",
+        "timezone": "Australia/Brisbane"
+    },
+    {
+        "airportCode": "OHE",
+        "cityName": "Mohe",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BNA",
+        "cityName": "Nashville",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SPN",
+        "cityName": "Saipan",
+        "timezone": "Pacific/Saipan"
+    },
+    {
+        "airportCode": "BMV",
+        "cityName": "Banmethuot",
+        "timezone": "Asia/Ho_Chi_Minh"
+    },
+    {
+        "airportCode": "BMU",
+        "cityName": "Luwuk",
+        "timezone": "Asia/Makassar"
+    },
+    {
+        "airportCode": "WXN",
+        "cityName": "Wanzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "OGS",
+        "cityName": "Ogdensburg Intl",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "BMI",
+        "cityName": "Bloomington",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SOU",
+        "cityName": "Southampton",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "BME",
+        "cityName": "Broome",
+        "timezone": "Australia/Perth"
+    },
+    {
+        "airportCode": "OGG",
+        "cityName": "Kahului",
+        "timezone": "Pacific/Honolulu"
+    },
+    {
+        "airportCode": "BMD",
+        "cityName": "Belo Tsiribihina",
+        "timezone": "Indian/Antananarivo"
+    },
+    {
+        "airportCode": "SOQ",
+        "cityName": "Sorong",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "SOO",
+        "cityName": "S\u00f6derhamn Railway Station",
+        "timezone": "Europe/Stockholm"
+    },
+    {
+        "airportCode": "FUK",
+        "cityName": "Fukuoka",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "FUG",
+        "cityName": "Fuyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BLZ",
+        "cityName": "Blantyre",
+        "timezone": "Africa/Blantyre"
+    },
+    {
+        "airportCode": "FUE",
+        "cityName": "Puerto Del Rosario",
+        "timezone": "Atlantic/Canary"
+    },
+    {
+        "airportCode": "SOF",
+        "cityName": "Sofia",
+        "timezone": "Europe/Sofia"
+    },
+    {
+        "airportCode": "SOC",
+        "cityName": "Solo City",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "BLR",
+        "cityName": "Bangalore",
+        "timezone": "Asia/Kolkata"
+    },
+    {
+        "airportCode": "BLQ",
+        "cityName": "Bologna",
+        "timezone": "Europe/Rome"
+    },
+    {
+        "airportCode": "BLL",
+        "cityName": "Billund",
+        "timezone": "Europe/Copenhagen"
+    },
+    {
+        "airportCode": "BLI",
+        "cityName": "Bellingham",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "SNN",
+        "cityName": "Shannon",
+        "timezone": "Europe/Dublin"
+    },
+    {
+        "airportCode": "FTE",
+        "cityName": "El Calafate",
+        "timezone": "America/Argentina/Rio_Gallegos"
+    },
+    {
+        "airportCode": "BKS",
+        "cityName": "Bengkulu",
+        "timezone": "Asia/Jakarta"
+    },
+    {
+        "airportCode": "SNA",
+        "cityName": "Orange County",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "BKO",
+        "cityName": "Bamako",
+        "timezone": "Africa/Bamako"
+    },
+    {
+        "airportCode": "FSZ",
+        "cityName": "Shizuoka",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "BKK",
+        "cityName": "Bangkok",
+        "timezone": "Asia/Bangkok"
+    },
+    {
+        "airportCode": "BKI",
+        "cityName": "Kota Kinabalu",
+        "timezone": "Asia/Kuching"
+    },
+    {
+        "airportCode": "WVB",
+        "cityName": "Walvis Bay",
+        "timezone": "Africa/Windhoek"
+    },
+    {
+        "airportCode": "SMR",
+        "cityName": "Santa Marta",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "FSM",
+        "cityName": "Fort Smith",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "WUX",
+        "cityName": "Wuxi",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "SMI",
+        "cityName": "Samos",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "WUS",
+        "cityName": "Wuyishan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BJX",
+        "cityName": "Leon",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "FSD",
+        "cityName": "Sioux Falls",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SMF",
+        "cityName": "Sacramento",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "FSC",
+        "cityName": "Figari",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "BJS",
+        "cityName": "Beijing Area Airports",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "ODS",
+        "cityName": "Odessa",
+        "timezone": "Europe/Kiev"
+    },
+    {
+        "airportCode": "WUH",
+        "cityName": "Wuhan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BJM",
+        "cityName": "Bujumbura",
+        "timezone": "Africa/Bujumbura"
+    },
+    {
+        "airportCode": "SLZ",
+        "cityName": "Sao Luiz",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "FRU",
+        "cityName": "Bishkek",
+        "timezone": "Asia/Bishkek"
+    },
+    {
+        "airportCode": "SLW",
+        "cityName": "Saltillo",
+        "timezone": "America/Monterrey"
+    },
+    {
+        "airportCode": "BJI",
+        "cityName": "Bemidji",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "WUA",
+        "cityName": "Wuhai",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "SLP",
+        "cityName": "San Luis Potosi",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "SLL",
+        "cityName": "Salalah",
+        "timezone": "Asia/Muscat"
+    },
+    {
+        "airportCode": "SLK",
+        "cityName": "Saranac Lake",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "FRC",
+        "cityName": "Franca",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "FRA",
+        "cityName": "Frankfurt",
+        "timezone": "Europe/Berlin"
+    },
+    {
+        "airportCode": "SLC",
+        "cityName": "Salt Lake City",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "BIS",
+        "cityName": "Bismarck",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SLA",
+        "cityName": "Salta",
+        "timezone": "America/Argentina/Salta"
+    },
+    {
+        "airportCode": "BIQ",
+        "cityName": "Biarritz",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "JZH",
+        "cityName": "Song Pan",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BIO",
+        "cityName": "Bilbao",
+        "timezone": "Europe/Madrid"
+    },
+    {
+        "airportCode": "BIL",
+        "cityName": "Billings",
+        "timezone": "America/Denver"
+    },
+    {
+        "airportCode": "BIK",
+        "cityName": "Biak",
+        "timezone": "Asia/Jayapura"
+    },
+    {
+        "airportCode": "SKT",
+        "cityName": "Sialkot",
+        "timezone": "Asia/Karachi"
+    },
+    {
+        "airportCode": "SKP",
+        "cityName": "Skopje",
+        "timezone": "Europe/Skopje"
+    },
+    {
+        "airportCode": "BIA",
+        "cityName": "Bastia",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "OCC",
+        "cityName": "Puerto Francisco de Orellana",
+        "timezone": "America/Guayaquil"
+    },
+    {
+        "airportCode": "JYV",
+        "cityName": "Jyvaskyla",
+        "timezone": "Europe/Helsinki"
+    },
+    {
+        "airportCode": "BHY",
+        "cityName": "Beihai",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "SKG",
+        "cityName": "Thessaloniki",
+        "timezone": "Europe/Athens"
+    },
+    {
+        "airportCode": "BHX",
+        "cityName": "Birmingham",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "SKD",
+        "cityName": "Samarkand",
+        "timezone": "Asia/Samarkand"
+    },
+    {
+        "airportCode": "SKB",
+        "cityName": "St. Kitts",
+        "timezone": "America/St_Kitts"
+    },
+    {
+        "airportCode": "BHQ",
+        "cityName": "Broken Hill",
+        "timezone": "Australia/Adelaide"
+    },
+    {
+        "airportCode": "BHM",
+        "cityName": "Birmingham",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "OBO",
+        "cityName": "Obihiro",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "SJW",
+        "cityName": "Shijiazhuang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "BHI",
+        "cityName": "Bahia Blanca",
+        "timezone": "America/Argentina/Buenos_Aires"
+    },
+    {
+        "airportCode": "BHH",
+        "cityName": "Bisha",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "SJU",
+        "cityName": "San Juan",
+        "timezone": "America/Puerto_Rico"
+    },
+    {
+        "airportCode": "BHD",
+        "cityName": "Belfast City",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "FPO",
+        "cityName": "Freeport",
+        "timezone": "America/Nassau"
+    },
+    {
+        "airportCode": "SJP",
+        "cityName": "Sao Jose do Rio Preto",
+        "timezone": "America/Sao_Paulo"
+    },
+    {
+        "airportCode": "BHB",
+        "cityName": "Bar Harbor",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SJO",
+        "cityName": "San Jose",
+        "timezone": "America/Costa_Rica"
+    },
+    {
+        "airportCode": "SJJ",
+        "cityName": "Sarajevo",
+        "timezone": "Europe/Sarajevo"
+    },
+    {
+        "airportCode": "BGW",
+        "cityName": "Baghdad",
+        "timezone": "Asia/Baghdad"
+    },
+    {
+        "airportCode": "WRO",
+        "cityName": "Wroclaw",
+        "timezone": "Europe/Warsaw"
+    },
+    {
+        "airportCode": "OAX",
+        "cityName": "Oaxaca",
+        "timezone": "America/Mexico_City"
+    },
+    {
+        "airportCode": "SJD",
+        "cityName": "Los Cabos",
+        "timezone": "America/Mazatlan"
+    },
+    {
+        "airportCode": "SJC",
+        "cityName": "San Jose",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "BGR",
+        "cityName": "Bangor",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "BGO",
+        "cityName": "Bergen",
+        "timezone": "Europe/Oslo"
+    },
+    {
+        "airportCode": "BGM",
+        "cityName": "Binghamton",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "JXA",
+        "cityName": "Jixi",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "BGI",
+        "cityName": "Bridgetown",
+        "timezone": "America/Barbados"
+    },
+    {
+        "airportCode": "OAK",
+        "cityName": "Oakland",
+        "timezone": "America/Los_Angeles"
+    },
+    {
+        "airportCode": "OAJ",
+        "cityName": "Jacksonville",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "FOR",
+        "cityName": "Fortaleza",
+        "timezone": "America/Fortaleza"
+    },
+    {
+        "airportCode": "SIT",
+        "cityName": "Sitka",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "BGF",
+        "cityName": "Bangui",
+        "timezone": "Africa/Bangui"
+    },
+    {
+        "airportCode": "SIS",
+        "cityName": "Sishen",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "OAG",
+        "cityName": "Orange",
+        "timezone": "Australia/Sydney"
+    },
+    {
+        "airportCode": "SIR",
+        "cityName": "Sion Airport Station",
+        "timezone": "Europe/Zurich"
+    },
+    {
+        "airportCode": "SIP",
+        "cityName": "Simferopol",
+        "timezone": "Europe/Simferopol"
+    },
+    {
+        "airportCode": "BGA",
+        "cityName": "Bucaramanga",
+        "timezone": "America/Bogota"
+    },
+    {
+        "airportCode": "SIN",
+        "cityName": "Singapore",
+        "timezone": "Asia/Singapore"
+    },
+    {
+        "airportCode": "FOC",
+        "cityName": "Fuzhou",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "SID",
+        "cityName": "Cape Verde",
+        "timezone": "Atlantic/Cape_Verde"
+    },
+    {
+        "airportCode": "BFS",
+        "cityName": "Belfast",
+        "timezone": "Europe/London"
+    },
+    {
+        "airportCode": "BFN",
+        "cityName": "Bloemfontein",
+        "timezone": "Africa/Johannesburg"
+    },
+    {
+        "airportCode": "BFM",
+        "cityName": "Mobile",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "BFJ",
+        "cityName": "Bijie",
+        "timezone": "Pacific/Fiji"
+    },
+    {
+        "airportCode": "SHW",
+        "cityName": "Sharurah",
+        "timezone": "Asia/Riyadh"
+    },
+    {
+        "airportCode": "FNT",
+        "cityName": "Flint",
+        "timezone": "America/New_York"
+    },
+    {
+        "airportCode": "SHV",
+        "cityName": "Shreveport",
+        "timezone": "America/Chicago"
+    },
+    {
+        "airportCode": "SHP",
+        "cityName": "Qinhuangdao",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "SHO",
+        "cityName": "Manzini",
+        "timezone": "Asia/Seoul"
+    },
+    {
+        "airportCode": "SHM",
+        "cityName": "Shirahama",
+        "timezone": "Asia/Tokyo"
+    },
+    {
+        "airportCode": "BEY",
+        "cityName": "Beirut",
+        "timezone": "Asia/Beirut"
+    },
+    {
+        "airportCode": "BEW",
+        "cityName": "Beira",
+        "timezone": "Africa/Maputo"
+    },
+    {
+        "airportCode": "FNC",
+        "cityName": "Madeira",
+        "timezone": "Europe/Lisbon"
+    },
+    {
+        "airportCode": "SHE",
+        "cityName": "Shenyang",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "airportCode": "FNA",
+        "cityName": "Freetown",
+        "timezone": "Africa/Freetown"
+    },
+    {
+        "airportCode": "BET",
+        "cityName": "Bethel",
+        "timezone": "America/Anchorage"
+    },
+    {
+        "airportCode": "BES",
+        "cityName": "Brest",
+        "timezone": "Europe/Paris"
+    },
+    {
+        "airportCode": "SHA",
+        "cityName": "Shanghai-Hongqiao",
+        "timezone": "Asia/Shanghai"
+    }
+]
