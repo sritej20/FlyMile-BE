@@ -75,7 +75,6 @@ public class AmericanWeekly {
         String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
 
         String json = requestHandlerAmericanWeekly(origin, destination, adjustedStart, numPassengers);
-        System.out.println(json);
         if (json == null || json.trim().isEmpty()) {
             return Collections.emptyList();
         }
