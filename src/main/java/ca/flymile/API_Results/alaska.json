@@ -1,0 +1,176 @@
+{
+  "responseMetadata": {
+    "sessionId": null,
+    "solutionSet": null,
+    "duration": null,
+    "resultId": null,
+    "notifications": [
+      {
+        "code": "ERRCODE1475",
+        "params": []
+      }
+    ]
+  },
+  "error": "309",
+  "days": [
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-08",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-09",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-10",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-11",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-12",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-13",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-14",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-15",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-16",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-17",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-18",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-19",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    },
+    {
+      "awardPointsTotal": "",
+      "date": "2024-06-20",
+      "price": "",
+      "solutionId": "",
+      "perPassengerAwardPointsTotal": "",
+      "perPassengerDisplayTotal": {
+        "amount": 0.0,
+        "currency": "USD"
+      }
+    }
+  ],
+  "utag": {
+    "app_build_version": "RC-0.1.72.8255677652.1",
+    "app_name": "ngappawardprod",
+    "app_region": "us-south",
+    "channel": "Booking",
+    "login_status": "Logged_out",
+    "lowest_award_calendar_miles": "0",
+    "site_country": "US",
+    "site_currency": "USD",
+    "site_indicator": "AAcom",
+    "site_language": "EN",
+    "tealium_environment": "prod",
+    "tealium_profile": "main",
+    "time_stamp": "03/17/2024 06:59:48",
+    "trueclient_ip": "166.48.217.115"
+  }
+}

@@ -59,6 +59,25 @@ public class InputValidation {
         parseAndValidateStartDateWithoutZone(startDate);
     }
     /**
+     * Validates the flight search parameters for American weekly flights.
+     * <p>
+     * This method checks if the provided airport codes are valid,
+     * if the start date is correctly formatted and within an acceptable range,
+     * and if the number of passengers is within the allowed limits.
+     * </p>
+     *
+     * @param origin        the origin airport code
+     * @param destination   the destination airport code
+     * @param startDate     the start date of the travel period in "YYYY-MM-DD" format
+     * @param numPassengers the number of passengers, should be between 1 and 9 inclusive
+     * @throws IllegalArgumentException if any of the parameters are invalid
+     */
+    public static void validateFlightSearchParamsForAmericanWeekly(String origin, String destination, String startDate, int numPassengers) {
+        validateAirports(origin, destination);
+        parseAndValidateStartDateWithoutZone(startDate);
+        validateNumPassengers(numPassengers);
+    }
+    /**
      * Parses and validates a start date string, ensuring it is in a valid format and within an acceptable date range.
      * This method does not account for time zones in its validation, treating the start date as a local date.
      *

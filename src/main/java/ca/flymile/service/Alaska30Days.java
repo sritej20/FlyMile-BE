@@ -30,7 +30,6 @@ public class Alaska30Days {
         Gson gson = new Gson();
         Type type = new TypeToken<MonthlyDetails>() {}.getType();
         MonthlyDetails monthlyDetails = gson.fromJson(json, type);
-            System.out.println(monthlyDetails);
         return monthlyDetails.shoulderDates();
     }
 }
