@@ -7,6 +7,8 @@ import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Type;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
@@ -26,12 +28,15 @@ import static ca.flymile.API.RequestHandlerAmericanWeekly.requestHandlerAmerican
  *
  * <p>Errors during the data fetch or parsing process are handled gracefully, returning an empty list,
  * ensuring the service's robustness and stability.
- *
- * NUmber format error is likely due to error being 309,
- * when error is 309, both cashPrice and points are null (It is a string in their API (lol))
- * if error is not 309, means cashPrice and points are not null , and can be parsed properly.
- * This save us converting json respone to string then checking for erroe and then parsing to as our requirement
- *  No more double parsing
+ *  If you say start day = today
+ *      then American will return start - 7 days
+ *      and
+ *      Start + 7 days
+ *      AS start - 7 days is meaningless , this case start will be reset to today + 6 days
+ *      Same way if start date is after 324 days
+ *          331 -7 = 324
+ *          any day after 324 will be meaningless
+ *              start date again shifted to max start - 6 days
  * </p>
  *
  * @see ca.flymile.ModelAmericanWeekly.WeeklyData
@@ -53,23 +58,32 @@ public class AmericanWeekly {
      *         or an error occurs during data fetching or parsing.
      */
     public List<dailyCheapest> getFlightDataListAmericanWeekly(String origin, String destination, String start, int numPassengers) {
-        String json = requestHandlerAmericanWeekly(origin, destination, start, numPassengers);
+        // Parse the start date
+        LocalDate startDate = LocalDate.parse(start, DateTimeFormatter.ISO_LOCAL_DATE);
+        LocalDate today = LocalDate.now();
 
+        // Check if startDate is less than startDate + 7 days
+        if (startDate.isBefore(today.plusDays(7))) {
+            startDate = today.plusDays(6);
+        }
+        // Check if startDate is more than startDate + 324 days
+        else if (startDate.isAfter(today.plusDays(324))) {
+            startDate = today.plusDays(331).minusDays(6);
+        }
+
+        // Convert the updated startDate back to a string
+        String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
+
+        String json = requestHandlerAmericanWeekly(origin, destination, adjustedStart, numPassengers);
+        System.out.println(json);
         if (json == null || json.trim().isEmpty()) {
             return Collections.emptyList();
         }
 
         Gson gson = new Gson();
         Type type = new TypeToken<WeeklyData>() {}.getType();
-        WeeklyData weeklyData;
-
-        try {
-            weeklyData = gson.fromJson(json, type);
-        } catch (NumberFormatException e) {
-            return Collections.emptyList();
-        }
-
-        if (weeklyData == null || "309".equals(weeklyData.getError())) {
+        WeeklyData weeklyData = gson.fromJson(json, type);
+       if (weeklyData == null || "309".equals(weeklyData.getError())) {
             return Collections.emptyList();
         }
 
