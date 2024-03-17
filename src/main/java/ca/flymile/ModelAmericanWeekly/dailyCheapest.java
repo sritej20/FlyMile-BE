@@ -7,7 +7,7 @@ import lombok.Data;
 public class dailyCheapest {
     private String date;
     @SerializedName("perPassengerAwardPointsTotal")
-    private int points;
+    private String points;
     @SerializedName("price")
-    private double cashPrice;
+    private String cashPrice;
 }
