@@ -30,14 +30,14 @@ public class AlaskaYearly {
      * @return A CompletableFuture that, when completed, will return a list of the cheapest daily flights for each day of the year.
      */
     public CompletableFuture<List<dailyCheapest>> getFlightDataListAlaskaYearly(String origin, String destination) {
-        LocalDate date = LocalDate.now().plusDays(16);
+        LocalDate date = LocalDate.now().plusDays(15);
         List<CompletableFuture<List<dailyCheapest>>> futures = new ArrayList<>();
 
         for (int i = 0; i < 11; i++) {
             final String start = date.toString();
             CompletableFuture<List<dailyCheapest>> future = CompletableFuture.supplyAsync(() -> getFlightDataListAlaska30Days(origin, destination, start));
             futures.add(future);
-            date = date.plusDays(30);
+            date = date.plusDays(31);
         }
 
         return CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]))
