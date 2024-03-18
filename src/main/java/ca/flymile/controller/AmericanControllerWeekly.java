@@ -40,12 +40,13 @@ public class AmericanControllerWeekly {
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,
-            @RequestParam(defaultValue = "1") int numPassengers
+            @RequestParam(defaultValue = "1") int numPassengers,
+            @RequestParam(defaultValue = "false") boolean upperCabin
     ) {
         // Validate the search parameters
         validateFlightSearchParamsForAmericanWeekly(departure.toUpperCase(), arrival.toUpperCase(), startDate,numPassengers);
 
         // Retrieve and return the daily Cheapest List
-        return americanWeekly.getFlightDataListAmericanWeekly(departure, arrival, startDate, numPassengers);
+        return americanWeekly.getFlightDataListAmericanWeekly(departure, arrival, startDate, numPassengers, upperCabin);
     }
 }

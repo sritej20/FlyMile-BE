@@ -57,7 +57,7 @@ public class AmericanWeekly {
      *         including price in points, price in cash, and date. Returns an empty list if no data is found
      *         or an error occurs during data fetching or parsing.
      */
-    public List<dailyCheapest> getFlightDataListAmericanWeekly(String origin, String destination, String start, int numPassengers) {
+    public List<dailyCheapest> getFlightDataListAmericanWeekly(String origin, String destination, String start, int numPassengers, boolean cabin) {
         // Parse the start date
         LocalDate startDate = LocalDate.parse(start, DateTimeFormatter.ISO_LOCAL_DATE);
         LocalDate today = LocalDate.now();
@@ -74,7 +74,7 @@ public class AmericanWeekly {
         // Convert the updated startDate back to a string
         String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
 
-        String json = requestHandlerAmericanWeekly(origin, destination, adjustedStart, numPassengers);
+        String json = requestHandlerAmericanWeekly(origin, destination, adjustedStart, numPassengers, cabin);
         if (json == null || json.trim().isEmpty()) {
             return Collections.emptyList();
         }

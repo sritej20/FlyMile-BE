@@ -15,10 +15,19 @@ public class RequestHandlerAmericanWeekly {
      * @param departureDate      The departure date in "YYYY-MM-DD" format.
      * @param origin             The departure airport code.
      * @param destination        The destination airport code.
+     * @param upperCabin         If true, set cabin to "BUSINESS,FIRST", else leave it empty.
      * @param numberOfPassengers The number of adult passengers.
      * @return A string containing the response from the API.
      */
-    public static String requestHandlerAmericanWeekly(String origin, String destination,String departureDate, int numberOfPassengers) {
+    public static String requestHandlerAmericanWeekly(
+            String origin,
+            String destination,
+            String departureDate,
+            int numberOfPassengers,
+            boolean upperCabin
+            ) {
+
+        String cabin = upperCabin ? "BUSINESS,FIRST" : "";
         String requestBody = String.format("""
                 {
                     "metadata": {"selectedProducts": [], "tripType": "OneWay", "udo": {}},
@@ -26,7 +35,7 @@ public class RequestHandlerAmericanWeekly {
                     "requestHeader": {"clientId": "AAcom"},
                     "slices": [{
                         "allCarriers": true,
-                        "cabin": "",
+                        "cabin": "%s",
                         "departureDate": "%s",
                         "destination": "%s",
                         "destinationNearbyAirports": false,
@@ -39,7 +48,7 @@ public class RequestHandlerAmericanWeekly {
                     "version": "",
                     "queryParams": {"sliceIndex": 0, "sessionId": "", "solutionSet": "", "solutionId": ""}
                 }
-                """, numberOfPassengers, departureDate, destination, origin);
+                """, numberOfPassengers, cabin, departureDate, destination, origin);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
