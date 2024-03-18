@@ -1,19 +1,13 @@
 package ca.flymile.service;
 
-import ca.flymile.ModelAmericanWeekly.WeeklyData;
 import ca.flymile.ModelAmericanWeekly.dailyCheapest;
-import com.google.common.reflect.TypeToken;
-import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
 
-import java.lang.reflect.Type;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
-import static ca.flymile.API.RequestHandlerAmericanWeekly.requestHandlerAmericanWeekly;
+import static ca.flymile.service.AmericanYearly.getDailyCheapestS;
 
 /**
  * Provides services related to retrieving weekly flight data for American Airlines.
@@ -74,19 +68,7 @@ public class AmericanWeekly {
         // Convert the updated startDate back to a string
         String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
 
-        String json = requestHandlerAmericanWeekly(origin, destination, adjustedStart, numPassengers, cabin);
-        if (json == null || json.trim().isEmpty()) {
-            return Collections.emptyList();
-        }
-
-        Gson gson = new Gson();
-        Type type = new TypeToken<WeeklyData>() {}.getType();
-        WeeklyData weeklyData = gson.fromJson(json, type);
-       if (weeklyData == null || "309".equals(weeklyData.getError())) {
-            return Collections.emptyList();
-        }
-
-        return Optional.ofNullable(weeklyData.getDays()).orElse(Collections.emptyList());
+        return getDailyCheapestS(origin, destination, adjustedStart, numPassengers, cabin);
     }
 
 }

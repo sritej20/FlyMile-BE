@@ -59,6 +59,25 @@ public class InputValidation {
         parseAndValidateStartDateWithoutZone(startDate);
     }
     /**
+     * Validates the flight search parameters for American yearly flights.
+     * <p>
+     * This method checks if the provided airport codes are valid
+     * and if the number of passengers is within the allowed limits.
+     * Note that, unlike the weekly validation, it does not check the start date
+     * as the yearly data retrieval does not require a specific start date.
+     * </p>
+     *
+     * @param origin        the origin airport code
+     * @param destination   the destination airport code
+     * @param numPassengers the number of passengers, should be between 1 and 9 inclusive
+     * @throws IllegalArgumentException if any of the parameters are invalid
+     */
+    public static void validateFlightSearchParamsForAmericanYearly(String origin, String destination,int numPassengers)
+    {
+        validateAirports(origin, destination);
+        validateNumPassengers(numPassengers);
+    }
+    /**
      * Validates the flight search parameters for American weekly flights.
      * <p>
      * This method checks if the provided airport codes are valid,
