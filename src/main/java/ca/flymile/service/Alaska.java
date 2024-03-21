@@ -87,15 +87,32 @@ public class Alaska {
      * @return A list of flight slices representing the available flights for the given parameters.
     */
 
+    /**
+     * Fetches flight data for a specific route on a given date.
+     *
+     * @param date The date of the flight.
+     * @param origin The origin airport code.
+     * @param destination The destination airport code.
+     * @param numPassengers The number of passengers.
+     * @return A list of FlightDto objects representing the available flights, or an empty list if no flights are available or an error occurs.
+     */
     private List<FlightDto> fetchFlightDataAlaska(String date, String origin, String destination, int numPassengers) {
-        // Perform HTTP request to obtain flight data in JSON format
-        String json = requestHandlerAlaska(date, origin, destination, numPassengers);
+        try {
+            String json = requestHandlerAlaska(date, origin, destination, numPassengers);
+            if (json == null || json.startsWith("<")) {
+                return new ArrayList<>();
+            }
 
-        // Deserialize JSON response into FlightSlices object using Gson library
-        Gson gson = new Gson();
-        FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
-        return jsonResponse.getSlices() != null ? jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList()) : new ArrayList<>();
-
-
+            Gson gson = new Gson();
+            FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
+            if (jsonResponse != null && jsonResponse.getSlices() != null) {
+                return jsonResponse.getSlices().stream()
+                        .map(FlightMapper::toDto)
+                        .collect(Collectors.toList());
+            }
+        } catch (Exception e) {
+            System.err.println(e.getMessage());
+        }
+        return new ArrayList<>();
     }
 }

@@ -5,12 +5,9 @@ import ca.flymile.ModelAlaska30Days.dailyCheapest;
 import ca.flymile.service.AlaskaYearly;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.time.LocalDate;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParamsForAlaska30Days;
+import static ca.flymile.InputValidation.InputValidation.validateOriginDestination;
 
 /**
  * The AlaskaControllerYearly class handles HTTP requests related to flight data retrieval for a yearly period from the Alaska Airlines website.
@@ -45,7 +42,7 @@ public class AlaskaControllerYearly {
             @RequestParam String arrival
     ) {
         // Validate the search parameters
-        validateFlightSearchParamsForAlaska30Days(departure.toUpperCase(), arrival.toUpperCase(), LocalDate.now().toString());
+        validateOriginDestination(departure.toUpperCase(), arrival.toUpperCase());
 
         // Retrieve and return the daily Cheapest List for the year
         return alaskaYearly.getFlightDataListAlaskaYearly(departure, arrival);

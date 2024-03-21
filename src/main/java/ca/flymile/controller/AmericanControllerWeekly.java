@@ -1,11 +1,11 @@
 package ca.flymile.controller;
 
 
-import ca.flymile.ModelAmericanWeekly.dailyCheapest;
+import ca.flymile.dtoAmerican.AmericanDailyCheapestDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParamsForAmericanWeekly;
+import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDatePassengers;
 
 /**
  * The AmericanControllerWeekly class handles HTTP requests related to flight data retrieval on a weekly basis from the American Airlines website.
@@ -36,7 +36,7 @@ public class AmericanControllerWeekly {
      * @return A list of DailyCheapest objects, each representing a date with available pricing details within a weekly period.
      */
     @GetMapping
-    public List<dailyCheapest> getFlightDataList(
+    public List<AmericanDailyCheapestDto> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,
@@ -44,7 +44,7 @@ public class AmericanControllerWeekly {
             @RequestParam(defaultValue = "false") boolean upperCabin
     ) {
         // Validate the search parameters
-        validateFlightSearchParamsForAmericanWeekly(departure.toUpperCase(), arrival.toUpperCase(), startDate,numPassengers);
+        validateOriginDestinationStartDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate,numPassengers);
 
         // Retrieve and return the daily Cheapest List
         return americanWeekly.getFlightDataListAmericanWeekly(departure, arrival, startDate, numPassengers, upperCabin);

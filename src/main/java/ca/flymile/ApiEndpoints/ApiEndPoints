@@ -1,0 +1,57 @@
+Alaska
+    Regular
+        http://localhost:8080/flights/alaska?departure=yul&arrival=LHR&startDate=2024-06-14&endDate=2024-06-18&numPassengers=1
+        http://localhost:8080/flights/alaska?departure=atq&arrival=del&startDate=2024-06-14&endDate=2024-06-18&numPassengers=1
+        atq del has no flights so expect []
+
+
+    Monthly
+        http://localhost:8080/flights/alaska/30Day?departure=lhr&arrival=sfo&startDate=2024-06-14
+        http://localhost:8080/flights/alaska/30Day?departure=atq&arrival=del&startDate=2024-06-14
+        atq del has no flights so expect 31 Length array of  {"points": 0,"cashPrice": 0.0,"date": "2024-05-30"}
+
+
+    Yearly
+        http://localhost:8080/flights/alaska/yearly?departure=atl&arrival=lhr
+        http://localhost:8080/flights/alaska/30Day?departure=atq&arrival=del
+        atq del has no flights so expect 331 Length array of  {"points": 0,"cashPrice": 0.0,"date": "2024-05-30"}
+
+American
+    Regular
+        (side effect 1: if upperCabin is TRUE but they dont have ANY business/First , they send Economy/Premium points data)
+
+        http://localhost:8080/flights/american?departure=yul&arrival=LHR&startDate=2024-06-14&endDate=2024-06-18&numPassengers=1&upperCabin=false
+        Size = 335
+
+
+    Monthly  (will be added currently allow 15 days , added by 21 March, parsing left)
+
+    Yearly
+        (Same side effect 1)
+        http://localhost:8080/flights/american/Yearly?departure=atl&arrival=lhr&numPassengers=1&upperCabin=true
+
+
+Delta
+    Regular :
+        Huge Parsing work left
+    Yearly
+        http://localhost:8080/flights/delta/yearly?departure=atl&arrival=lhr&numPassengers=1
+        Works but need to be updated.
+    Monthly
+        http://localhost:8080/flights/delta/Monthly?departure=atl&arrival=lhr&startDate=2024-11-11&numPassengers=1
+
+    Delta is SLow than others
+
+
+    monthly will be update like it will take a month and year , and only return that months data
+    For all airlines
+
+        Example
+            April , 2024
+                Data returned from 2024-04-01 to 2024-04-30
+
+
+
+
+
+

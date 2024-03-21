@@ -9,8 +9,10 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import static ca.flymile.API.RequestHandlerAlaska30Days.requestHandlerAlaska30Days;
+
 
 @Component
 public class Alaska30Days {
@@ -42,14 +44,22 @@ public class Alaska30Days {
         String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
 
         // Make the API request with the adjusted start date
-        String json = requestHandlerAlaska30Days(origin, destination, adjustedStart);
-        Gson gson = new Gson();
-        Type type = new TypeToken<MonthlyDetails>() {}.getType();
+        return getDailyCheapests(origin, destination, adjustedStart);
+    }
+    public static List<dailyCheapest> getDailyCheapests(String origin, String destination, String start) {
+        String json = requestHandlerAlaska30Days(origin, destination, start);
+        if (json != null && json.charAt(0) != '<')
+        {
+            Gson gson = new Gson();
+            Type type = new TypeToken<MonthlyDetails>() {}.getType();
 
-        // Deserialize the JSON response into a MonthlyDetails object
-        MonthlyDetails monthlyDetails = gson.fromJson(json, type);
+            // Deserialize the JSON response into a MonthlyDetails object
+            MonthlyDetails monthlyDetails = gson.fromJson(json, type);
 
-        // Return the list of dailyCheapest flights from the MonthlyDetails object
-        return monthlyDetails.shoulderDates();
+            if (monthlyDetails != null) {
+                return monthlyDetails.shoulderDates();
+            }
+        }
+        return new ArrayList<>();
     }
 }

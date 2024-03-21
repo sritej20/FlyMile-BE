@@ -18,6 +18,7 @@ import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
 import static ca.flymile.API.RequestHandlerAlaska30Days.requestHandlerAlaska30Days;
+import static ca.flymile.service.Alaska30Days.getDailyCheapests;
 
 @Component
 public class AlaskaYearly {
@@ -35,9 +36,13 @@ public class AlaskaYearly {
 
         for (int i = 0; i < 11; i++) {
             final String start = date.toString();
-            CompletableFuture<List<dailyCheapest>> future = CompletableFuture.supplyAsync(() -> getFlightDataListAlaska30Days(origin, destination, start));
+            CompletableFuture<List<dailyCheapest>> future = CompletableFuture.supplyAsync(() -> getFlightDataListAlaska30Days(origin, destination, start))
+                    .exceptionally(ex -> {
+                        System.err.println("Error fetching data for " + start + ": " + ex.getMessage());
+                        return new ArrayList<dailyCheapest>();  // Return an empty list in case of error
+                    });
             futures.add(future);
-            date = date.plusDays(31);
+            date = date.plusMonths(1);  // Increment by one month instead of 31 days
         }
 
         return CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]))
@@ -59,14 +64,8 @@ public class AlaskaYearly {
     public List<dailyCheapest> getFlightDataListAlaska30Days(String origin, String destination, String start) {
 
         // Make the API request with the adjusted start date
-        String json = requestHandlerAlaska30Days(origin, destination, start);
-        Gson gson = new Gson();
-        Type type = new TypeToken<MonthlyDetails>() {}.getType();
-
-        // Deserialize the JSON response into a MonthlyDetails object
-        MonthlyDetails monthlyDetails = gson.fromJson(json, type);
-
-        // Return the list of dailyCheapest flights from the MonthlyDetails object
-        return monthlyDetails.shoulderDates();
+        return getDailyCheapests(origin, destination, start);
     }
+
+
 }

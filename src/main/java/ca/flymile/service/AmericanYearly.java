@@ -1,5 +1,6 @@
 package ca.flymile.service;
 
+import ca.flymile.dtoAmerican.AmericanDailyCheapestDto;
 import ca.flymile.ModelAmericanWeekly.WeeklyData;
 import ca.flymile.ModelAmericanWeekly.dailyCheapest;
 import com.google.common.reflect.TypeToken;
@@ -32,7 +33,7 @@ public class AmericanYearly {
      * @param cabin         Specifies if the cabin class is to be considered in the search.
      * @return A {@link CompletableFuture} containing a list of the cheapest daily flights over the year.
      */
-    public CompletableFuture<List<dailyCheapest>> getFlightDataListAmericanYearly(String origin, String destination, int numPassengers, boolean cabin) {
+    public CompletableFuture<List<AmericanDailyCheapestDto>> getFlightDataListAmericanYearly(String origin, String destination, int numPassengers, boolean cabin) {
         LocalDate date = LocalDate.now().plusDays(6);
         List<CompletableFuture<List<dailyCheapest>>> futures = new ArrayList<>();
 
@@ -47,6 +48,7 @@ public class AmericanYearly {
                 .thenApply(v -> futures.stream()
                         .map(CompletableFuture::join)
                         .flatMap(List::stream)
+                        .map(AmericanDailyCheapestDto :: toDto)
                         .collect(Collectors.toList()));
     }
 

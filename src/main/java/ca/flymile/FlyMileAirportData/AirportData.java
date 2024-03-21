@@ -2,9 +2,11 @@ package ca.flymile.FlyMileAirportData;
 
 import ca.flymile.simpleAirport.Airport;
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 
 import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
 import java.net.URL;
@@ -61,8 +63,12 @@ public class AirportData {
             for (Airport airport : airports) {
                 tempSet.add(airport.getAirportCode());
             }
+        }  catch (IOException e) {
+            System.err.println("Failed to load airport data from URL: " + filePath);
+        } catch (JsonSyntaxException e) {
+            System.err.println("Failed to parse airport data from file: " + filePath);
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println("Unexpected error occurred while loading airport data: "+filePath);
         }
     }
 }

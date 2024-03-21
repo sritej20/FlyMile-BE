@@ -1,5 +1,6 @@
 package ca.flymile.service;
 
+import ca.flymile.dtoAmerican.AmericanDailyCheapestDto;
 import ca.flymile.ModelAmericanWeekly.dailyCheapest;
 import org.springframework.stereotype.Component;
 
@@ -51,7 +52,7 @@ public class AmericanWeekly {
      *         including price in points, price in cash, and date. Returns an empty list if no data is found
      *         or an error occurs during data fetching or parsing.
      */
-    public List<dailyCheapest> getFlightDataListAmericanWeekly(String origin, String destination, String start, int numPassengers, boolean cabin) {
+    public List<AmericanDailyCheapestDto> getFlightDataListAmericanWeekly(String origin, String destination, String start, int numPassengers, boolean cabin) {
         // Parse the start date
         LocalDate startDate = LocalDate.parse(start, DateTimeFormatter.ISO_LOCAL_DATE);
         LocalDate today = LocalDate.now();
@@ -68,7 +69,8 @@ public class AmericanWeekly {
         // Convert the updated startDate back to a string
         String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
 
-        return getDailyCheapestS(origin, destination, adjustedStart, numPassengers, cabin);
+        return getDailyCheapestS(origin, destination, adjustedStart, numPassengers, cabin)
+                .stream().map(AmericanDailyCheapestDto::toDto).toList();
     }
 
 }

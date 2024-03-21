@@ -4,28 +4,17 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 
-
 import static ca.flymile.API.BaseRequestHandler.getJsonStringFromAirline;
 
-public class RequestHandlerAmericanWeekly {
+public class RequestHandlerAmericanMonthly {
 
-    /**
-     * Handles the request to the American Airlines weekly flight search API.
-     *
-     * @param departureDate      The departure date in "YYYY-MM-DD" format.
-     * @param origin             The departure airport code.
-     * @param destination        The destination airport code.
-     * @param upperCabin         If true, set cabin to "BUSINESS,FIRST", else leave it empty.
-     * @param numberOfPassengers The number of adult passengers.
-     * @return A string containing the response from the API.
-     */
-    public static String requestHandlerAmericanWeekly(
+    public static String requestHandlerAmericanMonthly(
             String origin,
             String destination,
             String departureDate,
             int numberOfPassengers,
             boolean upperCabin
-            ) {
+    ) {
 
         String cabin = upperCabin ? "BUSINESS,FIRST" : "";
         String requestBody = String.format("""
@@ -52,16 +41,18 @@ public class RequestHandlerAmericanWeekly {
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://www.aa.com/booking/api/search/weekly"))
+                .uri(URI.create("https://www.aa.com/booking/api/search/calendar"))
+                .header("Accept-Encoding", "gzip, deflate")
+                .header("Accept-Language", "en-US,en;q=0.9")
                 .header("Accept", "application/json, text/plain, */*")
                 .header("Content-Type", "application/json")
                 .header("Origin", "https://www.aa.com")
                 .header("Referer", "https://www.aa.com/booking/choose-flights/1")
-                .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+                .header("User-Agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
+
                 .POST(HttpRequest.BodyPublishers.ofString(requestBody))
                 .build();
 
         return getJsonStringFromAirline(client, request);
     }
-
 }

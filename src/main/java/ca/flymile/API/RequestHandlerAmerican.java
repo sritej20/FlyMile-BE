@@ -3,12 +3,9 @@ package ca.flymile.API;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
 
+import static ca.flymile.API.BaseRequestHandler.getJsonStringFromAirline;
 
-import static ca.flymile.DecompressorLogic.Decompressor.decompress;
 
 
   /**
@@ -88,26 +85,7 @@ public class RequestHandlerAmerican {
                 .POST(HttpRequest.BodyPublishers.ofString(requestBody))
                 .build();
 
-        CompletableFuture<String> future = client.sendAsync(request, HttpResponse.BodyHandlers.ofByteArray())
-                .thenApply(response -> {
-                    // Dynamically get the content encoding from the response headers
-                    String contentEncoding = response.headers().firstValue("Content-Encoding").orElse("");
-                    return decompress(response.body(), contentEncoding);
-                })
-                .thenApply(decompressedBody -> {
-                    if (decompressedBody == null) {
-                        return "Decompression error or no data";
-                    }
-                    return new String(decompressedBody);
-                });
-
-        try {
-            return future.get(); // Wait and retrieve the future result
-        } catch (InterruptedException | ExecutionException e) {
-            Thread.currentThread().interrupt(); // handle interrupted status
-            e.printStackTrace();
-            return "Failed to execute request: " + e.getMessage();
-        }
+        return getJsonStringFromAirline(client, request);
     }
 
 

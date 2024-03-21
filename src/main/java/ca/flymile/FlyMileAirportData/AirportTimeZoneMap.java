@@ -2,8 +2,10 @@ package ca.flymile.FlyMileAirportData;
 
 import ca.flymile.simpleAirport.TimezoneAirport;
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
+import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.Collections;
 import java.util.HashMap;
@@ -25,8 +27,12 @@ public class AirportTimeZoneMap {
             for (TimezoneAirport airport : airports) {
                 map.put(airport.getAirportCode(), airport.getTimezone());
             }
+        } catch (IOException e) {
+            System.err.println("Failed to load airport data from URL: src/main/java/ca/flymile/FlyMileAirportData/airportDataWithTimeZone.json" );
+        } catch (JsonSyntaxException e) {
+            System.err.println("Failed to parse airport data from file:  src/main/java/ca/flymile/FlyMileAirportData/airportDataWithTimeZone.json");
         } catch (Exception e) {
-            e.printStackTrace();
+            System.err.println("Unexpected error occurred while loading airport data: src/main/java/ca/flymile/FlyMileAirportData/airportDataWithTimeZone.json");
         }
 
         AIRPORT_TIMEZONE_MAP = Collections.unmodifiableMap(map);

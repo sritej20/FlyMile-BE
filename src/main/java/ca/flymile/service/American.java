@@ -8,9 +8,11 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.CompletionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
@@ -63,29 +65,37 @@ public class American {
      */
 
     public List<List<FlightDto>> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
-        // Parse start and end dates
+
+        List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
         LocalDate startDate = LocalDate.parse(start);
         LocalDate endDate = LocalDate.parse(end);
 
-        // List to hold CompletableFuture for each day's flight data
-        List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
-
-        // Iterate over each day in the date range
         for (LocalDate date = startDate; !date.isAfter(endDate); date = date.plusDays(1)) {
-            // Format date as string
             String stringDate = date.format(DATE_FORMATTER);
-            // Fetch flight data asynchronously and add CompletableFuture to list
-            CompletableFuture<List<FlightDto>> future = CompletableFuture.supplyAsync(() -> fetchFlightDataAmerican(stringDate, origin, destination, numPassengers, upperCabin), pool);
+            CompletableFuture<List<FlightDto>> future = CompletableFuture.supplyAsync(() -> {
+                try {
+                    return fetchFlightDataAmerican(stringDate, origin, destination, numPassengers, upperCabin);
+                } catch (Exception e) {
+                    System.err.println("Error fetching flight data for " + stringDate + ": " + e.getMessage());
+                    return new ArrayList<>();
+                }
+            }, pool);
             futures.add(future);
         }
 
-        // Join CompletableFuture and collect non-empty results into FlightSlicesByDate
-
         return futures.stream()
-                .map(CompletableFuture::join)
+                .map(future -> {
+                    try {
+                        return future.join();
+                    } catch (CompletionException e) {
+                        System.err.println("Error during asynchronous operation: " + e.getCause().getMessage());
+                        return new ArrayList<FlightDto>();
+                    }
+                })
                 .filter(list -> !list.isEmpty())
                 .collect(Collectors.toList());
     }
+
 
     /**
      * Fetches flight data for a given date, origin, destination, number of passengers, and cabin preference.
@@ -112,30 +122,34 @@ public class American {
      */
 
     private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin) {
-        // Perform HTTP request to obtain flight data in JSON format
+
         String json = requestHandlerAmerican(date, origin, destination, numPassengers, upperCabin);
-
-        // Deserialize JSON response into FlightSlices object using Gson library
-        Gson gson = new Gson();
-        FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
-
-        // Check if the response contains an error
-        String error = jsonResponse.getError();
-        switch (error) {
-            // If no error, return the list of flight slices
-            case "" -> {
-                return jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
-            }
-            // If error code 309 (example), save the error details to a file
-            case "309" -> save309ErrorToFile("309", origin, destination, date, numPassengers, upperCabin);
-
-            // For any other error, save the error details to a different file
-            default ->
-                    saveUnknownErrorToFile(jsonResponse.getError(), origin, destination, date, numPassengers, upperCabin);
+        if (json == null) {
+            return new ArrayList<>();
         }
 
-        // Return an empty list if there's an error
+        Gson gson = new Gson();
+        FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
+        if (jsonResponse == null) {
+            return new ArrayList<>();
+        }
+
+        String error = jsonResponse.getError();
+        //Can ERRor be NULL  ???????????????
+        if (error == null || error.isEmpty()) {
+            return jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
+        }
+
+        switch (error) {
+            case "309":
+                save309ErrorToFile(error, origin, destination, date, numPassengers, upperCabin);
+                break;
+            default:
+                saveUnknownErrorToFile(error, origin, destination, date, numPassengers, upperCabin);
+        }
+
         return new ArrayList<>();
     }
+
 
 }

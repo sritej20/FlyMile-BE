@@ -10,10 +10,10 @@ public class ProxyKeys {
     /**
      * The username for proxy authentication.
      */
-    private static final String proxyUserName = "spqou3ok02";
+    private static final String proxyUserName = null;
     /**
      * The password for proxy authentication.
      */
-    private static final String proxyPassword = "iepIc29DuAX5a7upyh";
+    private static final String proxyPassword = null;
 }
 

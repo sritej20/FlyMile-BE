@@ -40,12 +40,18 @@ public class InputValidation {
      * @throws PassengersNumberInvalidException If the number of passengers is outside the allowed range.
      * @throws EndDateOutsideRangeException If the end date does not fall within the allowed timeframe relative to the start date.
      */
-    public static void validateFlightSearchParams(String origin, String destination, String startDate, String endDate, int numPassengers) {
-        validateAirports(origin, destination);
+    public static void validateOriginDestinationStartDateZoneEndDatePassengers(String origin, String destination, String startDate, String endDate, int numPassengers) {
+        validateOriginDestination(origin, destination);
         ZoneId originZoneId = getZoneIdForAirport(origin);
-        LocalDate start = parseAndValidateStartDate(startDate, originZoneId);
-        parseAndValidateEndDate(endDate, start, originZoneId);
+        LocalDate start = StartDateZone(startDate, originZoneId);
+        validateEndDateWithoutZone(endDate, start);
         validateNumPassengers(numPassengers);
+    }
+    public static void validateOriginDestinationStartZoneDateEndDate(String origin, String destination, String startDate, String endDate) {
+        validateOriginDestination(origin, destination);
+        ZoneId originZoneId = getZoneIdForAirport(origin);
+        LocalDate start = StartDateZone(startDate, originZoneId);
+        validateEndDateWithoutZone(endDate, start);
     }
     /**
      * Validates flight search parameters for Alaska Airlines 30-day search feature, focusing on airport codes and start date.
@@ -54,9 +60,9 @@ public class InputValidation {
      * @param destination The IATA airport code for the flight's destination.
      * @param startDate The start date of the search period, in YYYY-MM-DD format.
      */
-    public static void validateFlightSearchParamsForAlaska30Days(String origin, String destination, String startDate) {
-        validateAirports(origin, destination);
-        parseAndValidateStartDateWithoutZone(startDate);
+    public static void validateOriginDestinationStartDateWithoutZone(String origin, String destination, String startDate) {
+        validateOriginDestination(origin, destination);
+        StartDateWithoutZone(startDate);
     }
     /**
      * Validates the flight search parameters for American yearly flights.
@@ -72,9 +78,9 @@ public class InputValidation {
      * @param numPassengers the number of passengers, should be between 1 and 9 inclusive
      * @throws IllegalArgumentException if any of the parameters are invalid
      */
-    public static void validateFlightSearchParamsForAmericanYearly(String origin, String destination,int numPassengers)
+    public static void validateOriginDestinationPassengers(String origin, String destination, int numPassengers)
     {
-        validateAirports(origin, destination);
+        validateOriginDestination(origin, destination);
         validateNumPassengers(numPassengers);
     }
     /**
@@ -91,10 +97,15 @@ public class InputValidation {
      * @param numPassengers the number of passengers, should be between 1 and 9 inclusive
      * @throws IllegalArgumentException if any of the parameters are invalid
      */
-    public static void validateFlightSearchParamsForAmericanWeekly(String origin, String destination, String startDate, int numPassengers) {
-        validateAirports(origin, destination);
-        parseAndValidateStartDateWithoutZone(startDate);
-        validateNumPassengers(numPassengers);
+    public static void validateOriginDestinationStartDatePassengers(String origin, String destination, String startDate, int numPassengers) {
+        validateOriginDestinationPassengers(origin, destination, numPassengers);
+        StartDateWithoutZone(startDate);
+
+    }
+    public static void validateOriginDestinationStartDate(String origin, String destination, String startDate)
+    {
+        StartDateWithoutZone(startDate);
+        validateOriginDestination(origin,destination);
     }
     /**
      * Parses and validates a start date string, ensuring it is in a valid format and within an acceptable date range.
@@ -104,7 +115,7 @@ public class InputValidation {
      * @throws InvalidDateFormatException If the start date does not conform to the expected date format.
      * @throws StartDateOutsideRangeException If the start date is before today or more than 331 days in the future.
      */
-    private static void parseAndValidateStartDateWithoutZone(String startDate) {
+    private static void StartDateWithoutZone(String startDate) {
         LocalDate start;
         try {
             start = LocalDate.parse(startDate);
@@ -117,8 +128,24 @@ public class InputValidation {
             throw new StartDateOutsideRangeException();
         }
     }
+    private static void validateEndDateWithoutZone(String endDate, LocalDate startDate) {
+        LocalDate  end;
+        try {
 
-    private static void validateAirports(String origin, String destination) {
+            end = LocalDate.parse(endDate);
+        } catch (DateTimeParseException e) {
+            throw new InvalidDateFormatException();
+        }
+
+        LocalDate today = LocalDate.now();
+        if (end.isBefore(startDate)) {
+            throw new EndDateBeforeStartDateException();
+        } else if (end.isAfter(today.plusDays(331))) {
+            throw new EndDateOutsideRangeException();
+        }
+    }
+
+    public static void validateOriginDestination(String origin, String destination) {
         if (origin == null || origin.trim().isEmpty() || destination == null || destination.trim().isEmpty()) {
             throw new OriginDestinationRequiredException();
         }
@@ -149,7 +176,7 @@ public class InputValidation {
         return ZoneId.of(timeZone);
     }
 
-    private static LocalDate parseAndValidateStartDate(String startDate, ZoneId zoneId) {
+    private static LocalDate StartDateZone(String startDate, ZoneId zoneId) {
         LocalDate start;
         try {
             start = LocalDate.parse(startDate);
@@ -170,7 +197,7 @@ public class InputValidation {
     }
 
 
-    private static void parseAndValidateEndDate(String endDate, LocalDate start, ZoneId zoneId) {
+    private static void EndDateZone(String endDate, LocalDate start, ZoneId zoneId) {
         LocalDate end;
         try {
             end = LocalDate.parse(endDate);

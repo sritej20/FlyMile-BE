@@ -4,8 +4,7 @@ import ca.flymile.ModelAlaska30Days.dailyCheapest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParamsForAlaska30Days;
+import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDate;
 
 /**
  * The AlaskaController30Days class handles HTTP requests related to flight data retrieval for a 30-day period from the Alaska Airlines website.
@@ -44,7 +43,7 @@ public class AlaskaController30Days {
             @RequestParam String startDate
     ) {
         // Validate the search parameters
-        validateFlightSearchParamsForAlaska30Days(departure.toUpperCase(), arrival.toUpperCase(), startDate);
+        validateOriginDestinationStartDate(departure.toUpperCase(), arrival.toUpperCase(), startDate);
 
         // Retrieve and return the daily Cheapest List
         return alaska30Days.getFlightDataListAlaska30Days(departure, arrival, startDate);

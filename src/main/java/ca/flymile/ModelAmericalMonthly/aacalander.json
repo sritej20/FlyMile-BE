@@ -1,0 +1,666 @@
+{
+  "calendarDetails": {
+    "calendarSliceTabs": [
+      {
+        "origin": "YUL",
+        "destination": "JED",
+        "date": "2024-11-11",
+        "perPassengerAwardPoints": 70000
+      }
+    ],
+    "calendarPricingSummary": {
+      "perPassengerAwardPoints": 70000,
+      "perPassengerSaleTotal": {
+        "amount": 79.55,
+        "currency": "USD"
+      },
+      "lowestMonthlyPrice": 70000
+    },
+    "lowestMonthlyPrice": 70000
+  },
+  "calendarMonths": [
+    {
+      "month": "11",
+      "year": "2024",
+      "weeks": [
+        {
+          "days": [
+            {
+              "dayOfMonth": null,
+              "date": null,
+              "validDay": false,
+              "solution": null
+            },
+            {
+              "dayOfMonth": null,
+              "date": null,
+              "validDay": false,
+              "solution": null
+            },
+            {
+              "dayOfMonth": null,
+              "date": null,
+              "validDay": false,
+              "solution": null
+            },
+            {
+              "dayOfMonth": null,
+              "date": null,
+              "validDay": false,
+              "solution": null
+            },
+            {
+              "dayOfMonth": null,
+              "date": null,
+              "validDay": false,
+              "solution": null
+            },
+            {
+              "dayOfMonth": "1",
+              "date": "2024-11-01",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "2",
+              "date": "2024-11-02",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "days": [
+            {
+              "dayOfMonth": "3",
+              "date": "2024-11-03",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "4",
+              "date": "2024-11-04",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "5",
+              "date": "2024-11-05",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "6",
+              "date": "2024-11-06",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "7",
+              "date": "2024-11-07",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "8",
+              "date": "2024-11-08",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 787.45,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "9",
+              "date": "2024-11-09",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "days": [
+            {
+              "dayOfMonth": "10",
+              "date": "2024-11-10",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 787.45,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "11",
+              "date": "2024-11-11",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "12",
+              "date": "2024-11-12",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "13",
+              "date": "2024-11-13",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "14",
+              "date": "2024-11-14",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "15",
+              "date": "2024-11-15",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 787.45,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "16",
+              "date": "2024-11-16",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "days": [
+            {
+              "dayOfMonth": "17",
+              "date": "2024-11-17",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "18",
+              "date": "2024-11-18",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "19",
+              "date": "2024-11-19",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "20",
+              "date": "2024-11-20",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 748.85,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "21",
+              "date": "2024-11-21",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "22",
+              "date": "2024-11-22",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "23",
+              "date": "2024-11-23",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "days": [
+            {
+              "dayOfMonth": "24",
+              "date": "2024-11-24",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "25",
+              "date": "2024-11-25",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "26",
+              "date": "2024-11-26",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 787.45,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "27",
+              "date": "2024-11-27",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 748.85,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "28",
+              "date": "2024-11-28",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "29",
+              "date": "2024-11-29",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 116.75,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            },
+            {
+              "dayOfMonth": "30",
+              "date": "2024-11-30",
+              "validDay": true,
+              "solution": {
+                "perPassengerAwardPoints": 70000,
+                "perPassengerSaleTotal": {
+                  "amount": 79.55,
+                  "currency": "USD"
+                },
+                "calendarSlices": [
+                  {
+                    "perPassengerAwardPoints": 70000,
+                    "lowestPrice": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "daysOfWeek": [
+    "SUN",
+    "MON",
+    "TUE",
+    "WED",
+    "THU",
+    "FRI",
+    "SAT"
+  ],
+  "error": "",
+  "responseMetadata": {
+    "searchAirports": [],
+    "departureDate": "2024-11-11",
+    "direction": "DEPART",
+    "duration": 2446,
+    "international": false,
+    "resultId": "HhY4JxPl9Z2C0goLaQU7at8z4",
+    "searchType": "Award",
+    "sessionId": "nCr0feoG6o9bE0xdZ2Lhtvsxe",
+    "solutionSet": "0WSsF5E10wM1RktQULCqF0J",
+    "notifications": [],
+    "showFlagship": false,
+    "corporateFare": false,
+    "sliceCount": 0,
+    "pricedSliceIndex": 0,
+    "tripType": "ONE_WAY",
+    "mixedCabin": false,
+    "mixedFare": false,
+    "multiCity": false,
+    "roundTrip": false,
+    "longHaulMarket": false,
+    "selectedProductChanged": false,
+    "businessPlusOffered": false,
+    "pricedSlice": 1
+  },
+  "slices": [],
+  "utag": {
+    "channel": "Booking",
+    "event_name": "award",
+    "page_name": "Choose Flights",
+    "site_country": "US",
+    "site_currency": "USD",
+    "site_indicator": "AAcom",
+    "site_language": "EN",
+    "tealium_environment": "qa",
+    "tealium_profile": "main"
+  }
+}

@@ -4,8 +4,8 @@ import ca.flymile.dtoAlaska.FlightDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDatePassengers;
 
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParams;
 
 /**
  * The AlaskaController class handles HTTP requests related to flight data retrieval from the Alaska Airlines website.
@@ -48,7 +48,7 @@ public class AlaskaController {
             @RequestParam(defaultValue = "1") int numPassengers
     ) {
         // Validate the search parameters
-        validateFlightSearchParams(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
+        validateOriginDestinationStartDateZoneEndDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
 
         // Retrieve and return the flight data list
         return alaska.getFlightDataListAlaska(departure, arrival, startDate, endDate, numPassengers);

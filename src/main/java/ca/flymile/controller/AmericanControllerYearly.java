@@ -1,14 +1,13 @@
 package ca.flymile.controller;
 
 
-import ca.flymile.ModelAmericanWeekly.dailyCheapest;
+import ca.flymile.dtoAmerican.AmericanDailyCheapestDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParamsForAmericanWeekly;
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParamsForAmericanYearly;
+import static ca.flymile.InputValidation.InputValidation.*;
 
 /**
  * The AmericanControllerYearly class handles HTTP requests related to flight data retrieval on a Yearly basis from the American Airlines website.
@@ -38,14 +37,14 @@ public class AmericanControllerYearly {
      * @return A list of DailyCheapest objects, each representing a date with available pricing details within a Yearly period.
      */
     @GetMapping
-    public CompletableFuture<List<dailyCheapest>> getFlightDataList(
+    public CompletableFuture<List<AmericanDailyCheapestDto>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam(defaultValue = "1") int numPassengers,
             @RequestParam(defaultValue = "false") boolean upperCabin
     ) {
         // Validate the search parameters
-        validateFlightSearchParamsForAmericanYearly(departure.toUpperCase(), arrival.toUpperCase(),numPassengers);
+        validateOriginDestinationPassengers(departure.toUpperCase(), arrival.toUpperCase(),numPassengers);
 
         // Retrieve and return the daily Cheapest List
         return americanYearly.getFlightDataListAmericanYearly(departure, arrival, numPassengers, upperCabin);

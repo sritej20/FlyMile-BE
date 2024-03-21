@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-import static ca.flymile.InputValidation.InputValidation.validateFlightSearchParams;
+import static ca.flymile.InputValidation.InputValidation.*;
 
 /**
  * The AAScrapperController class handles HTTP requests related to flight data retrieval from the American Airlines (AA) website.
@@ -51,7 +51,7 @@ public class AmericanController {
             @RequestParam(defaultValue = "false") boolean upperCabin
     ) {
         // Validate the search parameters
-        validateFlightSearchParams(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
+        validateOriginDestinationStartDateZoneEndDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
 
         // Retrieve and return the flight data list
         return american.getFlightDataListAmerican(departure, arrival, startDate, endDate, numPassengers, upperCabin);
