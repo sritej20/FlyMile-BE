@@ -6,6 +6,8 @@ import ca.flymile.ModelDelta.OfferSet;
 import ca.flymile.dtoDelta.DtoOffers;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import static ca.flymile.API.RequestHandlerDeltaMonthly.requestHandlerDeltaMonthly;
@@ -15,8 +17,8 @@ public class DeltaMonthly {
 
     public static List<DtoOffers> getDailyCheapestS(String origin, String destination, String start, int numPassengers) {
         String json = requestHandlerDeltaMonthly(origin, destination, start, numPassengers);
-        if (json == null || json.trim().isEmpty()) {
-            return Collections.emptyList();
+        if (json == null || json.startsWith("<")) {
+            return new ArrayList<>();
         }
 
         Gson gson = new Gson();

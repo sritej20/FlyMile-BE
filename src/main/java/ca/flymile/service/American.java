@@ -16,10 +16,8 @@ import java.util.concurrent.CompletionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
-
 import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
-import static ca.flymile.requestErrorFileLoggers.ErrorLoggers.save309ErrorToFile;
-import static ca.flymile.requestErrorFileLoggers.ErrorLoggers.saveUnknownErrorToFile;
+
 
 /**
  * The AAScrapperService class provides methods to retrieve flight data.
@@ -124,10 +122,9 @@ public class American {
     private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin) {
 
         String json = requestHandlerAmerican(date, origin, destination, numPassengers, upperCabin);
-        if (json == null) {
+        if (json == null || json.startsWith("<")) {
             return new ArrayList<>();
         }
-
         Gson gson = new Gson();
         FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
         if (jsonResponse == null) {
@@ -140,13 +137,6 @@ public class American {
             return jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
         }
 
-        switch (error) {
-            case "309":
-                save309ErrorToFile(error, origin, destination, date, numPassengers, upperCabin);
-                break;
-            default:
-                saveUnknownErrorToFile(error, origin, destination, date, numPassengers, upperCabin);
-        }
 
         return new ArrayList<>();
     }

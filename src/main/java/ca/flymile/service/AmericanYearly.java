@@ -78,8 +78,8 @@ public class AmericanYearly {
      */
     public static List<dailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, boolean cabin) {
         String json = requestHandlerAmericanWeekly(origin, destination, start, numPassengers, cabin);
-        if (json == null || json.trim().isEmpty()) {
-            return Collections.emptyList();
+        if (json == null || json.startsWith("<")) {
+            return new ArrayList<>();
         }
         Gson gson = new Gson();
         Type type = new TypeToken<WeeklyData>() {}.getType();
