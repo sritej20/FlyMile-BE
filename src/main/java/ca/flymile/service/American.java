@@ -62,11 +62,10 @@ public class American {
      *            <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
 
-    public List<List<FlightDto>> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
-
+    public List<FlightDto> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
+        LocalDate startDate = LocalDate.parse(start, DATE_FORMATTER);
+        LocalDate endDate = LocalDate.parse(end, DATE_FORMATTER);
         List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
-        LocalDate startDate = LocalDate.parse(start);
-        LocalDate endDate = LocalDate.parse(end);
 
         for (LocalDate date = startDate; !date.isAfter(endDate); date = date.plusDays(1)) {
             String stringDate = date.format(DATE_FORMATTER);
@@ -91,6 +90,7 @@ public class American {
                     }
                 })
                 .filter(list -> !list.isEmpty())
+                .flatMap(List::stream)  // This will flatten the list of lists into a single list
                 .collect(Collectors.toList());
     }
 

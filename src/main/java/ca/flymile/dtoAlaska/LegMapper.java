@@ -26,8 +26,6 @@ public class LegMapper {
                 .setDepartureDateTime(leg.getDepartureDateTime())
                 .setCarrierCode(leg.getFlight().getCarrierCode())
                 .setFlightNumber(leg.getFlight().getFlightNumber())
-                .setLieFlatBusiness(leg.getAmenities().stream().anyMatch(amenity -> amenity.equals("Lie-flat Seat Business")))
-                .setLieFlatFirst(leg.getAmenities().stream().anyMatch(amenity -> amenity.equals("Lie-flat Seat First")))
                 .setDestination(leg.getDestination())
                 .setDurationInMinutes(leg.getDurationInMinutes())
                 .setOrigin(leg.getOrigin());
