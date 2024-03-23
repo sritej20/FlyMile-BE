@@ -19,6 +19,7 @@ import static ca.flymile.API.RequestHandlerAlaska.requestHandlerAlaska;
 
 @Component
 public class Alaska {
+    private static final Gson gson = new Gson();
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     /**
      * Private final ExecutorService instance used for managing asynchronous tasks.*
@@ -98,7 +99,6 @@ public class Alaska {
                 return new ArrayList<>();
             }
 
-            Gson gson = new Gson();
             FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
             if (jsonResponse != null && jsonResponse.getSlices() != null) {
                 return jsonResponse.getSlices().stream()

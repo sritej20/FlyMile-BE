@@ -1,21 +1,23 @@
 package ca.flymile.service;
 
-import ca.flymile.ModelAlaska30Days.MonthlyDetails;
-import ca.flymile.ModelAlaska30Days.dailyCheapest;
-import com.google.common.reflect.TypeToken;
+import ca.flymile.ModelAlaskaMonthly.MonthlyDetails;
+import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
 import com.google.gson.Gson;
 import java.lang.reflect.Type;
+
+import com.google.gson.reflect.TypeToken;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import static ca.flymile.API.RequestHandlerAlaska30Days.requestHandlerAlaska30Days;
+import static ca.flymile.API.RequestHandlerAlaskaMonthly.requestHandlerAlaskaMonthly;
 
 
 @Component
-public class Alaska30Days {
+public class AlaskaMonthly {
+    private static final Gson gson = new Gson();
 
     /**
      * Retrieves a list of flight data for Alaska Airlines over a 30-day period
@@ -29,7 +31,7 @@ public class Alaska30Days {
      * @return A list of {@link dailyCheapest} objects, each representing the cheapest flight option
      *         for a day in the specified period, including price in points, price in cash, and date.
      */
-    public List<dailyCheapest> getFlightDataListAlaska30Days(String origin, String destination, String start) {
+    public List<dailyCheapest> getFlightDataListAlaskaMonthly(String origin, String destination, String start) {
         LocalDate startDate = LocalDate.parse(start, DateTimeFormatter.ISO_LOCAL_DATE);
         LocalDate today = LocalDate.now();
 
@@ -47,10 +49,9 @@ public class Alaska30Days {
         return getDailyCheapests(origin, destination, adjustedStart);
     }
     public static List<dailyCheapest> getDailyCheapests(String origin, String destination, String start) {
-        String json = requestHandlerAlaska30Days(origin, destination, start);
+        String json = requestHandlerAlaskaMonthly(origin, destination, start);
         if (json != null && json.charAt(0) != '<')
         {
-            Gson gson = new Gson();
             Type type = new TypeToken<MonthlyDetails>() {}.getType();
 
             // Deserialize the JSON response into a MonthlyDetails object

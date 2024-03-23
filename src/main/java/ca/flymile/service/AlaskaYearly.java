@@ -5,20 +5,14 @@
  */
 package ca.flymile.service;
 
-import ca.flymile.ModelAlaska30Days.MonthlyDetails;
-import ca.flymile.ModelAlaska30Days.dailyCheapest;
-import com.google.common.reflect.TypeToken;
-import com.google.gson.Gson;
-import java.lang.reflect.Type;
+import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
 import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
-
-import static ca.flymile.API.RequestHandlerAlaska30Days.requestHandlerAlaska30Days;
-import static ca.flymile.service.Alaska30Days.getDailyCheapests;
+import static ca.flymile.service.AlaskaMonthly.getDailyCheapests;
 
 @Component
 public class AlaskaYearly {

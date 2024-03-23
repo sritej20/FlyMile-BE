@@ -14,6 +14,7 @@ import static ca.flymile.API.RequestHandlerDeltaMonthly.requestHandlerDeltaMonth
 import static ca.flymile.dtoDelta.DtoOffersMapper.toDto;
 @Component
 public class DeltaMonthly {
+    private static final Gson gson = new Gson();
 
     public static List<DtoOffers> getDailyCheapestS(String origin, String destination, String start, int numPassengers) {
         String json = requestHandlerDeltaMonthly(origin, destination, start, numPassengers);
@@ -21,7 +22,6 @@ public class DeltaMonthly {
             return new ArrayList<>();
         }
 
-        Gson gson = new Gson();
         JsonResponse jsonResponse = gson.fromJson(json, JsonResponse.class);
         if (jsonResponse == null) {
             return Collections.emptyList();

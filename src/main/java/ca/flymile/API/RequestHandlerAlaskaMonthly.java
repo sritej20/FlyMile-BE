@@ -14,7 +14,7 @@ import static ca.flymile.API.BaseRequestHandler.getJsonStringFromAirline;
  * on the date, origin, and destination.
  * it return -15 days and +15 days from provided date
  */
-public class RequestHandlerAlaska30Days {
+public class RequestHandlerAlaskaMonthly {
 
     /**
      * Handles the request to the Alaska booking API for available flight dates in a given month [-15 + start , start + 15].
@@ -24,7 +24,7 @@ public class RequestHandlerAlaska30Days {
      * @param destination   The destination airport code.
      * @return A string containing the response from the API with available flight dates.
      */
-    public static String requestHandlerAlaska30Days( String origin, String destination,String date) {
+    public static String requestHandlerAlaskaMonthly( String origin, String destination,String date) {
         String requestBody = String.format("""
                             {
                                 "origins": ["%s"],

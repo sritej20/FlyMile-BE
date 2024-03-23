@@ -1,5 +1,4 @@
 package ca.flymile.service;
-import ca.flymile.ModelAmericanWeekly.dailyCheapest;
 import ca.flymile.dtoDelta.DtoOffers;
 import org.springframework.stereotype.Component;
 import java.time.LocalDate;
@@ -24,7 +23,6 @@ public class DeltaYearly {
      * @param origin        The starting location for the flight.
      * @param destination   The ending location for the flight.
      * @param numPassengers The number of passengers.
-     * @return A list of {@link dailyCheapest} objects if successful; otherwise, an empty list.
      */
 
     public CompletableFuture<List<DtoOffers>> getFlightDataListDeltaYearly(String origin, String destination, int numPassengers) {

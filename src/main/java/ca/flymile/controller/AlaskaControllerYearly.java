@@ -1,7 +1,7 @@
 package ca.flymile.controller;
 
 
-import ca.flymile.ModelAlaska30Days.dailyCheapest;
+import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
 import ca.flymile.service.AlaskaYearly;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
