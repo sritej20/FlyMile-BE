@@ -4,6 +4,8 @@ import ca.flymile.dtoAlaska.FlightDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+
+import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska;
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDatePassengers;
 
 
@@ -34,7 +36,7 @@ public class AlaskaController {
      * @param arrival       The arrival airport code.
      * @param startDate     The start date of the travel period (format: "YYYY-MM-DD").
      * @param endDate       The end date of the travel period (format: "YYYY-MM-DD").
-     * @param numPassengers The number of passengers.
+     * @param  numPassengers The number of passengers, constrained between 1 and 7 for alaska .
      * @return A list of flight data, each containing a list of slices representing different legs of the journey.
      *         <p>Slice represents a single flight.</p>
      *         <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
@@ -47,9 +49,7 @@ public class AlaskaController {
             @RequestParam String endDate,
             @RequestParam(defaultValue = "1") int numPassengers
     ) {
-        // Validate the search parameters
-        validateOriginDestinationStartDateZoneEndDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
-
+        validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
         // Retrieve and return the flight data list
         return alaska.getFlightDataListAlaska(departure, arrival, startDate, endDate, numPassengers);
     }

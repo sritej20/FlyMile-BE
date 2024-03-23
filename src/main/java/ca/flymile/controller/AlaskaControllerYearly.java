@@ -7,7 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-import static ca.flymile.InputValidation.InputValidation.validateOriginDestination;
+
+import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationNumPassengersAlaska;
 
 /**
  * The AlaskaControllerYearly class handles HTTP requests related to flight data retrieval for a yearly period from the Alaska Airlines website.
@@ -39,13 +40,14 @@ public class AlaskaControllerYearly {
     @GetMapping
     public CompletableFuture<List<dailyCheapest>> getFlightDataListYearly(
             @RequestParam String departure,
-            @RequestParam String arrival
+            @RequestParam String arrival,
+            @RequestParam(defaultValue = "1") int numPassengers
     ) {
         // Validate the search parameters
-        validateOriginDestination(departure.toUpperCase(), arrival.toUpperCase());
+        validateOriginDestinationNumPassengersAlaska(departure.toUpperCase(), arrival.toUpperCase(),numPassengers);
 
         // Retrieve and return the daily Cheapest List for the year
-        return alaskaYearly.getFlightDataListAlaskaYearly(departure, arrival);
+        return alaskaYearly.getFlightDataListAlaskaYearly(departure, arrival, numPassengers);
     }
 }
 

@@ -47,11 +47,28 @@ public class InputValidation {
         validateEndDateWithoutZone(endDate, start);
         validateNumPassengers(numPassengers);
     }
-    public static void validateOriginDestinationStartZoneDateEndDate(String origin, String destination, String startDate, String endDate) {
+
+    public static void validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska(String origin, String destination, String startDate, String endDate, int numPassengers) {
         validateOriginDestination(origin, destination);
         ZoneId originZoneId = getZoneIdForAirport(origin);
         LocalDate start = StartDateZone(startDate, originZoneId);
         validateEndDateWithoutZone(endDate, start);
+        validateNumPassengersAlaska(numPassengers);
+    }
+    public static void validateOriginDestinationStartDateZoneNumPassengersAlaska(String origin, String destination, String startDate, int numPassengers) {
+        validateOriginDestination(origin, destination);
+        ZoneId originZoneId = getZoneIdForAirport(origin);
+        StartDateZone(startDate, originZoneId);
+        validateNumPassengersAlaska(numPassengers);
+    }
+    public static void validateOriginDestinationNumPassengersAlaska(String origin, String destination, int numPassengers) {
+        validateOriginDestination(origin, destination);
+        validateNumPassengersAlaska(numPassengers);
+    }
+    private static void validateNumPassengersAlaska(int numPassengers) {
+        if (numPassengers < 1 || numPassengers > 7) {
+            throw new PassengersNumberInvalidExceptionAlaska();
+        }
     }
     /**
      * Validates flight search parameters for Alaska Airlines 30-day search feature, focusing on airport codes and start date.

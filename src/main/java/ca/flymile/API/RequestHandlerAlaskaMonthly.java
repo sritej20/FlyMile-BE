@@ -24,7 +24,7 @@ public class RequestHandlerAlaskaMonthly {
      * @param destination   The destination airport code.
      * @return A string containing the response from the API with available flight dates.
      */
-    public static String requestHandlerAlaskaMonthly( String origin, String destination,String date) {
+    public static String requestHandlerAlaskaMonthly( String origin, String destination,String date, int numberOfPassengers) {
         String requestBody = String.format("""
                             {
                                 "origins": ["%s"],
@@ -32,7 +32,7 @@ public class RequestHandlerAlaskaMonthly {
                                 "dates": ["%s"],
                                 "onba": false,
                                 "dnba": false,
-                                "numADTs": 1,
+                                "numADTs": %d,
                                 "sliceToSearch": 0,
                                 "selectedSegments": [],
                                 "fareView": "as_awards",
@@ -50,7 +50,7 @@ public class RequestHandlerAlaskaMonthly {
                                 },
                                 "isAlaska": false
                             }
-                  """, origin, destination, date);
+                  """, origin, destination, date, numberOfPassengers);
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()

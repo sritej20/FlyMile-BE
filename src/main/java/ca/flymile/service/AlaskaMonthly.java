@@ -31,7 +31,7 @@ public class AlaskaMonthly {
      * @return A list of {@link dailyCheapest} objects, each representing the cheapest flight option
      *         for a day in the specified period, including price in points, price in cash, and date.
      */
-    public List<dailyCheapest> getFlightDataListAlaskaMonthly(String origin, String destination, String start) {
+    public List<dailyCheapest> getFlightDataListAlaskaMonthly(String origin, String destination, String start,int numPassengers) {
         LocalDate startDate = LocalDate.parse(start, DateTimeFormatter.ISO_LOCAL_DATE);
         LocalDate today = LocalDate.now();
 
@@ -46,10 +46,10 @@ public class AlaskaMonthly {
         String adjustedStart = startDate.format(DateTimeFormatter.ISO_LOCAL_DATE);
 
         // Make the API request with the adjusted start date
-        return getDailyCheapests(origin, destination, adjustedStart);
+        return getDailyCheapests(origin, destination, adjustedStart, numPassengers);
     }
-    public static List<dailyCheapest> getDailyCheapests(String origin, String destination, String start) {
-        String json = requestHandlerAlaskaMonthly(origin, destination, start);
+    public static List<dailyCheapest> getDailyCheapests(String origin, String destination, String start, int numPassengers) {
+        String json = requestHandlerAlaskaMonthly(origin, destination, start, numPassengers);
         if (json != null && json.charAt(0) != '<')
         {
             Type type = new TypeToken<MonthlyDetails>() {}.getType();

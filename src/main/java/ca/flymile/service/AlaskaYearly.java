@@ -24,13 +24,13 @@ public class AlaskaYearly {
      * @param destination The airport code of the destination location.
      * @return A CompletableFuture that, when completed, will return a list of the cheapest daily flights for each day of the year.
      */
-    public CompletableFuture<List<dailyCheapest>> getFlightDataListAlaskaYearly(String origin, String destination) {
+    public CompletableFuture<List<dailyCheapest>> getFlightDataListAlaskaYearly(String origin, String destination, int numPassengers) {
         LocalDate date = LocalDate.now().plusDays(15);
         List<CompletableFuture<List<dailyCheapest>>> futures = new ArrayList<>();
 
         for (int i = 0; i < 11; i++) {
             final String start = date.toString();
-            CompletableFuture<List<dailyCheapest>> future = CompletableFuture.supplyAsync(() -> getFlightDataListAlaska30Days(origin, destination, start))
+            CompletableFuture<List<dailyCheapest>> future = CompletableFuture.supplyAsync(() -> getFlightDataListAlaska30Days(origin, destination, start,numPassengers))
                     .exceptionally(ex -> {
                         System.err.println("Error fetching data for " + start + ": " + ex.getMessage());
                         return new ArrayList<dailyCheapest>();  // Return an empty list in case of error
@@ -55,10 +55,10 @@ public class AlaskaYearly {
      * @param start The start date for the 30-day period in YYYY-MM-DD format.
      * @return A list of dailyCheapest objects representing the cheapest flights for each day of the specified period.
      */
-    public List<dailyCheapest> getFlightDataListAlaska30Days(String origin, String destination, String start) {
+    public List<dailyCheapest> getFlightDataListAlaska30Days(String origin, String destination, String start, int numPassengers) {
 
         // Make the API request with the adjusted start date
-        return getDailyCheapests(origin, destination, start);
+        return getDailyCheapests(origin, destination, start, numPassengers);
     }
 
 

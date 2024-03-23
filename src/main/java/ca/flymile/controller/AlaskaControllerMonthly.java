@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDate;
+import static ca.flymile.InputValidation.InputValidation.*;
 
 /**
  * The AlaskaController30Days class handles HTTP requests related to flight data retrieval for a 30-day period from the Alaska Airlines website.
@@ -42,12 +42,13 @@ public class AlaskaControllerMonthly {
     public List<dailyCheapest> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
-            @RequestParam String startDate
+            @RequestParam String startDate,
+            @RequestParam(defaultValue = "1") int numPassengers
     ) {
         // Validate the search parameters
-        validateOriginDestinationStartDate(departure.toUpperCase(), arrival.toUpperCase(), startDate);
+        validateOriginDestinationStartDateZoneNumPassengersAlaska(departure.toUpperCase(), arrival.toUpperCase(), startDate,numPassengers);
 
         // Retrieve and return the daily Cheapest List
-        return alaskaMonthly.getFlightDataListAlaskaMonthly(departure, arrival, startDate);
+        return alaskaMonthly.getFlightDataListAlaskaMonthly(departure, arrival, startDate, numPassengers);
     }
 }

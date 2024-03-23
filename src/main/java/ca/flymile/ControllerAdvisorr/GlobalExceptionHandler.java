@@ -79,6 +79,19 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         ApiError apiError = new ApiError(HttpStatus.BAD_REQUEST, ex.getMessage());
         return new ResponseEntity<>(apiError, HttpStatus.BAD_REQUEST);
     }
+    /**
+     * Handles PassengersNumberInvalidException and returns an HTTP 400 (Bad Request) response with the error message.
+     * This is Unique to alaska Airlines :
+     *      Which permits 1 to 7 passengers only
+     * @param ex The exception to handle.
+     * @return A ResponseEntity containing an ApiError with the error message and HTTP status 400.
+     */
+    @ExceptionHandler(PassengersNumberInvalidExceptionAlaska.class)
+    @ResponseBody
+    public ResponseEntity<Object> handlePassengersNumberInvalidExceptionAlaska(PassengersNumberInvalidExceptionAlaska ex) {
+        ApiError apiError = new ApiError(HttpStatus.BAD_REQUEST, ex.getMessage());
+        return new ResponseEntity<>(apiError, HttpStatus.BAD_REQUEST);
+    }
 
     /**
      * Handles EndDateOutsideRangeException and returns an HTTP 400 (Bad Request) response with the error message.
