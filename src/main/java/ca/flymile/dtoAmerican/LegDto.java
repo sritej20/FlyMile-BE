@@ -46,10 +46,6 @@ public class LegDto {
      */
     private String departureDateTime;
 
-    /**
-     * Indicates if the seating is lie-flat for this leg.
-     */
-    private boolean lieFlat;
 
     /**
      * The destination location for this leg.

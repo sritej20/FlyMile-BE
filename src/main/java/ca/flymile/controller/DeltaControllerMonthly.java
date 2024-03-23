@@ -11,7 +11,7 @@ import static ca.flymile.service.DeltaMonthly.getDailyCheapestS;
  * The DeltaControllerMonthly class handles HTTP requests related to flight data retrieval on a weekly basis from the American Airlines website.
  */
 @RestController
-@RequestMapping("/flights/delta/Monthly")
+@RequestMapping("/flights/delta/monthly")
 @CrossOrigin(origins = "*")
 public class DeltaControllerMonthly {
 

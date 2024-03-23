@@ -24,16 +24,6 @@ public class FlightDto
     private int duration;
 
     /**
-     * The date and time of arrival for this slice.
-     */
-    private String arrivalDateTime;
-
-    /**
-     * The date and time of departure for this slice.
-     */
-    private String departureDateTime;
-
-    /**
      * Indicates whether the arrival is on the next day.
      * 0: Arrival is on the same day.
      * 1: Arrival is on the next day.

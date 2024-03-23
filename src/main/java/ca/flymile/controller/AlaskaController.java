@@ -40,7 +40,7 @@ public class AlaskaController {
      *         <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
     @GetMapping
-    public List<List<FlightDto>> getFlightDataList(
+    public List<FlightDto> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,

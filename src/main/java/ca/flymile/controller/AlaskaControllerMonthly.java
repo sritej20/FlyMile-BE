@@ -1,30 +1,32 @@
 package ca.flymile.controller;
 
-import ca.flymile.ModelAlaska30Days.dailyCheapest;
+import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
+import ca.flymile.service.AlaskaMonthly;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 import java.util.List;
+
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDate;
 
 /**
  * The AlaskaController30Days class handles HTTP requests related to flight data retrieval for a 30-day period from the Alaska Airlines website.
  */
 @RestController
-@RequestMapping("/flights/alaska/30Day")
+@RequestMapping("/flights/alaska/monthly")
 @CrossOrigin(origins = "*")
-public class AlaskaController30Days {
+public class AlaskaControllerMonthly {
 
-    private final ca.flymile.service.Alaska30Days alaska30Days;
+    private final AlaskaMonthly alaskaMonthly;
 
     /**
      * Constructs a new AlaskaController30Days with the specified service for Alaska Airlines 30-day cheapest price & point combo.
      *
-     * @param alaska30Days The service responsible for retrieving flight data from the Alaska Airlines for 30-day cheapest price & point combo.
-     *
+     * @param alaskaMonthly The service responsible for retrieving flight data from the Alaska Airlines for 30-day cheapest price & point combo.
      */
     @Autowired
-    public AlaskaController30Days(ca.flymile.service.Alaska30Days alaska30Days) {
-        this.alaska30Days = alaska30Days;
+    public AlaskaControllerMonthly(AlaskaMonthly alaskaMonthly) {
+        this.alaskaMonthly = alaskaMonthly;
     }
 
     /**
@@ -46,6 +48,6 @@ public class AlaskaController30Days {
         validateOriginDestinationStartDate(departure.toUpperCase(), arrival.toUpperCase(), startDate);
 
         // Retrieve and return the daily Cheapest List
-        return alaska30Days.getFlightDataListAlaska30Days(departure, arrival, startDate);
+        return alaskaMonthly.getFlightDataListAlaskaMonthly(departure, arrival, startDate);
     }
 }

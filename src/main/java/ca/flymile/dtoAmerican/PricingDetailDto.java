@@ -36,6 +36,11 @@ public class PricingDetailDto {
      */
     private String productType;
 
+    /*
+    * American do not sell mixed cabin so always false
+    */
+    private boolean mixedCabin = false;
+
     /**
      * The number of seats remaining.
      * Note: A value of 0 does not necessarily mean there are no seats available.

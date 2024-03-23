@@ -19,6 +19,7 @@ import static ca.flymile.API.RequestHandlerAlaska.requestHandlerAlaska;
 
 @Component
 public class Alaska {
+    private static final Gson gson = new Gson();
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     /**
      * Private final ExecutorService instance used for managing asynchronous tasks.*
@@ -52,30 +53,25 @@ public class Alaska {
      *            <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
 
-    public List<List<FlightDto>> getFlightDataListAlaska(String origin, String destination, String start, String end, int numPassengers) {
-        // Parse start and end dates
-        LocalDate startDate = LocalDate.parse(start);
-        LocalDate endDate = LocalDate.parse(end);
-
-        // List to hold CompletableFuture for each day's flight data
+    public List<FlightDto> getFlightDataListAlaska(String origin, String destination, String start, String end, int numPassengers) {
+        LocalDate startDate = LocalDate.parse(start, DATE_FORMATTER);
+        LocalDate endDate = LocalDate.parse(end, DATE_FORMATTER);
         List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
 
-        // Iterate over each day in the date range
         for (LocalDate date = startDate; !date.isAfter(endDate); date = date.plusDays(1)) {
-            // Format date as string
             String stringDate = date.format(DATE_FORMATTER);
-            // Fetch flight data asynchronously and add CompletableFuture to list
             CompletableFuture<List<FlightDto>> future = CompletableFuture.supplyAsync(() -> fetchFlightDataAlaska(stringDate, origin, destination, numPassengers), pool);
             futures.add(future);
         }
 
-        // Join CompletableFuture and collect non-empty results into FlightSlicesByDate
-
+        // Use flatMap to flatten the list of lists into a single list
         return futures.stream()
                 .map(CompletableFuture::join)
                 .filter(list -> !list.isEmpty())
+                .flatMap(List::stream) // Flattens the nested lists
                 .collect(Collectors.toList());
     }
+
 
     /**
      * Fetches flight data for a given date, origin, destination, and number of passengers.
@@ -103,7 +99,6 @@ public class Alaska {
                 return new ArrayList<>();
             }
 
-            Gson gson = new Gson();
             FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
             if (jsonResponse != null && jsonResponse.getSlices() != null) {
                 return jsonResponse.getSlices().stream()

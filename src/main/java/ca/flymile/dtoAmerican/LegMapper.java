@@ -23,7 +23,6 @@ public class LegMapper {
                 .setArrivalDateTime(leg.getArrivalDateTime())
                 .setConnectionTimeInMinutes(leg.getConnectionTimeInMinutes())
                 .setDepartureDateTime(leg.getDepartureDateTime())
-                .setLieFlat(leg.isLieFlat())
                 .setDestination(leg.getDestination().getCode())
                 .setDurationInMinutes(leg.getDurationInMinutes())
                 .setOrigin(leg.getOrigin().getCode());

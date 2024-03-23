@@ -21,8 +21,6 @@ public class FlightMapper {
     public static FlightDto toDto(Slice slice) {
         return new FlightDto()
                 .setDuration(slice.getDuration())
-                .setArrivalDateTime(slice.getArrivalDateTime())
-                .setDepartureDateTime(slice.getDepartureDateTime())
                 .setArrivesNextDay(slice.getArrivesNextDay())
                 .setLegs(slice.getSegments().stream()
                         .flatMap(segment -> segment.getLegs().stream()

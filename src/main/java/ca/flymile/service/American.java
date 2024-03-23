@@ -24,24 +24,21 @@ import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
  */
 @Component
 public class American {
+    private static final Gson gson = new Gson();
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     /**
      * Private final ExecutorService instance used for managing asynchronous tasks.
-     *
      * An ExecutorService represents an asynchronous execution mechanism which is capable of
      * executing tasks concurrently. It provides a higher level of abstraction over managing
-     * threads and executing tasks in a multithreaded environment.
-     *
+     * threads and executing tasks in a multithreading environment.
      * Executors.newFixedThreadPool(int n) creates a thread pool that reuses a fixed number of
      * threads operating off a shared unbounded queue. Here, the number of threads is determined
      * by Runtime.getRuntime().availableProcessors(), which returns the number of available
      * processors on the current system. This is often used as a reasonable default for the
      * number of threads in the pool, allowing efficient utilization of available CPU resources.
-     *
      * Using a fixed thread pool is suitable when the number of tasks to execute is known in
      * advance and there is a need to limit the number of concurrent threads to prevent resource
      * exhaustion. It provides a balance between concurrency and resource management.
-     *
      * The 'private final' modifier ensures that this ExecutorService instance cannot be
      * reassigned or modified once initialized, providing thread safety and immutability.
      */
@@ -62,11 +59,10 @@ public class American {
      *            <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
 
-    public List<List<FlightDto>> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
-
+    public List<FlightDto> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
+        LocalDate startDate = LocalDate.parse(start, DATE_FORMATTER);
+        LocalDate endDate = LocalDate.parse(end, DATE_FORMATTER);
         List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
-        LocalDate startDate = LocalDate.parse(start);
-        LocalDate endDate = LocalDate.parse(end);
 
         for (LocalDate date = startDate; !date.isAfter(endDate); date = date.plusDays(1)) {
             String stringDate = date.format(DATE_FORMATTER);
@@ -91,6 +87,7 @@ public class American {
                     }
                 })
                 .filter(list -> !list.isEmpty())
+                .flatMap(List::stream)  // This will flatten the list of lists into a single list
                 .collect(Collectors.toList());
     }
 
@@ -125,7 +122,6 @@ public class American {
         if (json == null || json.startsWith("<")) {
             return new ArrayList<>();
         }
-        Gson gson = new Gson();
         FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
         if (jsonResponse == null) {
             return new ArrayList<>();

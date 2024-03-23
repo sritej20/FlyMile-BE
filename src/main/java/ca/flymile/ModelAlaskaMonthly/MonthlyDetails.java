@@ -1,4 +1,4 @@
-package ca.flymile.ModelAlaska30Days;
+package ca.flymile.ModelAlaskaMonthly;
 
 import lombok.Data;
 
