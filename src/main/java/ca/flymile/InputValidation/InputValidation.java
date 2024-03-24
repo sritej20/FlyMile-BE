@@ -7,6 +7,9 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeParseException;
 import java.time.temporal.ChronoUnit;
+import java.util.HashMap;
+import java.util.Map;
+
 
 import static ca.flymile.FlyMileAirportData.AirportData.airportSet;
 import static ca.flymile.FlyMileAirportData.AirportTimeZoneMap.AIRPORT_TIMEZONE_MAP;
@@ -17,6 +20,23 @@ import static ca.flymile.FlyMileAirportData.AirportTimeZoneMap.AIRPORT_TIMEZONE_
  */
 public class InputValidation {
 
+    private static final Map<String, Boolean> CABIN_CLASSES = new HashMap<>();
+
+    static {
+        //The value doesn't matter in this case
+        // since we're only checking if the key exists.
+        CABIN_CLASSES.put("BE", true);
+        CABIN_CLASSES.put("MAIN", true);
+        CABIN_CLASSES.put("DCP", true);
+        CABIN_CLASSES.put("FIRST", true);
+        CABIN_CLASSES.put("DPPS", true);
+        CABIN_CLASSES.put("D1", true);
+    }
+
+    public static String validateCabinClassDelta(String input) {
+        // If the input is not a valid key, return "BE" by default.
+        return CABIN_CLASSES.containsKey(input) ? input : "BE";
+    }
     /**
      * Validates the provided flight search parameters against a set of predefined rules.*
      * - Validates date formats for start and end dates.
@@ -70,17 +90,7 @@ public class InputValidation {
             throw new PassengersNumberInvalidExceptionAlaska();
         }
     }
-    /**
-     * Validates flight search parameters for Alaska Airlines 30-day search feature, focusing on airport codes and start date.
-     *
-     * @param origin The IATA airport code for the flight's origin.
-     * @param destination The IATA airport code for the flight's destination.
-     * @param startDate The start date of the search period, in YYYY-MM-DD format.
-     */
-    public static void validateOriginDestinationStartDateWithoutZone(String origin, String destination, String startDate) {
-        validateOriginDestination(origin, destination);
-        StartDateWithoutZone(startDate);
-    }
+
     /**
      * Validates the flight search parameters for American yearly flights.
      * <p>
@@ -119,11 +129,7 @@ public class InputValidation {
         StartDateWithoutZone(startDate);
 
     }
-    public static void validateOriginDestinationStartDate(String origin, String destination, String startDate)
-    {
-        StartDateWithoutZone(startDate);
-        validateOriginDestination(origin,destination);
-    }
+
     /**
      * Parses and validates a start date string, ensuring it is in a valid format and within an acceptable date range.
      * This method does not account for time zones in its validation, treating the start date as a local date.
@@ -211,23 +217,6 @@ public class InputValidation {
             throw new InvalidDateFormatException();
         }
         return start;
-    }
-
-
-    private static void EndDateZone(String endDate, LocalDate start, ZoneId zoneId) {
-        LocalDate end;
-        try {
-            end = LocalDate.parse(endDate);
-            ZonedDateTime endDateTime = end.atStartOfDay(zoneId);
-            ZonedDateTime startDateTime = start.atStartOfDay(zoneId);
-            LocalDate todayNewYork = LocalDate.now(); //Montreal and New York are in same timezone
-            //AMERICAN RELEASE NEW SEATS AT 12.01 AM, FROM 331 DAYS TODAY
-            if (endDateTime.isBefore(startDateTime) || endDateTime.isAfter(startDateTime.plusDays(7)) || end.isAfter(todayNewYork.plusDays(331))) {
-                throw new EndDateOutsideRangeException();
-            }
-        } catch (DateTimeParseException e) {
-            throw new InvalidDateFormatException();
-        }
     }
     private static String getAirportTimeZone(String airportCode)
     {

@@ -4,10 +4,7 @@ import ca.flymile.dtoAlaska.FlightDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska;
-import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDatePassengers;
-
 
 /**
  * The AlaskaController class handles HTTP requests related to flight data retrieval from the Alaska Airlines website.

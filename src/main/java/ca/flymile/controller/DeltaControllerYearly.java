@@ -2,11 +2,15 @@ package ca.flymile.controller;
 import ca.flymile.dtoDelta.DtoOffers;
 import ca.flymile.service.DeltaYearly;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+
+import static ca.flymile.InputValidation.InputValidation.validateCabinClassDelta;
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationPassengers;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.enums.ParameterIn;
+import org.springframework.web.bind.annotation.*;
+
 
 /**
  * The DeltaControllerYearly class handles HTTP requests related to flight data retrieval on a yearly basis.
@@ -40,12 +44,14 @@ public class DeltaControllerYearly {
     public CompletableFuture<List<DtoOffers>> getFlightDataListYearly(
             @RequestParam String departure,
             @RequestParam String arrival,
-            @RequestParam(defaultValue = "1") int numPassengers
+            @RequestParam(defaultValue = "1") int numPassengers,
+            @RequestParam(defaultValue = "BE") @Parameter(in = ParameterIn.QUERY, description = "The cabin class code, where 'BE' is for Basic Economy, 'MAIN' is for Main Cabin Economy, 'DCP' is for Delta Comfort Plus, 'FIRST' is for First Class, 'DPPS' is for Delta Premium Select, and 'D1' is for Delta One. Each cabin class offers increasing levels of prestige and cost, from BE to D1.") String upperCabin
+
     ) {
         // Validate the search parameters
         validateOriginDestinationPassengers(departure.toUpperCase(), arrival.toUpperCase(), numPassengers);
 
         // Retrieve and return the flight data for the year
-        return deltaYearly.getFlightDataListDeltaYearly(departure, arrival, numPassengers);
+        return deltaYearly.getFlightDataListDeltaYearly(departure, arrival, numPassengers, validateCabinClassDelta(upperCabin));
     }
 }

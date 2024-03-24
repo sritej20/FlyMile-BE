@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -101,14 +100,10 @@ public class American {
      * @param numPassengers The number of passengers for the flight.
      * @param upperCabin    Whether the search should include upper cabin flights.
      * @return A list of flight slices representing the available flights for the given parameters.
-     *
      * When multiple threads execute fetchFlightData and encounter errors, leading to calls to save309ErrorToFile or saveUnknownErrorToFile,
      * several issues can occur if these methods write to the same files:
-     *
      *     Race Conditions: Concurrent writes may interleave, corrupting data as threads overwrite each other's output.
-     *
      *     File Locking Issues: Operating systems lock files during writing to prevent concurrent modifications, potentially leading to blocked threads or exceptions.
-     *
      *     Data Inconsistency: Without proper synchronization, changes made by one thread may not be visible to others, risking data loss or inconsistency.
      *
      *     NEED TO BE FIXED  : HANNA ? OS MAY BE

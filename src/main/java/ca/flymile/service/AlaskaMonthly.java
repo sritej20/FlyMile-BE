@@ -5,37 +5,23 @@ import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
 import com.google.gson.Gson;
 import java.lang.reflect.Type;
 import com.google.gson.reflect.TypeToken;
-import lombok.Getter;
 import org.springframework.stereotype.Component;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.YearMonth;
-import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+
 
 import static ca.flymile.API.RequestHandlerAlaskaMonthly.requestHandlerAlaskaMonthly;
+import static ca.flymile.service.DateHandler.currentDate;
+import static ca.flymile.service.DateHandler.limitDate;
 
 
 @Component
 public class AlaskaMonthly {
     private static final Gson gson = new Gson();
-    private static ScheduledExecutorService scheduler;
 
-    @Getter
-    private static LocalDate currentDate;
-
-    @Getter
-    private static LocalDate limitDate;
-
-    static {
-        updateDates();
-        scheduleDailyUpdate();
-    }
 
     /**
      * Retrieves a list of flight data for Alaska Airlines over a 30-day period
@@ -96,23 +82,7 @@ public class AlaskaMonthly {
         }
         return new ArrayList<>();
     }
-    private static void updateDates() {
-        currentDate = LocalDate.now();
-        limitDate = currentDate.plusDays(331);
-    }
 
-
-    private static void scheduleDailyUpdate() {
-        if (scheduler == null || scheduler.isShutdown()) {
-            scheduler = Executors.newSingleThreadScheduledExecutor();
-            Runnable updateTask = AlaskaMonthly::updateDates;
-
-            long untilMidnight = ChronoUnit.MILLIS.between(LocalDateTime.now(), LocalDate.now().plusDays(1).atStartOfDay());
-            long dayInMillis = TimeUnit.DAYS.toMillis(1);
-
-            scheduler.scheduleAtFixedRate(updateTask, untilMidnight, dayInMillis, TimeUnit.MILLISECONDS);
-        }
-    }
 
 }
 

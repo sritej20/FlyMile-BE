@@ -72,17 +72,6 @@ public class Alaska {
                 .collect(Collectors.toList());
     }
 
-
-    /**
-     * Fetches flight data for a given date, origin, destination, and number of passengers.
-     *
-     * @param date          The date for which flight data is requested.
-     * @param origin        The origin airport code.
-     * @param destination   The destination airport code.
-     * @param numPassengers The number of passengers for the flight.
-     * @return A list of flight slices representing the available flights for the given parameters.
-    */
-
     /**
      * Fetches flight data for a specific route on a given date.
      *

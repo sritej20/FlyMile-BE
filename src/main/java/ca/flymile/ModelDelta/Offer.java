@@ -17,5 +17,4 @@ public  class Offer {
     @SerializedName("offerPricing")
     private List<OfferPricing> offerPricing;
 
-    // Getters
 }

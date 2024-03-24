@@ -6,17 +6,6 @@ import lombok.Data;
 public class TimezoneAirport {
 
 
-    /**
-     * Represents an airport entity, encapsulating details such as its IATA code, city location, and timezone.
-     * Utilizes the Lombok {@link Data} annotation to automatically generate boilerplate code like getters, setters,
-     * and {@code toString}, {@code equals}, and {@code hashCode} methods, enhancing maintainability and reducing clutter.
-     * <p>
-     * This class is part of the simpleAirport module of the FlyMile project, designed to model airport-related information
-     * for various applications within the project, including but not limited to flight scheduling and geographical services.
-     * </p>
-     *
-     */
-
         /**
          * The IATA airport code, a globally recognized three-letter identifier for airports.
          * These codes are assigned by the International Air Transport Association (IATA)

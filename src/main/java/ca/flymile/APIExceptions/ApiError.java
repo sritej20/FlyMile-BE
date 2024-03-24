@@ -20,21 +20,13 @@ public class ApiError {
      *  Retrieves the HTTP status code associated with the error.
      * -- SETTER --
      *  Sets the HTTP status code associated with the error.
-     *
-     * @param status The HTTP status code to set.
-
-
      */
     private HttpStatus status; // The HTTP status code associated with the error.
     /**
      * -- GETTER --
      *  Retrieves the message describing the error.
-     *
      * -- SETTER --
      *  Sets the message describing the error.
-     *
-     * @param message The error message to set.
-
      */
     private String message;    // A message describing the error.
 

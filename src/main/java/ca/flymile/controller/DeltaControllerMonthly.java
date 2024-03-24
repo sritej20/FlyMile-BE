@@ -3,9 +3,9 @@ import ca.flymile.dtoDelta.DtoOffers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import static ca.flymile.InputValidation.InputValidation.*;
-import static ca.flymile.service.DeltaMonthly.getDailyCheapestS;
 
 /**
  * The DeltaControllerMonthly class handles HTTP requests related to flight data retrieval on a weekly basis from the American Airlines website.
@@ -36,16 +36,15 @@ public class DeltaControllerMonthly {
      * @return A list of DailyCheapest objects, each representing a date with available pricing details within a weekly period.
      */
     @GetMapping
-    public List<DtoOffers> getFlightDataList(
+    public CompletableFuture<List<DtoOffers>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,
-            @RequestParam(defaultValue = "1") int numPassengers
+            @RequestParam(defaultValue = "1") int numPassengers,
+            @RequestParam (defaultValue = "BE")String upperCabin
     ) {
         // Validate the search parameters
         validateOriginDestinationStartDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, numPassengers);
-
-        // Retrieve and return the daily Cheapest List
-        return getDailyCheapestS(departure, arrival, startDate, numPassengers);
+        return deltaMonthly.getFlightDataListDeltaMonthly(departure, arrival, startDate, numPassengers, validateCabinClassDelta(upperCabin));
     }
 }
