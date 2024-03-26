@@ -29,7 +29,7 @@ public class Delta {
     private final ExecutorService pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     private static final Gson gson = new Gson();
-    private List<FlightDto> fetchFlightDataDelta(String date, String origin, String destination, int numPassengers, String upperCabin) {
+    private List<FlightDto> fetchFlightDataDelta(String date, String origin, String destination, int numPassengers, boolean upperCabin) {
         try {
             String json = requestHandlerDelta(origin, destination, date, numPassengers, upperCabin);
             if (json == null) {
@@ -52,7 +52,7 @@ public class Delta {
         return new ArrayList<>();
     }
     public CompletableFuture<List<FlightDto>> getFlightDataListDelta(
-            String origin, String destination, String start, String end, int numPassengers, String upperCabin) {
+            String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
 
         LocalDate startDate = LocalDate.parse(start, DATE_FORMATTER);
         LocalDate endDate = LocalDate.parse(end, DATE_FORMATTER);

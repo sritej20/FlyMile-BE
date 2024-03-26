@@ -32,7 +32,7 @@ public class DeltaYearly {
 
     static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-M-d");
 
-    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaYearly(String origin, String destination, int numPassengers, String upperCabin) {
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaYearly(String origin, String destination, int numPassengers, boolean upperCabin) {
         LocalDate date = DateHandler.getCurrentDate();
         List<CompletableFuture<List<DailyCheapest>>> futures = new ArrayList<>();
 
@@ -65,7 +65,7 @@ public class DeltaYearly {
         }
         return offers.subList(startIndex, endIndex);
     }
-    public static List<DailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, String upperCabin) {
+    public static List<DailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
         String json = requestHandlerDeltaMonthly(origin, destination, start, numPassengers, upperCabin);
         if (json == null) {
             LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch Delta monthly data.");
@@ -89,13 +89,11 @@ public class DeltaYearly {
 
         GqlSearchOffers gqlSearchOffers = info.getGqlSearchOffers();
         if (gqlSearchOffers == null) {
-            LOGGER.log(Level.SEVERE, "GqlSearchOffers is null in Info.");
             return Collections.emptyList();
         }
 
         List<OfferSet> gqlOffersSets = gqlSearchOffers.getGqlOffersSets();
         if (gqlOffersSets == null) {
-            LOGGER.log(Level.SEVERE, "GqlOffersSets is null in GqlSearchOffers.");
             return Collections.emptyList();
         }
 

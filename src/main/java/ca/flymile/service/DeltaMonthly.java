@@ -27,7 +27,7 @@ public class DeltaMonthly {
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(Delta.class.getName());
 
 
-    public static List<DailyCheapest> getDailyCheapestInternal(String origin, String destination, String start, int numPassengers, String upperCabin) {
+    public static List<DailyCheapest> getDailyCheapestInternal(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
         String modifiedStart = start.replaceAll("-\\d{2}$", "-01");
         String json = requestHandlerDeltaMonthly(origin, destination, modifiedStart, numPassengers, upperCabin);
         if (json == null) {
@@ -52,13 +52,11 @@ public class DeltaMonthly {
 
         GqlSearchOffers gqlSearchOffers = info.getGqlSearchOffers();
         if (gqlSearchOffers == null) {
-            LOGGER.log(Level.SEVERE, "GqlSearchOffers is null in Info.");
             return Collections.emptyList();
         }
 
         List<OfferSet> gqlOffersSets = gqlSearchOffers.getGqlOffersSets();
         if (gqlOffersSets == null) {
-            LOGGER.log(Level.SEVERE, "GqlOffersSets is null in GqlSearchOffers.");
             return Collections.emptyList();
         }
 
@@ -69,7 +67,7 @@ public class DeltaMonthly {
         }
         return dtoOffers;
     }
-    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaMonthly(String origin, String destination, String startDate, int numPassengers, String upperCabin) {
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaMonthly(String origin, String destination, String startDate, int numPassengers, boolean upperCabin) {
         String modifiedStart = startDate.replaceAll("-\\d{2}$", "-07");
         LocalDate date = LocalDate.parse(modifiedStart);
         List<CompletableFuture<List<DailyCheapest>>> futures = new ArrayList<>();

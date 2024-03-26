@@ -6,7 +6,6 @@ import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 import java.util.concurrent.CompletableFuture;
@@ -27,25 +26,25 @@ public class AmericanMonthly {
             String json = requestHandlerAmericanMonthly(origin, destination, start, numPassengers, upperCabin);
             if (json == null) {
                 LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch data.");
-                return Collections.emptyList();
+                return new ArrayList<>();
             } else if (json.trim().isEmpty()) {
                 LOGGER.log(Level.SEVERE, "Received empty JSON response.");
-                return Collections.emptyList();
+                return new ArrayList<>();
             } else if (json.charAt(0) == '<') {
                 LOGGER.log(Level.SEVERE, "Blocked By American Monthly, received HTML response.");
-                return Collections.emptyList();
+                return new ArrayList<>();
             }
 
             try {
                 FlightData flightData = gson.fromJson(json, FlightData.class);
                 if (flightData == null || flightData.getCalendarMonths() == null) {
-                    return Collections.emptyList();
+                    return new ArrayList<>();
                 }
 
                 return processFlightData(flightData);
             } catch (Exception e) {
                 LOGGER.log(Level.SEVERE, "Error processing flight data: " + e.getMessage(), e);
-                return Collections.emptyList();
+                return new ArrayList<>();
             }
         });
     }
