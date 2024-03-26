@@ -1,5 +1,6 @@
 package ca.flymile.dtoAmerican;
 
+import ca.flymile.Flight.LegDto;
 import ca.flymile.ModelAmerican.Leg;
 
 
@@ -20,7 +21,7 @@ public class LegMapper {
     public static LegDto toDto(Leg leg) {
         return new LegDto()
                 .setAircraft(leg.getAircraft().getName())
-                .setArrivalDateTime(leg.getArrivalDateTime())
+                .setArrivalDateTime(leg.getArrivalDateTime().substring(0,16))
                 .setConnectionTimeInMinutes(leg.getConnectionTimeInMinutes())
                 .setDepartureDateTime(leg.getDepartureDateTime())
                 .setDestination(leg.getDestination().getCode())

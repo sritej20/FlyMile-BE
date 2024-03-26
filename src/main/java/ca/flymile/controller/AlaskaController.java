@@ -1,9 +1,11 @@
 package ca.flymile.controller;
 
-import ca.flymile.dtoAlaska.FlightDto;
+import ca.flymile.Flight.FlightDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
+
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska;
 
 /**
@@ -33,13 +35,13 @@ public class AlaskaController {
      * @param arrival       The arrival airport code.
      * @param startDate     The start date of the travel period (format: "YYYY-MM-DD").
      * @param endDate       The end date of the travel period (format: "YYYY-MM-DD").
-     * @param  numPassengers The number of passengers, constrained between 1 and 7 for alaska .
-     * @return A list of flight data, each containing a list of slices representing different legs of the journey.
+     * @param  numPassengers The number of passengers, constrained between one and seven for alaska.
+     * @return A list of flight data, each containing a list of slices representing the different legs of the journey.
      *         <p>Slice represents a single flight.</p>
      *         <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
     @GetMapping
-    public List<FlightDto> getFlightDataList(
+    public CompletableFuture<List<FlightDto>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,

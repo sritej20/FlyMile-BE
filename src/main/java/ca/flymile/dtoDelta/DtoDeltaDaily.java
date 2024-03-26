@@ -1,5 +1,6 @@
 package ca.flymile.dtoDelta;
 
+import ca.flymile.DailyCheapest.DailyCheapest;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
@@ -18,5 +19,5 @@ import java.util.List;
 @JsonInclude(value = JsonInclude.Include.NON_NULL)
 @ToString
 public class DtoDeltaDaily {
-    private List<DtoOffers> dtoOffers;
+    private List<DailyCheapest> dailyCheapest;
 }

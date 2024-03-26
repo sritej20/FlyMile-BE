@@ -2,6 +2,7 @@ package ca.flymile.controller;
 
 
 import ca.flymile.ModelAmericalMonthly.dailyCheapest;
+import ca.flymile.service.AmericanYearly;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -17,15 +18,15 @@ import static ca.flymile.InputValidation.InputValidation.*;
 @CrossOrigin(origins = "*")
 public class AmericanControllerYearly {
 
-    private final ca.flymile.service.AmericanYearly americanYearly;
+    private final AmericanYearly americanYearly;
 
     /**
      * Constructs a new AmericanControllerYearly with the specified service for American Airlines Yearly cheapest price & point combo.
      *
-     * @param americanYearly The service responsible for retrieving flight data from American Airlines for Yearly cheapest price & point combo.
+     * @param americanYearly The service responsible for retrieving flight data from American Airlines for the Yearly cheapest price & point combo.
      */
     @Autowired
-    public AmericanControllerYearly(ca.flymile.service.AmericanYearly americanYearly) {
+    public AmericanControllerYearly(AmericanYearly americanYearly) {
         this.americanYearly = americanYearly;
     }
 

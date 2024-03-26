@@ -5,6 +5,7 @@ import ca.flymile.service.AmericanMonthly;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import static ca.flymile.InputValidation.InputValidation.*;
 
@@ -26,7 +27,7 @@ public class AmericanControllerMonthly {
      * @return A list of dailyCheapest objects, each representing a date with available pricing details within a monthly period.
      */
     @GetMapping
-    public List<dailyCheapest> getFlightDataList(
+    public CompletableFuture<List<dailyCheapest>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,

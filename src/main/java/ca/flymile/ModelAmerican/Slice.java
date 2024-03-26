@@ -30,7 +30,7 @@ public class Slice {
      * Indicates whether the arrival is on the next day.
      * 0: Arrival is on the same day.
      * 1: Arrival is on the next day.
-     * and So On...
+     * And So On...
      * could be byte ???
      */
     private int arrivesNextDay;

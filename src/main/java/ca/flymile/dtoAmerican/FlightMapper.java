@@ -1,5 +1,6 @@
 package ca.flymile.dtoAmerican;
 
+import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelAmerican.Slice;
 
 import java.util.stream.Collectors;

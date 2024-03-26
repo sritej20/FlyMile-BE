@@ -1,10 +1,8 @@
 package ca.flymile.ModelDelta;
 
-import com.google.gson.annotations.SerializedName;
 import lombok.Data;
-
 @Data
-public  class RetailItem {
-    @SerializedName("retailItemMetaData")
+public class RetailItem {
     private RetailItemMetaData retailItemMetaData;
 }
+

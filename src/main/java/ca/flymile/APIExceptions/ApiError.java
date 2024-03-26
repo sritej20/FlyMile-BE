@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
  * Errors are related to invalid request parameters.
  * Need to validate airports as well:
  * Found reputable data from DELTA AIR LINES, need to process it. Will make HashMap of airport code, then will look for
- * both origin and destination being present, if not throw 2 new exceptions , InvalidOrigin / InvalidDestination
+ * both origin and destination being present, if not throw two new exceptions, InvalidOrigin / InvalidDestination
  */
 @Setter
 @Getter

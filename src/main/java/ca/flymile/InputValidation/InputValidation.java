@@ -1,6 +1,7 @@
 package ca.flymile.InputValidation;
 
 import ca.flymile.APIExceptions.*;
+import ca.flymile.service.DateHandler;
 
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -23,8 +24,6 @@ public class InputValidation {
     private static final Map<String, Boolean> CABIN_CLASSES = new HashMap<>();
 
     static {
-        //The value doesn't matter in this case
-        // since we're only checking if the key exists.
         CABIN_CLASSES.put("BE", true);
         CABIN_CLASSES.put("MAIN", true);
         CABIN_CLASSES.put("DCP", true);
@@ -34,7 +33,6 @@ public class InputValidation {
     }
 
     public static String validateCabinClassDelta(String input) {
-        // If the input is not a valid key, return "BE" by default.
         return CABIN_CLASSES.containsKey(input) ? input : "BE";
     }
     /**
@@ -55,9 +53,9 @@ public class InputValidation {
      * @throws OriginAirportInvalidException If the origin airport code is not recognized.
      * @throws DestinationAirportInvalidException If the destination airport code is not recognized.
      * @throws StartDateOutsideRangeException If the start date does not fall within the allowed timeframe.
-     * @throws OriginDestinationRequiredException If either the origin or destination is not provided.
+     * @throws OriginDestinationRequiredException If either, the origin or destination is not provided.
      * @throws OriginDestinationSameException If the origin and destination are the same.
-     * @throws PassengersNumberInvalidException If the number of passengers is outside the allowed range.
+     * @throws PassengerNumberInvalidException If the number of passengers is outside the allowed range.
      * @throws EndDateOutsideRangeException If the end date does not fall within the allowed timeframe relative to the start date.
      */
     public static void validateOriginDestinationStartDateZoneEndDatePassengers(String origin, String destination, String startDate, String endDate, int numPassengers) {
@@ -87,7 +85,7 @@ public class InputValidation {
     }
     private static void validateNumPassengersAlaska(int numPassengers) {
         if (numPassengers < 1 || numPassengers > 7) {
-            throw new PassengersNumberInvalidExceptionAlaska();
+            throw new PassengerNumberInvalidExceptionAlaska();
         }
     }
 
@@ -102,7 +100,7 @@ public class InputValidation {
      *
      * @param origin        the origin airport code
      * @param destination   the destination airport code
-     * @param numPassengers the number of passengers, should be between 1 and 9 inclusive
+     * @param numPassengers the number of passengers should be between 1 and 9 inclusive
      * @throws IllegalArgumentException if any of the parameters are invalid
      */
     public static void validateOriginDestinationPassengers(String origin, String destination, int numPassengers)
@@ -121,7 +119,7 @@ public class InputValidation {
      * @param origin        the origin airport code
      * @param destination   the destination airport code
      * @param startDate     the start date of the travel period in "YYYY-MM-DD" format
-     * @param numPassengers the number of passengers, should be between 1 and 9 inclusive
+     * @param numPassengers the number of passengers should be between 1 and 9 inclusive
      * @throws IllegalArgumentException if any of the parameters are invalid
      */
     public static void validateOriginDestinationStartDatePassengers(String origin, String destination, String startDate, int numPassengers) {
@@ -131,7 +129,7 @@ public class InputValidation {
     }
 
     /**
-     * Parses and validates a start date string, ensuring it is in a valid format and within an acceptable date range.
+     * Parses and validate a start date string, ensuring it is in a valid format and within an acceptable date range.
      * This method does not account for time zones in its validation, treating the start date as a local date.
      *
      * @param startDate The start date string to be parsed and validated, in the format of "YYYY-MM-DD".
@@ -146,26 +144,28 @@ public class InputValidation {
             throw new InvalidDateFormatException();
         }
 
-        LocalDate today = LocalDate.now();
-        if (start.isBefore(today) || start.isAfter(today.plusDays(331))) {
+        if (start.isBefore(DateHandler.getCurrentDate()) || start.isAfter(DateHandler.getLimitDate())) {
             throw new StartDateOutsideRangeException();
         }
     }
     private static void validateEndDateWithoutZone(String endDate, LocalDate startDate) {
         LocalDate  end;
         try {
-
-            end = LocalDate.parse(endDate);
+              end = LocalDate.parse(endDate);
         } catch (DateTimeParseException e) {
             throw new InvalidDateFormatException();
         }
 
-        LocalDate today = LocalDate.now();
         if (end.isBefore(startDate)) {
             throw new EndDateBeforeStartDateException();
-        } else if (end.isAfter(today.plusDays(331))) {
+        } else if (end.isAfter(DateHandler.getLimitDate())) {
             throw new EndDateOutsideRangeException();
         }
+    }
+    public static void validateOrigin(String origin) {
+        if (!airportSet.contains(origin))
+            throw new OriginAirportInvalidException();
+
     }
 
     public static void validateOriginDestination(String origin, String destination) {
@@ -188,7 +188,7 @@ public class InputValidation {
 
     private static void validateNumPassengers(int numPassengers) {
         if (numPassengers < 1 || numPassengers > 9) {
-            throw new PassengersNumberInvalidException();
+            throw new PassengerNumberInvalidException();
         }
     }
     private static ZoneId getZoneIdForAirport(String airportCode) {

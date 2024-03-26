@@ -1,9 +1,9 @@
 package ca.flymile.service;
-import ca.flymile.ModelDelta.GqlSearchOffers;
-import ca.flymile.ModelDelta.Info;
-import ca.flymile.ModelDelta.JsonResponse;
-import ca.flymile.ModelDelta.OfferSet;
-import ca.flymile.dtoDelta.DtoOffers;
+import ca.flymile.DailyCheapest.DailyCheapest;
+import ca.flymile.ModelDeltaMonthly.GqlSearchOffers;
+import ca.flymile.ModelDeltaMonthly.Info;
+import ca.flymile.ModelDeltaMonthly.JsonResponse;
+import ca.flymile.ModelDeltaMonthly.OfferSet;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
 
@@ -11,10 +11,12 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import static ca.flymile.API.RequestHandlerDeltaMonthly.requestHandlerDeltaMonthly;
-import static ca.flymile.dtoDelta.DtoOffersMapper.toDto;
+import static ca.flymile.dtoDelta.DailyCheapestMapper.toDto;
 import static ca.flymile.service.DateHandler.currentDate;
 import static ca.flymile.service.DateHandler.limitDate;
 import static ca.flymile.service.DeltaYearly.DATE_FORMATTER;
@@ -22,45 +24,59 @@ import static ca.flymile.service.DeltaYearly.DATE_FORMATTER;
 @Component
 public class DeltaMonthly {
     private static final Gson gson = new Gson();
+    private static final java.util.logging.Logger LOGGER = Logger.getLogger(Delta.class.getName());
 
-    public static List<DtoOffers> getDailyCheapestInternal(String origin, String destination, String start, int numPassengers, String upperCabin) {
+
+    public static List<DailyCheapest> getDailyCheapestInternal(String origin, String destination, String start, int numPassengers, String upperCabin) {
         String modifiedStart = start.replaceAll("-\\d{2}$", "-01");
         String json = requestHandlerDeltaMonthly(origin, destination, modifiedStart, numPassengers, upperCabin);
-        if (json == null || json.startsWith("<")) {
-            return new ArrayList<>();
+        if (json == null) {
+            LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch Delta monthly data.");
+            return Collections.emptyList();
+        } else if (json.startsWith("<")) {
+            LOGGER.log(Level.SEVERE, "Blocked by Delta Monthly, received HTML response.");
+            return Collections.emptyList();
         }
 
         JsonResponse jsonResponse = gson.fromJson(json, JsonResponse.class);
         if (jsonResponse == null) {
+            LOGGER.log(Level.SEVERE, "Failed to parse JSON into JsonResponse.");
             return Collections.emptyList();
         }
 
         Info info = jsonResponse.getInfo();
         if (info == null) {
+            LOGGER.log(Level.SEVERE, "Info is null in JsonResponse.");
             return Collections.emptyList();
         }
 
         GqlSearchOffers gqlSearchOffers = info.getGqlSearchOffers();
         if (gqlSearchOffers == null) {
+            LOGGER.log(Level.SEVERE, "GqlSearchOffers is null in Info.");
             return Collections.emptyList();
         }
 
         List<OfferSet> gqlOffersSets = gqlSearchOffers.getGqlOffersSets();
         if (gqlOffersSets == null) {
+            LOGGER.log(Level.SEVERE, "GqlOffersSets is null in GqlSearchOffers.");
             return Collections.emptyList();
         }
 
-        List<DtoOffers> dtoOffers = toDto(gqlOffersSets).getDtoOffers();
-        return dtoOffers != null ? dtoOffers : Collections.emptyList();
+        List<DailyCheapest> dtoOffers = toDto(gqlOffersSets).getDailyCheapest();
+        if (dtoOffers == null) {
+            LOGGER.log(Level.SEVERE, "DtoOffers is null after mapping from GqlOffersSets.");
+            return Collections.emptyList();
+        }
+        return dtoOffers;
     }
-    public CompletableFuture<List<DtoOffers>> getFlightDataListDeltaMonthly(String origin, String destination, String startDate, int numPassengers, String upperCabin) {
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaMonthly(String origin, String destination, String startDate, int numPassengers, String upperCabin) {
         String modifiedStart = startDate.replaceAll("-\\d{2}$", "-07");
         LocalDate date = LocalDate.parse(modifiedStart);
-        List<CompletableFuture<List<DtoOffers>>> futures = new ArrayList<>();
+        List<CompletableFuture<List<DailyCheapest>>> futures = new ArrayList<>();
 
         for (int i = 0; i < 2; i++) {
             final String start = date.format(DateTimeFormatter.ISO_LOCAL_DATE);
-            CompletableFuture<List<DtoOffers>> future = CompletableFuture.supplyAsync(
+            CompletableFuture<List<DailyCheapest>> future = CompletableFuture.supplyAsync(
                     () -> getDailyCheapestInternal(origin, destination, start, numPassengers, upperCabin)
             );
             futures.add(future);
@@ -76,7 +92,7 @@ public class DeltaMonthly {
                 .thenApply(this::filterByDateRange)
                 .thenApply(this::removeDuplicatesDates);
     }
-    public List<DtoOffers> filterByDateRange(List<DtoOffers> offers) {
+    public List<DailyCheapest> filterByDateRange(List<DailyCheapest> offers) {
         int startIndex = 0;
         while (startIndex < offers.size() && LocalDate.parse(offers.get(startIndex).getDate(), DATE_FORMATTER).isBefore(currentDate)) {
             startIndex++;
@@ -89,7 +105,7 @@ public class DeltaMonthly {
         return offers.subList(startIndex, endIndex);
     }
 
-    public List<DtoOffers> filterByThisMonth(List<DtoOffers> offers, LocalDate referenceDate) {
+    public List<DailyCheapest> filterByThisMonth(List<DailyCheapest> offers, LocalDate referenceDate) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-M-d");
         offers.removeIf(offer -> {
             LocalDate offerDate = LocalDate.parse(offer.getDate(), formatter);
@@ -97,10 +113,10 @@ public class DeltaMonthly {
         });
         return offers;
     }
-    public List<DtoOffers> removeDuplicatesDates(List<DtoOffers> offers) {
-        Map<String, DtoOffers> uniqueDatesMap = new LinkedHashMap<>();
+    public List<DailyCheapest> removeDuplicatesDates(List<DailyCheapest> offers) {
+        Map<String, DailyCheapest> uniqueDatesMap = new LinkedHashMap<>();
 
-        for (DtoOffers offer : offers) {
+        for (DailyCheapest offer : offers) {
             String date = offer.getDate();
             uniqueDatesMap.putIfAbsent(date, offer);
         }

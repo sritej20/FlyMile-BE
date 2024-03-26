@@ -5,17 +5,20 @@
  */
 package ca.flymile.service;
 
-import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
+import ca.flymile.DailyCheapest.DailyCheapest;
 import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import static ca.flymile.service.AlaskaMonthly.getDailyCheapests;
 
 @Component
 public class AlaskaYearly {
+    private static final java.util.logging.Logger LOGGER = Logger.getLogger(AlaskaYearly.class.getName());
 
     /**
      * Retrieves the cheapest daily flight data for an entire year from a specified origin to destination.
@@ -24,15 +27,15 @@ public class AlaskaYearly {
      * @param destination The airport code of the destination location.
      * @return A CompletableFuture that, when completed, will return a list of the cheapest daily flights for each day of the year.
      */
-    public CompletableFuture<List<dailyCheapest>> getFlightDataListAlaskaYearly(String origin, String destination, int numPassengers) {
-        LocalDate date = LocalDate.now().withDayOfMonth(27);
-        List<CompletableFuture<List<dailyCheapest>>> futures = new ArrayList<>();
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListAlaskaYearly(String origin, String destination, int numPassengers) {
+        LocalDate date = DateHandler.getCurrentDate().withDayOfMonth(27);
+        List<CompletableFuture<List<DailyCheapest>>> futures = new ArrayList<>();
 
         for (int i = 0; i < 12; i++) {
             final String start = date.toString();
-            CompletableFuture<List<dailyCheapest>> future = CompletableFuture.supplyAsync(() -> getDailyCheapests(origin, destination, start,numPassengers))
+            CompletableFuture<List<DailyCheapest>> future = CompletableFuture.supplyAsync(() -> getDailyCheapests(origin, destination, start,numPassengers))
                     .exceptionally(ex -> {
-                        System.err.println("Error fetching data for " + start + ": " + ex.getMessage());
+                        LOGGER.log(Level.SEVERE, "Error fetching data for " + start + ": " + ex.getMessage(), ex);
                         return new ArrayList<>();  // Return an empty list in case of error
                     });
             futures.add(future);

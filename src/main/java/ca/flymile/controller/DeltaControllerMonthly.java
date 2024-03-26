@@ -1,5 +1,5 @@
 package ca.flymile.controller;
-import ca.flymile.dtoDelta.DtoOffers;
+import ca.flymile.DailyCheapest.DailyCheapest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -20,7 +20,7 @@ public class DeltaControllerMonthly {
     /**
      * Constructs a new DeltaControllerMonthly with the specified service for American Airlines weekly cheapest price & point combo.
      *
-     * @param deltaMonthly The service responsible for retrieving flight data from American Airlines for weekly cheapest price & point combo.
+     * @param deltaMonthly The service responsible for retrieving flight data from American Airlines for the weekly cheapest price & point combo.
      */
     @Autowired
     public DeltaControllerMonthly(ca.flymile.service.DeltaMonthly deltaMonthly) {
@@ -36,7 +36,7 @@ public class DeltaControllerMonthly {
      * @return A list of DailyCheapest objects, each representing a date with available pricing details within a weekly period.
      */
     @GetMapping
-    public CompletableFuture<List<DtoOffers>> getFlightDataList(
+    public CompletableFuture<List<DailyCheapest>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,

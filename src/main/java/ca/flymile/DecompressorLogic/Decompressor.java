@@ -3,6 +3,8 @@ package ca.flymile.DecompressorLogic;
 import ca.flymile.CompressionExceptions.DecompressionDeflateException;
 import ca.flymile.CompressionExceptions.DecompressionException;
 import ca.flymile.CompressionExceptions.DecompressionGzipException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -14,6 +16,7 @@ import java.util.zip.InflaterInputStream;
  * The Decompressor class provides methods to decompress data using different compression algorithms.
  */
 public class Decompressor {
+    private static final Logger logger = LoggerFactory.getLogger(Decompressor.class);
 
     /**
      * Decompresses the provided data based on the specified encoding.
@@ -30,7 +33,7 @@ public class Decompressor {
                 default -> data;
             };
         } catch (DecompressionException e) {
-            System.err.println("Decompression error: " + e.getMessage());
+            logger.error("Decompression error: " + e.getMessage());
             return null;
         }
     }

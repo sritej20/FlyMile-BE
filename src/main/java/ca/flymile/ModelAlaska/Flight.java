@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * The Flight class represents a flight.
- * Example : QR 464              QR = carrierCode   464 = flightNumber
+ * Example: QR 464 QR = carrierCode 464 = flightNumber
  */
 @Data
 public class Flight {

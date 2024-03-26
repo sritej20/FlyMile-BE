@@ -1,10 +1,11 @@
 package ca.flymile.ModelDelta;
 
-import com.google.gson.annotations.SerializedName;
 import lombok.Data;
 
+import java.util.List;
 @Data
 public class FareInformation {
-    @SerializedName("priceCalendar")
-    private PriceCalendar priceCalendar;
+    private List<BrandByFlightLegs> brandByFlightLegs;
+    private int availableSeatCnt;
+    private List<FarePrice> farePrice;
 }

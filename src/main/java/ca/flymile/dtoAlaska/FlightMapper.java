@@ -1,6 +1,7 @@
 package ca.flymile.dtoAlaska;
 
 
+import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelAlaska.Slice;
 
 import java.util.stream.Collectors;
@@ -20,7 +21,7 @@ public class FlightMapper {
      * @param slice The Slice object containing the flight information to be mapped.
      * @return A FlightDto object containing the mapped flight data.
      */
-    public static ca.flymile.dtoAlaska.FlightDto toDto(Slice slice) {
+    public static FlightDto toDto(Slice slice) {
         return new FlightDto()
                 .setDuration(slice.getDuration())
                 .setArrivesNextDay(slice.getArrivesNextDay())

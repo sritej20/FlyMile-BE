@@ -29,7 +29,7 @@ public class DateHandler {
 
     private static synchronized void updateDates() {
         try {
-            currentDate = LocalDate.now();
+            currentDate = java.time.LocalDate.now();
             limitDate = currentDate.plusDays(LIMIT_DAYS);
             logger.info("Dates updated: current date = {}, limit date = {}", currentDate, limitDate);
         } catch (Exception e) {
@@ -43,7 +43,7 @@ public class DateHandler {
         }
         Runnable updateTask = DateHandler::updateDates;
 
-        long untilMidnight = ChronoUnit.MILLIS.between(LocalDateTime.now(), LocalDate.now().plusDays(1).atStartOfDay());
+        long untilMidnight = ChronoUnit.MILLIS.between(LocalDateTime.now(), java.time.LocalDate.now().plusDays(1).atStartOfDay());
         long dayInMillis = TimeUnit.DAYS.toMillis(1);
 
         scheduler.scheduleAtFixedRate(updateTask, untilMidnight, dayInMillis, TimeUnit.MILLISECONDS);

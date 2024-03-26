@@ -1,11 +1,12 @@
 package ca.flymile.controller;
 
-import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
+import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.service.AlaskaMonthly;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.CompletableFuture;
 
 import static ca.flymile.InputValidation.InputValidation.*;
 
@@ -36,10 +37,10 @@ public class AlaskaControllerMonthly {
      * @param arrival   The arrival airport code.
      * @param startDate The start date of the travel period (format: "YYYY-MM-DD").
      * @return A list of dailyCheapest objects, each representing a date with available pricing details within a 30-day period.
-     * [-15 + TODAY , TODAY + 15]
+     * [-15 + TODAY, TODAY + 15]
      */
     @GetMapping
-    public List<dailyCheapest> getFlightDataList(
+    public CompletableFuture<List<DailyCheapest>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,

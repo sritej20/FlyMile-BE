@@ -1,5 +1,6 @@
 package ca.flymile.ModelAlaskaMonthly;
 
+import ca.flymile.DailyCheapest.DailyCheapest;
 import lombok.Data;
 
 import java.util.List;
@@ -15,9 +16,5 @@ public class MonthlyDetails {
     /**
      * A list of dailyCheapest objects, each representing the cheapest flight details for a specific day of the month.
      */
-    private List<dailyCheapest> shoulderDates;
-
-    public List<dailyCheapest> shoulderDates() {
-        return this.shoulderDates;
-    }
+    private List<DailyCheapest> shoulderDates;
 }

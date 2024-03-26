@@ -1,5 +1,5 @@
 package ca.flymile.controller;
-import ca.flymile.dtoDelta.DtoOffers;
+import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.service.DeltaYearly;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
@@ -38,10 +38,10 @@ public class DeltaControllerYearly {
      * @param departure The departure airport code.
      * @param arrival The arrival airport code.
      * @param numPassengers The number of passengers (default is 1 if not specified).
-     * @return A CompletableFuture of a list of DtoOffers objects, each representing aggregated flight data over a year.
+     * @return A CompletableFuture of a list of DailyCheapest objects, each representing aggregated flight data over a year.
      */
     @GetMapping
-    public CompletableFuture<List<DtoOffers>> getFlightDataListYearly(
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListYearly(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam(defaultValue = "1") int numPassengers,

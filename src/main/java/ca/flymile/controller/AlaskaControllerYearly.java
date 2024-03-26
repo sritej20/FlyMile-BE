@@ -1,7 +1,7 @@
 package ca.flymile.controller;
 
 
-import ca.flymile.ModelAlaskaMonthly.dailyCheapest;
+import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.service.AlaskaYearly;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -23,7 +23,7 @@ public class AlaskaControllerYearly {
     /**
      * Constructs a new AlaskaControllerYearly with the specified service for Alaska Airlines yearly cheapest price & point combo.
      *
-     * @param alaskaYearly The service responsible for retrieving flight data from the Alaska Airlines for yearly cheapest price & point combo.
+     * @param alaskaYearly The service responsible for retrieving flight data from the Alaska Airlines for the yearly cheapest price & point combo.
      */
     @Autowired
     public AlaskaControllerYearly(AlaskaYearly alaskaYearly) {
@@ -38,7 +38,7 @@ public class AlaskaControllerYearly {
      * @return A CompletableFuture of a list of dailyCheapest objects, each representing a date with available pricing details within a yearly period.
      */
     @GetMapping
-    public CompletableFuture<List<dailyCheapest>> getFlightDataListYearly(
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListYearly(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam(defaultValue = "1") int numPassengers

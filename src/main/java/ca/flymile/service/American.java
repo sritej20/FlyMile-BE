@@ -1,7 +1,7 @@
 package ca.flymile.service;
 
+import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelAmerican.FlightSlices;
-import ca.flymile.dtoAmerican.FlightDto;
 import ca.flymile.dtoAmerican.FlightMapper;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
@@ -9,11 +9,14 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.CompletionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
 
@@ -24,6 +27,8 @@ import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
 @Component
 public class American {
     private static final Gson gson = new Gson();
+    private static final java.util.logging.Logger LOGGER = Logger.getLogger(American.class.getName());
+
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
     /**
      * Private final ExecutorService instance used for managing asynchronous tasks.
@@ -36,7 +41,7 @@ public class American {
      * processors on the current system. This is often used as a reasonable default for the
      * number of threads in the pool, allowing efficient utilization of available CPU resources.
      * Using a fixed thread pool is suitable when the number of tasks to execute is known in
-     * advance and there is a need to limit the number of concurrent threads to prevent resource
+     *  advance, and there is a need to limit the number of concurrent threads to prevent resource
      * exhaustion. It provides a balance between concurrency and resource management.
      * The 'private final' modifier ensures that this ExecutorService instance cannot be
      * reassigned or modified once initialized, providing thread safety and immutability.
@@ -53,12 +58,12 @@ public class American {
      * @param end            The end date of the travel period (format: "YYYY-MM-DD").
      * @param numPassengers  The number of passengers.
      * @param upperCabin     Indicates if upper cabin (Business/First) seats are preferred.
-     * @return A list of flight data, each containing a list of slices representing different legs of the journey.
+     * @return A list of flight data, each containing a list of slices representing the different legs of the journey.
      *             <p>Slice represents a single flight.</p>
      *            <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
 
-    public List<FlightDto> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
+    public CompletableFuture<List<FlightDto>> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
         LocalDate startDate = LocalDate.parse(start, DATE_FORMATTER);
         LocalDate endDate = LocalDate.parse(end, DATE_FORMATTER);
         List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
@@ -69,26 +74,30 @@ public class American {
                 try {
                     return fetchFlightDataAmerican(stringDate, origin, destination, numPassengers, upperCabin);
                 } catch (Exception e) {
-                    System.err.println("Error fetching flight data for " + stringDate + ": " + e.getMessage());
-                    return new ArrayList<>();
+                    LOGGER.log(Level.SEVERE, "Error during asynchronous operation: " + e.getCause().getMessage(), e);
+                    return Collections.emptyList();
                 }
             }, pool);
             futures.add(future);
         }
 
-        return futures.stream()
-                .map(future -> {
-                    try {
-                        return future.join();
-                    } catch (CompletionException e) {
-                        System.err.println("Error during asynchronous operation: " + e.getCause().getMessage());
-                        return new ArrayList<FlightDto>();
-                    }
-                })
-                .filter(list -> !list.isEmpty())
-                .flatMap(List::stream)  // This will flatten the list of lists into a single list
-                .collect(Collectors.toList());
+        CompletableFuture<Void> allDone = CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]));
+        return allDone.thenApply(v ->
+                futures.stream()
+                        .map(future -> {
+                            try {
+                                return future.join();
+                            } catch (CompletionException e) {
+                                LOGGER.log(Level.SEVERE, "Error during asynchronous operation: " + e.getCause().getMessage(), e);
+                                return new ArrayList<FlightDto>();
+                            }
+                        })
+                        .filter(list -> !list.isEmpty())
+                        .flatMap(List::stream) // This will flatten the list of lists into a single list
+                        .collect(Collectors.toList())
+        );
     }
+
 
 
     /**
@@ -106,31 +115,34 @@ public class American {
      *     File Locking Issues: Operating systems lock files during writing to prevent concurrent modifications, potentially leading to blocked threads or exceptions.
      *     Data Inconsistency: Without proper synchronization, changes made by one thread may not be visible to others, risking data loss or inconsistency.
      *
-     *     NEED TO BE FIXED  : HANNA ? OS MAY BE
+     *     NEED TO BE FIXED: HANNA? OS MAY BE
      *
      *
      */
 
     private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin) {
-
         String json = requestHandlerAmerican(date, origin, destination, numPassengers, upperCabin);
-        if (json == null || json.startsWith("<")) {
-            return new ArrayList<>();
+        if (json == null) {
+            LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch data.");
+            return Collections.emptyList();
+        } else if (json.startsWith("<")) {
+            LOGGER.log(Level.SEVERE, "Blocked By American, received HTML response.");
+            return Collections.emptyList();
         }
+
         FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
         if (jsonResponse == null) {
-            return new ArrayList<>();
+            return Collections.emptyList();
         }
 
         String error = jsonResponse.getError();
-        //Can ERRor be NULL  ???????????????
         if (error == null || error.isEmpty()) {
             return jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
         }
 
-
-        return new ArrayList<>();
+        return Collections.emptyList();
     }
+
 
 
 }

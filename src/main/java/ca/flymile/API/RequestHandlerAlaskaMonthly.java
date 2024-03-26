@@ -12,12 +12,13 @@ import static ca.flymile.API.BaseRequestHandler.getJsonStringFromAirline;
  * Handles HTTP requests for the Flymile API, specifically for retrieving 30 day Range cheapest Prices
  * for Alaska Airlines. It interacts with the API endpoint to search for available dates based
  * on the date, origin, and destination.
- * it return -15 days and +15 days from provided date
+ * It returns -15 days and +15 days from the provided date
  */
 public class RequestHandlerAlaskaMonthly {
 
     /**
-     * Handles the request to the Alaska booking API for available flight dates in a given month [-15 + start , start + 15].
+     * Handles the request to the Alaska booking API for available flight dates in a given month [-15 + start,
+     * start + 15].
      *
      * @param date         The month for which available flight dates are requested in "YYYY-MM" format.
      * @param origin        The departure airport code.

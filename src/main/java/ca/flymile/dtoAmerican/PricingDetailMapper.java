@@ -1,6 +1,8 @@
 package ca.flymile.dtoAmerican;
 
+import ca.flymile.Flight.PricingDetailDto;
 import ca.flymile.ModelAmerican.PricingDetail;
+
 
 
 /**

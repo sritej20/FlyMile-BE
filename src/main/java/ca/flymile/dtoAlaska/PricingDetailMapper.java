@@ -1,6 +1,7 @@
 package ca.flymile.dtoAlaska;
 
 
+import ca.flymile.Flight.PricingDetailDto;
 import ca.flymile.ModelAlaska.pricingDetails;
 
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ public class PricingDetailMapper {
      * which are mapped to a PricingDetailDto object containing the fare's points, cash price,
      * product type, seats remaining, and mixed cabin information.
      *
-     * @param fares A map where the key is the product type and the value is the pricing details.
+     * @param fares A map where the key is the product type, and the value is the pricing details.
      * @return A list of PricingDetailDto objects representing the converted pricing details.
      */
     public static List<PricingDetailDto> toDtoList(Map<String, pricingDetails> fares) {

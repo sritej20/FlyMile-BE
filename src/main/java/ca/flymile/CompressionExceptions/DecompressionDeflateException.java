@@ -1,7 +1,7 @@
 package ca.flymile.CompressionExceptions;
 
 /**
- * An exception indicating an error during deflate decompression.
+ * An exception indicating an error during deflated decompression.
  */
 public class DecompressionDeflateException extends DecompressionException {
 

@@ -25,7 +25,7 @@ public class Slice {
     private int arrivesNextDay = 0;
 
     /**
-     * A map of fare details associated with this slice, where the key is the product type and the value
+     * A map of fare details associated with this slice, where the key is the product type, and the value
      * is the pricingDetails object containing the fare information.
      */
     private Map<String, pricingDetails> fares;
