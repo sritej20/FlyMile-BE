@@ -1,5 +1,6 @@
 package ca.flymile.service;
 
+import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.ModelAmericalMonthly.*;
 import com.google.gson.Gson;
 import org.springframework.stereotype.Component;
@@ -21,7 +22,7 @@ public class AmericanMonthly {
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(AmericanMonthly.class.getName());
 
 
-    public static CompletableFuture<List<dailyCheapest>> getFlightDataListAmericanMonthly(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
+    public static CompletableFuture<List<DailyCheapest>> getFlightDataListAmericanMonthly(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
         return CompletableFuture.supplyAsync(() -> {
             String json = requestHandlerAmericanMonthly(origin, destination, start, numPassengers, upperCabin);
             if (json == null) {
@@ -49,8 +50,8 @@ public class AmericanMonthly {
         });
     }
 
-    private static List<dailyCheapest> processFlightData(FlightData flightData) {
-        List<dailyCheapest> cheapestList = new ArrayList<>();
+    private static List<DailyCheapest> processFlightData(FlightData flightData) {
+        List<DailyCheapest> cheapestList = new ArrayList<>();
         if (Optional.ofNullable(flightData.getError()).orElse("").isEmpty()) {
             for (CalendarMonth month : flightData.getCalendarMonths()) {
                 for (Week week : month.getWeeks()) {
@@ -63,12 +64,12 @@ public class AmericanMonthly {
         return cheapestList;
     }
 
-    private static void processDay(List<dailyCheapest> cheapestList, Day day) {
+    private static void processDay(List<DailyCheapest> cheapestList, Day day) {
         if (!day.isValidDay() || day.getDate() == null) {
             return;
         }
 
-        dailyCheapest cheapest = new dailyCheapest();
+        DailyCheapest cheapest = new DailyCheapest();
         cheapest.setDate(day.getDate());
 
         if (day.getSolution() != null) {

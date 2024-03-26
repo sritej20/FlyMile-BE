@@ -1,6 +1,7 @@
 package ca.flymile.controller;
 
 
+import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.ModelAmericalMonthly.dailyCheapest;
 import ca.flymile.service.AmericanYearly;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +39,7 @@ public class AmericanControllerYearly {
      * @return A list of DailyCheapest objects, each representing a date with available pricing details within a Yearly period.
      */
     @GetMapping
-    public CompletableFuture<List<dailyCheapest>> getFlightDataList(
+    public CompletableFuture<List<DailyCheapest>> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam(defaultValue = "1") int numPassengers,
