@@ -52,6 +52,14 @@ public class AirportData {
         } catch (JsonSyntaxException e) {
             LOGGER.log(Level.SEVERE, "Failed to parse airport data", e);
         }
+        catch (Exception e)
+        {
+            try (FileReader reader = new FileReader(LOCAL_FILE_PATH)) {
+                loadFromReader(reader);
+            } catch (IOException | JsonSyntaxException ex) {
+                LOGGER.log(Level.SEVERE, "Failed to load airport data from local file: " + LOCAL_FILE_PATH, ex);
+            }
+        }
     }
 
     private static void loadFromReader(InputStreamReader reader) throws IOException {

@@ -63,7 +63,7 @@ public class American {
      *            <p>The outer list contains flights grouped by date, where each inner list represents flights for a particular date.</p>
      */
 
-    public CompletableFuture<List<FlightDto>> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin) {
+    public CompletableFuture<List<FlightDto>> getFlightDataListAmerican(String origin, String destination, String start, String end, int numPassengers, boolean upperCabin, String maxStops) {
         LocalDate startDate = LocalDate.parse(start, DATE_FORMATTER);
         LocalDate endDate = LocalDate.parse(end, DATE_FORMATTER);
         List<CompletableFuture<List<FlightDto>>> futures = new ArrayList<>();
@@ -72,7 +72,7 @@ public class American {
             String stringDate = date.format(DATE_FORMATTER);
             CompletableFuture<List<FlightDto>> future = CompletableFuture.supplyAsync(() -> {
                 try {
-                    return fetchFlightDataAmerican(stringDate, origin, destination, numPassengers, upperCabin);
+                    return fetchFlightDataAmerican(stringDate, origin, destination, numPassengers, upperCabin, maxStops);
                 } catch (Exception e) {
                     LOGGER.log(Level.SEVERE, "Error during asynchronous operation: " + e.getCause().getMessage(), e);
                     return Collections.emptyList();
@@ -120,8 +120,8 @@ public class American {
      *
      */
 
-    private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin) {
-        String json = requestHandlerAmerican(date, origin, destination, numPassengers, upperCabin);
+    private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin , String maxStops) {
+        String json = requestHandlerAmerican(date, origin, destination, numPassengers, upperCabin, maxStops);
         if (json == null) {
             LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch data.");
             return Collections.emptyList();

@@ -27,9 +27,9 @@ public class DeltaMonthly {
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(Delta.class.getName());
 
 
-    public static List<DailyCheapest> getDailyCheapestInternal(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
+    public static List<DailyCheapest> getDailyCheapestInternal(String origin, String destination, String start, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
         String modifiedStart = start.replaceAll("-\\d{2}$", "-01");
-        String json = requestHandlerDeltaMonthly(origin, destination, modifiedStart, numPassengers, upperCabin);
+        String json = requestHandlerDeltaMonthly(origin, destination, modifiedStart, numPassengers, upperCabin, nonStopOnly);
         if (json == null) {
             LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch Delta monthly data.");
             return Collections.emptyList();
@@ -67,7 +67,7 @@ public class DeltaMonthly {
         }
         return dtoOffers;
     }
-    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaMonthly(String origin, String destination, String startDate, int numPassengers, boolean upperCabin) {
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaMonthly(String origin, String destination, String startDate, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
         String modifiedStart = startDate.replaceAll("-\\d{2}$", "-07");
         LocalDate date = LocalDate.parse(modifiedStart);
         List<CompletableFuture<List<DailyCheapest>>> futures = new ArrayList<>();
@@ -75,7 +75,7 @@ public class DeltaMonthly {
         for (int i = 0; i < 2; i++) {
             final String start = date.format(DateTimeFormatter.ISO_LOCAL_DATE);
             CompletableFuture<List<DailyCheapest>> future = CompletableFuture.supplyAsync(
-                    () -> getDailyCheapestInternal(origin, destination, start, numPassengers, upperCabin)
+                    () -> getDailyCheapestInternal(origin, destination, start, numPassengers, upperCabin, nonStopOnly)
             );
             futures.add(future);
             date = date.plusDays(35);

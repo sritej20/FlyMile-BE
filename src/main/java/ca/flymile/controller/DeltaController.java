@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-import static ca.flymile.InputValidation.InputValidation.validateCabinClassDelta;
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDatePassengers;
 
 /**
@@ -50,11 +49,12 @@ public class DeltaController {
             @RequestParam String startDate,
             @RequestParam String endDate,
             @RequestParam(defaultValue = "1") int numPassengers,
-            @RequestParam(defaultValue = "false") boolean upperCabin
+            @RequestParam(defaultValue = "false") boolean upperCabin,
+            @RequestParam(defaultValue = "false") boolean nonStopOnly
     ) {
         // Validate the search parameters
         validateOriginDestinationStartDateZoneEndDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
-        return delta.getFlightDataListDelta(departure, arrival, startDate, endDate, numPassengers, upperCabin);
+        return delta.getFlightDataListDelta(departure, arrival, startDate, endDate, numPassengers, upperCabin, nonStopOnly);
     }
 }
 

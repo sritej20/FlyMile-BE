@@ -32,14 +32,14 @@ public class DeltaYearly {
 
     static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-M-d");
 
-    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaYearly(String origin, String destination, int numPassengers, boolean upperCabin) {
-        LocalDate date = DateHandler.getCurrentDate();
+    public CompletableFuture<List<DailyCheapest>> getFlightDataListDeltaYearly(String origin, String destination, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
+        LocalDate date = DateHandler.getCurrentDate().plusDays(1);
         List<CompletableFuture<List<DailyCheapest>>> futures = new ArrayList<>();
 
         for (int i = 0; i < 11; i++) {
             final String start = date.format(DateTimeFormatter.ISO_LOCAL_DATE);
             CompletableFuture<List<DailyCheapest>> future = CompletableFuture.supplyAsync(
-                    () -> getDailyCheapestS(origin, destination, start, numPassengers, upperCabin)
+                    () -> getDailyCheapestS(origin, destination, start, numPassengers, upperCabin,  nonStopOnly)
             );
             futures.add(future);
             date = date.plusDays(35);
@@ -65,8 +65,8 @@ public class DeltaYearly {
         }
         return offers.subList(startIndex, endIndex);
     }
-    public static List<DailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
-        String json = requestHandlerDeltaMonthly(origin, destination, start, numPassengers, upperCabin);
+    public static List<DailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, boolean upperCabin, boolean  nonStopOnly) {
+        String json = requestHandlerDeltaMonthly(origin, destination, start, numPassengers, upperCabin,  nonStopOnly);
         if (json == null) {
             LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch Delta monthly data.");
             return Collections.emptyList();

@@ -21,9 +21,9 @@ public class AmericanMonthly {
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(AmericanMonthly.class.getName());
 
 
-    public static CompletableFuture<List<DailyCheapest>> getFlightDataListAmericanMonthly(String origin, String destination, String start, int numPassengers, boolean upperCabin) {
+    public static CompletableFuture<List<DailyCheapest>> getFlightDataListAmericanMonthly(String origin, String destination, String start, int numPassengers, boolean upperCabin, String maxStops) {
         return CompletableFuture.supplyAsync(() -> {
-            String json = requestHandlerAmericanMonthly(origin, destination, start, numPassengers, upperCabin);
+            String json = requestHandlerAmericanMonthly(origin, destination, start, numPassengers, upperCabin, maxStops);
             if (json == null) {
                 LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch data.");
                 return new ArrayList<>();

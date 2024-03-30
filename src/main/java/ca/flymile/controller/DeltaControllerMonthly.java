@@ -41,10 +41,11 @@ public class DeltaControllerMonthly {
             @RequestParam String arrival,
             @RequestParam String startDate,
             @RequestParam(defaultValue = "1") int numPassengers,
-            @RequestParam (defaultValue = "false")boolean upperCabin
+            @RequestParam (defaultValue = "false")boolean upperCabin,
+            @RequestParam(defaultValue = "false") boolean nonStopOnly
     ) {
         // Validate the search parameters
         validateOriginDestinationStartDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, numPassengers);
-        return deltaMonthly.getFlightDataListDeltaMonthly(departure, arrival, startDate, numPassengers, upperCabin);
+        return deltaMonthly.getFlightDataListDeltaMonthly(departure, arrival, startDate, numPassengers, upperCabin, nonStopOnly);
     }
 }

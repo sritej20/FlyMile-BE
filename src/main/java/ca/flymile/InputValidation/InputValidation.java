@@ -218,6 +218,24 @@ public class InputValidation {
         }
         return start;
     }
+    public static String parseAndValidateStops(String maxStops) {
+        // Use a default value if maxStops is null or blank
+        String trimmedStops = (maxStops == null || maxStops.trim().isEmpty()) ? "3" : maxStops.trim();
+
+        int stops;
+        try {
+            stops = Integer.parseInt(trimmedStops);
+        } catch (NumberFormatException e) {
+            throw new InvalidNumberOfStopsException("Invalid number of stops: must be an integer.");
+        }
+
+        if (stops < 0 || stops > 3) {
+            throw new InvalidNumberOfStopsException();
+        }
+
+        return String.valueOf(stops);
+    }
+
     private static String getAirportTimeZone(String airportCode)
     {
         return AIRPORT_TIMEZONE_MAP.get(airportCode);

@@ -32,12 +32,12 @@ public class AmericanControllerMonthly {
             @RequestParam String arrival,
             @RequestParam String startDate,
             @RequestParam(defaultValue = "1") int numPassengers,
-            @RequestParam(defaultValue = "false") boolean upperCabin
+            @RequestParam(defaultValue = "false") boolean upperCabin,
+            @RequestParam(required = false, defaultValue = "3") String maxStops
     ) {
         // Validate the search parameters
         validateOriginDestinationStartDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate,numPassengers);
-
         // Retrieve and return the daily Cheapest List
-        return AmericanMonthly.getFlightDataListAmericanMonthly(departure, arrival, startDate,numPassengers, upperCabin);
+        return AmericanMonthly.getFlightDataListAmericanMonthly(departure, arrival, startDate,numPassengers, upperCabin, parseAndValidateStops(maxStops));
     }
 }

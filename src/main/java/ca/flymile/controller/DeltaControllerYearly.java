@@ -5,10 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-import static ca.flymile.InputValidation.InputValidation.validateCabinClassDelta;
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationPassengers;
-import io.swagger.v3.oas.annotations.Parameter;
-import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -45,13 +42,14 @@ public class DeltaControllerYearly {
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam(defaultValue = "1") int numPassengers,
-            @RequestParam(defaultValue = "false") boolean upperCabin
+            @RequestParam(defaultValue = "false") boolean upperCabin,
+            @RequestParam(defaultValue = "false") boolean nonStopOnly
 
     ) {
         // Validate the search parameters
         validateOriginDestinationPassengers(departure.toUpperCase(), arrival.toUpperCase(), numPassengers);
 
         // Retrieve and return the flight data for the year
-        return deltaYearly.getFlightDataListDeltaYearly(departure, arrival, numPassengers, upperCabin);
+        return deltaYearly.getFlightDataListDeltaYearly(departure, arrival, numPassengers, upperCabin, nonStopOnly);
     }
 }

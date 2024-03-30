@@ -130,4 +130,16 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         ApiError apiError = new ApiError(HttpStatus.BAD_REQUEST, ex.getMessage());
         return new ResponseEntity<>(apiError, HttpStatus.BAD_REQUEST);
     }
+    /**
+     * Handles InvalidNumberOfStopsException by returning an HTTP 400 (Bad Request) response with the error message.
+     *
+     * @param ex The exception to handle.
+     * @return A ResponseEntity containing an ApiError with the error message and HTTP status 400.
+     */
+    @ExceptionHandler(InvalidNumberOfStopsException.class)
+    @ResponseBody
+    public ResponseEntity<ApiError> handleInvalidNumberOfStopsException(InvalidNumberOfStopsException ex) {
+        ApiError apiError = new ApiError(HttpStatus.BAD_REQUEST, ex.getMessage());
+        return new ResponseEntity<>(apiError, HttpStatus.BAD_REQUEST);
+    }
 }

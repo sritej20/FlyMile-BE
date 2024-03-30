@@ -2,15 +2,14 @@ package ca.flymile.dtoDelta;
 
 import ca.flymile.Flight.PricingDetailDto;
 import ca.flymile.ModelDelta.*;
+import lombok.extern.slf4j.Slf4j;
 
 
 import java.util.*;
 import java.util.logging.Logger;
 
-
+@Slf4j
 public class PricingDetailMapper {
-    private static final java.util.logging.Logger LOGGER = Logger.getLogger(PricingDetailMapper.class.getName());
-
     public static List<PricingDetailDto> mapPricingDetails(GqlOffersSets gqlOffersSets) {
         Map<String, PricingDetailDto> selectedProductTypes = new HashMap<>();
 
@@ -55,7 +54,7 @@ public class PricingDetailMapper {
         } else if (cosCode.startsWith("O") || cosCode.startsWith("U") || cosCode.startsWith("G")) {
             return "BUSINESS";
         }
-        LOGGER.info("Unknown cosCode encountered");
+        log.info("Unknown cosCode encountered - {}", cosCode);
         return "UNKNOWN";
     }
 }

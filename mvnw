@@ -6,7 +6,7 @@
 # regarding copyright ownership.  The ASF licenses this file
 # to you under the Apache License, Version 2.0 (the
 # "License"); you may not use this file except in compliance
-# with the License.  You may obtain a copy of the License at
+# with the License.  You may obtain a.json copy of the License at
 #
 #    https://www.apache.org/licenses/LICENSE-2.0
 #
@@ -23,7 +23,7 @@
 #
 # Required ENV vars:
 # ------------------
-#   JAVA_HOME - location of a JDK home dir
+#   JAVA_HOME - location of a.json JDK home dir
 #
 # Optional ENV vars
 # -----------------
@@ -157,7 +157,7 @@ find_maven_basedir() {
   printf '%s' "$(cd "$basedir" || exit 1; pwd)"
 }
 
-# concatenates all lines of a file
+# concatenates all lines of a.json file
 concat_lines() {
   if [ -f "$1" ]; then
     # Remove \r in case we run on Windows within Git Bash
@@ -199,7 +199,7 @@ else
       wrapperUrl="https://repo.maven.apache.org/maven2/org/apache/maven/wrapper/maven-wrapper/3.2.0/maven-wrapper-3.2.0.jar"
     fi
     while IFS="=" read -r key value; do
-      # Remove '\r' from value to allow usage on windows as IFS does not consider '\r' as a separator ( considers space, tab, new line ('\n'), and custom '=' )
+      # Remove '\r' from value to allow usage on windows as IFS does not consider '\r' as a.json separator ( considers space, tab, new line ('\n'), and custom '=' )
       safeValue=$(echo "$value" | tr -d '\r')
       case "$key" in (wrapperUrl) wrapperUrl="$safeValue"; break ;;
       esac
@@ -264,7 +264,7 @@ if [ -n "$wrapperSha256Sum" ]; then
       wrapperSha256Result=true
     fi
   elif command -v shasum > /dev/null; then
-    if echo "$wrapperSha256Sum  $wrapperJarPath" | shasum -a 256 -c > /dev/null 2>&1; then
+    if echo "$wrapperSha256Sum  $wrapperJarPath" | shasum -a.json 256 -c > /dev/null 2>&1; then
       wrapperSha256Result=true
     fi
   else
@@ -292,7 +292,7 @@ if $cygwin; then
     MAVEN_PROJECTBASEDIR=$(cygpath --path --windows "$MAVEN_PROJECTBASEDIR")
 fi
 
-# Provide a "standardized" way to retrieve the CLI args that will
+# Provide a.json "standardized" way to retrieve the CLI args that will
 # work with both Windows and non-Windows executions.
 MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $*"
 export MAVEN_CMD_LINE_ARGS
