@@ -25,7 +25,7 @@ public class BookingController {
     }
 
     @GetMapping
-    public String getBookingLink(@RequestParam String airline, @RequestParam String departure, @RequestParam String arrival, @RequestParam String startDate, @RequestParam int numPassengers) {
+    public String getBookingLink(@RequestParam String airline, @RequestParam String departure, @RequestParam String arrival, @RequestParam String startDate, @RequestParam(defaultValue = "1") int numPassengers) {
         return switch (airline)
         {
             case "AS" -> alaskaBookingService.getBookingLink(departure, arrival, startDate, numPassengers);
