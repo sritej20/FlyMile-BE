@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import static ca.flymile.dtoAlaska.PricingDetailMapper.toDtoList;
 
 /**
- * Provides functionality to map data from domain models to data transfer objects (DTOs) for flights.
+ * Provides functionality to toDto data from domain models to data transfer objects (DTOs) for flights.
  */
 public class FlightMapper {
 
@@ -24,6 +24,7 @@ public class FlightMapper {
     public static FlightDto toDto(Slice slice) {
         return new FlightDto()
                 .setDuration(slice.getDuration())
+                .setSourceAirline("AS")
                 .setArrivesNextDay(slice.getArrivesNextDay())
                 .setLegs(slice.getLegs().stream()
                         .map(LegMapper::toDto)

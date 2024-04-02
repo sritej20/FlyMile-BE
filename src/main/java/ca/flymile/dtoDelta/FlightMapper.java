@@ -6,7 +6,7 @@ import static ca.flymile.dtoDelta.PricingDetailMapper.mapPricingDetails;
 
 public class FlightMapper {
 
-    public static FlightDto map(GqlOffersSets gqlOffersSets) {
+    public static FlightDto toDto(GqlOffersSets gqlOffersSets) {
         FlightDto flightDto = new FlightDto();
 
         // Map pricing details
@@ -15,6 +15,7 @@ public class FlightMapper {
         // Map legs and set total trip details
         flightDto.setLegs(mapLegs(gqlOffersSets));
         gqlOffersSets.getTrips().stream().findFirst().ifPresent(trip -> {
+            flightDto.setSourceAirline("DL");
             flightDto.setDuration(calculateTotalDuration(trip.getTotalTripTime()));
             flightDto.setArrivesNextDay(trip.getTotalTripTime().getDayCnt());
         });

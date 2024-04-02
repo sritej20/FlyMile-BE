@@ -83,7 +83,7 @@ public class InputValidation {
         validateOriginDestination(origin, destination);
         validateNumPassengersAlaska(numPassengers);
     }
-    private static void validateNumPassengersAlaska(int numPassengers) {
+    public static void validateNumPassengersAlaska(int numPassengers) {
         if (numPassengers < 1 || numPassengers > 7) {
             throw new PassengerNumberInvalidExceptionAlaska();
         }

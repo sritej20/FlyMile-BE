@@ -21,6 +21,7 @@ import java.util.List;
 public class FlightDto
 {
     private int duration;
+    private String sourceAirline;
 
     /**
      * Indicates whether the arrival is on the next day.

@@ -6,7 +6,7 @@ import ca.flymile.ModelAmerican.Slice;
 import java.util.stream.Collectors;
 
 /**
- * Provides functionality to map data from domain models to data transfer objects (DTOs) for flights.
+ * Provides functionality to toDto data from domain models to data transfer objects (DTOs) for flights.
  */
 public class FlightMapper {
 
@@ -22,6 +22,7 @@ public class FlightMapper {
     public static FlightDto toDto(Slice slice) {
         return new FlightDto()
                 .setDuration(slice.getDuration())
+                .setSourceAirline("AA")
                 .setArrivesNextDay(slice.getArrivesNextDay())
                 .setLegs(slice.getSegments().stream()
                         .flatMap(segment -> segment.getLegs().stream()

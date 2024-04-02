@@ -1,10 +1,11 @@
 package ca.flymile.API;
 
+import java.net.InetSocketAddress;
+import java.net.ProxySelector;
 import java.net.http.HttpClient;
 import static ca.flymile.API.RequestBuilder.buildRequestBodyDeltaMonthly;
 
 public class RequestHandlerDeltaMonthly {
-    private static final  HttpClient CLIENT = HttpClient.newHttpClient();
     private static final String REQUEST_URL = "https://offer-api-prd.delta.com/prd/rm-offer-gql";
     private static final String REQUEST_TEMPLATE = """
             {
@@ -42,6 +43,10 @@ public class RequestHandlerDeltaMonthly {
             }""";
 
     public static String requestHandlerDeltaMonthly(String origin, String destination, String departureDate, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
+        HttpClient CLIENT = HttpClient.newHttpClient();
+       /*HttpClient CLIENT = HttpClient.newBuilder()
+                .proxy(ProxySelector.of(new InetSocketAddress("us.smartproxy.com", 10000)))
+                .build();*/
         return buildRequestBodyDeltaMonthly(origin, destination, upperCabin, departureDate, numPassengers, REQUEST_TEMPLATE, nonStopOnly, REQUEST_URL, CLIENT);
     }
 }

@@ -42,7 +42,7 @@ public class Delta {
             Root root = gson.fromJson(json, Root.class);
             if (root != null && root.getData() != null) {
                 return root.getData().getGqlSearchOffers().getGqlOffersSets().stream()
-                        .map(FlightMapper::map)
+                        .map(FlightMapper::toDto)
                         .collect(Collectors.toList());
             }
         } catch (Exception e) {
