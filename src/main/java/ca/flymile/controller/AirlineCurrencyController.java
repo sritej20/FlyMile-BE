@@ -28,6 +28,14 @@ class AmericanCurrencyController {
         return "USD";
     }
 }
+@RestController
+@RequestMapping("/currency/virginAustralia")
+class VirginAustraliaCurrencyController {
+    @GetMapping
+    public String getCurrency(@RequestParam String origin) {
+        return "AUD";
+    }
+}
 
 @RestController
 @RequestMapping("/currency/delta")

@@ -21,20 +21,6 @@ import static ca.flymile.FlyMileAirportData.AirportTimeZoneMap.AIRPORT_TIMEZONE_
  */
 public class InputValidation {
 
-    private static final Map<String, Boolean> CABIN_CLASSES = new HashMap<>();
-
-    static {
-        CABIN_CLASSES.put("BE", true);
-        CABIN_CLASSES.put("MAIN", true);
-        CABIN_CLASSES.put("DCP", true);
-        CABIN_CLASSES.put("FIRST", true);
-        CABIN_CLASSES.put("DPPS", true);
-        CABIN_CLASSES.put("D1", true);
-    }
-
-    public static String validateCabinClassDelta(String input) {
-        return CABIN_CLASSES.containsKey(input) ? input : "BE";
-    }
     /**
      * Validates the provided flight search parameters against a set of predefined rules.*
      * - Validates date formats for start and end dates.
@@ -158,7 +144,7 @@ public class InputValidation {
 
         if (end.isBefore(startDate)) {
             throw new EndDateBeforeStartDateException();
-        } else if (end.isAfter(DateHandler.getLimitDate())) {
+        } else if (end.isAfter(DateHandler.getLimitDate()) || end.isAfter(startDate.plusDays(7))) {
             throw new EndDateOutsideRangeException();
         }
     }

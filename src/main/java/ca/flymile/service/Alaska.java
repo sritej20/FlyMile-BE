@@ -5,6 +5,10 @@ import ca.flymile.ModelAlaska.FlightSlices;
 import ca.flymile.dtoAlaska.FlightMapper;
 import com.google.gson.Gson;
 
+import com.google.gson.reflect.TypeToken;
+import jakarta.annotation.PreDestroy;
+import lombok.RequiredArgsConstructor;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -15,12 +19,13 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import static ca.flymile.API.RequestHandlerAlaska.requestHandlerAlaska;
-
+@RequiredArgsConstructor
 @Component
 public class Alaska {
     private static final Gson gson = new Gson();
@@ -43,7 +48,7 @@ public class Alaska {
      * reassigned or modified once initialized, providing thread safety and immutability.
      */
     private final ExecutorService pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
-
+    private final StringRedisTemplate stringRedisTemplate;
 
     /**
      * Retrieves a list of flight data based on the provided search parameters.
@@ -89,8 +94,12 @@ public class Alaska {
      * @param numPassengers The number of passengers.
      * @return A list of FlightDto objects representing the available flights, or an empty list if no flights are available or an error occurs.
      */
-    private List<FlightDto> fetchFlightDataAlaska(String date, String origin, String destination, int numPassengers) {
+    public List<FlightDto> fetchFlightDataAlaska(String date, String origin, String destination, int numPassengers) {
         try {
+            String cacheKey = generateCacheKey(date, origin, destination, numPassengers);
+            String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
+            if(cachedFlights != null)
+                return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});
             String json = requestHandlerAlaska(date, origin, destination, numPassengers);
             if(json == null)
                 return Collections.emptyList();
@@ -101,13 +110,30 @@ public class Alaska {
 
             FlightSlices jsonResponse = gson.fromJson(json, FlightSlices.class);
             if (jsonResponse != null && jsonResponse.getSlices() != null) {
-                return jsonResponse.getSlices().stream()
+                List<FlightDto> res =  jsonResponse.getSlices().stream()
                         .map(FlightMapper::toDto)
                         .collect(Collectors.toList());
+                stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res));
+                return res;
             }
         } catch (Exception e) {
             LOGGER.log(Level.SEVERE, e.getMessage(), e);
         }
         return Collections.emptyList();
+    }
+    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
+        return String.format("AS:%s:%s:%s:%d", date, origin, destination, numPassengers);
+    }
+    @PreDestroy
+    public void cleanUp() {
+        pool.shutdown();
+        try {
+            if (!pool.awaitTermination(60, TimeUnit.SECONDS)) {
+                pool.shutdownNow(); // Cancel currently executing tasks
+            }
+        } catch (InterruptedException ie) {
+            pool.shutdownNow();
+            Thread.currentThread().interrupt();
+        }
     }
 }

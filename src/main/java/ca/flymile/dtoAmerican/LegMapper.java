@@ -23,7 +23,7 @@ public class LegMapper {
                 .setAircraft(leg.getAircraft().getName())
                 .setArrivalDateTime(leg.getArrivalDateTime().substring(0,16))
                 .setConnectionTimeInMinutes(leg.getConnectionTimeInMinutes())
-                .setDepartureDateTime(leg.getDepartureDateTime())
+                .setDepartureDateTime(leg.getDepartureDateTime().substring(0,16))
                 .setDestination(leg.getDestination().getCode())
                 .setDurationInMinutes(leg.getDurationInMinutes())
                 .setOrigin(leg.getOrigin().getCode());

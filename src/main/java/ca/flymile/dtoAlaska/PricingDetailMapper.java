@@ -14,6 +14,8 @@ import java.util.regex.Pattern;
  * Provides functionality to map pricing details from a map structure to a list of data transfer objects (DTOs).
  */
 public class PricingDetailMapper {
+    private static final String ECONOMY = "ECONOMY";
+    private static final Pattern CABIN_TYPE_PATTERN = Pattern.compile("_(BUSINESS|PREMIUM|FIRST|MAIN)$");
 
     /**
      * Converts a map of pricing details into a list of PricingDetailDto objects.
@@ -34,7 +36,7 @@ public class PricingDetailMapper {
             PricingDetailDto dto = new PricingDetailDto()
                     .setPoints(details.getPoints())
                     .setCashPrice(details.getCashPrice())
-                    .setProductType(extractCabinType(productType))
+                    .setProductType(extractCabinType(productType).charAt(0)=='M'?ECONOMY:extractCabinType(productType))
                     .setSeatsRemaining(details.getSeatsRemaining())
                     .setMixedCabin(details.isMixedCabin());
 
@@ -60,8 +62,7 @@ public class PricingDetailMapper {
      *         otherwise returns "UNKNOWN".
      */
     public static String extractCabinType(String productType) {
-        Pattern pattern = Pattern.compile("_(BUSINESS|PREMIUM|FIRST|MAIN)$");
-        Matcher matcher = pattern.matcher(productType);
+        Matcher matcher = CABIN_TYPE_PATTERN.matcher(productType);;
         if (matcher.find()) {
             return matcher.group(1);
         }

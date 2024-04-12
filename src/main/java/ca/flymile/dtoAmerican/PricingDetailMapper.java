@@ -9,6 +9,11 @@ import ca.flymile.ModelAmerican.PricingDetail;
  * Provides functionality to map data from domain models to data transfer objects (DTOs) for pricing details of flights.
  */
 public class PricingDetailMapper {
+    private static final String ECONOMY = "ECONOMY";
+    private static final String PREMIUM = "PREMIUM";
+    private static final String FIRST = "FIRST";
+    private static final String BUSINESS = "BUSINESS";
+    private static final String UNKNOWN = "UNKNOWN";
 
     /**
      * Converts a PricingDetail object to a PricingDetailDto object.
@@ -23,7 +28,16 @@ public class PricingDetailMapper {
         return new PricingDetailDto()
                 .setPoints(pricingDetail.getPoints())
                 .setCashPrice(pricingDetail.getCashPrice().getAmount())
-                .setProductType(pricingDetail.getProductType())
+                .setProductType(setProductType(pricingDetail.getProductType().charAt(0)))
                 .setSeatsRemaining(pricingDetail.getSeatsRemaining());
+    }
+    private static String setProductType(char firstChar) {
+        return switch (firstChar) {
+            case 'C', 'M' -> ECONOMY;
+            case 'P' -> PREMIUM;
+            case 'F' -> FIRST;
+            case 'B' -> BUSINESS;
+            default -> UNKNOWN;
+        };
     }
 }

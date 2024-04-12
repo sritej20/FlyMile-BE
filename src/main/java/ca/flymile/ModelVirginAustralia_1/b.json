@@ -1,0 +1,2002 @@
+{
+  "data": {
+    "bookingAirSearch": {
+      "originalResponse": {
+        "searchResultMetaData": {
+          "branded": true,
+          "multipleDateResult": true,
+          "composedResult": false,
+          "interlineRoute": false,
+          "contextShopping": false
+        },
+        "fareFamilies": [
+          {
+            "brandId": "RE",
+            "brandLabel": [
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "en_GB",
+                "marketingText": "Economy Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/economy-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zh_CN",
+                "marketingText": "Economy Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/economy-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zh_TW",
+                "marketingText": "Economy Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/economy-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "ja_JP",
+                "marketingText": "Economy Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/economy-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zn_CHS",
+                "marketingText": "Economy Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/economy-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zn_CHT",
+                "marketingText": "Economy Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/economy-reward"
+              }
+            ],
+            "marketingTexts": [
+              {
+                "programId": "149124",
+                "languageId": "en_GB",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Not available</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zh_CN",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Not available</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zh_TW",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Not available</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "ja_JP",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Not available</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zn_CHS",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Not available</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zn_CHT",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Not available</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              }
+            ],
+            "brandAncillaries": {
+              "flightAncillary": []
+            },
+            "fareFamilyRemarkRPH": 0
+          },
+          {
+            "brandId": "RB",
+            "brandLabel": [
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "en_GB",
+                "marketingText": "Business Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/business-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zh_CN",
+                "marketingText": "Business Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/business-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zh_TW",
+                "marketingText": "Business Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/business-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "ja_JP",
+                "marketingText": "Business Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/business-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zn_CHS",
+                "marketingText": "Business Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/business-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zn_CHT",
+                "marketingText": "Business Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/business-reward"
+              }
+            ],
+            "marketingTexts": [
+              {
+                "programId": "149124",
+                "languageId": "en_GB",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zh_CN",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zh_TW",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "ja_JP",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zn_CHS",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zn_CHT",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              }
+            ],
+            "brandAncillaries": {
+              "flightAncillary": []
+            },
+            "fareFamilyRemarkRPH": 0
+          },
+          {
+            "brandId": "RF",
+            "brandLabel": [
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "en_GB",
+                "marketingText": "First Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/first-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zh_CN",
+                "marketingText": "First Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/first-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zh_TW",
+                "marketingText": "First Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/first-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "ja_JP",
+                "marketingText": "First Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/first-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zn_CHS",
+                "marketingText": "First Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/first-reward"
+              },
+              {
+                "programId": "149124",
+                "programName": "LHI/PTQR/0 QR LEVEL 1",
+                "programSystemCode": "F",
+                "languageId": "zn_CHT",
+                "marketingText": "First Reward",
+                "brandLabelUrl": "https://www.virginaustralia.com/au/en/information/international-long-haul/first-reward"
+              }
+            ],
+            "marketingTexts": [
+              {
+                "programId": "149124",
+                "languageId": "en_GB",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zh_CN",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zh_TW",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "ja_JP",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zn_CHS",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              },
+              {
+                "programId": "149124",
+                "languageId": "zn_CHT",
+                "marketingText": "<P ALIGN=\"LEFT\"><FONT FACE=\"VERDANA\" SIZE=\"11\" COLOR=\"#333333\" LETTERSPACING=\"0\" KERNING=\"0\"><font><p>Flight change more than 24 hours to departure* - Fees and/or Conditions Apply</p></font><font><p>Flight change less than 24 hours to departure* - Not available</p></font><font><p>Flight cancellations more than 24 hours* - Fees and/or Conditions Apply</p></font><font><p>Flight cancellations less than 24 hours* - Not available</p></font><font><p>Checked Baggage - Included</p></font><font><p>Lounge Access - Included</p></font><font><p>**Digital Experience Use Only - Do not remove - DigitalExperienceRef=505**</p></font></FONT></P>"
+              }
+            ],
+            "brandAncillaries": {
+              "flightAncillary": []
+            },
+            "fareFamilyRemarkRPH": 0
+          }
+        ],
+        "unbundledOffers": [
+          [
+            {
+              "shoppingBasketHashCode": 1373586236,
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 3,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "1",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "2",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "advisories": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-12T16:00:00",
+                      "arrival": "2024-06-13T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "2952155258227812743"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "3",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 701,
+                        "operatingFlightNumber": 701,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "advisories": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-13T08:05:00",
+                      "arrival": "2024-06-13T15:20:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "3865328330402375989"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1700,
+                  "connectionInformations": [
+                    {
+                      "@id": "4",
+                      "duration": 440,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ],
+                  "advisories": [
+                    {
+                      "level": "MARKETING",
+                      "code": "flightAdvisory.fixedAwardAvailable"
+                    }
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "advisories": [],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "shoppingBasketHashCode": 2087213354,
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 3,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "5",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "6",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "351",
+                      "flight": {
+                        "flightNumber": 12,
+                        "operatingFlightNumber": 12,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "advisories": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-12T19:25:00",
+                      "arrival": "2024-06-13T04:10:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "1779607676775614852"
+                    },
+                    {
+                      "@ref": "3"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1495,
+                  "connectionInformations": [
+                    {
+                      "@id": "7",
+                      "duration": 235,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ],
+                  "advisories": [
+                    {
+                      "level": "MARKETING",
+                      "code": "flightAdvisory.fixedAwardAvailable"
+                    }
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "advisories": [],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "shoppingBasketHashCode": -749600606,
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 3,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "8",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "9",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 16,
+                        "operatingFlightNumber": 16,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "advisories": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-12T21:55:00",
+                      "arrival": "2024-06-13T06:40:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "515569742539785076"
+                    },
+                    {
+                      "@ref": "3"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1345,
+                  "connectionInformations": [
+                    {
+                      "@id": "10",
+                      "duration": 85,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ],
+                  "advisories": [
+                    {
+                      "level": "MARKETING",
+                      "code": "flightAdvisory.fixedAwardAvailable"
+                    }
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "advisories": [],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        ],
+        "unbundledAlternateDateOffers": [
+          [
+            {
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 2,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "11",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "12",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-09T16:00:00",
+                      "arrival": "2024-06-10T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "4473160091112806490"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "13",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 703,
+                        "operatingFlightNumber": 703,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-10T01:45:00",
+                      "arrival": "2024-06-10T09:00:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "113696739930673"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1320,
+                  "connectionInformations": [
+                    {
+                      "@id": "14",
+                      "duration": 60,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "status": "AVAILABLE",
+              "departureDates": [
+                "2024-06-09"
+              ],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "status": "UNAVAILABLE",
+              "departureDates": [
+                "2024-06-10"
+              ]
+            },
+            {
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 4,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "15",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "16",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-11T16:00:00",
+                      "arrival": "2024-06-12T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "308565839697968913"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "17",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 703,
+                        "operatingFlightNumber": 703,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-12T01:45:00",
+                      "arrival": "2024-06-12T09:00:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "1813639982717823081"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1320,
+                  "connectionInformations": [
+                    {
+                      "@id": "18",
+                      "duration": 60,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "status": "AVAILABLE",
+              "departureDates": [
+                "2024-06-11"
+              ],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 3,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "19",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "20",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-12T16:00:00",
+                      "arrival": "2024-06-13T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "3540444017681944759"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "21",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 701,
+                        "operatingFlightNumber": 701,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-13T08:05:00",
+                      "arrival": "2024-06-13T15:20:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "458619589540716102"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1700,
+                  "connectionInformations": [
+                    {
+                      "@id": "22",
+                      "duration": 440,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "status": "AVAILABLE",
+              "departureDates": [
+                "2024-06-12"
+              ],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 1,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "23",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "24",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-13T16:00:00",
+                      "arrival": "2024-06-14T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "3136675771488582584"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "25",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 703,
+                        "operatingFlightNumber": 703,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-14T01:45:00",
+                      "arrival": "2024-06-14T09:00:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "2758054701416506471"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1320,
+                  "connectionInformations": [
+                    {
+                      "@id": "26",
+                      "duration": 60,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "status": "AVAILABLE",
+              "departureDates": [
+                "2024-06-13"
+              ],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 1,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "27",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "28",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-14T16:00:00",
+                      "arrival": "2024-06-15T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "1007465379823061913"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "29",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 703,
+                        "operatingFlightNumber": 703,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-15T01:45:00",
+                      "arrival": "2024-06-15T09:00:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "1500593930141186152"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1320,
+                  "connectionInformations": [
+                    {
+                      "@id": "30",
+                      "duration": 60,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "status": "AVAILABLE",
+              "departureDates": [
+                "2024-06-14"
+              ],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            },
+            {
+              "brandId": "RE",
+              "soldout": false,
+              "bundlePrice": {},
+              "availableObFees": [],
+              "seatsRemaining": {
+                "count": 4,
+                "lowAvailability": false
+              },
+              "itineraryPart": [
+                {
+                  "@type": "ItineraryPart",
+                  "@id": "31",
+                  "segments": [
+                    {
+                      "@type": "Segment",
+                      "@id": "32",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 3259,
+                        "awardFare": true
+                      },
+                      "duration": 405,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 8,
+                        "operatingFlightNumber": 8,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "departureTerminal": "4"
+                      },
+                      "origin": "LHR",
+                      "destination": "DOH",
+                      "departure": "2024-06-15T16:00:00",
+                      "arrival": "2024-06-16T00:45:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "fareComponentBeginAirport": "LHR",
+                      "fareComponentEndAirport": "JFK",
+                      "fareComponentDirectionality": "FROM",
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "3264571537939670940"
+                    },
+                    {
+                      "@type": "Segment",
+                      "@id": "33",
+                      "segmentOfferInformation": {
+                        "flightsMiles": 6703,
+                        "awardFare": true
+                      },
+                      "duration": 855,
+                      "cabinClass": "Economy",
+                      "equipment": "77W",
+                      "flight": {
+                        "flightNumber": 703,
+                        "operatingFlightNumber": 703,
+                        "airlineCode": "QR",
+                        "operatingAirlineCode": "QR",
+                        "stopAirports": [],
+                        "arrivalTerminal": "8"
+                      },
+                      "origin": "DOH",
+                      "destination": "JFK",
+                      "departure": "2024-06-16T01:45:00",
+                      "arrival": "2024-06-16T09:00:00",
+                      "bookingClass": "X",
+                      "layoverDuration": 0,
+                      "fareBasis": "XZDQR1",
+                      "subjectToGovernmentApproval": false,
+                      "meals": [
+                        {
+                          "passengerType": "ADT",
+                          "mealCode": "M"
+                        }
+                      ],
+                      "segmentRef": "1019958082488942339"
+                    }
+                  ],
+                  "stops": 1,
+                  "totalDuration": 1320,
+                  "connectionInformations": [
+                    {
+                      "@id": "34",
+                      "duration": 60,
+                      "changeOfAirport": false
+                    }
+                  ],
+                  "bookingClass": "X",
+                  "programIDs": [
+                    "149124"
+                  ],
+                  "programCodes": [
+                    "VAX"
+                  ]
+                }
+              ],
+              "cabinClass": "Economy",
+              "offerInformation": {
+                "discounted": false,
+                "negotiated": true,
+                "negotiatedType": "OTHER"
+              },
+              "status": "AVAILABLE",
+              "departureDates": [
+                "2024-06-15"
+              ],
+              "total": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 162100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    },
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "requiredMinThreshold": {
+                "amount": 75000,
+                "currency": "FFCURRENCY"
+              },
+              "fare": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    }
+                  ]
+                ]
+              },
+              "taxes": {
+                "alternatives": [
+                  [
+                    {
+                      "amount": 87100,
+                      "currency": "FFCURRENCY"
+                    }
+                  ],
+                  [
+                    {
+                      "amount": 520.8,
+                      "currency": "AUD"
+                    }
+                  ]
+                ]
+              }
+            }
+          ]
+        ],
+        "bundledOffers": [],
+        "bundledAlternateDateOffers": [],
+        "brandedResults": {
+          "itineraryPartBrands": [
+            [
+              {
+                "itineraryPart": {
+                  "@ref": "1"
+                },
+                "brandOffers": [
+                  {
+                    "shoppingBasketHashCode": 1373586236,
+                    "brandId": "RE",
+                    "soldout": false,
+                    "bundlePrice": {},
+                    "availableObFees": [],
+                    "seatsRemaining": {
+                      "count": 3,
+                      "lowAvailability": false
+                    },
+                    "cabinClass": "Economy",
+                    "offerInformation": {
+                      "discounted": false,
+                      "negotiated": true,
+                      "negotiatedType": "OTHER"
+                    },
+                    "advisories": [],
+                    "total": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 162100,
+                            "currency": "FFCURRENCY"
+                          }
+                        ],
+                        [
+                          {
+                            "amount": 520.8,
+                            "currency": "AUD"
+                          },
+                          {
+                            "amount": 75000,
+                            "currency": "FFCURRENCY"
+                          }
+                        ]
+                      ]
+                    },
+                    "totalMandatoryObFees": {
+                      "alternatives": []
+                    },
+                    "requiredMinThreshold": {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    },
+                    "fare": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 75000,
+                            "currency": "FFCURRENCY"
+                          }
+                        ]
+                      ]
+                    },
+                    "taxes": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 87100,
+                            "currency": "FFCURRENCY"
+                          }
+                        ],
+                        [
+                          {
+                            "amount": 520.8,
+                            "currency": "AUD"
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                "duration": 1700,
+                "departure": "2024-06-12T16:00:00",
+                "arrival": "2024-06-13T15:20:00"
+              },
+              {
+                "itineraryPart": {
+                  "@ref": "5"
+                },
+                "brandOffers": [
+                  {
+                    "shoppingBasketHashCode": 2087213354,
+                    "brandId": "RE",
+                    "soldout": false,
+                    "bundlePrice": {},
+                    "availableObFees": [],
+                    "seatsRemaining": {
+                      "count": 3,
+                      "lowAvailability": false
+                    },
+                    "cabinClass": "Economy",
+                    "offerInformation": {
+                      "discounted": false,
+                      "negotiated": true,
+                      "negotiatedType": "OTHER"
+                    },
+                    "advisories": [],
+                    "total": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 162100,
+                            "currency": "FFCURRENCY"
+                          }
+                        ],
+                        [
+                          {
+                            "amount": 520.8,
+                            "currency": "AUD"
+                          },
+                          {
+                            "amount": 75000,
+                            "currency": "FFCURRENCY"
+                          }
+                        ]
+                      ]
+                    },
+                    "totalMandatoryObFees": {
+                      "alternatives": []
+                    },
+                    "requiredMinThreshold": {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    },
+                    "fare": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 75000,
+                            "currency": "FFCURRENCY"
+                          }
+                        ]
+                      ]
+                    },
+                    "taxes": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 87100,
+                            "currency": "FFCURRENCY"
+                          }
+                        ],
+                        [
+                          {
+                            "amount": 520.8,
+                            "currency": "AUD"
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                "duration": 1495,
+                "departure": "2024-06-12T19:25:00",
+                "arrival": "2024-06-13T15:20:00"
+              },
+              {
+                "itineraryPart": {
+                  "@ref": "8"
+                },
+                "brandOffers": [
+                  {
+                    "shoppingBasketHashCode": -749600606,
+                    "brandId": "RE",
+                    "soldout": false,
+                    "bundlePrice": {},
+                    "availableObFees": [],
+                    "seatsRemaining": {
+                      "count": 3,
+                      "lowAvailability": false
+                    },
+                    "cabinClass": "Economy",
+                    "offerInformation": {
+                      "discounted": false,
+                      "negotiated": true,
+                      "negotiatedType": "OTHER"
+                    },
+                    "advisories": [],
+                    "total": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 162100,
+                            "currency": "FFCURRENCY"
+                          }
+                        ],
+                        [
+                          {
+                            "amount": 520.8,
+                            "currency": "AUD"
+                          },
+                          {
+                            "amount": 75000,
+                            "currency": "FFCURRENCY"
+                          }
+                        ]
+                      ]
+                    },
+                    "totalMandatoryObFees": {
+                      "alternatives": []
+                    },
+                    "requiredMinThreshold": {
+                      "amount": 75000,
+                      "currency": "FFCURRENCY"
+                    },
+                    "fare": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 75000,
+                            "currency": "FFCURRENCY"
+                          }
+                        ]
+                      ]
+                    },
+                    "taxes": {
+                      "alternatives": [
+                        [
+                          {
+                            "amount": 87100,
+                            "currency": "FFCURRENCY"
+                          }
+                        ],
+                        [
+                          {
+                            "amount": 520.8,
+                            "currency": "AUD"
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                ],
+                "duration": 1345,
+                "departure": "2024-06-12T21:55:00",
+                "arrival": "2024-06-13T15:20:00"
+              }
+            ]
+          ]
+        },
+        "travelPartAdvisories": [
+          []
+        ],
+        "soldOutDatesOutbound": [],
+        "soldOutDatesInbound": [],
+        "noneScheduledDatesOutbound": [],
+        "noneScheduledDatesInbound": [],
+        "warnings": [],
+        "currency": "AUD",
+        "promocodeValid": false,
+        "negotiateFarePresent": true,
+        "conversionRatesFound": true
+      },
+      "__typename": "DigitalConnectOriginalResponse"
+    }
+  },
+  "extensions": {}
+}

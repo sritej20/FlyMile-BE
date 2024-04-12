@@ -6,6 +6,7 @@
 package ca.flymile.service;
 
 import ca.flymile.DailyCheapest.DailyCheapest;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -14,10 +15,10 @@ import java.util.concurrent.CompletableFuture;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
-import static ca.flymile.service.AlaskaMonthly.getDailyCheapests;
-
+@RequiredArgsConstructor
 @Component
 public class AlaskaYearly {
+    private final AlaskaMonthly alaskaMonthly;
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(AlaskaYearly.class.getName());
 
     /**
@@ -33,7 +34,7 @@ public class AlaskaYearly {
 
         for (int i = 0; i < 12; i++) {
             final String start = date.toString();
-            CompletableFuture<List<DailyCheapest>> future = CompletableFuture.supplyAsync(() -> getDailyCheapests(origin, destination, start,numPassengers))
+            CompletableFuture<List<DailyCheapest>> future = CompletableFuture.supplyAsync(() -> alaskaMonthly.getDailyCheapests(origin, destination, start,numPassengers))
                     .exceptionally(ex -> {
                         LOGGER.log(Level.SEVERE, "Error fetching data for " + start + ": " + ex.getMessage(), ex);
                         return new ArrayList<>();  // Return an empty list in case of error

@@ -29,7 +29,7 @@ public class AlaskaMonthly {
         return CompletableFuture.supplyAsync(() -> getDailyCheapests(origin, destination, start, numPassengers));
     }
 
-    public static List<DailyCheapest> getDailyCheapests(String origin, String destination, String start, int numPassengers) {
+    public List<DailyCheapest> getDailyCheapests(String origin, String destination, String start, int numPassengers) {
         LocalDate startDate = LocalDate.parse(start);
         int startYear = startDate.getYear();
         int startMonth = startDate.getMonthValue();
@@ -82,5 +82,8 @@ public class AlaskaMonthly {
             }
         }
         return DailyCheapests;
+    }
+    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
+        return String.format("ASMM:%s:%s:%s:%d", date, origin, destination, numPassengers);
     }
 }

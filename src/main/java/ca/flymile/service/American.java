@@ -4,6 +4,10 @@ import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelAmerican.FlightSlices;
 import ca.flymile.dtoAmerican.FlightMapper;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import jakarta.annotation.PreDestroy;
+import lombok.RequiredArgsConstructor;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -11,25 +15,25 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
 
 
+
 /**
  * The AAScrapperService class provides methods to retrieve flight data.
  */
+@RequiredArgsConstructor
 @Component
 public class American {
     private static final Gson gson = new Gson();
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(American.class.getName());
 
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+    private final StringRedisTemplate stringRedisTemplate;
     /**
      * Private final ExecutorService instance used for managing asynchronous tasks.
      * An ExecutorService represents an asynchronous execution mechanism which is capable of
@@ -121,6 +125,10 @@ public class American {
      */
 
     private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin , String maxStops) {
+        String cacheKey = generateCacheKey(date, origin, destination, numPassengers);
+        String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
+        if(cachedFlights != null)
+            return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});
         String json = requestHandlerAmerican(date, origin, destination, numPassengers, upperCabin, maxStops);
         if (json == null) {
             LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch data.");
@@ -137,12 +145,28 @@ public class American {
 
         String error = jsonResponse.getError();
         if (error == null || error.isEmpty()) {
-            return jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
+            List<FlightDto>  res = jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
+            stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res));
+            return res;
         }
 
         return Collections.emptyList();
     }
-
+    @PreDestroy
+    public void cleanUp() {
+        pool.shutdown();
+        try {
+            if (!pool.awaitTermination(60, TimeUnit.SECONDS)) {
+                pool.shutdownNow(); // Cancel currently executing tasks
+            }
+        } catch (InterruptedException ie) {
+            pool.shutdownNow();
+            Thread.currentThread().interrupt();
+        }
+    }
+    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
+        return String.format("AA:%s:%s:%s:%d", date, origin, destination, numPassengers);
+    }
 
 
 }

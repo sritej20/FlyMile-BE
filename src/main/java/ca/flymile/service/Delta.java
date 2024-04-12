@@ -5,6 +5,10 @@ import ca.flymile.ModelDelta.Root;
 
 import ca.flymile.dtoDelta.FlightMapper;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import jakarta.annotation.PreDestroy;
+import lombok.RequiredArgsConstructor;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
@@ -12,10 +16,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
@@ -23,7 +24,9 @@ import java.util.stream.Stream;
 
 import static ca.flymile.API.RequestHandlerDelta.requestHandlerDelta;
 @Component
+@RequiredArgsConstructor
 public class Delta {
+    private final StringRedisTemplate stringRedisTemplate;
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(Delta.class.getName());
 
     private final ExecutorService pool = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
@@ -31,24 +34,33 @@ public class Delta {
     private static final Gson gson = new Gson();
     private List<FlightDto> fetchFlightDataDelta(String date, String origin, String destination, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
         try {
+            String cacheKey = generateCacheKey(date, origin, destination, numPassengers);
+            String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
+            if(cachedFlights != null)
+                return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});
             String json = requestHandlerDelta(origin, destination, date, numPassengers, upperCabin, nonStopOnly);
             if (json == null) {
                 LOGGER.log(Level.SEVERE, "Failed to fetch Delta flight data: JSON is null.");
-                return new ArrayList<>();
+                return Collections.emptyList();
             } else if (json.startsWith("<")) {
                 LOGGER.log(Level.SEVERE, "Blocked By Delta, received HTML response.");
-                return new ArrayList<>();
+                return Collections.emptyList();
             }
             Root root = gson.fromJson(json, Root.class);
             if (root != null && root.getData() != null) {
-                return root.getData().getGqlSearchOffers().getGqlOffersSets().stream()
+                List<FlightDto> res =  root.getData().getGqlSearchOffers().getGqlOffersSets().stream()
                         .map(FlightMapper::toDto)
                         .collect(Collectors.toList());
+                stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res));
+                return res;
             }
-        } catch (Exception e) {
+        } catch (NullPointerException e) {
+            LOGGER.log(Level.SEVERE, "Error fetching Delta flight data: Error fetching Delta flight data: Cannot invoke ca.flymile.ModelDelta.GqlSearchOffers.getGqlOffersSets() because the return value of ca.flymile.ModelDelta.Data.getGqlSearchOffers() is null");
+        }
+        catch (Exception e) {
             LOGGER.log(Level.SEVERE, "Error fetching Delta flight data: " + e.getMessage(), e);
         }
-        return new ArrayList<>();
+        return Collections.emptyList();
     }
     public CompletableFuture<List<FlightDto>> getFlightDataListDelta(
             String origin, String destination, String start, String end, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
@@ -86,6 +98,21 @@ public class Delta {
             return listStream.flatMap(List::stream)
                     .collect(Collectors.toList());
         });
+    }
+    @PreDestroy
+    public void cleanUp() {
+        pool.shutdown();
+        try {
+            if (!pool.awaitTermination(60, TimeUnit.SECONDS)) {
+                pool.shutdownNow(); // Cancel currently executing tasks
+            }
+        } catch (InterruptedException ie) {
+            pool.shutdownNow();
+            Thread.currentThread().interrupt();
+        }
+    }
+    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
+        return String.format("DL:%s:%s:%s:%d", date, origin, destination, numPassengers);
     }
 
 

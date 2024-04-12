@@ -1,0 +1,249 @@
+{
+  "itineraryPartBrands": [
+    [
+      {
+        "itineraryPart": {
+          "@ref": "1"
+        },
+        "brandOffers": [
+          {
+            "shoppingBasketHashCode": 1373586236,
+            "brandId": "RE",
+            "soldout": false,
+            "bundlePrice": {},
+            "availableObFees": [],
+            "seatsRemaining": {
+              "count": 3,
+              "lowAvailability": false
+            },
+            "cabinClass": "Economy",
+            "offerInformation": {
+              "discounted": false,
+              "negotiated": true,
+              "negotiatedType": "OTHER"
+            },
+            "advisories": [],
+            "total": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 162100,
+                    "currency": "FFCURRENCY"
+                  }
+                ],
+                [
+                  {
+                    "amount": 520.8,
+                    "currency": "AUD"
+                  },
+                  {
+                    "amount": 75000,
+                    "currency": "FFCURRENCY"
+                  }
+                ]
+              ]
+            },
+            "totalMandatoryObFees": {
+              "alternatives": []
+            },
+            "requiredMinThreshold": {
+              "amount": 75000,
+              "currency": "FFCURRENCY"
+            },
+            "fare": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 75000,
+                    "currency": "FFCURRENCY"
+                  }
+                ]
+              ]
+            },
+            "taxes": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 87100,
+                    "currency": "FFCURRENCY"
+                  }
+                ],
+                [
+                  {
+                    "amount": 520.8,
+                    "currency": "AUD"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "duration": 1700,
+        "departure": "2024-06-12T16:00:00",
+        "arrival": "2024-06-13T15:20:00"
+      },
+      {
+        "itineraryPart": {
+          "@ref": "5"
+        },
+        "brandOffers": [
+          {
+            "shoppingBasketHashCode": 2087213354,
+            "brandId": "RE",
+            "soldout": false,
+            "bundlePrice": {},
+            "availableObFees": [],
+            "seatsRemaining": {
+              "count": 3,
+              "lowAvailability": false
+            },
+            "cabinClass": "Economy",
+            "offerInformation": {
+              "discounted": false,
+              "negotiated": true,
+              "negotiatedType": "OTHER"
+            },
+            "advisories": [],
+            "total": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 162100,
+                    "currency": "FFCURRENCY"
+                  }
+                ],
+                [
+                  {
+                    "amount": 520.8,
+                    "currency": "AUD"
+                  },
+                  {
+                    "amount": 75000,
+                    "currency": "FFCURRENCY"
+                  }
+                ]
+              ]
+            },
+            "totalMandatoryObFees": {
+              "alternatives": []
+            },
+            "requiredMinThreshold": {
+              "amount": 75000,
+              "currency": "FFCURRENCY"
+            },
+            "fare": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 75000,
+                    "currency": "FFCURRENCY"
+                  }
+                ]
+              ]
+            },
+            "taxes": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 87100,
+                    "currency": "FFCURRENCY"
+                  }
+                ],
+                [
+                  {
+                    "amount": 520.8,
+                    "currency": "AUD"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "duration": 1495,
+        "departure": "2024-06-12T19:25:00",
+        "arrival": "2024-06-13T15:20:00"
+      },
+      {
+        "itineraryPart": {
+          "@ref": "8"
+        },
+        "brandOffers": [
+          {
+            "shoppingBasketHashCode": -749600606,
+            "brandId": "RE",
+            "soldout": false,
+            "bundlePrice": {},
+            "availableObFees": [],
+            "seatsRemaining": {
+              "count": 3,
+              "lowAvailability": false
+            },
+            "cabinClass": "Economy",
+            "offerInformation": {
+              "discounted": false,
+              "negotiated": true,
+              "negotiatedType": "OTHER"
+            },
+            "advisories": [],
+            "total": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 162100,
+                    "currency": "FFCURRENCY"
+                  }
+                ],
+                [
+                  {
+                    "amount": 520.8,
+                    "currency": "AUD"
+                  },
+                  {
+                    "amount": 75000,
+                    "currency": "FFCURRENCY"
+                  }
+                ]
+              ]
+            },
+            "totalMandatoryObFees": {
+              "alternatives": []
+            },
+            "requiredMinThreshold": {
+              "amount": 75000,
+              "currency": "FFCURRENCY"
+            },
+            "fare": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 75000,
+                    "currency": "FFCURRENCY"
+                  }
+                ]
+              ]
+            },
+            "taxes": {
+              "alternatives": [
+                [
+                  {
+                    "amount": 87100,
+                    "currency": "FFCURRENCY"
+                  }
+                ],
+                [
+                  {
+                    "amount": 520.8,
+                    "currency": "AUD"
+                  }
+                ]
+              ]
+            }
+          }
+        ],
+        "duration": 1345,
+        "departure": "2024-06-12T21:55:00",
+        "arrival": "2024-06-13T15:20:00"
+      }
+    ]
+  ]
+}

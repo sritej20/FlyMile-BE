@@ -61,7 +61,15 @@ public class DailyCheapestMapper {
         }
 
         PriceCalendar priceCalendar = fareInformation.getPriceCalendar();
-        dto.setDate(priceCalendar.getPriceCalendarDate());
+        String date = priceCalendar.getPriceCalendarDate();
+        if(date.length() != 10) {
+            StringBuilder sb = new StringBuilder(date);
+            sb.insert(5,'0');
+            dto.setDate(sb.toString());
+        }
+        else
+            dto.setDate(priceCalendar.getPriceCalendarDate());
+
 
         TotalAmount totalAmount = offerPricing.getTotalAmt();
         if (totalAmount.getMilesEquivalentPrice() != null) {

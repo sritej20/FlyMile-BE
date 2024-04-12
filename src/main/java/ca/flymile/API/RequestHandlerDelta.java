@@ -19,7 +19,7 @@ public class RequestHandlerDelta {
                                "offersCriteria": {
                                  "showContentLinks": false,
                                  "resultsPageNum": 1,
-                                 "resultsPerRequestNum": 20,
+                                 "resultsPerRequestNum": 15,
                                  "preferences": {
                                    "refundableOnly": false,
                                    "showGlobalRegionalUpgradeCertificate": true,

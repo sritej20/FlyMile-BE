@@ -10,6 +10,10 @@ import java.util.logging.Logger;
 
 @Slf4j
 public class PricingDetailMapper {
+    private static final String ECONOMY = "ECONOMY";
+    private static final String PREMIUM = "PREMIUM";
+    private static final String BUSINESS = "BUSINESS";
+    private static final String UNKNOWN = "UNKNOWN";
     public static List<PricingDetailDto> mapPricingDetails(GqlOffersSets gqlOffersSets) {
         Map<String, PricingDetailDto> selectedProductTypes = new HashMap<>();
 
@@ -44,17 +48,19 @@ public class PricingDetailMapper {
     }
 
     private static String determineProductType(String cosCode) {
-        if (cosCode == null) {
-            return "UNKNOWN";
+        if (cosCode == null || cosCode.isEmpty()) {
+            log.info("cosCode is null or empty.");
+            return UNKNOWN;
         }
-        if (cosCode.startsWith("X") || cosCode.startsWith("N") || cosCode.startsWith("T") || cosCode.startsWith("A")|| cosCode.startsWith("V")) {
-            return "ECONOMY";
-        } else if (cosCode.startsWith("S") || cosCode.startsWith("R") || cosCode.startsWith("P")) {
-            return "PREMIUM";
-        } else if (cosCode.startsWith("O") || cosCode.startsWith("U") || cosCode.startsWith("G")) {
-            return "BUSINESS";
-        }
-        log.info("Unknown cosCode encountered - {}", cosCode);
-        return "UNKNOWN";
+
+        return switch (cosCode.charAt(0)) {
+            case 'X', 'N', 'T', 'A', 'F', 'V' -> ECONOMY;
+            case 'S', 'R', 'P' -> PREMIUM;
+            case 'O', 'U', 'G', 'Z' -> BUSINESS;
+            default -> {
+                log.info("Unknown cosCode encountered - {}", cosCode);
+                yield UNKNOWN;
+            }
+        };
     }
 }

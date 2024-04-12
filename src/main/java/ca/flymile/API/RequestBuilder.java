@@ -41,15 +41,30 @@ public class RequestBuilder {
     private static final String USER_AGENT_DELTA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15";
     private static final String UPPER_CLASS_DELTA = "D1";
     private static final String LOWER_CLASS_DELTA = "BE";
-    private static final String AUTHORIZATION_HEADER_DELTA = "Authorization";
+    static final String AUTHORIZATION_HEADER_DELTA = "Authorization";
     private static final String AUTHORIZATION_DELTA = "GUEST";
-    private static final String TRANSACTION_ID_HEADER_DELTA = "TransactionId";
-    private static final String APPLICATION_ID_HEADER_DELTA = "applicationId";
-    private static final String CHANNEL_ID_HEADER_DELTA = "channelId";
-    private static final String AIRLINE_DELTA_HEADER = "Airline";
+    static final String TRANSACTION_ID_HEADER_DELTA = "TransactionId";
+    static final String APPLICATION_ID_HEADER_DELTA = "applicationId";
+    static final String CHANNEL_ID_HEADER_DELTA = "channelId";
+    static final String AIRLINE_DELTA_HEADER = "Airline";
     private static final String APPLICATION_ID_VALUE_DELTA = "DC";
     private static final String CHANNEL_ID_VALUE_DELTA = "DCOM";
     private static final String AIRLINE_VALUE_DELTA = "DL";
+
+    //Virgin Australia constants
+    private static final String ACCEPT_VIRGIN_AUSTRALIA = "*/*";
+    private static final String ACCEPT_ENCODING_VIRGIN_AUSTRALIA = "gzip, deflate, br";
+    private static final String ACCEPT_LANGUAGE_VIRGIN_AUSTRALIA = "en-CA,en-US;q=0.9,en;q=0.8";
+    private static final String CONTENT_TYPE_VIRGIN_AUSTRALIA = "application/json";
+    private static final String ORIGIN_VIRGIN_AUSTRALIA = "https://book.virginaustralia.com";
+    private static final String REFERER_VIRGIN_AUSTRALIA = "https://book.virginaustralia.com/dx/VADX/";
+    private static final String USER_AGENT_VIRGIN_AUSTRALIA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15";
+    private static final String AUTHORIZATION_HEADER_VIRGIN_AUSTRALIA = "Authorization";
+    private static final String AUTHORIZATION_VIRGIN_AUSTRALIA = "Bearer Basic anNvbl91c2VyOmpzb25fcGFzc3dvcmQ=";
+    private static final String X_SABRE_STOREFRONT_VIRGIN_AUSTRALIA = "VADX";
+    private static final String HEADER_X_SABRE_STOREFRONT = "x-sabre-storefront";
+    private static final String HEADER_AUTHORIZATION = "Authorization";
+
 
     // Common header keys
     private static final String HEADER_ACCEPT = "Accept";
@@ -123,4 +138,22 @@ public class RequestBuilder {
 
         return getJsonStringFromAirline(client, request);
     }
+    static String buildRequestBodyVirginAustralia(String origin, String destination, String departureDate, int numPassengers, String requestTemplate, String requestUrl, HttpClient client) {
+        String requestBody = String.format(requestTemplate, origin, destination, departureDate, numPassengers);
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(requestUrl))
+                .header(HEADER_AUTHORIZATION, AUTHORIZATION_VIRGIN_AUSTRALIA)
+                .header(HEADER_ACCEPT, ACCEPT_VIRGIN_AUSTRALIA)
+                .header(HEADER_ACCEPT_ENCODING, ACCEPT_ENCODING_VIRGIN_AUSTRALIA)
+                .header(HEADER_ACCEPT_LANGUAGE, ACCEPT_LANGUAGE_VIRGIN_AUSTRALIA)
+                .header(HEADER_CONTENT_TYPE, CONTENT_TYPE_VIRGIN_AUSTRALIA)
+                .header(HEADER_ORIGIN, ORIGIN_VIRGIN_AUSTRALIA)
+                .header(HEADER_REFERER, REFERER_VIRGIN_AUSTRALIA)
+                .header(HEADER_USER_AGENT, USER_AGENT_VIRGIN_AUSTRALIA)
+                .header(HEADER_X_SABRE_STOREFRONT, X_SABRE_STOREFRONT_VIRGIN_AUSTRALIA)
+                .POST(HttpRequest.BodyPublishers.ofString(requestBody))
+                .build();
+        return getJsonStringFromAirline(client, request);
+    }
+
 }
