@@ -1,2 +1,12 @@
 server:
   port: 8080
+spring:
+  cache:
+    type: redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      username:
+      password:
+

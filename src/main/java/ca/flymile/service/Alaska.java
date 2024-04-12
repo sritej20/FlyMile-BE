@@ -11,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -25,6 +26,8 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import static ca.flymile.API.RequestHandlerAlaska.requestHandlerAlaska;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
+
 @RequiredArgsConstructor
 @Component
 public class Alaska {
@@ -96,7 +99,7 @@ public class Alaska {
      */
     public List<FlightDto> fetchFlightDataAlaska(String date, String origin, String destination, int numPassengers) {
         try {
-            String cacheKey = generateCacheKey(date, origin, destination, numPassengers);
+            String cacheKey = generateCacheKey("AL","0", date, origin, destination, String.valueOf(numPassengers));
             String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
             if(cachedFlights != null)
                 return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});
@@ -113,7 +116,7 @@ public class Alaska {
                 List<FlightDto> res =  jsonResponse.getSlices().stream()
                         .map(FlightMapper::toDto)
                         .collect(Collectors.toList());
-                stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res));
+                stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res), Duration.ofHours(2));
                 return res;
             }
         } catch (Exception e) {
@@ -121,9 +124,7 @@ public class Alaska {
         }
         return Collections.emptyList();
     }
-    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
-        return String.format("AS:%s:%s:%s:%d", date, origin, destination, numPassengers);
-    }
+
     @PreDestroy
     public void cleanUp() {
         pool.shutdown();

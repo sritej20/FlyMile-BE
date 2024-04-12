@@ -3,6 +3,7 @@ package ca.flymile.dtoAmerican;
 import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelAmerican.Slice;
 
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 /**
@@ -23,6 +24,7 @@ public class FlightMapper {
         return new FlightDto()
                 .setDuration(slice.getDuration())
                 .setSourceAirline("AA")
+                .setFlightID(UUID.randomUUID().toString())
                 .setArrivesNextDay(slice.getArrivesNextDay())
                 .setLegs(slice.getSegments().stream()
                         .flatMap(segment -> segment.getLegs().stream()

@@ -2,6 +2,8 @@ package ca.flymile.controller;
 
 import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.service.AmericanMonthly;
+import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,7 +17,11 @@ import static ca.flymile.InputValidation.InputValidation.*;
 @RestController
 @RequestMapping("/flights/american/monthly")
 @CrossOrigin(origins = "*")
+@RequiredArgsConstructor
 public class AmericanControllerMonthly {
+    private AmericanMonthly americanMonthly;
+@Autowired
+    public AmericanControllerMonthly(AmericanMonthly americanMonthly) {this.americanMonthly = americanMonthly;}
 
 
     /**
@@ -27,7 +33,7 @@ public class AmericanControllerMonthly {
      * @return A list of dailyCheapest objects, each representing a date with available pricing details within a monthly period.
      */
     @GetMapping
-    public CompletableFuture<List<DailyCheapest>> getFlightDataList(
+    public List<DailyCheapest> getFlightDataList(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam String startDate,
@@ -38,6 +44,6 @@ public class AmericanControllerMonthly {
         // Validate the search parameters
         validateOriginDestinationStartDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate,numPassengers);
         // Retrieve and return the daily Cheapest List
-        return AmericanMonthly.getFlightDataListAmericanMonthly(departure, arrival, startDate,numPassengers, upperCabin, parseAndValidateStops(maxStops));
+        return americanMonthly.getFlightDataListAmericanMonthly(departure, arrival, startDate,numPassengers, upperCabin, parseAndValidateStops(maxStops));
     }
 }

@@ -1,6 +1,9 @@
 package ca.flymile.dtoDelta;
 import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelDelta.*;
+
+import java.util.UUID;
+
 import static ca.flymile.dtoDelta.LegMapper.mapLegs;
 import static ca.flymile.dtoDelta.PricingDetailMapper.mapPricingDetails;
 
@@ -16,6 +19,7 @@ public class FlightMapper {
         flightDto.setLegs(mapLegs(gqlOffersSets));
         gqlOffersSets.getTrips().stream().findFirst().ifPresent(trip -> {
             flightDto.setSourceAirline("DL");
+            flightDto.setFlightID(UUID.randomUUID().toString());
             flightDto.setDuration(calculateTotalDuration(trip.getTotalTripTime()));
             flightDto.setArrivesNextDay(trip.getTotalTripTime().getDayCnt());
         });

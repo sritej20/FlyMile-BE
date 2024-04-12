@@ -3,17 +3,16 @@ package ca.flymile.service;
 import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.ModelAmericalMonthly.*;
 import com.google.gson.Gson;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import static ca.flymile.API.RequestHandlerAmericanMonthly.requestHandlerAmericanMonthly;
-
+@RequiredArgsConstructor
 @Component
 public class AmericanMonthly {
 
@@ -21,8 +20,7 @@ public class AmericanMonthly {
     private static final java.util.logging.Logger LOGGER = Logger.getLogger(AmericanMonthly.class.getName());
 
 
-    public static CompletableFuture<List<DailyCheapest>> getFlightDataListAmericanMonthly(String origin, String destination, String start, int numPassengers, boolean upperCabin, String maxStops) {
-        return CompletableFuture.supplyAsync(() -> {
+    public List<DailyCheapest> getFlightDataListAmericanMonthly(String origin, String destination, String start, int numPassengers, boolean upperCabin, String maxStops) {
             String json = requestHandlerAmericanMonthly(origin, destination, start, numPassengers, upperCabin, maxStops);
             if (json == null) {
                 LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch data.");
@@ -46,10 +44,10 @@ public class AmericanMonthly {
                 LOGGER.log(Level.SEVERE, "Error processing flight data: " + e.getMessage(), e);
                 return new ArrayList<>();
             }
-        });
-    }
+        }
 
-    private static List<DailyCheapest> processFlightData(FlightData flightData) {
+
+    private List<DailyCheapest> processFlightData(FlightData flightData) {
         List<DailyCheapest> cheapestList = new ArrayList<>();
         if (Optional.ofNullable(flightData.getError()).orElse("").isEmpty()) {
             for (CalendarMonth month : flightData.getCalendarMonths()) {
@@ -63,7 +61,7 @@ public class AmericanMonthly {
         return cheapestList;
     }
 
-    private static void processDay(List<DailyCheapest> cheapestList, Day day) {
+    private void processDay(List<DailyCheapest> cheapestList, Day day) {
         if (!day.isValidDay() || day.getDate() == null) {
             return;
         }

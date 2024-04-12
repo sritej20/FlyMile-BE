@@ -6,6 +6,7 @@ import com.google.gson.Gson;
 import java.lang.reflect.Type;
 import com.google.gson.reflect.TypeToken;
 import org.springframework.stereotype.Component;
+
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.ArrayList;
@@ -82,8 +83,5 @@ public class AlaskaMonthly {
             }
         }
         return DailyCheapests;
-    }
-    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
-        return String.format("ASMM:%s:%s:%s:%d", date, origin, destination, numPassengers);
     }
 }

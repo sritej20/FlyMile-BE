@@ -52,8 +52,11 @@ public class AmericanController {
             @RequestParam(defaultValue = "false") boolean upperCabin,
             @RequestParam(required = false, defaultValue = "3") String maxStops
     ) {
+        String origin = departure.toUpperCase();
+        String destination = arrival.toUpperCase();
+
         // Validate the search parameters
-        validateOriginDestinationStartDateZoneEndDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
-        return american.getFlightDataListAmerican(departure, arrival, startDate, endDate, numPassengers, upperCabin, parseAndValidateStops(maxStops));
+        validateOriginDestinationStartDateZoneEndDatePassengers(origin, destination, startDate, endDate, numPassengers);
+        return american.getFlightDataListAmerican(origin, destination, startDate, endDate, numPassengers, upperCabin, parseAndValidateStops(maxStops));
     }
 }

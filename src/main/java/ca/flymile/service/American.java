@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -20,7 +21,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
-
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
 
 /**
@@ -125,7 +126,7 @@ public class American {
      */
 
     private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin , String maxStops) {
-        String cacheKey = generateCacheKey(date, origin, destination, numPassengers);
+        String cacheKey = generateCacheKey("AA","0",date, origin, destination,String.valueOf(numPassengers), maxStops, upperCabin ? "1" : "0");
         String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
         if(cachedFlights != null)
             return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});
@@ -146,7 +147,7 @@ public class American {
         String error = jsonResponse.getError();
         if (error == null || error.isEmpty()) {
             List<FlightDto>  res = jsonResponse.getSlices().stream().map(FlightMapper::toDto).collect(Collectors.toList());
-            stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res));
+            stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res), Duration.ofHours(2));
             return res;
         }
 
@@ -164,9 +165,7 @@ public class American {
             Thread.currentThread().interrupt();
         }
     }
-    private String generateCacheKey(String date, String origin, String destination, int numPassengers) {
-        return String.format("AA:%s:%s:%s:%d", date, origin, destination, numPassengers);
-    }
+
 
 
 }

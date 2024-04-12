@@ -21,6 +21,7 @@ import java.util.List;
 public class FlightDto
 {
     private int duration;
+    private String flightID;
     private String sourceAirline;
 
     /**

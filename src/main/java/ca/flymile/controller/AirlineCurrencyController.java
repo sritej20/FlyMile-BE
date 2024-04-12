@@ -43,7 +43,8 @@ class DeltaCurrencyController {
 
     @GetMapping
     public String getCurrency(@RequestParam String origin) {
-        validateOrigin(origin.toUpperCase());
-        return CurrencyRetriever.getValidCurrencyForAirport(origin.toUpperCase());
+        origin = origin.toUpperCase();
+        validateOrigin(origin);
+        return CurrencyRetriever.getValidCurrencyForAirport(origin);
     }
 }

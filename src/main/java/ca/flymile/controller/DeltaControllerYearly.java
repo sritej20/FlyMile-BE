@@ -1,11 +1,18 @@
 package ca.flymile.controller;
 import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.service.DeltaYearly;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationPassengers;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
+
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -18,6 +25,8 @@ import org.springframework.web.bind.annotation.*;
 public class DeltaControllerYearly {
 
     private final DeltaYearly deltaYearly;
+    private final StringRedisTemplate stringRedisTemplate;
+    private static final Gson gson = new Gson();
 
     /**
      * Constructs a new DeltaControllerYearly with the specified service for retrieving flight data on a yearly basis.
@@ -25,8 +34,9 @@ public class DeltaControllerYearly {
      * @param deltaYearly The service responsible for retrieving flight data on a yearly basis.
      */
     @Autowired
-    public DeltaControllerYearly(DeltaYearly deltaYearly) {
+    public DeltaControllerYearly(DeltaYearly deltaYearly, StringRedisTemplate stringRedisTemplate) {
         this.deltaYearly = deltaYearly;
+        this.stringRedisTemplate = stringRedisTemplate;
     }
 
     /**
@@ -46,10 +56,21 @@ public class DeltaControllerYearly {
             @RequestParam(defaultValue = "false") boolean nonStopOnly
 
     ) {
+        String origin = departure.toUpperCase();
+        String destination = arrival.toUpperCase();
         // Validate the search parameters
-        validateOriginDestinationPassengers(departure.toUpperCase(), arrival.toUpperCase(), numPassengers);
+        validateOriginDestinationPassengers(origin,destination, numPassengers);
+        String cacheKey = generateCacheKey("DL","1", origin, destination, String.valueOf(numPassengers), nonStopOnly ? "1" : "0", upperCabin ? "1" : "0");
+        String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
+        if (cachedFlights != null) {
+            return CompletableFuture.completedFuture(gson.fromJson(cachedFlights, new TypeToken<List<DailyCheapest>>() {}.getType()));
+        }
 
-        // Retrieve and return the flight data for the year
-        return deltaYearly.getFlightDataListDeltaYearly(departure, arrival, numPassengers, upperCabin, nonStopOnly);
+        // Retrieve and cache the daily Cheapest List for the year
+
+        return deltaYearly.getFlightDataListDeltaYearly(origin, destination, numPassengers, upperCabin, nonStopOnly).thenApply(flights -> {
+            stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(flights), Duration.ofHours(24));
+            return flights;
+        });
     }
 }

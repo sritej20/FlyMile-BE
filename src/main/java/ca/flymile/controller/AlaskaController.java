@@ -48,8 +48,11 @@ public class AlaskaController {
             @RequestParam String endDate,
             @RequestParam(defaultValue = "1") int numPassengers
     ) {
-        validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
+        String origin = departure.toUpperCase();
+        String destination = arrival.toUpperCase();
+
+        validateOriginDestinationStartDateZoneEndDateNumPassengersAlaska(origin, destination, startDate, endDate, numPassengers);
         // Retrieve and return the flight data list
-        return alaska.getFlightDataListAlaska(departure, arrival, startDate, endDate, numPassengers);
+        return alaska.getFlightDataListAlaska(origin, destination, startDate, endDate, numPassengers);
     }
 }

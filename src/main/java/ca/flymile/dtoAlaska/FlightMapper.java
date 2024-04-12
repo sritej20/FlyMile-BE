@@ -4,6 +4,7 @@ package ca.flymile.dtoAlaska;
 import ca.flymile.Flight.FlightDto;
 import ca.flymile.ModelAlaska.Slice;
 
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 import static ca.flymile.dtoAlaska.PricingDetailMapper.toDtoList;
@@ -25,6 +26,7 @@ public class FlightMapper {
         return new FlightDto()
                 .setDuration(slice.getDuration())
                 .setSourceAirline("AS")
+                .setFlightID(UUID.randomUUID().toString())
                 .setArrivesNextDay(slice.getArrivesNextDay())
                 .setLegs(slice.getLegs().stream()
                         .map(LegMapper::toDto)

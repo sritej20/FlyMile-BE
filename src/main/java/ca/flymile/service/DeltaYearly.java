@@ -6,8 +6,8 @@ import ca.flymile.ModelDeltaMonthly.Info;
 import ca.flymile.ModelDeltaMonthly.JsonResponse;
 import ca.flymile.ModelDeltaMonthly.OfferSet;
 import com.google.gson.Gson;
-import org.springframework.stereotype.Component;
 
+import org.springframework.stereotype.Component;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -47,8 +47,7 @@ public class DeltaYearly {
 
         return CompletableFuture.allOf(futures.toArray(new CompletableFuture[0]))
                 .thenApply(v -> futures.stream()
-                        .map(CompletableFuture::join)
-                        .flatMap(List::stream)
+                        .flatMap(future -> future.join().stream())
                         .collect(Collectors.toList()))
                 .thenApply(this::filterByDateRange);
     }
@@ -65,7 +64,7 @@ public class DeltaYearly {
         }
         return offers.subList(startIndex, endIndex);
     }
-    public static List<DailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, boolean upperCabin, boolean  nonStopOnly) {
+    public List<DailyCheapest> getDailyCheapestS(String origin, String destination, String start, int numPassengers, boolean upperCabin, boolean  nonStopOnly) {
         String json = requestHandlerDeltaMonthly(origin, destination, start, numPassengers, upperCabin,  nonStopOnly);
         if (json == null) {
             LOGGER.log(Level.SEVERE, "JSON is null, failed to fetch Delta monthly data.");

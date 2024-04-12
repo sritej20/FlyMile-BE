@@ -1,53 +1,58 @@
 package ca.flymile.controller;
 
-
 import ca.flymile.DailyCheapest.DailyCheapest;
 import ca.flymile.service.AlaskaYearly;
+import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.web.bind.annotation.*;
+
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import com.google.gson.reflect.TypeToken;
 
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationNumPassengersAlaska;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
-/**
- * The AlaskaControllerYearly class handles HTTP requests related to flight data retrieval for a yearly period from the Alaska Airlines website.
- */
 @RestController
 @RequestMapping("/flights/alaska/yearly")
 @CrossOrigin(origins = "*")
 public class AlaskaControllerYearly {
 
     private final AlaskaYearly alaskaYearly;
+    private final StringRedisTemplate stringRedisTemplate;
+    private static final Gson gson = new Gson();
 
-    /**
-     * Constructs a new AlaskaControllerYearly with the specified service for Alaska Airlines yearly cheapest price & point combo.
-     *
-     * @param alaskaYearly The service responsible for retrieving flight data from the Alaska Airlines for the yearly cheapest price & point combo.
-     */
     @Autowired
-    public AlaskaControllerYearly(AlaskaYearly alaskaYearly) {
+    public AlaskaControllerYearly(AlaskaYearly alaskaYearly, StringRedisTemplate stringRedisTemplate) {
         this.alaskaYearly = alaskaYearly;
+        this.stringRedisTemplate = stringRedisTemplate;
     }
 
-    /**
-     * Retrieves a list of flight data for an entire year based on the provided search parameters.
-     *
-     * @param departure The departure airport code.
-     * @param arrival   The arrival airport code.
-     * @return A CompletableFuture of a list of dailyCheapest objects, each representing a date with available pricing details within a yearly period.
-     */
     @GetMapping
     public CompletableFuture<List<DailyCheapest>> getFlightDataListYearly(
             @RequestParam String departure,
             @RequestParam String arrival,
             @RequestParam(defaultValue = "1") int numPassengers
     ) {
-        // Validate the search parameters
-        validateOriginDestinationNumPassengersAlaska(departure.toUpperCase(), arrival.toUpperCase(),numPassengers);
+        String origin = departure.toUpperCase();
+        String destination = arrival.toUpperCase();
 
-        // Retrieve and return the daily Cheapest List for the year
-        return alaskaYearly.getFlightDataListAlaskaYearly(departure, arrival, numPassengers);
+        // Validate the search parameters
+        validateOriginDestinationNumPassengersAlaska(origin, destination, numPassengers);
+
+        // Check if the data is cached
+        String cacheKey = generateCacheKey("AL","1", origin, destination, String.valueOf(numPassengers));
+        String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
+        if (cachedFlights != null) {
+            return CompletableFuture.completedFuture(gson.fromJson(cachedFlights, new TypeToken<List<DailyCheapest>>() {}.getType()));
+        }
+
+        // Retrieve and cache the daily Cheapest List for the year
+        return alaskaYearly.getFlightDataListAlaskaYearly(origin, destination, numPassengers).thenApply(flights -> {
+            stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(flights), Duration.ofHours(24));
+            return flights;
+        });
     }
 }
-

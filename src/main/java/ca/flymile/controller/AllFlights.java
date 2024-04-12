@@ -6,8 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
+
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationStartDateZoneEndDatePassengers;
 
 @RestController
@@ -41,12 +44,13 @@ public class AllFlights {
             @RequestParam(defaultValue = "1") int numPassengers,
             @RequestParam(defaultValue = "false") boolean upperCabin
     ) {
-
-        validateOriginDestinationStartDateZoneEndDatePassengers(departure.toUpperCase(), arrival.toUpperCase(), startDate, endDate, numPassengers);
-        CompletableFuture<List<FlightDto>> deltaResult = delta.getFlightDataListDelta(departure, arrival, startDate, endDate, numPassengers, upperCabin, false);
+        String origin = departure.toUpperCase();
+        String destination = arrival.toUpperCase();
+        validateOriginDestinationStartDateZoneEndDatePassengers(origin, destination, startDate, endDate, numPassengers);
+        CompletableFuture<List<FlightDto>> deltaResult = delta.getFlightDataListDelta(origin, destination, startDate, endDate, numPassengers, upperCabin, false);
         InputValidation.validateNumPassengersAlaska(numPassengers);
-        CompletableFuture<List<FlightDto>> alaskaResult = alaska.getFlightDataListAlaska(departure, arrival, startDate, endDate, numPassengers);
-        CompletableFuture<List<FlightDto>> americanResult = american.getFlightDataListAmerican(departure, arrival, startDate, endDate, numPassengers, upperCabin, "3");
+        CompletableFuture<List<FlightDto>> alaskaResult = alaska.getFlightDataListAlaska(origin, destination, startDate, endDate, numPassengers);
+        CompletableFuture<List<FlightDto>> americanResult = american.getFlightDataListAmerican(origin, destination, startDate, endDate, numPassengers, upperCabin, "3");
 
 
         return CompletableFuture.allOf(deltaResult, americanResult)
@@ -55,7 +59,9 @@ public class AllFlights {
                     mergedList.addAll(deltaResult.join());
                     mergedList.addAll(alaskaResult.join());
                     mergedList.addAll(americanResult.join());
-                    return mergedList;
+                    return mergedList.stream()
+                            .sorted(Comparator.comparingInt(FlightDto::getDuration))
+                            .collect(Collectors.toList());
                 });
     }
 }

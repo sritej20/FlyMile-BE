@@ -63,8 +63,8 @@ public class DailyCheapestMapper {
         PriceCalendar priceCalendar = fareInformation.getPriceCalendar();
         String date = priceCalendar.getPriceCalendarDate();
         if(date.length() != 10) {
-            StringBuilder sb = new StringBuilder(date);
-            sb.insert(5,'0');
+            StringBuilder sb = new StringBuilder(date)
+            .insert(5,'0');
             dto.setDate(sb.toString());
         }
         else
