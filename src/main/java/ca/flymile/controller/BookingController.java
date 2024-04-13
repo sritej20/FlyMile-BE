@@ -3,13 +3,11 @@ package ca.flymile.controller;
 import ca.flymile.service.BookingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/booking-link")
+@CrossOrigin(origins = "*")
 public class BookingController {
 
     private final BookingService alaskaBookingService;

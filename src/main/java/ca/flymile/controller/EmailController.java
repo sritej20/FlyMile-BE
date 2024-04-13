@@ -2,6 +2,7 @@ package ca.flymile.controller;
 
 import jakarta.validation.constraints.Email;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +10,7 @@ import org.springframework.validation.annotation.Validated;
 
 import java.util.Set;
 import java.util.regex.Pattern;
-
+@CrossOrigin(origins = "*")
 @RestController
 @Validated
 public class EmailController {

@@ -1,14 +1,11 @@
 package ca.flymile.controller;
 
 import ca.flymile.FlyMileAirportData.CurrencyRetriever;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import static ca.flymile.InputValidation.InputValidation.validateOrigin;
 
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/currency/alaska")
 class AlaskaCurrencyController {
@@ -18,7 +15,7 @@ class AlaskaCurrencyController {
         return "USD";
     }
 }
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/currency/american")
 class AmericanCurrencyController {
@@ -28,6 +25,7 @@ class AmericanCurrencyController {
         return "USD";
     }
 }
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/currency/virginAustralia")
 class VirginAustraliaCurrencyController {
@@ -36,7 +34,7 @@ class VirginAustraliaCurrencyController {
         return "AUD";
     }
 }
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/currency/delta")
 class DeltaCurrencyController {
