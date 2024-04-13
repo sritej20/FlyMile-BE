@@ -14,7 +14,6 @@ public class AircraftBestMatchFinder
     private static final String FILE_PATH = "src/main/java/ca/flymile/FlyMileAirportData/flyMileAircraftDataSeatGuru.json";
     public static final Map<String, String[]> AIRLINE_MAP;
     private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(AircraftBestMatchFinder.class);
-    private static final int N_GRAM_SIZE = 4;
     static {
         Map<String, String[]> tempMap = new HashMap<>();
         try (FileReader reader = new FileReader(FILE_PATH)) {
