@@ -7,16 +7,14 @@ import org.apache.commons.text.similarity.LevenshteinDistance;
 import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Type;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class AircraftBestMatchFinder
 {
     private static final String FILE_PATH = "src/main/java/ca/flymile/FlyMileAirportData/flyMileAircraftDataSeatGuru.json";
     public static final Map<String, String[]> AIRLINE_MAP;
     private static final org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(AircraftBestMatchFinder.class);
-
+    private static final int N_GRAM_SIZE = 4;
     static {
         Map<String, String[]> tempMap = new HashMap<>();
         try (FileReader reader = new FileReader(FILE_PATH)) {
@@ -44,36 +42,41 @@ public class AircraftBestMatchFinder
         String url;
     }
 
-    public String aircraftBestMatchFinder(String carrierCode, int flightNumber, String aircraft) {
-        String[] candidates = AIRLINE_MAP.get(carrierCode);
-        if (candidates == null) {
-            return null; // Return null if no candidates found for the carrier code
-        }
+        private static final double CRITICAL_MATCH_BONUS = 0.2;
 
-        String bestMatch = findBestMatch(candidates, aircraft);
-        if (bestMatch == null) {
-            return null; // Return null if no match found
-        }
+        public static String aircraftBestMatchFinder(String carrierCode, int flightNumber , String target) {
+            String[] candidates = AIRLINE_MAP.get(carrierCode);
+            LevenshteinDistance levenshtein = new LevenshteinDistance();
+            double maxScore = 0.0;
+            int bestMatchIndex = -1;
 
-        return bestMatch + "?flightno=" + flightNumber;
-    }
-    public static String findBestMatch(String[] candidates, String target) {
-        LevenshteinDistance levenshteinDistance = new LevenshteinDistance();
-        int minDistance = Integer.MAX_VALUE;
-        int bestMatchIndex = -1;
+            List<String> targetTokens = Arrays.asList(target.split("[ -]")); // Split by space and dash
+            for (int i = 0; i < candidates.length; i += 2) {
+                List<String> candidateTokens = Arrays.asList(candidates[i].split("[ -]"));
+                double score = calculateTokenBasedScore(targetTokens, candidateTokens, levenshtein);
 
-        // Iterate through the array, considering only aircraft names (i.e., even indices)
-        for (int i = 0; i < candidates.length; i += 2) {
-            int distance = levenshteinDistance.apply(candidates[i], target);
-            if (distance < minDistance) {
-                minDistance = distance;
-                bestMatchIndex = i;
+                if (score > maxScore) {
+                    maxScore = score;
+                    bestMatchIndex = i;
+                }
             }
+
+            if (bestMatchIndex == -1) return null;
+            return String.format("%s?flightno=%d",candidates[bestMatchIndex + 1],flightNumber);
         }
 
-        // Return the URL associated with the best match, which is the next element after the aircraft name
-        return (bestMatchIndex == -1) ? null : candidates[bestMatchIndex + 1];
-    }
+        private static double calculateTokenBasedScore(List<String> targetTokens, List<String> candidateTokens, LevenshteinDistance levenshtein) {
+            double score = 0.0;
+            for (String targetToken : targetTokens) {
+                for (String candidateToken : candidateTokens) {
+                    int distance = levenshtein.apply(targetToken, candidateToken);
+                    double normalizedScore = 1 - (double) distance / Math.max(targetToken.length(), candidateToken.length());
+                    if (targetToken.equals(candidateToken)) normalizedScore += CRITICAL_MATCH_BONUS; // Bonus for exact matches on tokens
+                    score += normalizedScore;
+                }
+            }
+            return score;
+        }
 
 }
 
