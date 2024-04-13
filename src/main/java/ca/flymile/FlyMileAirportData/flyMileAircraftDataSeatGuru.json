@@ -27,6 +27,10 @@
       "url": "https://www.seatguru.com/airlines/Aer_Lingus/Aer_Lingus_Airbus_A330-200.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Aer_Lingus/Aer_Lingus_Airbus_A330-200.php"
+    },
+    {
       "name": "Airbus A330-200 (332) Layout 2",
       "url": "https://www.seatguru.com/airlines/Aer_Lingus/Aer_Lingus_Airbus_A330-200_B.php"
     },
@@ -54,6 +58,10 @@
   "AR": [
     {
       "name": "Airbus A330-200 (332)",
+      "url": "https://www.seatguru.com/airlines/Aerolineas_Argentinas/Aerolineas_Argentinas_Airbus_A330-200.php"
+    },
+    {
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/Aerolineas_Argentinas/Aerolineas_Argentinas_Airbus_A330-200.php"
     },
     {
@@ -199,6 +207,10 @@
       "url": "https://www.seatguru.com/airlines/Air_Canada/Air_Canada_Airbus_A330_C.php"
     },
     {
+      "name": "Airbus A330-300",
+      "url": "https://www.seatguru.com/airlines/Air_Canada/Air_Canada_Airbus_A330_C.php"
+    },
+    {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/Air_Canada/Air_Canada_Airbus_A330_V4.php"
     },
@@ -309,6 +321,10 @@
       "url": "https://www.seatguru.com/airlines/Air_Caraibes/Air_Caraibes_Airbus_A330-200.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Air_Caraibes/Air_Caraibes_Airbus_A330-200.php"
+    },
+    {
       "name": "Airbus A330-200 (332) Layout 2",
       "url": "https://www.seatguru.com/airlines/Air_Caraibes/Air_Caraibes_Airbus_A330-200_V2.php"
     },
@@ -340,6 +356,10 @@
   "CA": [
     {
       "name": "Airbus A330-200 (332) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Air_China/Air_China_Airbus_A330-200_V2.php"
+    },
+    {
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/Air_China/Air_China_Airbus_A330-200_V2.php"
     },
     {
@@ -425,6 +445,10 @@
       "url": "https://www.seatguru.com/airlines/Air_Europa/Air_Europa_Airbus_A330-200.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Air_Europa/Air_Europa_Airbus_A330-200.php"
+    },
+    {
       "name": "Boeing 787-8 (788)",
       "url": "https://www.seatguru.com/airlines/Air_Europa/Air_Europa_Boeing_787-8.php"
     },
@@ -447,6 +471,10 @@
       "url": "https://www.seatguru.com/airlines/Air_France/Air_France_Airbus_A330-200_International_Long_Haul.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Air_France/Air_France_Airbus_A330-200_International_Long_Haul.php"
+    },
+    {
       "name": "Airbus A330-200 (332) Layout 2",
       "url": "https://www.seatguru.com/airlines/Air_France/Air_France_Airbus_A330-200_V2.php"
     },
@@ -460,6 +488,10 @@
     },
     {
       "name": "Airbus A380-800 (380)",
+      "url": "https://www.seatguru.com/airlines/Air_France/Air_France_Airbus_A380_V2.php"
+    },
+    {
+      "name": "Airbus A380",
       "url": "https://www.seatguru.com/airlines/Air_France/Air_France_Airbus_A380_V2.php"
     },
     {
@@ -673,6 +705,10 @@
       "url": "https://www.seatguru.com/airlines/Air_Mauritius/Air_Mauritius_Airbus_A330-200_V2.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Air_Mauritius/Air_Mauritius_Airbus_A330-200_V2.php"
+    },
+    {
       "name": "Airbus A330neo (339)",
       "url": "https://www.seatguru.com/airlines/Air_Mauritius/Air_Mauritius_Airbus_A330neo.php"
     },
@@ -700,6 +736,10 @@
   "WV": [
     {
       "name": "Airbus A330-200 (332)",
+      "url": "https://www.seatguru.com/airlines/Air_Namibia/Air_Namibia_Airbus_A330-200.php"
+    },
+    {
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/Air_Namibia/Air_Namibia_Airbus_A330-200.php"
     },
     {
@@ -799,6 +839,10 @@
       "url": "https://www.seatguru.com/airlines/Air_Serbia/Air_Serbia_A330-200_A.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Air_Serbia/Air_Serbia_A330-200_A.php"
+    },
+    {
       "name": "Airbus A319 (319)",
       "url": "https://www.seatguru.com/airlines/Air_Serbia/Air_Serbia_JU_Airbus_A319-100_B.php"
     },
@@ -832,6 +876,10 @@
     },
     {
       "name": "Airbus A330-200 (332) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Air_Transat/Air_Transat_Airbus_A330-200_V2.php"
+    },
+    {
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/Air_Transat/Air_Transat_Airbus_A330-200_V2.php"
     },
     {
@@ -931,7 +979,7 @@
       "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A321neo_V2.php"
     },
     {
-      "name": "Boeing 737-700 (737)",
+      "name": "Boeing 737-700",
       "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Boeing_737-700.php"
     },
     {
@@ -939,7 +987,7 @@
       "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Boeing_737-800_E.php"
     },
     {
-      "name": "Boeing 737-900 (739)",
+      "name": "Boeing 737-900",
       "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Boeing_737-900_D.php"
     },
     {
@@ -954,6 +1002,10 @@
   "AA": [
     {
       "name": "Airbus A330-200 (332)",
+      "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A330-200_C.php"
+    },
+    {
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A330-200_C.php"
     },
     {
@@ -977,11 +1029,23 @@
       "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A319.php"
     },
     {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A319.php"
+    },
+    {
       "name": "Airbus A320 (320)",
       "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A320.php"
     },
     {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A320.php"
+    },
+    {
       "name": "Airbus A321 (321) Layout 1",
+      "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A321_V2.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/American_Airlines/American_Airlines_Airbus_A321_V2.php"
     },
     {
@@ -1165,6 +1229,10 @@
       "url": "https://www.seatguru.com/airlines/Asiana/Asiana_Airbus_A330-300.php"
     },
     {
+      "name": "Airbus A330-300",
+      "url": "https://www.seatguru.com/airlines/Asiana/Asiana_Airbus_A330-300.php"
+    },
+    {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/Asiana/Asiana_Airbus_A330-300_V2.php"
     },
@@ -1223,6 +1291,10 @@
       "url": "https://www.seatguru.com/airlines/Avianca/Avianca_Airbus_A330-200.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Avianca/Avianca_Airbus_A330-200.php"
+    },
+    {
       "name": "Airbus A330-200 (332) Layout 2",
       "url": "https://www.seatguru.com/airlines/Avianca/Avianca_Airbus_330-200_V2.php"
     },
@@ -1270,6 +1342,10 @@
     },
     {
       "name": "Airbus A321neo (321)",
+      "url": "https://www.seatguru.com/airlines/Azores_Airlines/Azores_Airlines_S4_Airbus_A321neo.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Azores_Airlines/Azores_Airlines_S4_Airbus_A321neo.php"
     },
     {
@@ -1327,11 +1403,15 @@
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Airbus_A350-1000.php"
     },
     {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Airbus_A380_new.php"
+    },
+    {
       "name": "Airbus A380-800 (388)",
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Airbus_A380_new.php"
     },
     {
-      "name": "Boeing 747-400 (744) Layout 1",
+      "name": "Boeing 747-400",
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Boeing_747-400_C.php"
     },
     {
@@ -1339,7 +1419,7 @@
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Boeing_747-400_D.php"
     },
     {
-      "name": "Boeing 777-200 (772) Four Class",
+      "name": "Boeing 777-200",
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Boeing_777-200.php"
     },
     {
@@ -1359,7 +1439,7 @@
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Boeing_777-200_3.php"
     },
     {
-      "name": "Boeing 777-300 (773)",
+      "name": "Boeing 777-300 Passenger",
       "url": "https://www.seatguru.com/airlines/British_Airways/British_Airways_Boeing_777_300.php"
     },
     {
@@ -1491,8 +1571,16 @@
       "url": "https://www.seatguru.com/airlines/China_Airlines/China_Airlines_Airbus_A330-300.php"
     },
     {
+    "name": "Airbus A330",
+    "url": "https://www.seatguru.com/airlines/China_Airlines/China_Airlines_Airbus_A330-300.php"
+    },
+    {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/China_Airlines/China_Airlines_Airbus_A330-300_V2.php"
+    },
+    {
+      "name": "Airbus A350",
+      "url": "https://www.seatguru.com/airlines/China_Airlines/China_Airlines_Airbus_A350-900.php"
     },
     {
       "name": "Airbus A350-900 (359)",
@@ -1533,19 +1621,27 @@
       "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Airbus_A330-300.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Airbus_A330-300.php"
+    },
+    {
       "name": "Boeing 777-300ER (77W)",
       "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Boeing_777_300ER.php"
     },
     {
-      "name": "Airbus A319 (319)",
+      "name": "Airbus A319",
       "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Airbus_A319.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320",
       "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Airbus_A320.php"
     },
     {
       "name": "Airbus A321-200 (321)",
+      "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Airbus_A321.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/China_Eastern/China_Eastern_Airbus_A321.php"
     },
     {
@@ -1581,6 +1677,14 @@
     {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/China_Southern/China_Southern_Airbus_A330-300B.php"
+    },
+    {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/China_Southern/China_Southern_Airbus_A330-300B.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/China_Southern/China_Southern_Airbus_A380.php"
     },
     {
       "name": "Airbus A380-800 (388)",
@@ -1731,6 +1835,14 @@
       "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Airbus_A330-300A.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Airbus_A330-300A.php"
+    },
+    {
+      "name": "Airbus A330-300",
+      "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Airbus_A330-300A.php"
+    },
+    {
       "name": "Boeing 777-300ER (77W)",
       "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Boeing_777-300A.php"
     },
@@ -1744,6 +1856,14 @@
     },
     {
       "name": "Airbus A321 (321)",
+      "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Airbus_A321-231.php"
+    },
+    {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Airbus_A320-232.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Egyptair/Egyptair_Airbus_A321-231.php"
     },
     {
@@ -1867,6 +1987,10 @@
       "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A330-300_V3.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A330-300_V3.php"
+    },
+    {
       "name": "Airbus A350-900 Layout 1 (350)",
       "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A350-900.php"
     },
@@ -1884,6 +2008,18 @@
     },
     {
       "name": "Airbus A321 (321) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A321_B.php"
+    },
+    {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A319.php"
+    },
+    {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A320.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Finnair/Finnair_Airbus_A321_B.php"
     },
     {
@@ -2005,11 +2141,19 @@
       "url": "https://www.seatguru.com/airlines/Gulf_Air/Gulf_Air_Airbus_A320.php"
     },
     {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Gulf_Air/Gulf_Air_Airbus_A320.php"
+    },
+    {
       "name": "Airbus A320ER (320) Layout 2",
       "url": "https://www.seatguru.com/airlines/Gulf_Air/Gulf_Air_Airbus_A320-ER_new.php"
     },
     {
       "name": "Airbus A321ER (321)",
+      "url": "https://www.seatguru.com/airlines/Gulf_Air/Gulf_Air_Airbus_A321-ER_new.php"
+    }
+    ,{
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Gulf_Air/Gulf_Air_Airbus_A321-ER_new.php"
     }
   ],
@@ -2085,6 +2229,10 @@
       "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_A330-200_V1.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_A330-200_V1.php"
+    },
+    {
       "name": "Airbus A330-200 (33T) Layout 3",
       "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_330-200_V3.php"
     },
@@ -2113,6 +2261,14 @@
       "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_A320-200_V2.php"
     },
     {
+    "name": "Airbus A350",
+    "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_A350-900_V2.php"
+    },
+    {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_A320-200_V2.php"
+    },
+    {
       "name": "Airbus A320-200 (32S) Layout 1",
       "url": "https://www.seatguru.com/airlines/Hong_Kong_Airlines/Hong_Kong_Airlines_Airbus_A320-200_V1.php"
     }
@@ -2120,6 +2276,10 @@
   "IB": [
     {
       "name": "Airbus A330-200 (332)",
+      "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A330-200.php"
+    },
+    {
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A330-200.php"
     },
     {
@@ -2135,11 +2295,19 @@
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A340-600_V1.php"
     },
     {
+      "name": "Airbus A340",
+      "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A340-600_V1.php"
+    },
+    {
       "name": "Airbus A340-600 (346) Layout 2",
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A340-600_V2.php"
     },
     {
       "name": "Airbus A350-900 (359)",
+      "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_350-900.php"
+    },
+    {
+      "name": "Airbus A350",
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_350-900.php"
     },
     {
@@ -2151,6 +2319,10 @@
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A319.php"
     },
     {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A319.php"
+    },
+    {
       "name": "Airbus A319 (319) Layout 2",
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A319_V2.php"
     },
@@ -2159,11 +2331,19 @@
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A320.php"
     },
     {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A320.php"
+    },
+    {
       "name": "Airbus A320 (320) Express",
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A320_Express.php"
     },
     {
       "name": "Airbus A321 (321) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A321.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Iberia/Iberia_Airbus_A321.php"
     },
     {
@@ -2477,8 +2657,16 @@
       "url": "https://www.seatguru.com/airlines/Korean_Air/Korean_Air_Airbus_A330-300.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Korean_Air/Korean_Air_Airbus_A330-300.php"
+    },
+    {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/Korean_Air/Korean_Air_Airbus_A330-300_V2_new.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Korean_Air/Korean_Air_Airbus_A380-800.php"
     },
     {
       "name": "Airbus A380-800 (388)",
@@ -2587,6 +2775,10 @@
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A330-300_B.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A330-300_B.php"
+    },
+    {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A330-300_C.php"
     },
@@ -2596,6 +2788,10 @@
     },
     {
       "name": "Airbus A340-300 (343) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A340-300_F_new.php"
+    },
+    {
+      "name": "Airbus A340",
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A340-300_F_new.php"
     },
     {
@@ -2619,8 +2815,16 @@
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A350-900.php"
     },
     {
+      "name": "Airbus A350",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A350-900.php"
+    },
+    {
       "name": "Airbus A350-900 (359) Layout 2",
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A350-900_V2.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A380_V3.php"
     },
     {
       "name": "Airbus A380-800 (388)",
@@ -2643,7 +2847,15 @@
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A319-100_NEK.php"
     },
     {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A319-100_NEK.php"
+    },
+    {
       "name": "Airbus A320 (320) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A320-200_NEK.php"
+    },
+    {
+      "name": "Airbus A320",
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A320-200_NEK.php"
     },
     {
@@ -2652,6 +2864,10 @@
     },
     {
       "name": "Airbus A321 (321)",
+      "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A321_NEK.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Lufthansa/Lufthansa_Airbus_A321_NEK.php"
     },
     {
@@ -2691,12 +2907,24 @@
       "url": "https://www.seatguru.com/airlines/Malaysia_Airlines/Malaysia_Airlines_Airbus_A330-200_V2.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Malaysia_Airlines/Malaysia_Airlines_Airbus_A330-300_V4.php"
+    },
+    {
+      "name": "Airbus A350",
+      "url": "https://www.seatguru.com/airlines/Malaysia_Airlines/Malaysia_Airlines_MH_Airbus_A350-900.php"
+    },
+    {
       "name": "Airbus A330-300 (333)",
       "url": "https://www.seatguru.com/airlines/Malaysia_Airlines/Malaysia_Airlines_Airbus_A330-300_V4.php"
     },
     {
       "name": "Airbus A350-900 (359)",
       "url": "https://www.seatguru.com/airlines/Malaysia_Airlines/Malaysia_Airlines_MH_Airbus_A350-900.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Malaysia_Airlines/Malaysia_Airlines_Airbus_A380_new.php"
     },
     {
       "name": "Airbus A380-800 (388)",
@@ -2713,11 +2941,11 @@
   ],
   "ME": [
     {
-      "name": "Airbus A330-200 (332)",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/Middle_East_Airlines/Middle_East_Airlines_Airbus_A330-200.php"
     },
     {
-      "name": "Airbus A320-200 (320)",
+      "name": "Airbus A320-200",
       "url": "https://www.seatguru.com/airlines/Middle_East_Airlines/Middle_East_Airlines_Airbus_A320.php"
     }
   ],
@@ -2737,7 +2965,7 @@
   ],
   "N4": [
     {
-      "name": "Airbus A330-200 (332)",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/Nordwind_Airlines/Nordwind_Airlines_Airbus_A330_200.php"
     },
     {
@@ -2745,7 +2973,7 @@
       "url": "https://www.seatguru.com/airlines/Nordwind_Airlines/Nordwind_Airlines_Boeing_777-200ER.php"
     },
     {
-      "name": "Airbus A321 (321)",
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Nordwind_Airlines/Nordwind_Airlines_Airbus_A321.php"
     },
     {
@@ -2851,7 +3079,15 @@
       "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philippine_Airlines_Airbus_A330_V3.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philippine_Airlines_Airbus_A330_V3.php"
+    },
+    {
       "name": "Airbus A350-900 (359)",
+      "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philipine_Airlines_A350.php"
+    },
+    {
+      "name": "Airbus A350",
       "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philipine_Airlines_A350.php"
     },
     {
@@ -2860,6 +3096,10 @@
     },
     {
       "name": "Airbus A320 (320) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philippine_Air_A320-200_V1.php"
+    },
+    {
+      "name": "Airbus A320",
       "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philippine_Air_A320-200_V1.php"
     },
     {
@@ -2872,6 +3112,10 @@
     },
     {
       "name": "Airbus A321ceo (321)",
+      "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philippine_Airlines_Airbus_A321.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Philippine_Airlines/Philippine_Airlines_Airbus_A321.php"
     },
     {
@@ -2917,6 +3161,10 @@
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A330-300.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A330-300.php"
+    },
+    {
       "name": "Airbus A330-300 (333) Layout 2",
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A330-300_B.php"
     },
@@ -2925,7 +3173,15 @@
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A340-600.php"
     },
     {
+      "name": "Airbus A340",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A340-600.php"
+    },
+    {
       "name": "Airbus A350-1000 (351) Qsuite Layout",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_QR_Airbus_A350-1000_V1.php"
+    },
+    {
+      "name": "Airbus A350",
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_QR_Airbus_A350-1000_V1.php"
     },
     {
@@ -2935,6 +3191,10 @@
     {
       "name": "Airbus A350-900 (350) QSuites",
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A350-900-Qsuites.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A380.php"
     },
     {
       "name": "Airbus A380 (380)",
@@ -2973,11 +3233,23 @@
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A320_B.php"
     },
     {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A319.php"
+    },
+    {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A320_B.php"
+    },
+    {
       "name": "Airbus A320 (320) Layout 2",
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A320_C.php"
     },
     {
       "name": "Airbus A321 (321) Layout 1",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A321.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A321.php"
     },
     {
@@ -2987,6 +3259,10 @@
     {
       "name": "Airbus A321 (321) Layout 3",
       "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A321_196pax.php"
+    },
+    {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/Qatar_Airways/Qatar_Airways_Airbus_A319_V2.php"
     },
     {
       "name": "Airbus A319 (319) Business",
@@ -3057,6 +3333,10 @@
       "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Airbus_A330.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Airbus_A330.php"
+    },
+    {
       "name": "Boeing 787-8 (788)",
       "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Boeing_787-8.php"
     },
@@ -3070,6 +3350,18 @@
     },
     {
       "name": "Airbus A321 (321)",
+      "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Airbus_A321.php"
+    },
+    {
+      "name": "Airbus A319",
+      "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Airbus_A319.php"
+    },
+    {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Airbus_A320.php"
+    },
+    {
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Royal_Jordanian/Royal_Jordanian_Airbus_A321.php"
     },
     {
@@ -3123,6 +3415,10 @@
       "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A330-300_V2.php"
     },
     {
+      "name": "Airbus A330",
+      "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A330-300_V2.php"
+    },
+    {
       "name": "Airbus A330-300 (33R) Layout 3",
       "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A330-300_V3.php"
     },
@@ -3168,6 +3464,18 @@
     },
     {
       "name": "Airbus A319 (319)",
+      "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A319.php"
+    },
+    {
+      "name": "Airbus A320",
+      "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A320_V2.php"
+    },
+    {
+      "name": "Airbus A321",
+      "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A321.php"
+    },
+    {
+      "name": "Airbus A319",
       "url": "https://www.seatguru.com/airlines/Saudia/Saudia_Airbus_A319.php"
     }
   ],
@@ -3239,6 +3547,14 @@
       "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_Airbus_A330-200.php"
     },
     {
+      "name": "Airbus A330-200 (332)",
+      "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_Airbus_A330-200.php"
+    },
+    {
+      "name": "Airbus A330-200 (332)",
+      "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_Airbus_A330-200.php"
+    },
+    {
       "name": "Airbus A330-300 (333)",
       "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_Airbus_A330-300.php"
     },
@@ -3263,11 +3579,11 @@
       "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_Airbus_A350-900_V2.php"
     },
     {
-      "name": "Airbus A319 (319)",
+      "name": "Airbus A319-200 (319)",
       "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_Airbus_A319.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320-200 (320)",
       "url": "https://www.seatguru.com/airlines/South_African_Airways/South_African_Airways_A320-200.php"
     }
   ],
@@ -3309,7 +3625,7 @@
       "url": "https://www.seatguru.com/airlines/SriLankan_Airlines/SriLankan_Airlines_Airbus_330-200_v3.php"
     },
     {
-      "name": "Airbus A330-200 (332) Layout 3",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/SriLankan_Airlines/SriLankan_Airlines_Airbus_330-200_v4.php"
     },
     {
@@ -3325,12 +3641,16 @@
       "url": "https://www.seatguru.com/airlines/SriLankan_Airlines/SriLankan_Airlines_Airbus_A320-232.php"
     },
     {
-      "name": "Airbus A320 (320) Layout 3",
+      "name": "Airbus A320 (320)",
       "url": "https://www.seatguru.com/airlines/SriLankan_Airlines/SriLankan_Airlines_Airlines_A320-214.php"
     },
     {
       "name": "Airbus A320neo (321)",
       "url": "https://www.seatguru.com/airlines/SriLankan_Airlines/SriLankan_Airlines_Airbus_320neo.php"
+    },
+    {
+      "name": "Airbus A321 (320)",
+      "url": "https://www.seatguru.com/airlines/SriLankan_Airlines/SriLankan_Airlines_Airbus_321neo.php"
     },
     {
       "name": "Airbus A321neo (321)",
@@ -3359,7 +3679,7 @@
   ],
   "TP": [
     {
-      "name": "Airbus A330-200 (332) Layout 1",
+      "name": "Airbus A330-200 (332)",
       "url": "https://www.seatguru.com/airlines/TAP_Portugal/TAP_Portugal_Airbus_A330_V1.php"
     },
     {
@@ -3383,7 +3703,7 @@
       "url": "https://www.seatguru.com/airlines/TAP_Portugal/TAP_Portugal_Airbus_A330-900neo.php"
     },
     {
-      "name": "Airbus A319 (319) Layout 1",
+      "name": "Airbus A319 (319)",
       "url": "https://www.seatguru.com/airlines/TAP_Portugal/TAP_Portugal_Airbus_A319_V2.php"
     },
     {
@@ -3435,7 +3755,7 @@
   ],
   "TK": [
     {
-      "name": "Airbus A330-200 (332) Layout 1",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A330.php"
     },
     {
@@ -3451,11 +3771,11 @@
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A330-300.php"
     },
     {
-      "name": "Airbus A340-300 (343)",
+      "name": "Airbus A340-300",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A340.php"
     },
     {
-      "name": "Airbus A350-900 (359)",
+      "name": "Airbus A350-900",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A350-900.php"
     },
     {
@@ -3467,23 +3787,23 @@
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Boeing_787-9.php"
     },
     {
-      "name": "Airbus A330-200 (332) Layout 4",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A330-200_D.php"
     },
     {
-      "name": "Airbus A319 (319)",
+      "name": "Airbus A319-319",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A319.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320-320",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A320.php"
     },
     {
-      "name": "Airbus A321 (321) Layout 1",
+      "name": "Airbus A321-321 Layout 1",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A321_C_new.php"
     },
     {
-      "name": "Airbus A321 (321) Layout 2",
+      "name": "Airbus A321-321 Layout 2",
       "url": "https://www.seatguru.com/airlines/Turkish_Airlines/Turkish_Airlines_Airbus_A321_D.php"
     },
     {
@@ -3607,7 +3927,7 @@
       "url": "https://www.seatguru.com/airlines/Virgin_Australia/Virgin_Australia_Boeing_777-300ER_V2.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320-320",
       "url": "https://www.seatguru.com/airlines/Virgin_Australia/Virgin_Australia_Airbus_A320.php"
     },
     {
@@ -3799,11 +4119,11 @@
   ],
   "AD": [
     {
-      "name": "Airbus A330-200 (332)",
+      "name": "Airbus A330",
       "url": "https://www.seatguru.com/airlines/Azul_Airlines/Azul_Airlines_Airbus_A330-200.php"
     },
     {
-      "name": "Airbus A320neo (320)",
+      "name": "Airbus A320",
       "url": "https://www.seatguru.com/airlines/Azul_Airlines/Azul_Airlines_Airbus_A320neo.php"
     },
     {
@@ -3833,11 +4153,11 @@
       "url": "https://www.seatguru.com/airlines/Cathay_Pacific_Airways/Cathay_Pacific_Airbus_A330_33P.php"
     },
     {
-      "name": "Airbus A350-1000 (351)",
+      "name": "Airbus A350-1000",
       "url": "https://www.seatguru.com/airlines/Cathay_Pacific_Airways/Cathay_Pacific_Airbus_A350-1000.php"
     },
     {
-      "name": "Airbus A350-900 (35G)",
+      "name": "Airbus A350-900",
       "url": "https://www.seatguru.com/airlines/Cathay_Pacific_Airways/Cathay_Pacific_Airbus_A350-900.php"
     },
     {
@@ -3883,11 +4203,11 @@
       "url": "https://www.seatguru.com/airlines/Condor_Flugdienst/Condor_Airlines_Boeing_767_V4.php"
     },
     {
-      "name": "Airbus A320-200 (320)",
+      "name": "Airbus A320-200",
       "url": "https://www.seatguru.com/airlines/Condor_Flugdienst/Condor_Flugdienst_Airbus_A320-200.php"
     },
     {
-      "name": "Airbus A321-200 (321)",
+      "name": "Airbus A321-200",
       "url": "https://www.seatguru.com/airlines/Condor_Flugdienst/Condor_Flugdienst_Airbus_A321-200.php"
     },
     {
@@ -3949,11 +4269,11 @@
       "url": "https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_DL_Airbus_A220-100.php"
     },
     {
-      "name": "Airbus A319 (319)",
+      "name": "Airbus A319-319",
       "url": "https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_Airbus_A319_31J.php"
     },
     {
-      "name": "Airbus A320 (32K) Layout 1",
+      "name": "Airbus A320-320",
       "url": "https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_Airbus_A320_B_new.php"
     },
     {
@@ -3961,7 +4281,7 @@
       "url": "https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_Airbus_A320_C.php"
     },
     {
-      "name": "Airbus A321 (321) Layout 1",
+      "name": "Airbus A321-321",
       "url": "https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_Airbus_A321.php"
     },
     {
@@ -4061,6 +4381,18 @@
   ],
   "EK": [
     {
+      "name": "Airbus A380 Three Class Layout 1",
+      "url": "https://www.seatguru.com/airlines/Emirates_Airlines/Emirates_Airlines_Airbus_A380.php"
+    },
+    {
+      "name": "Airbus A380 Three Class Layout 2",
+      "url": "https://www.seatguru.com/airlines/Emirates_Airlines/Emirates_Airlines_Airbus_A380_B.php"
+    },
+    {
+      "name": "Airbus A380 Two Class",
+      "url": "https://www.seatguru.com/airlines/Emirates_Airlines/Emirates_Airlines_Airbus_A380_Two_Class.php"
+    },
+    {
       "name": "Airbus A380-800 (388) Three Class Layout 1",
       "url": "https://www.seatguru.com/airlines/Emirates_Airlines/Emirates_Airlines_Airbus_A380.php"
     },
@@ -4095,8 +4427,12 @@
       "url": "https://www.seatguru.com/airlines/Etihad_Airways/Etihad_Airways_Airbus_A330-200_V3.php"
     },
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Etihad_Airways/Etihad_Airways_Airbus_A330-300.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Etihad_Airways/Etihad_Airways_Airbus_A380.php"
     },
     {
       "name": "Airbus A380-800 (388)",
@@ -4127,11 +4463,11 @@
       "url": "https://www.seatguru.com/airlines/Etihad_Airways/Etihad_Airways_Boeing_787_900_V2.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320-320",
       "url": "https://www.seatguru.com/airlines/Etihad_Airways/Etihad_Airways_Airbus_A320.php"
     },
     {
-      "name": "Airbus A321 (321)",
+      "name": "Airbus A321-321",
       "url": "https://www.seatguru.com/airlines/Etihad_Airways/Etihad_Airways_Airbus_A321.php"
     }
   ],
@@ -4145,7 +4481,7 @@
       "url": "https://www.seatguru.com/airlines/Eurowings_Airlines/Eurowings_EW_Airbus_A330-300_A.php"
     },
     {
-      "name": "Airbus A319-100 (319) Layout 1",
+      "name": "Airbus A319-100",
       "url": "https://www.seatguru.com/airlines/Eurowings_Airlines/Eurowings_Airbus_A319-100.php"
     },
     {
@@ -4153,7 +4489,7 @@
       "url": "https://www.seatguru.com/airlines/Eurowings_Airlines/Eurowings_EW_Airbus_A319-100_B.php"
     },
     {
-      "name": "Airbus A320-200 (320) Layout 1",
+      "name": "Airbus A320-200",
       "url": "https://www.seatguru.com/airlines/Eurowings_Airlines/Eurowings_Airbus_A320-200.php"
     },
     {
@@ -4161,7 +4497,7 @@
       "url": "https://www.seatguru.com/airlines/Eurowings_Airlines/Eurowings_EW_Airbus_A320-200_B.php"
     },
     {
-      "name": "Airbus A321-200 (321)",
+      "name": "Airbus A321-200",
       "url": "https://www.seatguru.com/airlines/Eurowings_Airlines/Eurowings_EW_Airbus_A321-200_A.php"
     },
     {
@@ -4171,11 +4507,11 @@
   ],
   "BR": [
     {
-      "name": "Airbus A330-200 (332)",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/Eva_Airways/Eva_Airways_Airbus_A330-200.php"
     },
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Eva_Airways/Eva_Airways_Airbus_A330-300.php"
     },
     {
@@ -4203,7 +4539,7 @@
       "url": "https://www.seatguru.com/airlines/Eva_Airways/Eva_Airways_Boeing_787-9.php"
     },
     {
-      "name": "Airbus A321 (321)",
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/Eva_Airways/Eva_Airways_Airbus_A321-200.php"
     }
   ],
@@ -4227,7 +4563,7 @@
   ],
   "B6": [
     {
-      "name": "Airbus A320 (320) Layout 1",
+      "name": "Airbus A320",
       "url": "https://www.seatguru.com/airlines/JetBlue_Airways/JetBlue_Airways_Airbus_A320.php"
     },
     {
@@ -4235,7 +4571,7 @@
       "url": "https://www.seatguru.com/airlines/JetBlue_Airways/JetBlue_Airways_Airbus_A320_V2.php"
     },
     {
-      "name": "Airbus A321 (321) Non-Mint",
+      "name": "Airbus A321",
       "url": "https://www.seatguru.com/airlines/JetBlue_Airways/Jetblue_Airways_Airbus_A321_B.php"
     },
     {
@@ -4243,7 +4579,7 @@
       "url": "https://www.seatguru.com/airlines/JetBlue_Airways/Jetblue_Airways_Airbus_A321_transcon.php"
     },
     {
-      "name": "Airbus A321neo (3N1)",
+      "name": "Airbus A321neo",
       "url": "https://www.seatguru.com/airlines/JetBlue_Airways/JetBlue_Airways_B6_Airbus_A321neo_A.php"
     },
     {
@@ -4253,7 +4589,7 @@
   ],
   "LA": [
     {
-      "name": "Airbus A350-900 (359)",
+      "name": "Airbus A350-900",
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LATAM_LA_Airbus_A350-900_A.php"
     },
     {
@@ -4281,7 +4617,7 @@
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LATAM_Airlines_Boeing_767-300ER_V2.php"
     },
     {
-      "name": "Airbus A319 (319) Layout 1",
+      "name": "Airbus A319-319",
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LAN_Airlines_Airbus_A319.php"
     },
     {
@@ -4289,7 +4625,7 @@
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LAN_Airlines_Airbus_A319_V2.php"
     },
     {
-      "name": "Airbus A320-200 (320) Layout 1",
+      "name": "Airbus A320-200",
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LATAM_LA_Airbus_A320-200_V4.php"
     },
     {
@@ -4305,7 +4641,7 @@
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LATAM_LA_Airbus_A320-200_V7.php"
     },
     {
-      "name": "Airbus A321-200 (321)",
+      "name": "Airbus A321-200",
       "url": "https://www.seatguru.com/airlines/LATAM_Chile/LATAM_Airlines_Airbus_A321.php"
     }
   ],
@@ -4363,8 +4699,16 @@
       "url": "https://www.seatguru.com/airlines/Qantas_Airways/Qantas_Airbus_330-200_V2.php"
     },
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Qantas_Airways/Qantas_Airways_Airbus_A330-300.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Qantas_Airways/Qantas_Airways_Airbus_A380_B.php"
+    },
+    {
+      "name": "Airbus A380 Layout 2",
+      "url": "https://www.seatguru.com/airlines/Qantas_Airways/Qantas_Airways_Airbus_A380_V3.php"
     },
     {
       "name": "Airbus A380-800 (388) Layout 1",
@@ -4413,31 +4757,31 @@
   ],
   "SK": [
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A330_B.php"
     },
     {
-      "name": "Airbus A340-300 (343)",
+      "name": "Airbus A340-300",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A340.php"
     },
     {
-      "name": "Airbus A350-900 (359)",
+      "name": "Airbus A350-900",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A350-900.php"
     },
     {
-      "name": "Airbus A319 (319)",
+      "name": "Airbus A319-319",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A319.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320-320",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A320.php"
     },
     {
-      "name": "Airbus A320neo (320)",
+      "name": "Airbus A320neo",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A320neo.php"
     },
     {
-      "name": "Airbus A321 (321)",
+      "name": "Airbus A321-321",
       "url": "https://www.seatguru.com/airlines/SAS_Airlines/SAS_Airlines_Airbus_A321.php"
     },
     {
@@ -4481,16 +4825,32 @@
   ],
   "SQ": [
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Air_Airbus_A330-300.php"
     },
     {
-      "name": "Airbus A350-900 (359) Layout 1",
+      "name": "Airbus A350-900",
       "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Air_Airbus_A350-900.php"
     },
     {
       "name": "Airbus A350-900 (359) Layout 2",
       "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Air_Airbus_A350-900_V2.php"
+    },
+    {
+      "name": "Airbus A380",
+      "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Air_Airbus_A380_C.php"
+    },
+    {
+      "name": "Airbus A380 Layout 1",
+      "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Air_Airbus_A380_C.php"
+    },
+    {
+      "name": "Airbus A380 Layout 2",
+      "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Air_Airbus_A380_D.php"
+    },
+    {
+      "name": "Airbus A380 Layout 3",
+      "url": "https://www.seatguru.com/airlines/Singapore_Air/Singapore_Airlines_Airbus_A380-800_E.php"
     },
     {
       "name": "Airbus A380-800 (388) Layout 1",
@@ -4563,11 +4923,11 @@
   ],
   "LX": [
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/Swiss_Airlines_A330.php"
     },
     {
-      "name": "Airbus A340-300 (343)",
+      "name": "Airbus A340-300",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/Swiss_Airlines_A340-300_B.php"
     },
     {
@@ -4575,27 +4935,27 @@
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/Swiss_Airlines_Boeing_777-300ER.php"
     },
     {
-      "name": "Airbus A220-100 (CS1)",
+      "name": "Airbus A220-100",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/SWISS_LX_Airbus_A220-100_A.php"
     },
     {
-      "name": "Airbus A220-300 (CS3)",
+      "name": "Airbus A220-300",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/SWISS_LX_Airbus_A220-300_A.php"
     },
     {
-      "name": "Airbus A319-100 (319)",
+      "name": "Airbus A319-100",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/SWISS_LX_Airbus_A319-100_A.php"
     },
     {
-      "name": "Airbus A320-200 (320)",
+      "name": "Airbus A320-200",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/SWISS_LX_Airbus_A320-200_A.php"
     },
     {
-      "name": "Airbus A320neo (32A)",
+      "name": "Airbus A320neo",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/SWISS_LX_Airbus_A320neo_A.php"
     },
     {
-      "name": "Airbus A321-111 (321)",
+      "name": "Airbus A321-111",
       "url": "https://www.seatguru.com/airlines/Swiss_Airlines/Swiss_Airlines_Airbus_A321_V3.php"
     },
     {
@@ -4611,7 +4971,7 @@
   ],
   "TG": [
     {
-      "name": "Airbus A330-300 (333) Layout 1",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Thai_Airways/Thai_Airways_Airbus_A330-300_V2.php"
     },
     {
@@ -4619,11 +4979,15 @@
       "url": "https://www.seatguru.com/airlines/Thai_Airways/THAI_Airbus_A330-300_V2.php"
     },
     {
-      "name": "Airbus A350-900 (359)",
+      "name": "Airbus A350-900",
       "url": "https://www.seatguru.com/airlines/Thai_Airways/Thai_Airways_Airbus_A350-900.php"
     },
     {
-      "name": "Airbus A380-800 (388)",
+      "name": "Airbus A380-800",
+      "url": "https://www.seatguru.com/airlines/Thai_Airways/Thai_Airways_Airbus_A380_new.php"
+    },
+    {
+      "name": "Airbus A380",
       "url": "https://www.seatguru.com/airlines/Thai_Airways/Thai_Airways_Airbus_A380_new.php"
     },
     {
@@ -4655,13 +5019,13 @@
       "url": "https://www.seatguru.com/airlines/Thai_Airways/Thai_Airways_Boeing_787-9.php"
     },
     {
-      "name": "Airbus A320 (320)",
+      "name": "Airbus A320-320",
       "url": "https://www.seatguru.com/airlines/Thai_Airways/Thai_Smile_A320_new.php"
     }
   ],
   "TU": [
     {
-      "name": "Airbus A330-200 (332)",
+      "name": "Airbus A330 (330)",
       "url": "https://www.seatguru.com/airlines/Tunisair/Tunisair_Airbus_A330.php"
     },
     {
@@ -4743,7 +5107,7 @@
       "url": "https://www.seatguru.com/airlines/United_Airlines/United_Airlines_UA_Boeing_787-9_B.php"
     },
     {
-      "name": "Airbus A319 (319) Layout 1",
+      "name": "Airbus A319 (319)",
       "url": "https://www.seatguru.com/airlines/United_Airlines/United_Airlines_Airbus_A319_V1.php"
     },
     {
@@ -4877,7 +5241,7 @@
   ],
   "VS": [
     {
-      "name": "Airbus A330-200 (332) Layout 1",
+      "name": "Airbus A330-200",
       "url": "https://www.seatguru.com/airlines/Virgin_Atlantic_Airways/Virgin_Atlantic_Airbus_A330_200_V1.php"
     },
     {
@@ -4885,11 +5249,11 @@
       "url": "https://www.seatguru.com/airlines/Virgin_Atlantic_Airways/Virgin_Atlantic_Airbus_A330_200_V2.php"
     },
     {
-      "name": "Airbus A330-300 (333)",
+      "name": "Airbus A330-300",
       "url": "https://www.seatguru.com/airlines/Virgin_Atlantic_Airways/Virgin_Atlantic_Airways_Airbus_330-300_D.php"
     },
     {
-      "name": "Airbus A350-1000 (351)",
+      "name": "Airbus A350-1000",
       "url": "https://www.seatguru.com/airlines/Virgin_Atlantic_Airways/Virgin_Atlantic_Airways_VS_Airbus_A350-1000.php"
     },
     {
