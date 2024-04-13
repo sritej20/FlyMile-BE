@@ -1,11 +1,4 @@
 spring:
-  data:
-    redis:
-      host: ${REDIS_HOST:redis-15375.c15.us-east-1-2.ec2.cloud.redislabs.com}
-      port: ${REDIS_PORT:15375}
-      username: ${REDIS_USERNAME:Admin}
-      password: ${REDIS_PASSWORD:Admin@2024}
-
   cache:
     type: redis
 
