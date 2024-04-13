@@ -1,14 +1,11 @@
-server:
-  port: 8080
-
 spring:
 
   data:
     redis:
-      host: ${REDIS_HOST:localhost}
-      port: ${REDIS_PORT:6379}
-      username: ${REDIS_USERNAME:}
-      password: ${REDIS_PASSWORD:}
+      host: redis-15375.c15.us-east-1-2.ec2.cloud.redislabs.com
+      port: 15375
+      username: Beaudelaire
+      password: Flymile@123
 
   cache:
     type: redis
