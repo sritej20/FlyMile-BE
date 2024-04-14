@@ -33,6 +33,7 @@ public class FlightMapper {
                                         .setFlightNumber(segment.getFlight().getFlightNumber())))
                         .collect(Collectors.toList()))
                 .setPricingDetail(slice.getPricingDetail().stream()
+                        .filter(detail -> detail.getPoints() != 0)
                         .map(PricingDetailMapper::toDto)
                         .collect(Collectors.toList()));
     }
