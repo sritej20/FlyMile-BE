@@ -99,7 +99,7 @@ public class Alaska {
      */
     public List<FlightDto> fetchFlightDataAlaska(String date, String origin, String destination, int numPassengers) {
         try {
-            String cacheKey = generateCacheKey("AL","0", date, origin, destination, String.valueOf(numPassengers));
+            String cacheKey = generateCacheKey("AS","0", date, origin, destination, String.valueOf(numPassengers));
             String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
             if(cachedFlights != null)
                 return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});
