@@ -5,7 +5,7 @@ import lombok.Getter;
 
  @AllArgsConstructor
 @Getter
-public class BookingResponse {
+public class ResponseLink {
     private String url;
 
 }

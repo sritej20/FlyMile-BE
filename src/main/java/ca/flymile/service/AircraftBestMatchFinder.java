@@ -45,7 +45,7 @@ public class AircraftBestMatchFinder {
 
     private static final double CRITICAL_MATCH_BONUS = 0.2;
 
-    public static String aircraftBestMatchFinder(String carrierCode, int flightNumber, String target) {
+    public String aircraftBestMatchFinder(String carrierCode, int flightNumber, String target) {
         String[] candidates = AIRLINE_MAP.getOrDefault(carrierCode, new String[0]);
         if (candidates.length == 0) {
             logger.error("Carrier code not found or no candidates available.");
