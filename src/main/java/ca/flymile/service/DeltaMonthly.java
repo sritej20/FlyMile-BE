@@ -60,7 +60,7 @@ public class DeltaMonthly {
             return Collections.emptyList();
         }
 
-        List<DailyCheapest> dtoOffers = toDto(gqlOffersSets).getDailyCheapest();
+        List<DailyCheapest> dtoOffers = toDto(gqlOffersSets, origin).getDailyCheapest();
         if (dtoOffers == null) {
             LOGGER.log(Level.SEVERE, "DtoOffers is null after mapping from GqlOffersSets.");
             return Collections.emptyList();

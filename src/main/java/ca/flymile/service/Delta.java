@@ -52,8 +52,8 @@ public class Delta {
             }
             Root root = gson.fromJson(json, Root.class);
             if (root != null && root.getData() != null) {
-                List<FlightDto> res =  root.getData().getGqlSearchOffers().getGqlOffersSets().stream()
-                        .map(FlightMapper::toDto)
+                List<FlightDto> res = root.getData().getGqlSearchOffers().getGqlOffersSets().stream()
+                        .map(gqlOffersSets -> FlightMapper.toDto(gqlOffersSets, origin))
                         .collect(Collectors.toList());
                 stringRedisTemplate.opsForValue().set(cacheKey, gson.toJson(res), Duration.ofHours(2));
                 return res;

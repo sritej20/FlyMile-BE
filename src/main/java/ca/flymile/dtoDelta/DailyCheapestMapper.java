@@ -1,6 +1,7 @@
 package ca.flymile.dtoDelta;
 
 import ca.flymile.DailyCheapest.DailyCheapest;
+import ca.flymile.FlyMileAirportData.CurrencyRetriever;
 import ca.flymile.ModelDeltaMonthly.*;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -11,6 +12,7 @@ import lombok.ToString;
 import lombok.experimental.Accessors;
 import java.util.List;
 import java.util.stream.Collectors;
+import static ca.flymile.CurrencySetter.CurrencyUpdater.getCURRENCY_VALUE_TO_USD;
 
 @Getter
 @Setter
@@ -21,17 +23,17 @@ import java.util.stream.Collectors;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class DailyCheapestMapper {
 
-    public static DtoDeltaDaily toDto(List<OfferSet> offerSets) {
+    public static DtoDeltaDaily toDto(List<OfferSet> offerSets, String origin){
         DtoDeltaDaily dtoDeltaDaily = new DtoDeltaDaily();
         List<DailyCheapest> dtoOffersList = offerSets.stream()
                 .flatMap(offerSet -> offerSet.getOffers().stream())
-                .map(DailyCheapestMapper::toDto)
+                .map(offer -> DailyCheapestMapper.toDto(offer, origin))
                 .collect(Collectors.toList());
         dtoDeltaDaily.setDailyCheapest(dtoOffersList);
         return dtoDeltaDaily;
     }
 
-    public static DailyCheapest toDto(Offer offer) {
+    public static DailyCheapest toDto(Offer offer, String origin) {
         DailyCheapest dto = new DailyCheapest();
 
         if (offer.getOfferItems().isEmpty() || offer.getOfferPricing().isEmpty()) {
@@ -74,7 +76,16 @@ public class DailyCheapestMapper {
         TotalAmount totalAmount = offerPricing.getTotalAmt();
         if (totalAmount.getMilesEquivalentPrice() != null) {
             dto.setPoints(totalAmount.getMilesEquivalentPrice().getMileCnt());
-            dto.setCashPrice(totalAmount.getCurrencyEquivalentPrice().getRoundedCurrencyAmt());
+            String currency = CurrencyRetriever.getValidCurrencyForAirport(origin);
+            Double conversionRate = getCURRENCY_VALUE_TO_USD(currency);
+            if (conversionRate == null || conversionRate == 0)
+                dto.setCashPrice(totalAmount.getCurrencyEquivalentPrice().getRoundedCurrencyAmt());
+            else
+            {
+                double amount = totalAmount.getCurrencyEquivalentPrice().getRoundedCurrencyAmt() * conversionRate;
+                dto.setCashPrice(Math.round(amount * 100.0) / 100.0);
+            }
+
         }
 
         return dto;

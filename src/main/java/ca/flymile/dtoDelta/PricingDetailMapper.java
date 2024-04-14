@@ -4,9 +4,8 @@ import ca.flymile.Flight.PricingDetailDto;
 import ca.flymile.ModelDelta.*;
 import lombok.extern.slf4j.Slf4j;
 
-
 import java.util.*;
-import java.util.logging.Logger;
+import static ca.flymile.CurrencySetter.CurrencyUpdater.getCURRENCY_VALUE_TO_USD;
 
 @Slf4j
 public class PricingDetailMapper {
@@ -14,14 +13,15 @@ public class PricingDetailMapper {
     private static final String PREMIUM = "PREMIUM";
     private static final String BUSINESS = "BUSINESS";
     private static final String UNKNOWN = "UNKNOWN";
-    public static List<PricingDetailDto> mapPricingDetails(GqlOffersSets gqlOffersSets) {
+
+    public static List<PricingDetailDto> mapPricingDetails(GqlOffersSets gqlOffersSets, String currency) {
         Map<String, PricingDetailDto> selectedProductTypes = new HashMap<>();
 
         gqlOffersSets.getOffers().stream()
                 .filter(offer -> offer.getOfferId() != null && !offer.getOfferId().isEmpty())
                 .flatMap(offer -> offer.getOfferItems().stream())
                 .flatMap(item -> item.getRetailItems().stream())
-                .map(PricingDetailMapper::mapToPricingDetail)
+                .map(item -> PricingDetailMapper.mapToPricingDetail(item, currency))
                 .forEach(detail -> {
                     String productType = detail.getProductType();
                     // Check if this product type is already selected and if the current option has fewer points
@@ -34,15 +34,25 @@ public class PricingDetailMapper {
         return new ArrayList<>(selectedProductTypes.values());
     }
 
-    public static PricingDetailDto mapToPricingDetail(RetailItem retailItem) {
+    public static PricingDetailDto mapToPricingDetail(RetailItem retailItem, String currency){
         PricingDetailDto detail = new PricingDetailDto();
         FareInformation fareInfo = retailItem.getRetailItemMetaData().getFareInformation().get(0);
         FarePrice farePrice = fareInfo.getFarePrice().get(0);
+        Double conversionRate = getCURRENCY_VALUE_TO_USD(currency);
 
         detail.setPoints(farePrice.getTotalFarePrice().getMilesEquivalentPrice().getMileCnt())
                 .setCashPrice(farePrice.getTotalFarePrice().getCurrencyEquivalentPrice().getRoundedCurrencyAmt())
                 .setProductType(determineProductType(fareInfo.getBrandByFlightLegs().get(0).getCosCode()))
                 .setSeatsRemaining(fareInfo.getAvailableSeatCnt());
+        if (conversionRate == null || conversionRate == 0)
+            detail.setCashPrice(farePrice.getTotalFarePrice().getCurrencyEquivalentPrice().getRoundedCurrencyAmt());
+        else
+        {
+            double newCashPrice = detail.getCashPrice() * conversionRate;
+            detail.setCashPrice(Math.round(newCashPrice * 100.0) / 100.0);
+        }
+
+
 
         return detail;
     }

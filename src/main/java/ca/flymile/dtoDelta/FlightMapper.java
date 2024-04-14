@@ -1,5 +1,6 @@
 package ca.flymile.dtoDelta;
 import ca.flymile.Flight.FlightDto;
+import ca.flymile.FlyMileAirportData.CurrencyRetriever;
 import ca.flymile.ModelDelta.*;
 
 import java.util.UUID;
@@ -9,11 +10,10 @@ import static ca.flymile.dtoDelta.PricingDetailMapper.mapPricingDetails;
 
 public class FlightMapper {
 
-    public static FlightDto toDto(GqlOffersSets gqlOffersSets) {
+    public static FlightDto toDto(GqlOffersSets gqlOffersSets, String origin) {
         FlightDto flightDto = new FlightDto();
-
-        // Map pricing details
-        flightDto.setPricingDetail(mapPricingDetails(gqlOffersSets));
+        String currency = CurrencyRetriever.getValidCurrencyForAirport(origin);
+        flightDto.setPricingDetail(mapPricingDetails(gqlOffersSets, currency));
 
         // Map legs and set total trip details
         flightDto.setLegs(mapLegs(gqlOffersSets));
