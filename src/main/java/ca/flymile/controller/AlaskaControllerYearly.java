@@ -43,7 +43,7 @@ public class AlaskaControllerYearly {
         validateOriginDestinationNumPassengersAlaska(origin, destination, numPassengers);
 
         // Check if the data is cached
-        String cacheKey = generateCacheKey("AL","1", origin, destination, String.valueOf(numPassengers));
+        String cacheKey = generateCacheKey("AS","1", origin, destination, String.valueOf(numPassengers));
         String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
         if (cachedFlights != null) {
             return CompletableFuture.completedFuture(gson.fromJson(cachedFlights, new TypeToken<List<DailyCheapest>>() {}.getType()));
