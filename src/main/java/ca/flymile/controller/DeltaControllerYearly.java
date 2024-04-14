@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import static ca.flymile.InputValidation.InputValidation.validateOriginDestinationPassengers;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.DELTA_CODE;
 import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -60,7 +61,7 @@ public class DeltaControllerYearly {
         String destination = arrival.toUpperCase();
         // Validate the search parameters
         validateOriginDestinationPassengers(origin,destination, numPassengers);
-        String cacheKey = generateCacheKey("DL","1", origin, destination, String.valueOf(numPassengers), nonStopOnly ? "1" : "0", upperCabin ? "1" : "0");
+        String cacheKey = generateCacheKey(DELTA_CODE,"1", origin, destination, String.valueOf(numPassengers), nonStopOnly ? "1" : "0", upperCabin ? "1" : "0");
         String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
         if (cachedFlights != null) {
             return CompletableFuture.completedFuture(gson.fromJson(cachedFlights, new TypeToken<List<DailyCheapest>>() {}.getType()));

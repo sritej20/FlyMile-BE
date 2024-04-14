@@ -21,6 +21,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import static ca.flymile.API.RequestHandlerAmerican.requestHandlerAmerican;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.AMERICAN_CODE;
 import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
 
@@ -126,7 +127,7 @@ public class American {
      */
 
     private List<FlightDto> fetchFlightDataAmerican(String date, String origin, String destination, int numPassengers, boolean upperCabin , String maxStops) {
-        String cacheKey = generateCacheKey("AA","0",date, origin, destination,String.valueOf(numPassengers), maxStops, upperCabin ? "1" : "0");
+        String cacheKey = generateCacheKey(AMERICAN_CODE,"0",date, origin, destination,String.valueOf(numPassengers), maxStops, upperCabin ? "1" : "0");
         String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
         if(cachedFlights != null)
             return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});

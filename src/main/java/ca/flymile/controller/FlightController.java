@@ -8,8 +8,11 @@ import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.lang.reflect.Type;
 import java.util.List;
+
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.*;
 
 @CrossOrigin(origins = "*")
 @RestController
@@ -61,9 +64,9 @@ public class FlightController {
     private String generateCacheKey(String airline, String date, String origin, String destination,
                                     int numPassengers, String maxStops, boolean upperCabin, boolean nonStopOnly) {
         return switch (airline.toUpperCase()) {
-            case "AS" -> RedisKeyFactory.generateCacheKey("AL","0", date, origin, destination, String.valueOf(numPassengers));
-            case "AA" -> RedisKeyFactory.generateCacheKey("AA","0", date, origin, destination, String.valueOf(numPassengers), maxStops, upperCabin ? "1" : "0");
-            case "DL" -> RedisKeyFactory.generateCacheKey("DL","0", date, origin, destination, String.valueOf(numPassengers), nonStopOnly ? "1":"0", upperCabin ? "1" : "0");
+            case "AS" -> RedisKeyFactory.generateCacheKey(ALASKA_CODE,"0", date, origin, destination, String.valueOf(numPassengers));
+            case "AA" -> RedisKeyFactory.generateCacheKey(AMERICAN_CODE,"0", date, origin, destination, String.valueOf(numPassengers), maxStops, upperCabin ? "1" : "0");
+            case "DL" -> RedisKeyFactory.generateCacheKey(DELTA_CODE,"0", date, origin, destination, String.valueOf(numPassengers), nonStopOnly ? "1":"0", upperCabin ? "1" : "0");
             default -> null;
         };
     }

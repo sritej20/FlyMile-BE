@@ -24,6 +24,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static ca.flymile.API.RequestHandlerDelta.requestHandlerDelta;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.DELTA_CODE;
 import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
 @Component
@@ -37,7 +38,7 @@ public class Delta {
     private static final Gson gson = new Gson();
     private List<FlightDto> fetchFlightDataDelta(String date, String origin, String destination, int numPassengers, boolean upperCabin, boolean nonStopOnly) {
         try {
-            String cacheKey = generateCacheKey("DL","0",date, origin, destination,String.valueOf(numPassengers), nonStopOnly ? "1":"0", upperCabin ? "1" : "0");
+            String cacheKey = generateCacheKey(DELTA_CODE,"0",date, origin, destination,String.valueOf(numPassengers), nonStopOnly ? "1":"0", upperCabin ? "1" : "0");
             String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
             if(cachedFlights != null)
                 return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});

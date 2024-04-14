@@ -26,6 +26,7 @@ import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import static ca.flymile.API.RequestHandlerAlaska.requestHandlerAlaska;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.ALASKA_CODE;
 import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
 @RequiredArgsConstructor
@@ -99,7 +100,7 @@ public class Alaska {
      */
     public List<FlightDto> fetchFlightDataAlaska(String date, String origin, String destination, int numPassengers) {
         try {
-            String cacheKey = generateCacheKey("AL","0", date, origin, destination, String.valueOf(numPassengers));
+            String cacheKey = generateCacheKey(ALASKA_CODE,"0", date, origin, destination, String.valueOf(numPassengers));
             String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
             if(cachedFlights != null)
                 return gson.fromJson(cachedFlights, new TypeToken<List<FlightDto>>(){});

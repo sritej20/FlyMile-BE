@@ -16,6 +16,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import static ca.flymile.InputValidation.InputValidation.*;
+import static ca.flymile.RedisKeyFactory.RedisKeyFactory.AMERICAN_CODE;
 import static ca.flymile.RedisKeyFactory.RedisKeyFactory.generateCacheKey;
 
 /**
@@ -64,7 +65,7 @@ public class AmericanControllerYearly {
         String stops = parseAndValidateStops(maxStops);
 
         // Check if the data is cached
-        String cacheKey = generateCacheKey("AA","1", origin, destination, String.valueOf(numPassengers), stops, upperCabin ? "1" : "0");
+        String cacheKey = generateCacheKey(AMERICAN_CODE,"1", origin, destination, String.valueOf(numPassengers), stops, upperCabin ? "1" : "0");
         String cachedFlights = stringRedisTemplate.opsForValue().get(cacheKey);
         if (cachedFlights != null) {
             return CompletableFuture.completedFuture(gson.fromJson(cachedFlights, new TypeToken<List<DailyCheapest>>() {}.getType()));
