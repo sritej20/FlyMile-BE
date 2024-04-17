@@ -26,6 +26,7 @@ public class CurrencyUpdater {
 
     private static final Logger logger = LoggerFactory.getLogger(CurrencyUpdater.class);
     private static final String API_KEY = "SDySgqoB7NcZuLxC1XcDvqXsqGDabJsk";
+    private static final String API_KEY1 = "cbdrsggW4OBKWnesdde0rsKobBwhR4Yz";
     private static volatile Map<String, Double> currentCurrencyValues = new ConcurrentHashMap<>();
     private static Map<String, Double> updateCurrencyValues = new ConcurrentHashMap<>();
     private static final ScheduledExecutorService scheduler = Executors.newSingleThreadScheduledExecutor();
@@ -59,7 +60,7 @@ public class CurrencyUpdater {
     }
 
     public static void convertCurrencyToUSD(String toCurrency) {
-        String baseUrl = "https://api.currencybeacon.com/v1/convert?from=" + toCurrency + "&to=USD&amount=1&api_key=" + API_KEY;
+        String baseUrl = "https://api.currencybeacon.com/v1/convert?from=" + toCurrency + "&to=USD&amount=1&api_key=" + API_KEY1;
         try {
             URL url = new URL(baseUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();

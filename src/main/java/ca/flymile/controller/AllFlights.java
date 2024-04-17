@@ -48,8 +48,11 @@ public class AllFlights {
         String destination = arrival.toUpperCase();
         validateOriginDestinationStartDateZoneEndDatePassengers(origin, destination, startDate, endDate, numPassengers);
         CompletableFuture<List<FlightDto>> deltaResult = delta.getFlightDataListDelta(origin, destination, startDate, endDate, numPassengers, upperCabin, false);
-        InputValidation.validateNumPassengersAlaska(numPassengers);
-        CompletableFuture<List<FlightDto>> alaskaResult = alaska.getFlightDataListAlaska(origin, destination, startDate, endDate, numPassengers);
+        CompletableFuture<List<FlightDto>> alaskaResult;
+        if(numPassengers < 8)
+            alaskaResult = alaska.getFlightDataListAlaska(origin, destination, startDate, endDate, numPassengers);
+        else
+            alaskaResult = CompletableFuture.completedFuture(new ArrayList<>());
         CompletableFuture<List<FlightDto>> americanResult = american.getFlightDataListAmerican(origin, destination, startDate, endDate, numPassengers, upperCabin, "3");
 
 
