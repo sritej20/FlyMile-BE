@@ -68,7 +68,9 @@ public class CurrencyRetriever {
             LOGGER.warning("Country not found for airport code: " + airportCode);
             return "USD";
         }
-
+        if(country.equals("CAMEROON")) {
+            return "USD";
+        }
         String currency = countryCurrencyMap.get(country);
         if (currency == null) {
             LOGGER.warning("Currency not found for country: " + country);
