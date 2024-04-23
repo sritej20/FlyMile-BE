@@ -16,23 +16,19 @@ public class AircraftController {
     private final SeatMapsService seatMapsService = new SeatMapsService();
     private static final String FLYMILE_URL = "https://www.flymile.pro/";
 
-    @GetMapping("/findAircraft/v1")
+    @GetMapping("/findAircraft")
     public ResponseLink findBestAircraftMatch(
             @RequestParam String carrierCode,
             @RequestParam int flightNumber,
-            @RequestParam String aircraft) {
-
-        String result = aircraftBestMatchFinder.aircraftBestMatchFinder(carrierCode, flightNumber, aircraft);
-        return new ResponseLink(result != null ? result : FLYMILE_URL);
-    }
-    @GetMapping("/findAircraft/v2")
-    public ResponseLink findBestAircraftSeatMap(
-            @RequestParam String carrierCode,
-            @RequestParam int flightNumber,
+            @RequestParam String aircraft,
             @RequestParam String departureDate) {
 
         Optional<String> result = seatMapsService.getSeatMap(carrierCode, flightNumber, departureDate);
-        return new ResponseLink(result.orElse(FLYMILE_URL));
+        if(result.isPresent()){
+            return new ResponseLink(result.get());
+        }
+        String result1 = aircraftBestMatchFinder.aircraftBestMatchFinder(carrierCode, flightNumber, aircraft);
+        return new ResponseLink(result1 != null ? result1 : FLYMILE_URL);
     }
 }
 

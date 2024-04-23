@@ -989,48 +989,32 @@
   ],
   "AS": [
     {
-      "name": "Airbus A319 (319) Layout 1",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A319.php"
-    },
-    {
-      "name": "Airbus A319 (319) Layout 2",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A319_V2.php"
-    },
-    {
-      "name": "Airbus A320 Layout 1",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A320_V1.php"
-    },
-    {
-      "name": "Airbus A320 Layout 2",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A320_V2.php"
-    },
-    {
-      "name": "Airbus A320 Layout 3",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A320_V3.php"
-    },
-    {
-      "name": "Airbus A321 (321)",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Airbus_A321neo_V2.php"
-    },
-    {
       "name": "Boeing 737-700",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Boeing_737-700.php"
+      "url": "https://seatmaps.com/seatmaps/44012e792781772d8795acf27fabed2f.html"
     },
     {
-      "name": "Boeing 737-800 (738)",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Boeing_737-800_E.php"
+      "name": "Boeing 737-800",
+      "url": "https://seatmaps.com/seatmaps/d465f14a648b3d0a1faa6f447e526c60.html"
     },
     {
       "name": "Boeing 737-900",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Boeing_737-900_D.php"
+      "url": "https://seatmaps.com/seatmaps/9d63484abb477c97640154d40595a3bb.html"
+    },
+    {
+      "name": "Boeing 737-900 ER",
+      "url": "https://seatmaps.com/seatmaps/a48564053b3c7b54800246348c7fa4a0.html"
+    },
+    {
+      "name": "Boeing 737-800 MAX",
+      "url": "https://seatmaps.com/seatmaps/23c00603aba5c59174ddbf016e55e984.html"
+    },
+    {
+      "name": "Boeing 737-900 MAX",
+      "url": "https://seatmaps.com/seatmaps/f5bf0ba0a17ef18f9607774722f5698c.html"
     },
     {
       "name": "Embraer 175 (E75)",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Embraer_E175.php"
-    },
-    {
-      "name": "Bombardier Q400",
-      "url": "https://www.seatguru.com/airlines/Alaska_Airlines/Alaska_Airlines_Q400.php"
+      "url": "https://seatmaps.com/seatmaps/fd4d801731725513a4d77aa9bb35534b.html"
     }
   ],
   "AA": [
