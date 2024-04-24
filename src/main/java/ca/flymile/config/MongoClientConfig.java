@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.mongodb.config.AbstractMongoClientConfiguration;
 
+/*
 @Configuration
 @Slf4j
 public class MongoClientConfig extends AbstractMongoClientConfiguration {
@@ -27,4 +28,6 @@ public class MongoClientConfig extends AbstractMongoClientConfiguration {
         log.info("=> Creating the MongoClientSettings for MongoClient & MongoTemplate.");
         return MongoClientSettings.builder().applyConnectionString(new ConnectionString(connectionString)).build();
     }
+
 }
+ */
