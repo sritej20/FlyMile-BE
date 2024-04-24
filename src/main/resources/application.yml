@@ -1,4 +1,8 @@
 spring:
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/db}
+      database: db
   cache:
     type: redis
 
