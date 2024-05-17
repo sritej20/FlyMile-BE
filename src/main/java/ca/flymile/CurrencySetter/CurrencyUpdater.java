@@ -37,7 +37,7 @@ public class CurrencyUpdater {
 
     static {
         loadCurrencyList();
-        scheduler.scheduleAtFixedRate(CurrencyUpdater::updateCurrencyValues, 0, 24, TimeUnit.HOURS);
+        scheduler.scheduleAtFixedRate(CurrencyUpdater::updateCurrencyValues, 0, 48, TimeUnit.HOURS);
     }
 
     public static Double getCURRENCY_VALUE_TO_USD(String currency) {
@@ -64,7 +64,7 @@ public class CurrencyUpdater {
     }
 
     public static void convertCurrencyToUSD(String toCurrency) {
-        String baseUrl = "https://api.currencybeacon.com/v1/convert?from=" + toCurrency + "&to=USD&amount=1&api_key=" + API_KEY3;
+        String baseUrl = "https://api.currencybeacon.com/v1/convert?from=" + toCurrency + "&to=USD&amount=1&api_key=" + API_KEY;
         try {
             URL url = new URL(baseUrl);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
